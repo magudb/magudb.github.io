@@ -6,7 +6,7 @@ comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 
-# Must see
+# Must see #
 
  * [Up for grabs](http://up-for-grabs.net/) - Are you looking for a sideproject or wanna start Open Source go here!
 
@@ -16,7 +16,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## Ideas, Thoughts and process
+## Ideas, Thoughts and process ##
 
  * [A culture that attracts quality candidates](http://radianttiger.com/2015/04/20/a-culture-that-attracts-quality-candidates) - Great article on culture, try to see the video from Ableton
 
@@ -52,7 +52,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
  
 
-## Podcast & Videos
+## Podcast & Videos ##
 
  * [Patents, Copyright and Open Source with Jeffrey Strauss](http://www.dotnetrocks.com/default.aspx?ShowNum=1136) - Great information on open source
 
@@ -66,7 +66,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## Software development - Pattern, Practices and architecture
+## Software development - Pattern, Practices and architecture ##
 
  * [Design Patterns: Dependency Injection](http://code.tutsplus.com/articles/design-patterns-dependency-injection--cms-23809) - it is a design pattern that deserves more attention and not just like IoC container.
 
@@ -80,7 +80,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
  
 
-### Domain Driven
+### Domain Driven ##
 
  * [Domain Driven Design Europa](http://dddeurope.com/) - A DDD Conference in january 2016
 
@@ -105,7 +105,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## C#/.Net
+## C#/.Net ##
 
  * [The Little Wonders of C# 6 - A Presentation to the St. Louis .NET User Group](http://geekswithblogs.net/BlackRabbitCoder/archive/2015/04/27/the-little-wonders-of-c-6---a-presentation-to.aspx)
 
@@ -123,7 +123,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## Tooling
+## Tooling ##
 
  * [Visual Studio Code](https://code.visualstudio.com/) - Awesome editor
 
@@ -149,7 +149,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## Javascript (javascript, NodeJs, IOjs)
+## Javascript (javascript, NodeJs, IOjs) ##
 
  * [Johnny five](http://johnny-five.io/) - Nodejs robotics!
 
@@ -169,7 +169,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
  
 
-## CSS & HTML
+## CSS & HTML ##
 
  * [Cyclomatic Complexity: Logic in CSS](http://csswizardry.com/2015/04/cyclomatic-complexity-logic-in-css) - YEs, lket us get analyzing! 
 
@@ -179,7 +179,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## DevOps, Security and other fun stuff.
+## DevOps, Security and other fun stuff. ##
 
  * [Proactive web security with client reputational services](https://blogs.akamai.com/2015/04/proactive-web-security-with-client-reputational-services.html) - Client Reputation technologies better protect applications and web infrastructure against DDoS and application layer attacks
 
@@ -199,7 +199,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## Other Languages
+## Other Languages ##
 
  * [ELIXIR VS ERLANG: A QUESTION OF MOMENTUM](http://journal.dedasys.com/2015/04/23/elixir-vs-erlang-a-question-of-momentum/) - if you thought about learning one of them.
 
@@ -209,7 +209,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 
-## LOLZ or Nize
+## LOLZ or Nize ##
 
  * [We put a chip in it!](http://weputachipinit.tumblr.com/) - It was just a dumb thing. Then we put a chip in it. Now it's a smart thing.
 
