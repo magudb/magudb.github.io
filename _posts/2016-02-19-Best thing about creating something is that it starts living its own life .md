@@ -99,7 +99,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Tools <a name="tools"></a> ##
  * [Serverless Wsgi With Aws Lambda + Api Gateway](https://github.com/Miserlou/Zappa)
- * [Jujucharms | Juju](https://jujucharms.com/) - Juju is a service orchestration tool that enables you to quickly model, configure, deploy and manage entire cloud environments with only a few commands.
+ * [Jujucharms - Juju](https://jujucharms.com/) - Juju is a service orchestration tool that enables you to quickly model, configure, deploy and manage entire cloud environments with only a few commands.
  * [Onyx Distributed Computation For The Cloud](http://www.onyxplatform.org/)
  * [The 6 Best Tools For Creating Infographics](http://www.creativebloq.com/infographic/6-best-tools-creating-infographics-21619252)
  * [Brighter](http://iancooper.github.io/Paramore/Brighter.html) - is an implementation of the Command Dispatcher and Command Processor patterns

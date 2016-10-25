@@ -53,7 +53,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Scrum Masters – First, Do No Harm](https://dzone.com/articles/scrum-masters-first-do-no-harm)
  * [Technical Debt Vs. Technical Disappointment](http://nikolay.rocks/2016-05-14-debt-vs-disappointment)
  * [10 Tips For Writing Good User Stories](https://dzone.com/articles/10-tips-for-writing-good-user-stories)
- * [Should A Cto Be Technical? – Code.dblock.org | Tech Blog](http://code.dblock.org/2016/05/16/should-a-cto-be-technical.html)
+ * [Should A Cto Be Technical? – Code.dblock.org - Tech Blog](http://code.dblock.org/2016/05/16/should-a-cto-be-technical.html)
  * [Gerald Weinberg's Secrets Of Writing And Consulting: Why Agile Projects Sometimes Fail](http://secretsofconsulting.blogspot.dk/2016/05/why-agile-projects-sometimes-fail.html)
  * [The Joys And Woes Of Pair Programming - The Lean Software Boutique](http://www.ombulabs.com/blog/agile/pair-programming/joys-and-woes-of-pair-programming.html)
 
@@ -71,16 +71,16 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## **.Net, C (& Powershell)**  <a name="net"></a> ##
  * [Csharpclient-for-kafka](https://github.com/Microsoft/CSharpClient-for-Kafka)
- * [Asp.net Core: Factory Pattern Dependency Injection | .Net Liberty](http://dotnetliberty.com/index.php/2016/05/09/asp-net-core-factory-pattern-dependency-injection/)
+ * [Asp.net Core: Factory Pattern Dependency Injection - .Net Liberty](http://dotnetliberty.com/index.php/2016/05/09/asp-net-core-factory-pattern-dependency-injection/)
  * [Asp.net Core Tag Helpers - With Great Power Comes Great Responsibility](http://josephwoodward.co.uk/2016/05/asp-net-core-tag-helpers-with-great-power-comes-great-responsibility/)
  * [The Business Case For Actors And Akka.net](https://petabridge.com/blog/akkadotnet-business-case/)
  * [The Anatomy Of Domain Event - Arkency Blog](http://blog.arkency.com/2016/05/the-anatomy-of-domain-event/)
  * [Yevhen/streamstone: Event Store For Azure Table Storage](https://github.com/yevhen/Streamstone)
  * [Microservice With Asp.net Core & Mvc 6 On Linux - Michał Ogłuszka](http://michalogluszka.pl/daj-sie-poznac/microservice-with-asp-net-core-mvc-6/)
  * PowerShell Desired State Configuration - [Part 1](https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-the-basics/), [Part 2](https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-lcm-and-push-management-model/) & [ Part 3](https://www.simple-talk.com/sysadmin/powershell/powershell-desired-state-configuration-pull-mode/)
- * [How We Do Semantic Logging | The Shade Tree Developer](https://jeremydmiller.com/2016/05/12/how-we-do-semantic-logging/)
+ * [How We Do Semantic Logging - The Shade Tree Developer](https://jeremydmiller.com/2016/05/12/how-we-do-semantic-logging/)
  * [The Future Of Project.json In Asp.net Core](https://wildermuth.com/2016/05/12/The-Future-of-project-json-in-ASP-NET-Core)
- * [Yield Return In C# | Kenneth Truyers](https://www.kenneth-truyers.net/2016/05/12/yield-return-in-c/)
+ * [Yield Return In C# - Kenneth Truyers](https://www.kenneth-truyers.net/2016/05/12/yield-return-in-c/)
  * [The Shocking Effect Of Beards, Seen Through The Microsoft Cognitive Services](http://blog.novanet.no/the-effect-of-beards-as-seen-through-microsoft-cognitive-services/)
  * [Upgrading From Aspnet Core Rc1 To Rc2 Guide](http://ardalis.com/upgrading-from-aspnet-core-rc1-to-rc2-guide)
  * [Ndc Oslo Web Api Sample Updated To Asp.net Core Rc2](http://www.strathweb.com/2016/05/ndc-oslo-web-api-sample-updated-to-asp-net-core-rc2/)
@@ -88,13 +88,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Other Languages  <a name="polygloting"></a> ##
  * [Designing A Developer Friendly Api Client In Scala](https://blog.algolia.com/designing-a-developer-friendly-api-client-in-scala/)
- * [Squbs: A New, Reactive Way For Paypal To Build Applications | Paypal Engineering Blog](https://www.paypal-engineering.com/2016/05/11/squbs-a-new-reactive-way-for-paypal-to-build-applications/)
+ * [Squbs: A New, Reactive Way For Paypal To Build Applications - Paypal Engineering Blog](https://www.paypal-engineering.com/2016/05/11/squbs-a-new-reactive-way-for-paypal-to-build-applications/)
  * [Simple Asynchronous Microservices Using Lambda Architecture.](https://vanilla-java.github.io/2016/05/16/Simple-Asynchronous-Microservices-using-Lambda-Architecture.html)
 
 ## Javascript  <a name="javascript"></a> ##
  * [Flipclock.js](http://flipclockjs.com/)
  * [Hacking Sunday - Javascript Metaprogramming - Overwriting Localstorage](https://zisismaras.me/hacking_sunday/2016/05/07/javascript-metaprogramming-overwrite-localstorage.html)
- * [Basics | Introduction To Graphql | Learn Graphql](https://learngraphql.com/basics/introduction)
+ * [Basics - Introduction To Graphql | Learn Graphql](https://learngraphql.com/basics/introduction)
 
 ### NodeJs <a name="nodejs"></a> ###
  * [Introducing Queues In Node.js](http://blog.yld.io/2016/05/10/introducing-queues/)
@@ -106,7 +106,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Announcing Msbuild Structured Log: Record And Visualize Your Builds](https://blogs.msdn.microsoft.com/kirillosenkov/2016/05/13/announcing-msbuild-structured-log-record-and-visualize-your-builds/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
- * [Why Continuous Integration Is Important - Via @Codeship | Via @Codeship](https://blog.codeship.com/continuous-integration-important/)
+ * [Why Continuous Integration Is Important - Via @Codeship - Via @Codeship](https://blog.codeship.com/continuous-integration-important/)
  * [Manhattan Software Deployments: How We Deploy Twitter’s Large Scale Distributed Database](https://blog.twitter.com/2016/manhattan-software-deployments-how-we-deploy-twitter-s-large-scale-distributed-database)
  * [Devops 2.0](http://blog.launchdarkly.com/devops2/)
  * [Open Sourcing Our Nginx Http/2 + Spdy Code](https://blog.cloudflare.com/open-sourcing-our-nginx-http-2-spdy-code/)
@@ -118,10 +118,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Docker/community](https://github.com/docker/community)
  * [Rspec For Ops Part 4: Test Driven Docker](http://blog.danzil.io/2016/05/05/rspec-for-ops-test-driven-docker.html)
  * [10 Tips & Tricks With Docker](https://mercurenews.com/en/10-tips-tricks-with-docker/)
- * [Docker Security Scanning Safeguards The Container Content Lifecycle | Docker Blog](https://blog.docker.com/2016/05/docker-security-scanning/)
+ * [Docker Security Scanning Safeguards The Container Content Lifecycle - Docker Blog](https://blog.docker.com/2016/05/docker-security-scanning/)
  * [Jessie Frazelle's Blog: Getting Towards Real Sandbox Containers](https://blog.jessfraz.com/post/getting-towards-real-sandbox-containers/)
  * [Official Consul Docker Image - Hashicorp](https://www.hashicorp.com/blog/official-consul-docker-image.html)
- * [Windows Container Networking | Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/2016/05/05/windows-container-networking/)
+ * [Windows Container Networking - Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/2016/05/05/windows-container-networking/)
  * [Docker Beta For Windows + Microservices Project — Medium](https://medium.com/@fresnizky/docker-beta-for-windows-microservices-project-ebcd45fa2323#.l59wrhqn2)
  * [Automatically Cleaning Unused Docker Images Using Consul And Cloudslang — Cloudslang Blog](https://blog.cloudslang.io/automatically-cleaning-unused-docker-images-using-consul-and-cloudslang-293aa03115dc#.x4bsbgq8z)
  * [How To Dockerize Your Node Application](https://lucamezzalira.com/2016/04/03/how-to-dockerize-your-node-application/)
@@ -139,7 +139,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [How To Survive & Thrive In A Big Company](https://cote.io/2016/05/10/bigco/)
- * [Devops Basics: Provisioning Docker In Azure Via One Command Line | Canitpro](https://blogs.technet.microsoft.com/canitpro/2016/05/04/devops-basics-docker-with-azure-driver/)
+ * [Devops Basics: Provisioning Docker In Azure Via One Command Line - Canitpro](https://blogs.technet.microsoft.com/canitpro/2016/05/04/devops-basics-docker-with-azure-driver/)
  * [Adrian Cockcroft - The Evolution Of Microservices, Where Did Microservice Architectures Come From And Where Are They Going? Architecture Patterns Are Optim...](http://www.ustream.tv/recorded/86151804)
  * [Understanding Csp, The Video Tutorial Edition](https://www.troyhunt.com/understanding-csp-the-video-tutorial-edition/)
 

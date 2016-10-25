@@ -79,7 +79,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Other Languages  <a name="polygloting"></a> ##
  * [Ibm Bluemix Openwhisk 101: Developing A Microservice - Blog On All Things Cloud Foundry](http://blog.altoros.com/bluemix-openwhisk-101-developing-a-microservice.html)
  * [How To Deploy A Go Web Application With Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker)
- * [Hypermedia Apis With Apache Couchdb | Via @Codeship](https://blog.codeship.com/hypermedia-apis-apache-couchdb/)
+ * [Hypermedia Apis With Apache Couchdb - Via @Codeship](https://blog.codeship.com/hypermedia-apis-apache-couchdb/)
  * [Wangle — An Asynchronous C++ Networking And Rpc Library](https://code.facebook.com/posts/215466732167400/wangle-an-asynchronous-c-networking-and-rpc-library/)
  * [Microserver Is A Java 8 Native, Zero Configuration, Standards Based, Battle Hardened Library To Run Java Rest Microservices Via A Standard Java Main Class](https://github.com/aol/micro-server)
  * [Practical Guide To Implementing Neural Networks In Python (Using Theano)](http://www.analyticsvidhya.com/blog/2016/04/neural-networks-python-theano/)
@@ -102,7 +102,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Zero-to-microservice-with-now.md](https://gist.github.com/rauchg/243c5109c793bf09c052)
  * [Devops Workflow: Node.js + Docker Cloud](http://blog.franrios.me/devops-workflow-node-js-docker-digitalocean/)
  * [How To Deploy Restful Apis Using Node, Express 4 And Docker](http://blog.cloud66.com/how-to-deploy-restful-apis-using-node-express4-and-docker/)
- * [Building Enterprise Level Web Applications On Aws Lambda With The Deep Framework | Aws Compute Blog](https://aws.amazon.com/blogs/compute/building-enterprise-level-web-applications-on-aws-lambda-with-deep/)
+ * [Building Enterprise Level Web Applications On Aws Lambda With The Deep Framework - Aws Compute Blog](https://aws.amazon.com/blogs/compute/building-enterprise-level-web-applications-on-aws-lambda-with-deep/)
  * [Webpack — The Confusing Parts — Medium](https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.waf0ep40w)
  * [Bluebird In The Wild: Advanced Promise-based Workflows](http://blog.runnable.com/post/143035495456/bluebird-in-the-wild-advanced-promise-based)
 
@@ -112,7 +112,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Building The Ui For The New The Times Website](https://medium.com/swlh/building-the-ui-for-the-new-the-times-website-26dc4e6569e#.1m9nvy3yj)
  * [Stylelint](http://stylelint.io/) 
  * [Flexbox Patterns](http://www.flexboxpatterns.com/home)
- * [Maintainablecss - An Approach To Writing Modular, Scalable And Maintainable Css | By Adam Silver](http://maintainablecss.com/)
+ * [Maintainablecss - An Approach To Writing Modular, Scalable And Maintainable Css - By Adam Silver](http://maintainablecss.com/)
  * [Progressive Web Apps With Service Workers](http://blog.booking.com/progressive-web-apps-with-service-workers.html)
  * [Styleguide](http://devbridge.github.io/Styleguide/#installation)
  * [Bootstrap 4 Cheat Sheet](http://hackerthemes.com/bootstrap-cheatsheet#alert-success)
@@ -123,8 +123,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Tools and things from Github <a name="tools"></a> ##
  * [Go Build Your Own Tools](https://blog.8thlight.com/christoph-gockel/2016/04/21/go-build-your-own-tools.html)
- * [Aws Device Farm Update – Remote Access To Devices For Interactive Testing | Aws Blog](https://aws.amazon.com/blogs/aws/aws-device-farm-update-remote-access-to-devices-for-interactive-testing/)
- * [Detecting The Use Of "Curl | Bash" Server Side](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
+ * [Aws Device Farm Update – Remote Access To Devices For Interactive Testing - Aws Blog](https://aws.amazon.com/blogs/aws/aws-device-farm-update-remote-access-to-devices-for-interactive-testing/)
+ * [Detecting The Use Of "Curl - Bash" Server Side](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/)
  * [Dcos/minuteman: A Distributed Load Balancer](https://github.com/dcos/minuteman)
  * [Alephbet/gimel: Run Your Own A/b Testing Backend Using Aws Lambda And Redis Hyperloglog](https://github.com/Alephbet/gimel)
  * [Git Pull Vs Git Fetch (And Stashing)](http://codeahoy.com/2016/04/18/10-git-pull-vs-git-fetch-(and-stashing)/)
@@ -144,8 +144,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Using Docker And Phantomjs To Generate Big Twitter Headings](https://scene-si.org/2016/04/20/using-docker-and-phantomjs-to-generate-big-twitter-headings/)
  * [Docker For Windows Beta](http://docker-saigon.github.io/post/Docker-Beta/)
  * [9 Critical Decisions For Running Docker In Production](http://blog.cloud66.com/9-crtitical-decisions-needed-to-run-docker-in-production/)
- * [Fairfly Makes Deployment Super Easy With Docker Cloud | Docker Blog](https://blog.docker.com/2016/04/cicd-fairfly-docker-cloud/)
- * [Docker For Your Users - Introducing User Namespace | Yet Another Enthusiast Blog!](https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/)
+ * [Fairfly Makes Deployment Super Easy With Docker Cloud - Docker Blog](https://blog.docker.com/2016/04/cicd-fairfly-docker-cloud/)
+ * [Docker For Your Users - Introducing User Namespace - Yet Another Enthusiast Blog!](https://blog.yadutaf.fr/2016/04/14/docker-for-your-users-introducing-user-namespace/)
  * [Alpine Based Docker Images Make A Difference In Real World Apps - Nick Janetakis](http://nickjanetakis.com/blog/alpine-based-docker-images-make-a-difference-in-real-world-apps)
  * [Docker Flow – Walkthrough](https://technologyconversations.com/2016/04/18/docker-flow/)
  * [Reproducible Research: Citing Your Execution Environment Using Docker And A Doi](http://www.software.ac.uk/blog/2016-03-29-reproducible-research-citing-your-execution-environment-using-docker-and-doi)
@@ -168,13 +168,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Rate Of Change, Microservices And Platforms - A Tale Of Devops Coevolution](https://speakerdeck.com/garethr/rate-of-change-microservices-and-platforms-a-tale-of-devops-coevolution)
  * [Microservices: What's Missing?](https://www.youtube.com/watch?v=p848Dr3EtQg)
  * [F12 Edge Developer Tools](https://channel9.msdn.com/Events/WebPlatformSummit/edgesummit2016/ES1610)
- * [Video Whiteboard Series For Docker Universal Control Plane | Docker Blog](https://blog.docker.com/2016/04/video-whiteboard-docker-universal-control-plane/)
+ * [Video Whiteboard Series For Docker Universal Control Plane - Docker Blog](https://blog.docker.com/2016/04/video-whiteboard-docker-universal-control-plane/)
  * [Docker And Asp.net Core: A Webcast - Shawn Wildermuth](http://wildermuth.com/2016/03/28/Docker_and_ASP_NET_Core_A_Webcast)
  * [Docker: Up And Running](https://www.youtube.com/watch?v=h401q_YtAQA&index=3&list=PLjQo0sojbbxViGEbI_87SPXpb3neuVqDL)
  * [Hump Day Demos Cicd + Docker Hub Autobuilds- 3/23/16 - Docker](https://docker.wistia.com/medias/vj1yh6ut6b)
  * [Intro To Docker Security](https://docker.wistia.com/medias/rykohqbbaz)
  * [Debugging Your Crashes With Ben Curtis](http://softwareengineeringdaily.com/2016/04/20/debugging-crashes-ben-curtis/)
- * [Cycleconf | Better World By Better Software](https://glebbahmutov.com/blog/cycle-conf/)
+ * [Cycleconf - Better World By Better Software](https://glebbahmutov.com/blog/cycle-conf/)
  * [The Joy Of Automation](https://www.youtube.com/channel/UCBgCmdvPaoYyha7JI33rfDQ)
 
 ## Books and Papers<a name="books"></a>  ##
@@ -183,8 +183,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Releases <a name="releases"></a> ##
  * [Google Cdn Beta Is Here… And It’s Already One Of The Fastest Cdns Out There!](http://blog.speedchecker.xyz/2016/04/18/google-cdn-beta-is-here-and-it-brings-more-than-meets-the-eye/)
  * [Chrome: 50 Releases And Counting!](https://chrome.googleblog.com/2016/04/chrome-50-releases-and-counting.html)
- * [Aws Dsc Toolkit | Windows Powershell Blog](https://blogs.msdn.microsoft.com/powershell/2016/04/20/aws-dsc-toolkit/)
- * [Announcing Windows 10 Insider Preview Build 14328 For Pc And Mobile | Windows Experience Blog](https://blogs.windows.com/windowsexperience/2016/04/22/announcing-windows-10-insider-preview-build-14328-for-pc-and-mobile/?WT.mc_id=DX_MVP4025064)
+ * [Aws Dsc Toolkit - Windows Powershell Blog](https://blogs.msdn.microsoft.com/powershell/2016/04/20/aws-dsc-toolkit/)
+ * [Announcing Windows 10 Insider Preview Build 14328 For Pc And Mobile - Windows Experience Blog](https://blogs.windows.com/windowsexperience/2016/04/22/announcing-windows-10-insider-preview-build-14328-for-pc-and-mobile/?WT.mc_id=DX_MVP4025064)
 
 ## Conferences or Courses<a name="conferences"></a> ##
 

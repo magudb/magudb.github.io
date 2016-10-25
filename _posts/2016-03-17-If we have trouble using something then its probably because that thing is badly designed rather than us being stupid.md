@@ -122,7 +122,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Easy Handle Leak Detection Without A Debugger](http://geekswithblogs.net/akraus1/archive/2016/03/14/173308.aspx)
  * [Building Visual Studio Code On A Raspberry Pi 3](http://www.hanselman.com/blog/BuildingVisualStudioCodeOnARaspberryPi3.aspx)
  * [Introducing Linqpad.queryplanvisualizer](http://www.aboutmycode.com/miscellaneous/introducing-linqpad-queryplanvisualizer/)
- * [Actordb | Distributed Sql Database With Linear Scalability](http://www.actordb.com/index.html)
+ * [Actordb - Distributed Sql Database With Linear Scalability](http://www.actordb.com/index.html)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [Easy Amazon Ec2 Instance Comparison](http://www.ec2instances.info/?region=eu-west-1&cost=monthly)
@@ -145,8 +145,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Containers <a name="containers"></a> ##
  * [Using Mozjpeg Via Docker](http://ariya.ofilabs.com/2016/03/using-mozjpeg-via-docker.html)
  * [Dual Deployment: A Low-risk Way To Run Containers In Production](http://blog.codeship.com/dual-deployment-a-low-risk-way-to-run-containers-in-production/)
- * [#Swarmweek: Realtime Cluster Monitoring With Docker Swarm And Riemann | Docker Blog](https://blog.docker.com/2016/03/realtime-cluster-monitoring-docker-swarm-riemann/)
- * [#Swarmweek: Five Tips For The Advanced Swarm User | Docker Blog](https://blog.docker.com/2016/03/swarmweek-five-tips-advanced-docker-swarm/)
+ * [#Swarmweek: Realtime Cluster Monitoring With Docker Swarm And Riemann - Docker Blog](https://blog.docker.com/2016/03/realtime-cluster-monitoring-docker-swarm-riemann/)
+ * [#Swarmweek: Five Tips For The Advanced Swarm User - Docker Blog](https://blog.docker.com/2016/03/swarmweek-five-tips-advanced-docker-swarm/)
  * [Testing Strategies For Docker Containers · Terra Nullius](http://blog.terranillius.com/post/docker_testing/)
  * How to use Docker in a practical way - [(Part 1 - Introduction)](https://www.howtoforge.com/tutorial/how-to-use-docker-introduction/), [Part 2: Docker Installation And Service Management.](https://www.howtoforge.com/tutorial/docker-how-to-use-it-in-a-practical-way-on-ubuntu/) & [Part 3: Creation A Notepad With Wordpress And Dokuwiki Containers](https://www.howtoforge.com/tutorial/docker-how-to-use-it-in-a-practical-way-part-3/)
  * [Creating Containerized Build Environments With The Jenkins Pipeline Plugin And Docker. Well, Almost.](http://damnhandy.com/2016/03/06/creating-containerized-build-environments-with-the-jenkins-pipeline-plugin-and-docker-well-almost/) 

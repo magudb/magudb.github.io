@@ -24,7 +24,7 @@ for Complex Socio-Technical Systems](http://crpit.com/confpapers/CRPITV86Qureshi
   * [Music Production vs. Code Production](http://osherove.com/blog/2015/12/21/music-production-vs-code-production.html)
   * [Blow Your Own Trumpet](https://24ways.org/2015/blow-your-own-trumpet/)
   * [The Recruiter Manifesto](https://dzone.com/articles/the-recruiter-manifesto)
-  * [What Tech Leaders Look For When Hiring Developers | Via @Codeship](http://blog.codeship.com/what-to-look-for-when-hiring-developers/)
+  * [What Tech Leaders Look For When Hiring Developers - Via @Codeship](http://blog.codeship.com/what-to-look-for-when-hiring-developers/)
   * [My 3 Step Process To Learn New Skills As A Software Developer](https://dzone.com/articles/my-3-steps-process-to-learn-new-skills-as-a-softwa)
   * [Writing For Developers - part 1](http://radek.io/2015/12/10/writing-for-programmers-1/) & [Part 2](http://radek.io/2015/12/17/writing-for-programmers-2/) & [Part 3](http://radek.io/2015/12/24/writing-for-developers-3/)
   * [Cooking Up Effective Technical Writing](https://24ways.org/2015/cooking-up-effective-technical-writing/)

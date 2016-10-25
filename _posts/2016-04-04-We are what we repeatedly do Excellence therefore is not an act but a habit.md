@@ -28,28 +28,28 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
  * [I’m A Boring Programmer (And Proud Of It)](https://m.signalvnoise.com/i-m-a-boring-programmer-and-proud-of-it-d4ac3dd2defe#.k7sdlokk1) - i think the Ninja/Wizard/rockstar is a developer anti-pattern
- * [Developers Can Run Bash Shell And User-mode Ubuntu Linux Binaries On Windows 10](http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx) ([Windows Command Line | All Things Command-line & Console, Etc.](https://blogs.msdn.microsoft.com/commandline/)) - jUST AWESOME!
+ * [Developers Can Run Bash Shell And User-mode Ubuntu Linux Binaries On Windows 10](http://www.hanselman.com/blog/DevelopersCanRunBashShellAndUsermodeUbuntuLinuxBinariesOnWindows10.aspx) ([Windows Command Line - All Things Command-line & Console, Etc.](https://blogs.msdn.microsoft.com/commandline/)) - jUST AWESOME!
  * CI with TeamCity and Docker  - [Part 1](https://lostechies.com/gabrielschenker/2016/03/22/ci-with-teamcity-and-docker/) & [Part 2](https://lostechies.com/gabrielschenker/2016/03/28/ci-with-teamcity-and-docker-part-2/)
  * [Idempotent Commands](http://codeopinion.com/idempotent-commands/)
  * [The Zen Of Code Reviews: Review As If You Own The Code](https://www.simple-talk.com/dotnet/.net-framework/the-zen-of-code-reviews-review-as-if-you-own-the-code/)
- * [Microsoft’s Bot Framework Will Help Everyone Build Their Own Chatbot | The Verge](http://www.theverge.com/2016/3/30/11332494/microsoft-bot-framework-build) + [Microsoft/botbuilder](https://github.com/Microsoft/BotBuilder) + [Bot Framework](https://dev.botframework.com/) - Super ChatOpsing!
+ * [Microsoft’s Bot Framework Will Help Everyone Build Their Own Chatbot - The Verge](http://www.theverge.com/2016/3/30/11332494/microsoft-bot-framework-build) + [Microsoft/botbuilder](https://github.com/Microsoft/BotBuilder) + [Bot Framework](https://dev.botframework.com/) - Super ChatOpsing!
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [What Is Infrastructure As Code?](http://buildazure.com/2016/03/28/what-is-infrastructure-as-code/)
  * [Tips And Tools For Open Source Compliance](http://www.whitesourcesoftware.com/whitesource-blog/open-source-compliance-tools/)
  * [How Product-centric It Disrupts Portfolio Management](https://www.thoughtworks.com/insights/blog/how-product-centric-it-disrupts-portfolio-management)
  * [Allegro.tech - Minimum Viable Product – Already A Cliché Or A Misunderstood Concept?](http://allegro.tech/2016/03/Minimum-Viable-Product-already-a-cliche-or-a-misunderstood-concept.html)
- * [Three Problems You Can Solve With A Modified “Five Whys” Approach | Engineering @ Aweber](http://engineering.aweber.com/three-problems-you-can-solve-with-a-modified-five-whys-approach/)
+ * [Three Problems You Can Solve With A Modified “Five Whys” Approach - Engineering @ Aweber](http://engineering.aweber.com/three-problems-you-can-solve-with-a-modified-five-whys-approach/)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
  * [Top 18 Scrum Experts And Accounts To Follow On Twitter](http://techbeacon.com/top-18-scrum-experts-accounts-follow-twitter?beta=1)
- * [Two Topics Best Avoided In Retrospectives |](https://www.thekua.com/atwork/2016/03/two-topics-best-avoided-in-retrospectives/)
+ * [Two Topics Best Avoided In Retrospectives -](https://www.thekua.com/atwork/2016/03/two-topics-best-avoided-in-retrospectives/)
  * [Agile Management: How To Manage Microservices With Your Team](http://thenewstack.io/agile-management-how-to-manage-microservices-with-your-team/)
  * [Being Productive When Distributed Teams Get Together](http://jordan-lund.ghost.io/how-to-make-the-most-of-getting-remotees-together/)
  * [Is Agile A Subset Of Lean Manufacturing?](http://www.leadingagile.com/2016/03/is-agile-a-subset-of-lean/)
 
 ## Architecture & Software development practices <a name="development"></a> ##
- * [A Language For Architecture | J.d. Meier's Blog](https://blogs.msdn.microsoft.com/jmeier/2016/04/03/a-language-for-architecture-2/)
+ * [A Language For Architecture - J.d. Meier's Blog](https://blogs.msdn.microsoft.com/jmeier/2016/04/03/a-language-for-architecture-2/)
  * [3 Things We Learnt From ‘Reactive Microservices Architecture’](https://www.voxxed.com/blog/2016/03/3-things-we-learnt-from-reactive-microservices-architecture/)
  * [Maintaining Api Security In A Continuous Delivery Environment](http://nordicapis.com/maintaining-api-security-in-a-continuous-delivery-environment/)
  * [(Abusing) Elasticsearch As A Framework](https://zignar.net//2016/03/18/abusing-elasticsearch-as-a-framework/)
@@ -65,7 +65,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [The Identity Map Pattern In Marten](http://jeremydmiller.com/2016/03/29/the-identity-map-pattern-in-marten/)
 
 ## Other Languages  <a name="polygloting"></a> ##
- * [Java String Concatenation Explained | Codementor](https://www.codementor.io/java/tutorial/string-concatenation-revised)
+ * [Java String Concatenation Explained - Codementor](https://www.codementor.io/java/tutorial/string-concatenation-revised)
 
 ## Javascript  <a name="javascript"></a> ##
  * [Build Made Easy](http://blog.moove-it.com/build-made-easy/)
@@ -87,7 +87,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Network And System Analytics As A Docker Microservice](http://blog.sflow.com/2016/03/network-and-system-analytics-as-docker.html)
  * [Linux cheat sheet](http://developers.redhat.com/promotions/linux-cheatsheet/?sc_cid=70160000000q9K8AAI)
  * [Lwan Web Server](https://lwan.ws/)
- * [How To Secure Nginx With Let's Encrypt On Ubuntu 16.04 | Digitalocean](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
+ * [How To Secure Nginx With Let's Encrypt On Ubuntu 16.04 - Digitalocean](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
  * [Jare.io, An Instant And Free Cdn - Yegor Bugayenko](http://www.yegor256.com/2016/03/30/jare-instant-free-cdn.html)
  * [Druid Is A Fast Column-oriented Distributed Data Store.](http://druid.io/)
 
@@ -111,8 +111,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Introduction To Docker Compose Tool For Multi-container Applications](https://www.linux.com/learn/tutorials/893685-introduction-to-docker-compose-tool-for-multi-container-applications)
  * [Tls Secured Private Registries](http://docker-saigon.github.io/post/Private-Registry-Setup/)
  * [Introduction To Docker](http://kjanshair.azurewebsites.net/Blog/IntroToDocker)
- * [Docker's - Beginner Guide | Hack.guides()](http://tutorials.pluralsight.com/devops/docker-s-beginner-guide)
- * [Tools Built On Top Of The Docker Api | Nordic Apis |](http://nordicapis.com/tools-built-on-top-of-the-docker-api/)
+ * [Docker's - Beginner Guide - Hack.guides()](http://tutorials.pluralsight.com/devops/docker-s-beginner-guide)
+ * [Tools Built On Top Of The Docker Api - Nordic Apis |](http://nordicapis.com/tools-built-on-top-of-the-docker-api/)
 
 ## Monitoring <a name="monitoring"></a> ##
  * [Four Key Elements Of Unified Monitoring In The Digital World - About:performance](http://apmblog.dynatrace.com/2016/03/29/14486/)

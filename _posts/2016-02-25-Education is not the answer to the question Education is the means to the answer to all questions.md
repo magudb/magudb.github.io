@@ -148,7 +148,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Wrangling Grafana And Influxdb Into A Docker Image](http://simonjbeaumont.com/posts/docker-dashboard)
  * [Docker Universal Control Plane](https://docs.docker.com/ucp/) + [Docker Universal Control Plane](https://www.docker.com/products/docker-universal-control-plane)
  * [Scale Your Docker Workflow With Codeship And Cloud 66](http://blog.codeship.com/docker-workflow-with-codeship-and-cloud-66/)
- * [Install Docker Universal Control Plane With Puppet | Puppet Labs](https://puppetlabs.com/blog/install-docker-universal-control-plane-puppet)
+ * [Install Docker Universal Control Plane With Puppet - Puppet Labs](https://puppetlabs.com/blog/install-docker-universal-control-plane-puppet)
  * [Docker : Storage Patterns For Persistence](https://kvaes.wordpress.com/2016/02/11/docker-storage-patterns-for-persistence/)
  * [Docker Networking Overview](http://filipv.net/2016/02/17/docker-networking-overview/)
  * [Doclipser Or How I’ve Put Docker In Your Favorite Ide](https://jaxenter.com/doclipser-or-how-ive-put-docker-in-your-favorite-ide-124167.html)

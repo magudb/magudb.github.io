@@ -34,7 +34,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [The Panama Papers: Why It Couldn’t Have Happened Ten Years Ago](http://neo4j.com/blog/panama-papers/)
  * [Platform Data](https://developer.microsoft.com/en-us/microsoft-edge/platform/data/) - Gret insights into the web platform
  * [Linux + .Net Core + Asp.net Core + Docker](http://todthomson.com/2016/03/31/linux-dotnet-aspnet-code-docker/) - well go learn!
- * [Blockchain For Grown Ups: Cutting Through The Hype | Thoughtworks](https://www.thoughtworks.com/insights/blog/blockchain-grown-ups-cutting-through-hype) - it is a hype, but it is interesting.
+ * [Blockchain For Grown Ups: Cutting Through The Hype - Thoughtworks](https://www.thoughtworks.com/insights/blog/blockchain-grown-ups-cutting-through-hype) - it is a hype, but it is interesting.
  * [Why I Love Ugly, Messy Interfaces — And You Probably Do Too — Signal V. Noise](https://m.signalvnoise.com/why-i-love-ugly-messy-interfaces-and-you-probably-do-too-edff4a896a83#.4rz02ei85) - i agree
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
@@ -68,14 +68,14 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Asp.net Core Redis Html Cache](http://zablo.net/blog/post/asp-net-core-redis-html-cache)
  * [Moving To Cake (C# Make) - Laurent Kempé](http://laurentkempe.com/2016/04/05/Moving-to-Cake-CSharp-Make/)
  * [Pc Bot](http://geekswithblogs.net/WinAZ/archive/2016/04/06/pc-bot.aspx)
- * [Setting Up Ubuntu For .Net Development | The Blog Of Colin Angus Mackay](https://colinmackay.scot/2016/04/06/setting-up-ubuntu-for-net-development/)
+ * [Setting Up Ubuntu For .Net Development - The Blog Of Colin Angus Mackay](https://colinmackay.scot/2016/04/06/setting-up-ubuntu-for-net-development/)
  * [The New Configuration Model In Asp.net Core -Telerik Developer Network](http://developer.telerik.com/featured/new-configuration-model-asp-net-core/)
 
 ## Other Languages  <a name="polygloting"></a> ##
  * [Visual C++ For Linux And Raspberry Pi Development](http://www.hanselman.com/blog/VisualCForLinuxAndRaspberryPiDevelopment.aspx)
  * [Easily Generate A Full-stack Java + Javascript App With Jhipster](https://auth0.com/blog/2016/04/05/quicktip-use-jhipster)
  * [Micro - A Microservices Toolkit](https://blog.micro.mu/2016/03/20/micro.html)
- * [Go Concurrency For Javascript Developers | Kevin Burke](https://kev.inburke.com/kevin/go-concurrency-for-js-devs/)
+ * [Go Concurrency For Javascript Developers - Kevin Burke](https://kev.inburke.com/kevin/go-concurrency-for-js-devs/)
 
 ## Javascript  <a name="javascript"></a> ##
  * [Tiny Js Library For Beautiful Drawing And Handwriting On The Html Canvas.](https://github.com/jakubfiala/atrament.js) 
@@ -114,9 +114,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Apache Flink: Introducing Complex Event Processing (Cep) With Apache Flink](http://flink.apache.org/news/2016/04/06/cep-monitoring.html)
 
 ## Containers <a name="containers"></a> ##
- * [Kick The Tires On Docker Datacenter With Ddc-in-a-box! | Docker Blog](https://blog.docker.com/2016/04/docker-datacenter-ddc-in-a-box/)
+ * [Kick The Tires On Docker Datacenter With Ddc-in-a-box! - Docker Blog](https://blog.docker.com/2016/04/docker-datacenter-ddc-in-a-box/)
  * [Running Docker Behind A Proxy](https://crondev.com/running-docker-behind-proxy/)
- * [Semi-retirement For Rest Apis With Nginx, Docker And Azure | Elton Stoneman](https://blog.sixeyed.com/semi-retirement-for-rest-apis-with-nginx-and-docker/)
+ * [Semi-retirement For Rest Apis With Nginx, Docker And Azure - Elton Stoneman](https://blog.sixeyed.com/semi-retirement-for-rest-apis-with-nginx-and-docker/)
  * [9 Critical Decisions For Running Docker In Production](http://blog.cloud66.com/9-crtitical-decisions-needed-to-run-docker-in-production/)
  * [Docker Article In Linux Magazine](http://blog.alexellis.io/linux-user-developer-magazine/)
  * [Automating Quality Checks And Docker Containers In A Git Workflow](https://blog.bitbucket.org/2016/03/28/automating-quality-checks-and-docker-containers-in-a-git-workflow/)
@@ -138,4 +138,4 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
  * [How To Activate Dev Mode On Your Xbox One Console](http://www.windowscentral.com/how-activate-dev-mode-your-xbox-one-console)
- * [Vocore | A Coin-sized Linux Computer With Wifi](http://vocore.io/index/index)
+ * [Vocore - A Coin-sized Linux Computer With Wifi](http://vocore.io/index/index)

@@ -124,7 +124,7 @@ Weekly links (* is for everyone)
   * [Rebuilding Our Infrastructure with Docker, ECS, and Terraform](https://segment.com/blog/rebuilding-our-infrastructure/)
 
 ##  Videos ##
-  * [AWS re:Invent 2015 | (DVO317) From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw&_tmc=hJJf6Kg2Bq8OZLOK5qWIhzurNCMLNddf_6ifA1HQpsk&mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX54%2B0uXKK1lMI%2F0ER3fOvrPUfGjI4ASsBrI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D)
+  * [AWS re:Invent 2015 - (DVO317) From Local Docker Development to Production Deployments](https://www.youtube.com/watch?v=7CZFpHUPqXw&_tmc=hJJf6Kg2Bq8OZLOK5qWIhzurNCMLNddf_6ifA1HQpsk&mkt_tok=3RkMMJWWfF9wsRonuqTMZKXonjHpfsX54%2B0uXKK1lMI%2F0ER3fOvrPUfGjI4ASsBrI%2BSLDwEYGJlv6SgFQ7LMMaZq1rgMXBk%3D)
   * [StubHub: Microservices, Containers, and Music](http://containersummit.io/events/sf-2015/videos/stubhub-microservices-containers-and-music)
   * [Steve Souders - Responsive Field Day 2015](https://www.youtube.com/watch?v=f5_iAzS3WMQ&utm_source=webopsweekly&utm_medium=email)
 

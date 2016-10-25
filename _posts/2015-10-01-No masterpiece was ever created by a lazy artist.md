@@ -53,7 +53,7 @@ Twitter link -https://twitter.com/mtnygard/status/646350151494336512
   * [Bacon.js](https://baconjs.github.io/) - Do you wanna play with functional programming in Javascript? 
   * [crispy-stream](https://github.com/codingpains/crispy-stream)
   * [C++ Add-ons for Node.js v4](https://nodesource.com/blog/cpp-addons-for-nodejs-v4)
-  * [N|Solid. Enterprise Node. Finally.](https://nodesource.com/blog/nsolid-enterprise-node-finally) - Interesting?
+  * [N-Solid. Enterprise Node. Finally.](https://nodesource.com/blog/nsolid-enterprise-node-finally) - Interesting?
   * [How to Use SSL/TLS with Node.js](http://www.sitepoint.com/how-to-use-ssltls-with-node-js)
   * [Nodal](https://github.com/keithwhor/nodal) - An ES6 API Server and Framework for Node 4.x
   * [stop-server](https://github.com/typicode/stop-server) - Shut down :zap: your computer with your phone and a browser

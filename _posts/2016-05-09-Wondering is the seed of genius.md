@@ -39,7 +39,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * Stack Overflow 2016 :[The Architecture](http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/), [The Hardware](http://nickcraver.com/blog/2016/03/29/stack-overflow-the-hardware-2016-edition/)  & [How We Do Deployment](http://nickcraver.com/blog/2016/05/03/stack-overflow-how-we-do-deployment-2016-edition/)
  * [Carebot – Meaningful Analytics For Journalism](http://thecarebot.github.io/)
  * [Introducing Docs.microsoft.com](http://docsmsftblog.azurewebsites.net/teamblog/introducing-docs-microsoft-com/) + [Msdn/technet Being Open Sourced As Docs.microsoft.com](http://www.infoq.com/news/2016/05/docs-ms-com)
- * [Open Source Drives A Virtuous Loop For Innovation | Thoughtworks](https://www.thoughtworks.com/insights/blog/open-source-drives-virtuous-loop-innovation)
+ * [Open Source Drives A Virtuous Loop For Innovation - Thoughtworks](https://www.thoughtworks.com/insights/blog/open-source-drives-virtuous-loop-innovation)
  * [Application Sandboxes Vs. Containers - Jessie Frazelle](https://www.youtube.com/watch?v=mfnhSX6SJVA) - cool and awesome stuff!
  * [.Net Core Rc2 – Improvements, Schedule, And Roadmap](https://blogs.msdn.microsoft.com/dotnet/2016/05/06/net-core-rc2-improvements-schedule-and-roadmap/)
 
@@ -51,8 +51,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Together, But Remote](http://thetechstudio.ghost.io/together-but-remote/)
  * [The End Of A Mobile Wave](http://ben-evans.com/benedictevans/2016/4/29/the-end-of-a-mobile-wave)
  * [About Motivation, Inspiration, Productivity & Concentration](http://blog.moove-it.com/about-motivation-inspiration-productivity-and-concentration/)
- * [The Five Phases Of Performance Maturity | Soasta](https://www.soasta.com/blog/five-phases-web-performance-maturity/)
- * [The Realistic Code Reviewer, Part I | Engineering Blog](https://www.eventbrite.com/engineering/the-realistic-code-reviewer-part-i/)
+ * [The Five Phases Of Performance Maturity - Soasta](https://www.soasta.com/blog/five-phases-web-performance-maturity/)
+ * [The Realistic Code Reviewer, Part I - Engineering Blog](https://www.eventbrite.com/engineering/the-realistic-code-reviewer-part-i/)
  * [The Mba Guide To Software Development](https://toddschiller.com/the-mba-guide-to-software-development.html)
  * [How To Become A Conference Speaker](https://dzone.com/articles/how-to-become-a-conference-speaker)
 
@@ -88,7 +88,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Using Roslyn Code Fixes To Make The "Friction-less Immutable Objects In Bridge" Even Easier](http://www.productiverage.com/using-roslyn-code-fixes-to-make-the-frictionless-immutable-objects-in-bridge-even-easier)
  * C# BAD PRACTICES: Learn how to make a good code by bad example - [Part 1](http://www.codeproject.com/Articles/1083348/Csharp-BAD-PRACTICES-Learn-how-to-make-a-good-code) & [Part 2](http://www.codeproject.com/Articles/1097145/Csharp-BAD-PRACTICES-Learn-how-to-make-a-good-co)
  * [Sebastienros/yessql: A .Net Document Database Working On Any Rdbms](https://github.com/sebastienros/yessql)
- * [Ms Health Api Bot | Pete D](http://peted.azurewebsites.net/ms-health-api-bot/)
+ * [Ms Health Api Bot - Pete D](http://peted.azurewebsites.net/ms-health-api-bot/)
  * [How To Web With Asp.net -Telerik Developer Network](http://developer.telerik.com/featured/how-to-web-asp-net/)
  * [Creating A Phone Number Lookup Bot Using Microsoft Bot Framework And C#](http://twilioinc.wpengine.com/2016/05/creating-a-phone-number-lookup-bot-using-microsoft-bot-framework-and-c.html)
  * [Simple Incoming Op Parser For Nats In C#](http://danielwertheim.se/simple-incoming-op-parser-for-nats-in-c/) + [Using The Opparser With Nats To Create A Long Running Consumer In C#](http://danielwertheim.se/using-the-opparser-with-nats-to-create-a-long-running-consumer-in-c/)
@@ -129,7 +129,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Selecting The Best Artwork For Videos Through A/b Testing](http://techblog.netflix.com/2016/05/selecting-best-artwork-for-videos.html)
  * [What Is Http/2 - The Ultimate Guide By Kinsta](https://kinsta.com/learn/what-is-http2/)
  * [Reducing Jpg File Size — Medium](https://medium.com/@duhroach/reducing-jpg-file-size-e5b27df3257c#.xdp20np00)
- * [A Comparison Of Animation Technologies | Css-tricks](https://css-tricks.com/comparison-animation-technologies/)
+ * [A Comparison Of Animation Technologies - Css-tricks](https://css-tricks.com/comparison-animation-technologies/)
  * [An Ultimate Guide To Css Pseudo-classes And Pseudo-elements – Smashing Magazine](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/#?)
  * [A Guide To Using Css Selectors](https://www.codementor.io/css/tutorial/how-to-use-css-selectors)
 
@@ -146,7 +146,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [Infrastructure As Code : Automating Aws Ec2 Virtual Machines Using Saltstack — Medium](https://medium.com/@eon01/automating-aws-infrastructure-using-saltstack-2b40aeadc7a9#.p473d7vzo)
  * [Codeless Api Reshaping With Aws Api Gateway — Appaloosa Store Engineering — Medium](https://medium.com/appaloosa-store-engineering/codeless-api-reshaping-with-aws-api-gateway-8e700e331922#.c6qr4vd6k)
- * [Name Calling | Revapm](https://www.revapm.com/2016/04/name-calling/)
+ * [Name Calling - Revapm](https://www.revapm.com/2016/04/name-calling/)
  * [Timgws/handy-nginx-includes: 'Best Practice' Nginx Configuration Includes.](https://github.com/timgws/handy-nginx-includes)
  * [Introducing Omnisearch](https://blog.twitter.com/2016/introducing-omnisearch)
 
@@ -157,13 +157,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Iis On Docker Thanks To Windows Server 2016](https://blog.ikoula.com/en/iis-docker-thanks-windows-server-2016)
  * [Docker For Windows Beta Review](http://laurentkempe.com/2016/04/30/Docker-for-Windows-Beta-review/)
  * [Effective Elasticsearch Plugin Management With Docker](https://www.elastic.co/blog/elasticsearch-docker-plugin-management)
- * [Docker Cleanup Scripts Comparison | Time To Take Out The Trash Or Cleanup Docker Containers That Are Dangling Around. Here's A Docker Cleanup Script Comparison Brianchristner.io](https://www.brianchristner.io/docker-cleanup-script-comparison/)
+ * [Docker Cleanup Scripts Comparison - Time To Take Out The Trash Or Cleanup Docker Containers That Are Dangling Around. Here's A Docker Cleanup Script Comparison Brianchristner.io](https://www.brianchristner.io/docker-cleanup-script-comparison/)
  * [Setup Docker On Windows Server 2016](http://blog.couchbase.com/2016/april/setup-docker-windows-server-2016)
  * [Using Caddy With Docker](https://blog.zzrot.com/caddy-with-docker/)
  * [Jbrisbin/akka-http-docker: Docker Client Based On Akka Http](https://github.com/jbrisbin/akka-http-docker)
- * [Using Docker As A Personal Productivity Tool – Running Command Line Apps Bundled In Docker Containers | Ouseful.info, The Blog...](https://blog.ouseful.info/2016/05/03/using-docker-as-a-personal-productvity-tool-running-command-line-apps/)
+ * [Using Docker As A Personal Productivity Tool – Running Command Line Apps Bundled In Docker Containers - Ouseful.info, The Blog...](https://blog.ouseful.info/2016/05/03/using-docker-as-a-personal-productvity-tool-running-command-line-apps/)
  * [Docker Inside Docker And Overview About Jenkins 2](http://gianarb.it/blog/docker-inside-docker-and-jenkins-2)
- * [Docker Compose And Docker Network Support In Puppet | Puppet](https://puppet.com/blog/docker-compose-and-docker-network-support-puppet)
+ * [Docker Compose And Docker Network Support In Puppet - Puppet](https://puppet.com/blog/docker-compose-and-docker-network-support-puppet)
  * [Automatically Cleaning Unused Docker Images Using Consul And Cloudslang](https://blog.cloudslang.io/automatically-cleaning-unused-docker-images-using-consul-and-cloudslang-293aa03115dc#.9cpr3wybg)
  * [Docker Beta For Windows + Microservices Project](https://medium.com/@fresnizky/docker-beta-for-windows-microservices-project-ebcd45fa2323#.vdinrjpve)
 

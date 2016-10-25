@@ -29,21 +29,21 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Learning Arduino The Fun Way - Writing Games With Arduboy - Scott Hanselman](http://www.hanselman.com/blog/LearningArduinoTheFunWayWritingGamesWithArduboy.aspx)
  * [Pbering/lightcore: Lightweight Content Delivery Runtime Using Sitecore As A Backend Cms](https://github.com/pbering/Lightcore)
  * [10 Modern Software Over-engineering Mistakes – Medium](https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.8jxkyqv9i)
- * [Use Docker Compose And Service Discovery On Windows To Scale-out Your Multi-service Container Application | Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/2016/10/18/use-docker-compose-and-service-discovery-on-windows-to-scale-out-your-multi-service-container-application/)
+ * [Use Docker Compose And Service Discovery On Windows To Scale-out Your Multi-service Container Application - Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/2016/10/18/use-docker-compose-and-service-discovery-on-windows-to-scale-out-your-multi-service-container-application/)
  * [Learning Arduino The Fun Way - Writing Games With Arduboy - Scott Hanselman](http://www.hanselman.com/blog/LearningArduinoTheFunWayWritingGamesWithArduboy.aspx)
  * [Secure Your Containers With This One Weird Trick – Red Hat Enterprise Linux Blog](http://rhelblog.redhat.com/2016/10/17/secure-your-containers-with-this-one-weird-trick/)
  * [Internal Tech Conferences - How And Why](https://www.infoq.com/articles/internal-tech-conferences)
  * [Abhi Jain's .Net Blog: Domain Driven Design Advantages And Disadvantages](http://www.abhijainsblog.com/2016/10/domain-driven-design.html)
- * [Contoso University Updated To Asp.net Core | Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/10/21/contoso-university-updated-to-asp-net-core/) + [Jbogard/contosouniversitycore](https://github.com/jbogard/ContosoUniversityCore)
+ * [Contoso University Updated To Asp.net Core - Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/10/21/contoso-university-updated-to-asp-net-core/) + [Jbogard/contosouniversitycore](https://github.com/jbogard/ContosoUniversityCore)
  * [Hourly Billing Is Nuts - Arkency Blog](http://blog.arkency.com/2016/10/hourly-billing-is-nuts/)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [Operations For Software Developers For Beginners - Julia Evans](https://jvns.ca/blog/2016/10/15/operations-for-software-developers-for-beginners/)
  * [The Essential Guide To Building Balanced Development Teams – Javascript Scene – Medium](https://medium.com/javascript-scene/the-essential-guide-to-building-balanced-development-teams-b051a62acc80#.7afbb6245)
- * [10 Tips For Better Slide Decks | Ted Blog](http://blog.ted.com/10-tips-for-better-slide-decks/)
- * [What Problem Is Digital Transformation Trying To Solve? | Devopsguys](https://www.devopsguys.com/2016/10/14/what-problem-is-digital-transformation-trying-to-solve/)
+ * [10 Tips For Better Slide Decks - Ted Blog](http://blog.ted.com/10-tips-for-better-slide-decks/)
+ * [What Problem Is Digital Transformation Trying To Solve? - Devopsguys](https://www.devopsguys.com/2016/10/14/what-problem-is-digital-transformation-trying-to-solve/)
  * [Digital Transformation: The What, The Why And The How](https://451research.com/report-short?entityId=90066&referrer=marketing)
- * [The Virtuous Design Presentation Cycle | Viget](https://www.viget.com/articles/the-virtuous-design-presentation-cycle)
+ * [The Virtuous Design Presentation Cycle - Viget](https://www.viget.com/articles/the-virtuous-design-presentation-cycle)
  * [Consistency Vs Availability (Wat?) - Julia Evans](https://jvns.ca/blog/2016/10/21/consistency-vs-availability/)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
@@ -52,17 +52,17 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Said No Ceo Ever: Things That Don't Matter In The Cloud // Speaker Deck](https://speakerdeck.com/caseywest/said-no-ceo-ever-things-that-dont-matter-in-the-cloud)
  * [An Introduction To Modern Agile](https://www.infoq.com/articles/modern-agile-intro)
  * [Developers As Ddd Bounded Contexts Representatives - Arkency Blog](http://blog.arkency.com/2016/10/developers-as-ddd-bounded-contexts-representatives/)
- * [Iterating The Product Owner Role: From Owner To Assistant | Thoughtworks](https://www.thoughtworks.com/insights/blog/iterating-product-owner-role-owner-assistant)
+ * [Iterating The Product Owner Role: From Owner To Assistant - Thoughtworks](https://www.thoughtworks.com/insights/blog/iterating-product-owner-role-owner-assistant)
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Part 1 - First Pop Coffee Company · Nick Chamberlain](https://buildplease.com/fpc/fpc-bigpicture-1/)
- * [Ddd Exchange 2016 | 9th - 10th Jun 2016 | London](https://skillsmatter.com/conferences/7225-ddd-exchange-2016#skillscasts)
+ * [Ddd Exchange 2016 - 9th - 10th Jun 2016 | London](https://skillsmatter.com/conferences/7225-ddd-exchange-2016#skillscasts)
  * [Geode In Domain Driven Design And Reactive Programming - Youtube](https://www.youtube.com/watch?v=lZf4O_XFXw0&__s=amwwwz5judsp1dsfgko7)
  * [Renato Cavalcanti - Functional And Reactive Event Sourced Applications - Youtube](https://www.youtube.com/watch?v=A-oAFV5__4k&__s=amwwwz5judsp1dsfgko7)
  * [Why Domain-driven Design And Reactive Programming](https://www.youtube.com/watch?v=Jz8Aq3mzDxc)
  * [Reactivesummit 2016 - Youtube](https://www.youtube.com/playlist?list=PLKKQHTLcxDVbtF-1ABemSbG1GWMDg824r)
- * [Take The Api Approach To Microservices And Lessons Learned From Soa | Mulesoft Blog](http://blogs.mulesoft.com/dev/microservices-dev/api-approach-to-microservices-lessons-learned-from-soa/)
- * [Asynchronous Apis In Choreographed Microservices | Nordic Apis |](http://nordicapis.com/asynchronous-apis-in-choreographed-microservices/)
+ * [Take The Api Approach To Microservices And Lessons Learned From Soa - Mulesoft Blog](http://blogs.mulesoft.com/dev/microservices-dev/api-approach-to-microservices-lessons-learned-from-soa/)
+ * [Asynchronous Apis In Choreographed Microservices - Nordic Apis |](http://nordicapis.com/asynchronous-apis-in-choreographed-microservices/)
  * [Microservices With Kubernetes, Docker, And Jenkins - Youtube](https://www.youtube.com/watch?v=wl-49Dk-u3A)
  * [Handling Eventual Consistency In Jvm Microservices With Event Sourcing - Youtube](https://www.youtube.com/watch?v=53DVkaW5Fb0&__s=amwwwz5judsp1dsfgko7)
  * [An Architecture With Cqrs And Event Sourcing By Eugen Paraschiv - Youtube](https://www.youtube.com/watch?v=bVnjI0XOA9w&sns=tw&__s=amwwwz5judsp1dsfgko7)
@@ -77,10 +77,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## **.Net, C, F (& Powershell)**  <a name="net"></a> ##
  * [Don't Share Your Secrets! (.Net Core Secret Manager Tool)](http://www.fiyazhasan.me/dont-share-your-secrets-asp-net-core-secret-manager-tool/)
- * [Mediatr Pipeline Examples | Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/10/13/mediatr-pipeline-examples/)
- * [Hosting .Net Core Services On Service Fabric | .Net Blog](https://blogs.msdn.microsoft.com/dotnet/2016/10/13/hosting-net-core-services-on-service-fabric/)
+ * [Mediatr Pipeline Examples - Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/10/13/mediatr-pipeline-examples/)
+ * [Hosting .Net Core Services On Service Fabric - .Net Blog](https://blogs.msdn.microsoft.com/dotnet/2016/10/13/hosting-net-core-services-on-service-fabric/)
  * [Vpashkov/awesome-fsharp: A Curated List Of Awesome F# Frameworks, Libraries, Software And Resources.](https://github.com/VPashkov/awesome-fsharp)
- * [Introducing C# Script Runner For .Net Core And .Net Cli | Strathweb. A Free Flowing Web Tech Monologue.](http://www.strathweb.com/2016/10/introducing-c-script-runner-for-net-core-and-net-cli/)
+ * [Introducing C# Script Runner For .Net Core And .Net Cli - Strathweb. A Free Flowing Web Tech Monologue.](http://www.strathweb.com/2016/10/introducing-c-script-runner-for-net-core-and-net-cli/)
  * [Introducing Natsconsumer And .Net Core Support](http://danielwertheim.se/introducing-natsconsumer-and-net-core-support/)
  * [Web.config Transforms: A Beginner's Guide - Codeproject](http://www.codeproject.com/Articles/1141716/Web-Config-Transforms-A-beginners-guide)
  * [Using Steeltoe For Asp.net 4.x Apps That Need A Microservices-friendly Config Store – Richard Seroter's Architecture Musings](https://seroter.wordpress.com/2016/10/18/using-steeltoe-with-asp-net-4-x-apps-that-need-a-microservices-friendly-config-store/)
@@ -91,7 +91,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Polymer-series - Hi! I'm Fizz.](http://www.fiyazhasan.me/tag/polymer-series/)
 
 ## Other Languages  <a name="polygloting"></a> ##
- * [Phoenix And React: A Killer Combo | Viget](https://www.viget.com/articles/phoenix-and-react-a-killer-combo)
+ * [Phoenix And React: A Killer Combo - Viget](https://www.viget.com/articles/phoenix-and-react-a-killer-combo)
  * [Building A Serverless Screenshot Service With Lambda](https://serverless.com/blog/building-a-serverless-screenshot-service-with-lambda/)
  * [Building High Performance Apis In Go Using Grpc And Protocol Buffers – Medium](https://medium.com/@shijuvar/building-high-performance-apis-in-go-using-grpc-and-protocol-buffers-2eda5b80771b#.37it92553)
  * [How To Build Asynchronous Workflows In A Geospatial Application - Azavea - Beyond Dots On A Map](https://www.azavea.com/blog/2016/10/20/how-to-build-asynchronous-workflows-geospatial-application/)
@@ -99,7 +99,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a> ##
  * [Javascript Grows Up And Gets Its Own Foundation - The New Stack](http://thenewstack.io/javascript-grows-gets-foundation/)
  * [5 Things You Can Do With Yarn](https://auth0.com/blog/five-things-you-can-do-with-yarn/)
- * [Experimenting With Async/await In Node.js 7 Nightly | @Risingstack](https://blog.risingstack.com/async-await-node-js-7-nightly/)
+ * [Experimenting With Async/await In Node.js 7 Nightly - @Risingstack](https://blog.risingstack.com/async-await-node-js-7-nightly/)
  * [Yarn Vs Npm: Everything You Need To Know](https://www.sitepoint.com/yarn-vs-npm/)
 
 ## Web including html and css  <a name="web"></a> ##
@@ -119,21 +119,21 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Varnish Explained](https://ma.ttias.be/varnish-explained/)
 
 ## Containers <a name="containers"></a> ##
- * [Sql Server 2016 Express Edition In Windows Containers | Sql Server Blog](https://blogs.technet.microsoft.com/dataplatforminsider/2016/10/13/sql-server-2016-express-edition-in-windows-containers/)
+ * [Sql Server 2016 Express Edition In Windows Containers - Sql Server Blog](https://blogs.technet.microsoft.com/dataplatforminsider/2016/10/13/sql-server-2016-express-edition-in-windows-containers/)
  * [Exploring Asp.net Core With Docker In Both Linux And Windows Containers - Scott Hanselman](http://www.hanselman.com/blog/ExploringASPNETCoreWithDockerInBothLinuxAndWindowsContainers.aspx)
  * [Visualising Our Digital Footprint – Infinity Works – Engineering Blog](http://engineering.infinityworks.com/contributing/)
  * [Running An Elasticsearch Cluster With Docker](https://stefanprodan.com/2016/elasticsearch-cluster-with-docker/)
- * [Published Ports On Windows Containers Don't Do Loopback | Elton Stoneman](https://blog.sixeyed.com/published-ports-on-windows-containers-dont-do-loopback/)
+ * [Published Ports On Windows Containers Don't Do Loopback - Elton Stoneman](https://blog.sixeyed.com/published-ports-on-windows-containers-dont-do-loopback/)
  * [Docker On Ecs: Scale Your Cluster Automatically](http://garbe.io/blog/2016/10/17/docker-on-ecs-scale-your-ecs-cluster-automatically/)
  * [Using Yarn With Docker](https://hackernoon.com/using-yarn-with-docker-c116ad289d56#.gfqmccnzi)
  * [Docker For Aws: Orchestration Demo - Youtube](https://www.youtube.com/watch?v=0j4Qq13w2pc)
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
- * [Opentracing: Turning The Lights On For Microservices | Cloud Native Computing Foundation](https://cncf.io/news/blogs/2016/10/opentracing-turning-lights-microservices)
- * [Measuring Perceived Performance | Standard Metrics](http://blog.catchpoint.com/2016/10/21/measuring-perceived-performance/)
+ * [Opentracing: Turning The Lights On For Microservices - Cloud Native Computing Foundation](https://cncf.io/news/blogs/2016/10/opentracing-turning-lights-microservices)
+ * [Measuring Perceived Performance - Standard Metrics](http://blog.catchpoint.com/2016/10/21/measuring-perceived-performance/)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [Inventing The Temper-o-meter, An Iot Marvel | Viget](https://www.viget.com/articles/inventing-the-temper-o-meter-an-iot-marvel)
+ * [Inventing The Temper-o-meter, An Iot Marvel - Viget](https://www.viget.com/articles/inventing-the-temper-o-meter-an-iot-marvel)
  * [Hack The Pancake Stack: Running Pancakebot Under Xubuntu Linux - The New Stack](http://thenewstack.io/hack-robot-stack-pancakebot-running-xubuntu-linux/)
  * [Prototyping Messaging + Ui With Node-red And Docker – Medium](https://medium.com/@steffa/prototyping-messaging-ui-with-node-red-and-docker-1cc84332c506#.6gcpodxx5)
  * [Off-the-shelf Hacker: Refining The Yard-guarding Sensor Prototype - The New Stack](http://thenewstack.io/refining-pir-yard-sensor-prototype/)

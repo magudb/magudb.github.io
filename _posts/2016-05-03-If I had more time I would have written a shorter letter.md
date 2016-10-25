@@ -72,7 +72,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Nedb: A Lightweight Javascript Database](http://stackabuse.com/nedb-a-lightweight-javascript-database/)
 
 ## Web including html and css  <a name="web"></a> ##
- * [Greensock | Homepage](http://greensock.com/)
+ * [Greensock - Homepage](http://greensock.com/)
 
 ## Tools and things from Github <a name="tools"></a> ##
  * [Repsheet/repsheet-nginx: The Nginx Module For Repsheet](https://github.com/repsheet/repsheet-nginx)
@@ -80,7 +80,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Pentestbox Is An Opensource Preconfigured Portable Penetration Testing Environment For Windows Operating System](https://pentestbox.com/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
- * [The Present And Future Of Configuration Management | Nordic Apis |](http://nordicapis.com/the-present-and-future-of-configuration-management/)
+ * [The Present And Future Of Configuration Management - Nordic Apis |](http://nordicapis.com/the-present-and-future-of-configuration-management/)
  * [Tailoring Pants For Square](https://corner.squareup.com/2016/05/tailoring-pants-for-square.html)
  * [Vorlonjs – A Journey To Devops: Publish Image In The Docker Hub Using Visual Studio Team Services](https://blogs.technet.microsoft.com/devops/2016/05/02/vorlonjs-a-journey-to-devops-publish-docker-image-visual-studio-team-services/)
 

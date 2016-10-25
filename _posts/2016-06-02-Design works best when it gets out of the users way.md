@@ -50,17 +50,17 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Agile Software Architecture Documentation](http://www.codingthearchitecture.com/2016/05/31/agile_software_architecture_documentation.html)
  * [Outcomeoriented](http://martinfowler.com/bliki/OutcomeOriented.html)
  * [Activityoriented](http://martinfowler.com/bliki/ActivityOriented.html)
- * [From It Vendor Management To Strategic Partnerships | Cio](http://www.cio.com/article/3076127/it-industry/from-it-vendor-management-to-strategic-partnerships.html)
+ * [From It Vendor Management To Strategic Partnerships - Cio](http://www.cio.com/article/3076127/it-industry/from-it-vendor-management-to-strategic-partnerships.html)
 
 
 ## Architecture & Software development practices <a name="development"></a> ##
- * [Attacking Your Monolithic Database With A Swarm—a Whole Swarm! | Ars Technica](http://arstechnica.com/information-technology/2016/05/blow-that-data-monolith-to-smithereens-with-microservices-and-database-swarms/)
+ * [Attacking Your Monolithic Database With A Swarm—a Whole Swarm! - Ars Technica](http://arstechnica.com/information-technology/2016/05/blow-that-data-monolith-to-smithereens-with-microservices-and-database-swarms/)
  * [Solve Small Problems](http://www.daedtech.com/solve-small-problems/)
  * [Scalable Microservices Through Messaging](http://developers.redhat.com/blog/2016/05/26/scalable-microservices-through-messaging/)
  * [The Building Blocks Of Your First Bot](https://blog.codeship.com/building-blocks-first-bot/)
- * [The Architecture Of The League Client Update | Riot Games Engineering](http://engineering.riotgames.com/news/architecture-league-client-update)
+ * [The Architecture Of The League Client Update - Riot Games Engineering](http://engineering.riotgames.com/news/architecture-league-client-update)
  * [Modelling Microservice Patterns In Code](https://vanilla-java.github.io/2016/05/17/Modelling-Microservice-Patterns-in-Code.html)
- * [Whirlpool: Microservices Using Netty And Kafka | Java Code Geeks - 2016](https://www.javacodegeeks.com/2016/05/whirlpool-microservices-using-netty-kafka.html)
+ * [Whirlpool: Microservices Using Netty And Kafka - Java Code Geeks - 2016](https://www.javacodegeeks.com/2016/05/whirlpool-microservices-using-netty-kafka.html)
  * [3 Easy Things To Do To Make Your Microservices More Resilient](https://www.javacodegeeks.com/2016/05/3-easy-things-make-microservices-resilient.html)
  * [Improved Gif Tagging](https://engineering.tumblr.com/post/145207887595/improved-gif-tagging)
  * [Cookies Vs Tokens: The Definitive Guide](https://auth0.com/blog/2016/05/31/cookies-vs-tokens-definitive-guide)
@@ -76,7 +76,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Joe Mayo: Luis And The Bot Framework: A Natural Language Match](http://mayoster.blogspot.dk/2016/05/luis-and-bot-framework-natural-language.html)
  * [Asp.net Core Rc2 Using Web Api And Angularjs - Part 1](http://www.codeproject.com/Articles/1102877/ASP-NET-Core-RC-Using-WEB-API-And-AngularJS)
  * [Omit Sitecore Bucket Folder Item Names From Page Item Urls](https://sitecorejunkie.com/2016/05/31/omit-sitecore-bucket-folder-item-names-from-page-item-urls/)
- * [Code Generation With Roslyn | Jack Ukleja](http://jack.ukleja.com/code-generation-with-roslyn/)
+ * [Code Generation With Roslyn - Jack Ukleja](http://jack.ukleja.com/code-generation-with-roslyn/)
  * [Smartreactives/readme.md At Master · Keyboarddrummer/smartreactives](https://github.com/keyboardDrummer/SmartReactives/blob/master/README.md)
  * [Running Asp.net Core 1.0-rc2 In Docker](https://www.sesispla.net/blog/language/en/2016/05/running-asp-net-core-1-0-rc2-in-docker/)
  * [The Stupid Ideas Powershell Slackathon](http://www.secretgeek.net/slackathon)
@@ -126,7 +126,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Docker Security Testing](https://medium.com/@alexeiled/docker-security-testing-3545e7493843#.e9mhx4vq1)
  * [How To Build A Node.js Nano Server Docker Base Image](https://stefanscherer.github.io/how-to-build-nodejs-nanoserver-image/)
  * [Omit Sitecore Bucket Folder Item Names From Page Item Urls « Sitecorejunkie.com](https://sitecorejunkie.com/2016/05/31/omit-sitecore-bucket-folder-item-names-from-page-item-urls/)
- * [Ensuring Containers Are Always Running With Docker's Restart Policy - Via @Codeship | Via @Codeship](https://blog.codeship.com/ensuring-containers-are-always-running-with-dockers-restart-policy/)
+ * [Ensuring Containers Are Always Running With Docker's Restart Policy - Via @Codeship - Via @Codeship](https://blog.codeship.com/ensuring-containers-are-always-running-with-dockers-restart-policy/)
  * [Working With Docker Volumes](https://hostpresto.com/community/tutorials/working-with-docker-volumes/)
  * [Implementing Multi-host Docker Networking With Docker-datacenter (Ddc)](http://collabnix.com/archives/1227)
 
@@ -143,7 +143,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Live Stream From Microservices Day London](http://www.nearform.com/nodecrunch/live-stream-microservices-day-london/)
 
 ## Books and Papers<a name="books"></a>  ##
- * [Why Do Record/replay Tests Of Web Applications Break? | The Morning Paper](https://blog.acolyer.org/2016/05/30/why-do-recordreplay-tests-of-web-applications-break/)
+ * [Why Do Record/replay Tests Of Web Applications Break? - The Morning Paper](https://blog.acolyer.org/2016/05/30/why-do-recordreplay-tests-of-web-applications-break/)
  * [50+ Free Data Science Books - Hadoop360](http://www.hadoop360.com/blog/50-free-data-science-books)
 
 ## Releases <a name="releases"></a> ##
@@ -151,7 +151,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Sql 2016 Rtm Is Out](http://sqlblog.com/blogs/damian_widera/archive/2016/06/02/sql-2016-rtm-is-out.aspx)
  * [Akka.net Near-term Roadmap: 1.1 Akka.cluster Rtm On June 14; 1.5, 1.6 Releases](https://petabridge.com/blog/akkadotnet-2016-roadmap/)
  * [[Announcement] Restier V0.5.0 Release](https://blogs.msdn.microsoft.com/odatateam/2016/05/24/announcement-restier-v0-5-0-release/)
- * [Announcing Wcf Connected Service For .Net Core Rc2 And Asp.net Core Rc2 | .Net Web Development And Tools Blog](https://blogs.msdn.microsoft.com/webdev/2016/05/25/announcing-wcf-connected-service-for-net-core-rc2-and-asp-net-core-rc2/)
+ * [Announcing Wcf Connected Service For .Net Core Rc2 And Asp.net Core Rc2 - .Net Web Development And Tools Blog](https://blogs.msdn.microsoft.com/webdev/2016/05/25/announcing-wcf-connected-service-for-net-core-rc2-and-asp-net-core-rc2/)
  * [Released Sql Localization Nuget Package For Asp.net Core, Dotnet](https://damienbod.com/2016/05/26/released-sql-localization-nuget-package-for-asp-net-core-dotnet/)
  * [Amazon Debuts Flourish, A Runtime Application Model For Serverless Computing - The New Stack](http://thenewstack.io/amazon-debuts-flourish-runtime-application-model-serverless-computing/)
  * [Open Sourcing Twitter Heron](https://blog.twitter.com/2016/open-sourcing-twitter-heron)

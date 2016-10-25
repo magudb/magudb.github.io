@@ -35,7 +35,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Analyzing The Panama Papers With Neo4j: Data Models, Queries & More](http://neo4j.com/blog/analyzing-panama-papers-neo4j/) - more on #PanamaPapers
  * [The Gig Economy Breaks Social Security](http://highscalability.com/blog/2016/4/12/the-gig-economy-breaks-social-security.html) - ...
  * [What Design Can Do Refugee Challenge](http://www.whatdesigncando.com/challenge/) - great idea
- * [Are You Learning Docker Yet | Andrew Seimer](https://lostechies.com/andrewsiemer/2016/04/12/are-you-learning-docker-yet/) - well are you????
+ * [Are You Learning Docker Yet - Andrew Seimer](https://lostechies.com/andrewsiemer/2016/04/12/are-you-learning-docker-yet/) - well are you????
  * [Code Reviews And Blame CultureA Common Belief Is That Gated Reviews Lead To Blaming Individuals. The Opposite Can Be True.](http://verraes.net/2016/04/code-reviews-and-blame-culture/) - I don't think blame culture ever comes from reviews, they are an cultural problem
  * [Docker 1.11: The First Oci-compliant Runtime, Built On Containerd](https://blog.docker.com/2016/04/docker-engine-1-11-runc/) - Pretty awesome!
  * [How Has Let's Encrypt Impacted Web Security?](https://blogs.akamai.com/2016/04/how-has-lets-encrypt-impacted-web-security.html) - nice
@@ -103,7 +103,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Tools <a name="tools"></a> ##
  * [Building Bonobo, The Guardian's Open Source Api Key Management Tool](https://www.theguardian.com/info/developer-blog/2016/apr/08/building-bonobo-the-guardians-open-source-api-key-management-tool) + [Guardian/bonobo: Key Management For Kong](https://github.com/guardian/bonobo)
- * [Habitus |Build Flow Tool For Docker](http://www.habitus.io/)
+ * [Habitus -Build Flow Tool For Docker](http://www.habitus.io/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [The Complete Guide To Http/2 With Haproxy And Nginx](http://m12.io/blog/http-2-with-haproxy-and-nginx-guide)

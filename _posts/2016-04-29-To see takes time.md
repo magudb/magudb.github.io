@@ -29,7 +29,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 # My favorites<a name="favorites"></a> #
  * [Docker Fun With 400 Ascii Cows](http://blog.alexellis.io/cows-on-docker/) - great!
  * [Avoiding The Trap — Signal V. Noise](https://m.signalvnoise.com/avoiding-the-trap-8df59e718f3e#.6qj8yuuhv)
- * [6 Things Product Managers Should Do Before Building A Roadmap | Aha! Blog](http://blog.aha.io/index.php/build-first-product-roadmap/)
+ * [6 Things Product Managers Should Do Before Building A Roadmap - Aha! Blog](http://blog.aha.io/index.php/build-first-product-roadmap/)
  * [5 Career-ending Mistakes Web Developers Make](http://www.sitepoint.com/5-career-ending-mistakes-web-developers-make/)
  * [Windows Subsystem For Linux Overview](https://blogs.msdn.microsoft.com/wsl/2016/04/22/windows-subsystem-for-linux-overview/)
  * Blockchain for Grown Ups - [Cutting Through The Hype](https://www.thoughtworks.com/insights/blog/blockchain-grown-ups-cutting-through-hype) & [What's Real?](https://www.thoughtworks.com/insights/blog/blockchain-for-grown-ups-part-two)
@@ -43,7 +43,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Agile, Organizations and process<a name="agile"></a> ##
  * [How To Identify A Great Junior Hire For Your Dev Team](http://blog.teamtreehouse.com/how-to-identify-a-great-junior-developer)
- * [The Nine Traits Of Highly Successful Performance Teams | Soasta](https://www.soasta.com/blog/9-traits-web-performance-teams/)
+ * [The Nine Traits Of Highly Successful Performance Teams - Soasta](https://www.soasta.com/blog/9-traits-web-performance-teams/)
  * [If You’re Not Automated, You’re Not Agile](http://magenic.com/Blog/Post/152/If-You%E2%80%99re-Not-Automated-You%E2%80%99re-Not-Agile)
 
 ## Architecture & Software development practices <a name="development"></a> ##
@@ -56,17 +56,17 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Effective Automated Testing In A Microservice World –](https://www.accusoft.com/blog/surge-effective-automated-testing-microservice-world-part-2/)
  * [The Repair/replace Heuristic For Legacy Software](http://verraes.net/2016/04/repair-replace-heuristic-for-legacy-software/)
  * [Four Lessons Learned When Working With Microservices](https://tech.zalando.com/blog/four-lessons-with-microservices/)
- * [Shimmercat | Which Browsers Have Http/2 Push Support?](https://www.shimmercat.com/en/blog/articles/browsers-with-http2-push/)
+ * [Shimmercat - Which Browsers Have Http/2 Push Support?](https://www.shimmercat.com/en/blog/articles/browsers-with-http2-push/)
 
 ## **.Net & C**  <a name="net"></a> ##
  * [Quick Creation Of A Sitecore Item To Pass In Unit Tests](https://cardinalcore.co.uk/2016/03/23/quick-creation-of-a-sitecore-item-to-pass-in-unit-tests/)
- * [Marten As An Event Store — Now And The Future Vision | The Shade Tree Developer](https://jeremydmiller.com/2016/04/25/marten-as-an-event-store-now-and-the-future-vision/)
- * [Building Strongly Typed Application Configuration Utility With Roslyn | Strathweb. A Free Flowing Web Tech Monologue.](http://www.strathweb.com/2016/04/building-strongly-typed-application-configuration-utility-with-roslyn/)
+ * [Marten As An Event Store — Now And The Future Vision - The Shade Tree Developer](https://jeremydmiller.com/2016/04/25/marten-as-an-event-store-now-and-the-future-vision/)
+ * [Building Strongly Typed Application Configuration Utility With Roslyn - Strathweb. A Free Flowing Web Tech Monologue.](http://www.strathweb.com/2016/04/building-strongly-typed-application-configuration-utility-with-roslyn/)
  * [A Development Workflow With Docker And .Net Core](https://www.jayway.com/2016/04/22/search-effective-workflow-docker-net-core/)
  * [Github Authentication With Asp.net Core](http://jameschambers.com/2016/04/github-authentication-asp-net-core/)
 
 ## Other Languages  <a name="polygloting"></a> ##
- * [How To Create Greenfield Microservices With Lagom | @Lightbend](https://www.lightbend.com/blog/how-to-create-greenfield-microservices-with-lagom)
+ * [How To Create Greenfield Microservices With Lagom - @Lightbend](https://www.lightbend.com/blog/how-to-create-greenfield-microservices-with-lagom)
  * [Testing Aws Scala Microservices // Localytics Engineering Blog](http://eng.localytics.com/testing-aws-scala-microservices/)
 
 ## Javascript  <a name="javascript"></a> ##
@@ -77,7 +77,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Javascript: A Repair Guide](http://developers.redhat.com/blog/2016/04/27/javascript-a-repair-guide/)
 
 ### NodeJs <a name="nodejs"></a> ###
- * [Node.js Iot - Create Local Module For Cpu Sensor | Thisdavej](http://thisdavej.com/node-js-iot-create-local-module-for-cpu-sensor/)
+ * [Node.js Iot - Create Local Module For Cpu Sensor - Thisdavej](http://thisdavej.com/node-js-iot-create-local-module-for-cpu-sensor/)
 
 ## Web including html and css  <a name="web"></a> ##
  * [How Flexbox Alleviates Some Common Front End Development Pains](https://blog.8thlight.com/rabea-gleissner/2016/04/25/alleviate-frontend-dev-pains-with-flexbox.html)
@@ -96,13 +96,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Containers <a name="containers"></a> ##
  * [Jfrazelle/binctr: Fully Static, Unprivileged, Self-contained, Containers As Executable Binaries.](https://github.com/jfrazelle/binctr)
- * [Docker On Windows Server 2016 Technical Preview 5 | Docker Blog](https://blog.docker.com/2016/04/docker-windows-server-tp5/)
+ * [Docker On Windows Server 2016 Technical Preview 5 - Docker Blog](https://blog.docker.com/2016/04/docker-windows-server-tp5/)
  * [Continuous Deployment With Containers](http://www.infoq.com/articles/continuous-deployment-containers)
  * [The Joy Of Deploying Apache Storm On Docker Swarm - High Scalability -](http://highscalability.com/blog/2016/4/25/the-joy-of-deploying-apache-storm-on-docker-swarm.html)
  * [Service Discovery With Docker And Consul: Part 1](http://www.smartjava.org/content/service-discovery-docker-and-consul-part-1)
  * [New Docker Engine 1.11 Integrates Runc And Containerd](http://collabnix.com/archives/1122)
- * [A Look Back At One Year Of Docker Security | Docker Blog](https://blog.docker.com/2016/04/docker-security/)
- * [Building Usda’s Platform Of The Future With Docker | Docker Blog](https://blog.docker.com/2016/04/usda-docker/)
+ * [A Look Back At One Year Of Docker Security - Docker Blog](https://blog.docker.com/2016/04/docker-security/)
+ * [Building Usda’s Platform Of The Future With Docker - Docker Blog](https://blog.docker.com/2016/04/usda-docker/)
  * [Blogging With Continuous Delivery](http://blog.slashdeploy.com/2016/04/25/blogging-with-continuous-delivery/)
  * [Continuous Deployment With Containers](http://www.infoq.com/articles/continuous-deployment-containers)
  * [Lessons From Building A Node App In Docker](http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html?r=0)
@@ -111,7 +111,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Updating Your Application Using Docker Build Containers](https://eng.erisindustries.com/tutorials/2016/04/20/build-containers-for-updating/)
  * [How To Install Newrelic On Docker Stacks](http://blog.cloud66.com/how-to-install-newrelic-on-docker-stacks/)
  * [Introduction To Failure Testing With Docker](https://www.qualimente.com/2016/04/26/introduction-to-failure-testing-with-docker/)
- * [Effective Elasticsearch Plugin Management With Docker | Elastic](https://www.elastic.co/blog/elasticsearch-docker-plugin-management)
+ * [Effective Elasticsearch Plugin Management With Docker - Elastic](https://www.elastic.co/blog/elasticsearch-docker-plugin-management)
 
 ## Monitoring <a name="monitoring"></a> ##
  * [Top-8 Mistakes In A/b Testing To Avoid](http://blog.maxymizely.com/2016/04/20/top-8-mistakes-in-ab-testing-to-avoid/)

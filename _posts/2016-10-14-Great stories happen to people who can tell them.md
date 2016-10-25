@@ -27,18 +27,18 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
- * [Service Design: Isn’t It Just Ux With A Different Name? | Gds Design Notes](https://designnotes.blog.gov.uk/2016/10/04/service-design-isnt-it-just-ux-with-a-different-name/)
+ * [Service Design: Isn’t It Just Ux With A Different Name? - Gds Design Notes](https://designnotes.blog.gov.uk/2016/10/04/service-design-isnt-it-just-ux-with-a-different-name/)
  * [Why Big Companies Need Lean Startup Techniques - Smarter With Gartner](http://www.gartner.com/smarterwithgartner/why-big-companies-need-lean-startup-techniques/)
- * [Stakeholder Collaboration | Gregormeyenberg.de](http://blog.gregormeyenberg.de/2016/09/19/stakeholder-collaboration/?__s=amwwwz5judsp1dsfgko7)
+ * [Stakeholder Collaboration - Gregormeyenberg.de](http://blog.gregormeyenberg.de/2016/09/19/stakeholder-collaboration/?__s=amwwwz5judsp1dsfgko7)
  * [Versions Are Evil – How To Do Without In Your Apis – Serialseb](https://serialseb.com/speaker/versions-are-evil/)
  * [Freedom and responsibility culture](http://www.slideshare.net/reed2001/culture-1798664/3-Seven_Aspects_of_our_Culture)
  * ["Inclusive Markup" View Source Conference Talk By Estelle Weyl - Youtube](https://www.youtube.com/watch?v=FN3g39bnSRA)
- * [Introducing Steeltoe Rc1, A Microservices Toolkit For .Net | Pivotal](https://blog.pivotal.io/pivotal-cloud-foundry/products/introducing-steeltoe-rc1-a-microservices-toolkit-for-net) + [Steeltoe Oss](https://github.com/SteeltoeOSS)
- * [Facebook React.js License | El Camino Legal Llp - Tech And Media](http://www.elcaminolegal.com/single-post/2016/10/04/Facebook-Reactjs-License)
+ * [Introducing Steeltoe Rc1, A Microservices Toolkit For .Net - Pivotal](https://blog.pivotal.io/pivotal-cloud-foundry/products/introducing-steeltoe-rc1-a-microservices-toolkit-for-net) + [Steeltoe Oss](https://github.com/SteeltoeOSS)
+ * [Facebook React.js License - El Camino Legal Llp - Tech And Media](http://www.elcaminolegal.com/single-post/2016/10/04/Facebook-Reactjs-License)
  * [Getters And Setters Are Evil](http://www.marcus-biel.com/getters-and-setters-are-evil/?__s=amwwwz5judsp1dsfgko7) 
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
- * [Maintaining Open-source Software Projects | Digitalocean](https://www.digitalocean.com/community/tutorials/maintaining-open-source-software-projects)
+ * [Maintaining Open-source Software Projects - Digitalocean](https://www.digitalocean.com/community/tutorials/maintaining-open-source-software-projects)
  * [Stop Adopting Other People’s Anxiety](https://deardesignstudent.com/don-t-adopt-anxiety-6662515d2416#.z0t58eycz)
  * [The Architecture Interview — Susan J. Fowler](http://www.susanjfowler.com/blog/2016/10/7/the-architecture-interview)
 
@@ -48,14 +48,14 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Yow! West 2016 Paul Rayner - Eventstorming - Youtube](https://www.youtube.com/watch?v=bXm8Cznyb_s&__s=amwwwz5judsp1dsfgko7)
 
 ## Architecture & Software development practices <a name="development"></a> ##
- * [Introducing Security Practices Within The Health Domain | Thoughtworks](https://www.thoughtworks.com/insights/blog/introducing-security-practices-within-health-domain)
+ * [Introducing Security Practices Within The Health Domain - Thoughtworks](https://www.thoughtworks.com/insights/blog/introducing-security-practices-within-health-domain)
  * [Distributed Systems Vs Compositionality—roland Kuhn - Youtube](https://www.youtube.com/watch?v=LcUIIRqXwTY)
  * [Cqrs/es – Or Is It? – Adaptech Solutions](http://adaptechsolutions.net/cqrs-es-or-is-it/?__s=amwwwz5judsp1dsfgko7)
  * [Renato Cavalcanti - Functional And Reactive Event Sourced Applications - Youtube](https://www.youtube.com/watch?v=A-oAFV5__4k&feature=youtu.be&__s=amwwwz5judsp1dsfgko7)
- * [Event Storming For Fun And Profit | Skillscast | 9th June 2016](https://skillsmatter.com/skillscasts/8003-event-storming-for-fun-and-profit)
+ * [Event Storming For Fun And Profit - Skillscast | 9th June 2016](https://skillsmatter.com/skillscasts/8003-event-storming-for-fun-and-profit)
  * [Service-based Architecture As An Alternative To Microservice Architecture](https://www.infoq.com/news/2016/10/service-based-architecture)
  * [Oliver Gierke - Evolving Distributed Systems](http://olivergierke.de/2016/10/evolving-distributed-systems/)
- * [Kafka Streams With Jay Kreps | Software Engineering Daily](http://softwareengineeringdaily.com/2016/10/07/kafka-streams-with-jay-kreps/)
+ * [Kafka Streams With Jay Kreps - Software Engineering Daily](http://softwareengineeringdaily.com/2016/10/07/kafka-streams-with-jay-kreps/)
  * [Pacts To The Rescue! Making Your Microservices Play Nicely Together ](https://www.youtube.com/watch?v=kz3YI2YGODs)
  * [Business Process Management In A “Microservices World” – Red Hat Developer Blog](http://developers.redhat.com/blog/2016/10/10/business-process-management-in-a-microservices-world/)
  * [Oliver Gierke - Evolving Distributed Systems](http://olivergierke.de/2016/10/evolving-distributed-systems/)
@@ -66,7 +66,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## **.Net, C, F (& Powershell)**  <a name="net"></a> ##
  * [C# 7.0 – And Beyond!](https://channel9.msdn.com/Shows/Dev-Channel/Csharp70-and-beyond)
  * [Cutting Edge - Event-command-saga Approach For Business Logic](https://msdn.microsoft.com/magazine/mt742866?__s=amwwwz5judsp1dsfgko7)
- * [Dockerizing Nerd Dinner: Part 1, Running Legacy Asp.net Apps In Docker | Elton Stoneman](https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/) - maybe Sitecore?
+ * [Dockerizing Nerd Dinner: Part 1, Running Legacy Asp.net Apps In Docker - Elton Stoneman](https://blog.sixeyed.com/dockerizing-nerd-dinner-part-1-running-a-legacy-asp-net-app-in-a-windows-container/) - maybe Sitecore?
 
 ## Other Languages  <a name="polygloting"></a> ##
  * [Handling Eventual Consistency In Jvm Microservices With Event Sourcing](https://www.youtube.com/watch?v=53DVkaW5Fb0)
@@ -86,7 +86,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)
 
 ## Web including html and css  <a name="web"></a> ##
- * [Module Bundling With Webpack: Getting Started Guide | Codementor](https://www.codementor.io/javascript/tutorial/module-bundler-webpack-getting-started-guide)
+ * [Module Bundling With Webpack: Getting Started Guide - Codementor](https://www.codementor.io/javascript/tutorial/module-bundler-webpack-getting-started-guide)
  * [The Average Web Page From Top Twenty Google Results Study](https://www.advancedwebranking.com/html/)
  * [Usability Testing Of Inline Form Validation: 40% Don't Have It, 20% Get It Wrong - Articles - Baymard Institute](https://baymard.com/blog/inline-form-validation)
  * [Andreleon/critical-style-snapshot: Capture Css Above The Fold With One Click.](https://github.com/andreleon/critical-style-snapshot)
@@ -100,7 +100,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [Continuous Delivery Anti-patterns From The Wild - Matthew Skelton- Ip…](http://www.slideshare.net/SkeltonThatcher/continuous-delivery-antipatterns-from-the-wild-matthew-skelton-ipexpo-europe)
  * [Open-guides/og-aws: 📙 Amazon Web Services — A Practical Guide](https://github.com/open-guides/og-aws)
- * [6 Tips And Tricks For Aws Command Line Ninjas | Codementor](https://www.codementor.io/aws/tutorial/tips-and-tricks-aws-command-line-ninjas)
+ * [6 Tips And Tricks For Aws Command Line Ninjas - Codementor](https://www.codementor.io/aws/tutorial/tips-and-tricks-aws-command-line-ninjas)
  * [Uncovering The Magic: How Serverless Platforms Really Work! – Openwhisk – Medium](https://medium.com/openwhisk/uncovering-the-magic-how-serverless-platforms-really-work-3cb127b05f71#.gd19zwc51)
 
 ## Containers <a name="containers"></a> ##
@@ -112,7 +112,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [What Even Is A Container: Namespaces And Cgroups - Julia Evans](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
- * [Elasticsearch And Kafka For High Speed Log Tracking | Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/10/netflash-tracking-dropbox-network-traffic-in-real-time-with-elasticsearch/)
+ * [Elasticsearch And Kafka For High Speed Log Tracking - Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/10/netflash-tracking-dropbox-network-traffic-in-real-time-with-elasticsearch/)
  * [A Monitoring Solution For Docker Hosts, Containers And Containerized Services](https://stefanprodan.com/2016/a-monitoring-solution-for-docker-hosts-containers-and-containerized-services/)
  * [Sflow: Collecting Docker Swarm Service Metrics](http://blog.sflow.com/2016/10/collecting-docker-swarm-service-metrics.html)
  * [How To Monitor Elasticsearch Performance](https://www.datadoghq.com/blog/monitor-elasticsearch-performance-metrics/)
@@ -131,5 +131,5 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Conferences or Courses<a name="conferences"></a> ##
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
- * [Free Tool Protects Mac Users From Webcam Surveillance | Threatpost | The First Stop For Security News](https://threatpost.com/free-tool-protects-mac-users-from-webcam-surveillance/121154/)
+ * [Free Tool Protects Mac Users From Webcam Surveillance - Threatpost | The First Stop For Security News](https://threatpost.com/free-tool-protects-mac-users-from-webcam-surveillance/121154/)
  * [Cloudy Gamer: Playing Overwatch On Azure's New Monster Gpu Instances](http://lg.io/2016/10/12/cloudy-gamer-playing-overwatch-on-azures-new-monster-gpu-instances.html)

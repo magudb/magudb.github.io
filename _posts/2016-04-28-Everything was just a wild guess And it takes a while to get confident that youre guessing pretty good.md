@@ -50,10 +50,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Lug-nut Driven Development (Luddite) — Medium](https://medium.com/@belisarius222/how-to-start-a-software-project-ad51373c1510#.2sl5c95b4)
- * [Your Open Source Project Is Considered Harmful | Telerik Developer Network](http://developer.telerik.com/featured/open-source-project-considered-harmful/)
- * [Best Practices For Designing A Pragmatic Restful Api | Vinay Sahni](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+ * [Your Open Source Project Is Considered Harmful - Telerik Developer Network](http://developer.telerik.com/featured/open-source-project-considered-harmful/)
+ * [Best Practices For Designing A Pragmatic Restful Api - Vinay Sahni](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
  * [The Netflix Tech Blog: Extracting Image Metadata At Scale](http://techblog.netflix.com/2016/03/extracting-image-metadata-at-scale.html)
- * [Data-driven Quality | Info | The Guardian](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
+ * [Data-driven Quality - Info | The Guardian](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
  * [3 Types Of Tests For Microservices And Distributed Application Systems](http://techbeacon.com/3-non-negotiable-tests-microservices-distributed-app-environments?beta=1)
  * [Micro-services For Performance](https://vanilla-java.github.io/2016/03/22/Micro-services-for-performance.html)
  * [Observability At Twitter: Technical Overview, Part Ii](https://blog.twitter.com/2016/observability-at-twitter-technical-overview-part-ii)
@@ -88,7 +88,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ### NodeJs <a name="nodejs"></a> ###
  * [Spawn-rx: A Better Version Of Spawn](https://github.com/paulcbetts/spawn-rx)
- * [Node Hero - Getting Started With Node.js | @Risingstack](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
+ * [Node Hero - Getting Started With Node.js - @Risingstack](https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/)
  * [0Setting Up 5 Useful Middlewares For An Express Api](https://blog.jscrambler.com/setting-up-5-useful-middlewares-for-an-express-api/)
  * Building A Website With Node And A Bunch Of Other Stuff - [Part 1](http://www.mylifeforthecode.com/building-a-website-with-node-and-a-bunch-of-other-stuff-part-1/), [Part 2](http://www.mylifeforthecode.com/building-a-website-with-node-and-a-bunch-of-other-stuff-part-2/) & [Part 3](http://www.mylifeforthecode.com/building-a-website-with-node-and-a-bunch-of-other-stuff-part-3/)
  * [Multiplexing Streams](http://blog.yld.io/2016/03/23/multiplexing-streams/)
@@ -110,7 +110,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Opentoonz](https://github.com/opentoonz)
  * [Redspread/spread: Docker To Kubernetes In One Command](https://github.com/redspread/spread#localkube)
  * [Github/gitignore: A Collection Of Useful .Gitignore Templates](https://github.com/github/gitignore) + [Gitignore.io - Create Useful .Gitignore Files For Your Project](https://www.gitignore.io/)
- * [Macaca | Solution For Automation Test With Ease](http://macacajs.github.io/macaca/)
+ * [Macaca - Solution For Automation Test With Ease](http://macacajs.github.io/macaca/)
  * [Servo, The Parallel Browser Engine](https://servo.org/)
  * [Tcpdump Is Amazing](http://jvns.ca/blog/2016/03/16/tcpdump-is-amazing/)
  * [Ssh2ec2 - Connect To Instances Using Tags And Metadata Instead Of Hostnames](http://awssystemadministration.com/ssh2ec2-connect-to-instances-using-tags-and-metadata-instead-of-hostnames/)
@@ -122,7 +122,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [What Is Apache Kafka? Why Is It So Popular? Should You Use It?](http://techbeacon.com/what-apache-kafka-why-it-so-popular-should-you-use-it?beta=1)
  * [Messaging On Aws](http://fbrnc.net/blog/2016/03/messaging-on-aws)
  * [What We Learned From 3 Years Of Sciencing The Crap Out Of Devops](http://techbeacon.com/what-we-learned-3-years-sciencing-crap-out-devops?beta=1)
- * [Ci With Teamcity And Docker | Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/03/22/ci-with-teamcity-and-docker/)
+ * [Ci With Teamcity And Docker - Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/03/22/ci-with-teamcity-and-docker/)
  * [Randomdns Aims To Improve The Security, Privacy And Anonymity Of Dnscrypt. It Can Randomize The Server Choice At Runtime, Rotate It Frequently And Much More.](https://github.com/pwnsdx/RandomDNS)
  * [Beyond Round Robin: Load Balancing For Latency](https://blog.buoyant.io/2016/03/16/beyond-round-robin-load-balancing-for-latency/)
 
@@ -151,8 +151,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Cassandra, Docker And F# Awesomeness](https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2016/Cassandra-Docker-and-F-Awesomeness)
 
 ## Books and Papers<a name="books"></a>  ##
- * [Fairride: Near-optimal, Fair Cache Sharing | The Morning Paper](http://blog.acolyer.org/2016/03/23/fairride-near-optimal-fair-cache-sharing/)
- * [Speeding Up Web Page Loads With Shandian | The Morning Paper](http://blog.acolyer.org/2016/03/28/speeding-up-web-page-loads-with-shandian/)
+ * [Fairride: Near-optimal, Fair Cache Sharing - The Morning Paper](http://blog.acolyer.org/2016/03/23/fairride-near-optimal-fair-cache-sharing/)
+ * [Speeding Up Web Page Loads With Shandian - The Morning Paper](http://blog.acolyer.org/2016/03/28/speeding-up-web-page-loads-with-shandian/)
 
 ## Releases <a name="releases"></a> ##
  * [Tds 5.5](http://www.teamdevelopmentforsitecore.com/TDS-5-5)
@@ -162,7 +162,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
  * [Bring New Life To Your Old Apple Computer!](http://www.bigmessowires.com/floppy-emu/)
- * [Gutentag Method, Llc | Gutentag Method](http://gutentagmethod.com/)
+ * [Gutentag Method, Llc - Gutentag Method](http://gutentagmethod.com/)
  * [Graphic Means (Official Trailer) On Vimeo](https://vimeo.com/157620840)
  * [10 Best Data Visualization Projects Of 2015](https://flowingdata.com/2015/12/22/10-best-data-visualization-projects-of-2015/)
  * [Cocycles](http://cocycles.com/)

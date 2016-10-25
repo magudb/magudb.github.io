@@ -30,7 +30,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Design Rule Spaces: A New Form Of Architectural Insight](https://blog.acolyer.org/2016/06/09/design-rule-spaces-a-new-form-of-architectural-insight/)
  * [How To Make Your Colleagues Think Accessibility · Finn Technology](http://tech.finn.no/2016/06/13/how-to-make-your-colleagues-think-accessibility/)
  * [Risotto Cacio E Pepe](http://www.saveur.com/article/recipes/risotto-cacio-e-pepe)
- * [Lattepanda | A Palm-sized Computer Running Win10 With Build-in Arduino](http://www.lattepanda.com/)
+ * [Lattepanda - A Palm-sized Computer Running Win10 With Build-in Arduino](http://www.lattepanda.com/)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [A Framework For Brainstorming Products](https://www.smashingmagazine.com/2016/06/a-framework-for-brainstorming-products/)
@@ -50,7 +50,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Capital One Engineering - Delivering Microservices For Enterprise With Devops](http://www.capitalone.io/blog/delivering-microservices-for-enterprise-with-devops/)
  * [Serverless Data Sync In Web Apps With Bit Torrent - Tales Of A Developer Advocate](https://paul.kinlan.me/serverless-sync-in-web-apps/)
  * [Breaking Down A Monolithic Software: A Case For Microservices Vs. Self-contained Systems](http://www.elastic.io/breaking-down-monolith-microservices-and-self-contained-systems/)
- * [Microservices War Stories | Fastly](https://www.fastly.com/blog/microservices-war-stories)
+ * [Microservices War Stories - Fastly](https://www.fastly.com/blog/microservices-war-stories)
  * [Building A Streaming Analytics Stack With Apache Kafka And Druid](http://www.confluent.io/blog/building-a-streaming-analytics-stack-with-apache-kafka-and-druid)
  * [Notes On Reactive Programming Part I: The Reactive Landscape - Dzone Java](https://dzone.com/articles/notes-on-reactive-programming-part-i-the-reactive)
  * [Serverless Architectures](http://martinfowler.com/articles/serverless.html)
@@ -60,18 +60,18 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Hystrix Part 1: Getting Started With Hystrix - Dzone Integration](https://dzone.com/articles/hystrix-series-part1-getting-started-with-hystrix)
 
 ## **.Net, C (& Powershell)**  <a name="net"></a> ##
- * [Effortless C# Integration With Slack | Piotr Gankiewicz](http://piotrgankiewicz.com/2016/06/10/effortless-csharp-integration-with-slack/)
+ * [Effortless C# Integration With Slack - Piotr Gankiewicz](http://piotrgankiewicz.com/2016/06/10/effortless-csharp-integration-with-slack/)
  * [Authenticating A User With Linkedin In Asp.net Core](https://auth0.com/blog/2016/06/13/authenticating-a-user-with-linkedin-in-aspnet-core)
  * [An Introduction To The Microsoft Bot Framework - Codeproject](http://www.codeproject.com/Articles/1106457/An-Introduction-to-the-Microsoft-Bot-Framework)
  * [Sut Double](http://blog.ploeh.dk/2016/06/15/sut-double/)
- * [Using Docker Tools For Visual Studio With A Hyper-v Based Docker Host | Real Alm](https://realalm.com/2016/06/15/using-docker-tools-for-visual-studio-with-a-hyper-v-based-docker-host/)
- * [Implementing A Markdown Engine For .Net | Xoofx](http://xoofx.com/blog/2016/06/13/implementing-a-markdown-processor-for-dotnet/)
+ * [Using Docker Tools For Visual Studio With A Hyper-v Based Docker Host - Real Alm](https://realalm.com/2016/06/15/using-docker-tools-for-visual-studio-with-a-hyper-v-based-docker-host/)
+ * [Implementing A Markdown Engine For .Net - Xoofx](http://xoofx.com/blog/2016/06/13/implementing-a-markdown-processor-for-dotnet/)
 
 ## Other Languages  <a name="polygloting"></a> ##
 
 
 ## Javascript  <a name="javascript"></a> ##
- * [Enhancing Optimistically | Filament Group, Inc., Boston, Ma](https://www.filamentgroup.com/lab/enhancing-optimistically.html)
+ * [Enhancing Optimistically - Filament Group, Inc., Boston, Ma](https://www.filamentgroup.com/lab/enhancing-optimistically.html)
  * [Functional Programming In Javascript](http://www.barbarianmeetscoding.com/blog/2016/06/14/functional-programming-in-javascript/)
  * [5 Questions Every Unit Test Must Answer — Javascript Scene — Medium](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d#.gqr32kyof)
  * [Es7 Async/await In Node.js With Babel.js](http://blog.shaunxu.me/2016-06-14-es7-async-await-in-node-with-bebel/)
@@ -95,7 +95,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [Doing Devops](https://www.nginx.com/blog/doing-devops/)
- * [Habitat — A New Open Source Project For Automating Applications | Chef Blog](https://www.chef.io/blog/2016/06/14/introducing-habitat/)
+ * [Habitat — A New Open Source Project For Automating Applications - Chef Blog](https://www.chef.io/blog/2016/06/14/introducing-habitat/)
  * [Supporting Http/2 For Google Chrome Users](https://www.nginx.com/blog/supporting-http2-google-chrome-users/)
  * [Optimizing Tls Over Tcp To Reduce Latency](https://blog.cloudflare.com/optimizing-tls-over-tcp-to-reduce-latency/)
  * [A Little Story About Amazon Ecs, Systemd, And Chaos Monkey — Production Ready — Medium](https://medium.com/production-ready/a-little-story-about-amazon-ecs-systemd-and-chaos-monkey-8bc7d1b5778#.74ucj1bl6)
@@ -112,15 +112,15 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Massively Scalable With Docker Swarmkit](https://medium.com/@chanwit/massively-scalable-with-docker-swarmkit-879541caff86#.d4jano9pv)
  * [Introducing Dexec](https://ahmetalpbalkan.com/blog/dexec/)
  * Open Source at Docker -[Part 1](https://blog.docker.com/2016/05/open-source-docker-part-1-people/), [Part 2](https://blog.docker.com/2016/06/open-source-docker-part-2-processes/) & [Part 3](https://blog.docker.com/2016/06/open-source-docker-tooling-automation/)
- * [Using Docker Datacenter For Enterprise-ready Orchestration – The Sa Home Loans Story | Docker Blog](https://blog.docker.com/2016/06/docker-datacenter-enterprise-sa-home-loans/)
+ * [Using Docker Datacenter For Enterprise-ready Orchestration – The Sa Home Loans Story - Docker Blog](https://blog.docker.com/2016/06/docker-datacenter-enterprise-sa-home-loans/)
  * [The Present State Of Container Orchestration](http://thenewstack.io/tns-research-present-state-container-orchestration/)
  * [Using Docker Is Not Risky. But, There Are Things To Look Out For. - Paiza Engineering Blog](http://engineering.paiza.io/entry/2016/06/13/150219)
  * [Our road to Docker Swarm](https://codepicnic.com/posts/our-road-to-docker-swarm-bcbe3365e6ac95ea2c0343a2395834dd)
- * [Nginx As A Reverse Proxy For Docker Swarm Clusters | Via @Codeship](https://blog.codeship.com/nginx-reverse-proxy-docker-swarm-clusters/)
+ * [Nginx As A Reverse Proxy For Docker Swarm Clusters - Via @Codeship](https://blog.codeship.com/nginx-reverse-proxy-docker-swarm-clusters/)
 
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
- * [Code-level Visibility For Asp.net Life Cycle Events | #Monitoringlife](https://blog.ruxit.com/code-level-visibility-asp-net-life-cycle-events/)
+ * [Code-level Visibility For Asp.net Life Cycle Events - #Monitoringlife](https://blog.ruxit.com/code-level-visibility-asp-net-life-cycle-events/)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
 

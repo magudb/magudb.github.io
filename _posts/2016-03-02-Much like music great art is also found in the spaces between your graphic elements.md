@@ -82,7 +82,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Your Guide To Healthy Seo](https://www.viget.com/articles/your-guide-to-healthy-seo)
 
 ## Tools <a name="tools"></a> ##
- * [Bring Ideas To Life With Free Online Arduino Simulator And Pcb Apps | 123d Circuits By Autodesk](https://123d.circuits.io/)
+ * [Bring Ideas To Life With Free Online Arduino Simulator And Pcb Apps - 123d Circuits By Autodesk](https://123d.circuits.io/)
  * [EAP for Rider, a cross-platform C# IDE by JetBrains]( http://download.jetbrains.com/resharper/riderRS-144.4571.exe)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##

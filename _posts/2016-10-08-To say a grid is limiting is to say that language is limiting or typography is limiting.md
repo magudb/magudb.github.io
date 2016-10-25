@@ -28,7 +28,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
  * [A Day Is Not 60*60*24 Seconds Long - A Geek With A Hat](https://swizec.com/blog/a-day-is-not-606024-seconds-long/swizec/6755)
- * [A Good Craftsman Never Blames His Tools | 8th Light](https://8thlight.com/blog/georgina-mcfadyen/2016/09/28/good-craftsman-never-blames-his-tools.html)
+ * [A Good Craftsman Never Blames His Tools - 8th Light](https://8thlight.com/blog/georgina-mcfadyen/2016/09/28/good-craftsman-never-blames-his-tools.html)
  * [Microservices – Please, Don’t](https://blog.komand.com/microservices-please-dont)
  * [Why Empathy Is The Secret Sauce For Good Software Development - The New Stack](http://thenewstack.io/empathy-secret-sauce-good-software-development/)
  * [Terrible Clients Explained With Pirates (Infographic)](https://toggl.com/worst-client-types-infographic)
@@ -37,11 +37,11 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Introducing Infrakit, An Open Source Toolkit For Creating And Managing Declarative, Self-healing Infrastructure - Docker Blog](https://blog.docker.com/2016/10/introducing-infrakit-an-open-source-toolkit-for-declarative-infrastructure/)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
- * [Why Fewer End-to-end Tests? | Just Eat Technology](http://tech.just-eat.com/2016/10/04/why-fewer-end-to-end-tests/)
+ * [Why Fewer End-to-end Tests? - Just Eat Technology](http://tech.just-eat.com/2016/10/04/why-fewer-end-to-end-tests/)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
- * [How To Choose The Right Project Management Methodology | Cio](http://www.cio.com/article/3124781/project-management/how-to-choose-the-right-project-management-methodology.html)
- * [Conway’s Law & Distributed Working. Some Comments & Experience | Chris F Carroll](http://www.cafe-encounter.net/p1931/conways-law-distributed-working-some-comments-experience#gsc.tab=0)
+ * [How To Choose The Right Project Management Methodology - Cio](http://www.cio.com/article/3124781/project-management/how-to-choose-the-right-project-management-methodology.html)
+ * [Conway’s Law & Distributed Working. Some Comments & Experience - Chris F Carroll](http://www.cafe-encounter.net/p1931/conways-law-distributed-working-some-comments-experience#gsc.tab=0)
  * [Software Defined Businesses Need Software Defined It Departments – Medium](https://medium.com/@cote/software-defined-businesses-need-software-defined-it-departments-78a87dd17616#.87jldp9sr)
  * [There’s No Easy Way To Model Devops Roi – Medium](https://medium.com/@cote/theres-no-easy-way-to-model-devops-roi-5799cf887885#.lriqsnkqu)
 
@@ -58,15 +58,15 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Event Sourcery](https://www.infoq.com/presentations/event-sourcing?__s=amwwwz5judsp1dsfgko7)
  * [More Efficient Domain Modeling With Event Storming · Nick Chamberlain](https://buildplease.com/pages/modeling-better/)
  * [What They Don't Tell You About Microservices...](https://www.infoq.com/presentations/microservices-discoverytesting-monitoring)
- * [Building Microservices With Vert.x | Voxxed](https://www.voxxed.com/blog/presentation/building-microservices-vert-x/)
+ * [Building Microservices With Vert.x - Voxxed](https://www.voxxed.com/blog/presentation/building-microservices-vert-x/)
  * [The Sock Shop: Microservices From Dev To Prod - Youtube](https://www.youtube.com/watch?v=-M5LZ_ZMGi4)
  * [Are Your Microservices Naked And Afraid?](https://www.infoq.com/presentations/microservices-monitoring)
  * [Monzo – Building A Modern Bank Backend](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
- * [The Coming Microservices Cataclysm (And How To Avoid It) | The Tibco Blog](http://www.tibco.com/blog/2016/09/21/the-coming-microservices-cataclysm-and-how-to-avoid-it/)
+ * [The Coming Microservices Cataclysm (And How To Avoid It) - The Tibco Blog](http://www.tibco.com/blog/2016/09/21/the-coming-microservices-cataclysm-and-how-to-avoid-it/)
  * [Microservices For Mortals - Youtube](https://www.youtube.com/watch?v=5ZSA99aq6UA)
  * [Microservices Minus The Hype How To Build And Why - Youtube](https://www.youtube.com/watch?v=rRsQXWbYiN4)
  * [Nolanlawson/optimize-js: Optimize A Javascript File For Faster Initial Load By Wrapping Eagerly-invoked Functions](https://github.com/nolanlawson/optimize-js)
- * [The Seven (More) Deadly Sins Of Microservices | Skillscast | 27th September 2016](https://skillsmatter.com/skillscasts/8844-the-seven-more-deadly-sins-of-microservices)
+ * [The Seven (More) Deadly Sins Of Microservices - Skillscast | 27th September 2016](https://skillsmatter.com/skillscasts/8844-the-seven-more-deadly-sins-of-microservices)
  * [Google Cloud Platform Blog: Bringing Pokémon Go To Life On Google Cloud](https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html)
  * [Migrating Apps To The Cloud — Shunting The Event Stream – Medium](https://medium.com/@KevinHoffman/migrating-apps-to-the-cloud-shunting-the-event-stream-8c2f6f309242#.qk8bynehj)
 
@@ -75,13 +75,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Sharing Authorization Cookies Between Asp.net 4.x And Asp.net Core 1.0 - Scott Hanselman](http://www.hanselman.com/blog/SharingAuthorizationCookiesBetweenASPNET4xAndASPNETCore10.aspx)
  * [Run Iis + Asp.net On Windows 10 With Docker](http://blog.alexellis.io/run-iis-asp-net-on-windows-10-with-docker/)
  * [Asp.net Core And Cors Gotchas - Rick Strahl's Web Log](https://weblog.west-wind.com/posts/2016/Sep/26/ASPNET-Core-and-CORS-Gotchas)
- * [Create Your First Qna Bot Using Botframework’s Qna Maker | Robin Osborne](http://robinosborne.co.uk/2016/09/26/create-your-first-qna-bot-using-botframeworks-qna-maker/)
- * [An Experience Report Of Moving A Complicated Codebase To The Coreclr | The Shade Tree Developer](https://jeremydmiller.com/2016/09/28/an-experience-report-of-moving-a-complicated-codebase-to-the-coreclr/)
+ * [Create Your First Qna Bot Using Botframework’s Qna Maker - Robin Osborne](http://robinosborne.co.uk/2016/09/26/create-your-first-qna-bot-using-botframeworks-qna-maker/)
+ * [An Experience Report Of Moving A Complicated Codebase To The Coreclr - The Shade Tree Developer](https://jeremydmiller.com/2016/09/28/an-experience-report-of-moving-a-complicated-codebase-to-the-coreclr/)
  * [Use Nancyfx In Asp.net Core](http://www.talkingdotnet.com/use-nancyfx-in-asp-net-core/)
  * [Real-world Cqrs/es With Asp.net And Redis Part 1 - Overview](https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part-1-overview/?__s=amwwwz5judsp1dsfgko7)
- * [Architecting For The .Net Platform And Deep Diving Into The New Crud | Two Cents Of Software Value](https://software2cents.wordpress.com/2016/09/19/architecting-for-the-net-platform-and-deep-diving-into-the-new-crud/?__s=amwwwz5judsp1dsfgko7)
+ * [Architecting For The .Net Platform And Deep Diving Into The New Crud - Two Cents Of Software Value](https://software2cents.wordpress.com/2016/09/19/architecting-for-the-net-platform-and-deep-diving-into-the-new-crud/?__s=amwwwz5judsp1dsfgko7)
  * [CQRS/ES #5 Command Bus and Event Bus](http://foreverframe.pl/cqrses-5-command-bus-and-event-bus/?__s=amwwwz5judsp1dsfgko7)
- * [Microservices, Here I Come | Piotr Gankiewicz](http://piotrgankiewicz.com/2016/09/26/microservices-here-i-come/)
+ * [Microservices, Here I Come - Piotr Gankiewicz](http://piotrgankiewicz.com/2016/09/26/microservices-here-i-come/)
  * [Scientist.net 1.0 Released! - You’ve Been Haacked](http://haacked.com/archive/2016/09/29/scientist-1.0-released/)
  * [Introduction To Authorisation In Asp.net Core](http://andrewlock.net/introduction-to-authorisation-in-asp-net-core/)
 
@@ -96,7 +96,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Choreographer-js](https://christinecha.github.io/choreographer-js/)
  * [A Quick Guide To Javascript Promises](https://twilioinc.wpengine.com/2016/10/guide-to-javascript-promises.html)
  * [The Troubles With Javascript Modules](http://odetocode.com/blogs/scott/archive/2016/10/04/the-troubles-with-javascript-modules.aspx)
- * [G9 | Automatically Interactive Graphics](http://omrelli.ug/g9/)
+ * [G9 - Automatically Interactive Graphics](http://omrelli.ug/g9/)
  * [Build Your First App With Polymer And Web Components](https://auth0.com/blog/build-your-first-app-with-polymer-and-web-components/)
 
 ## NodeJs <a name="nodejs"></a> ##
@@ -118,7 +118,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Free Learn Grid Layout Video Series](http://gridbyexample.com/video/)
 
 ## Tools and things from Github <a name="tools"></a> ##
- * [Introducing Osquery | Engineering Blog | Facebook Code](https://code.facebook.com/posts/844436395567983/introducing-osquery/) - [Windows Provisioning - Osquery](https://osquery.readthedocs.io/en/stable/development/windows-provisioning/)
+ * [Introducing Osquery - Engineering Blog | Facebook Code](https://code.facebook.com/posts/844436395567983/introducing-osquery/) - [Windows Provisioning - Osquery](https://osquery.readthedocs.io/en/stable/development/windows-provisioning/)
  * [What Happens When You Start A Process On Linux? - Julia Evans](http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
@@ -131,13 +131,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Creating A Docker Container Host On Windows Nano Server With Chef — Hurry Up And Wait!](http://www.hurryupandwait.io/blog/creating-a-docker-container-host-on-windows-nano-server-with-chef)
  * [An Overview: Containers For C#](http://blog.alexellis.io/p/6d07da90-ca6b-4d70-b4b7-e3cadd11e987/)
  * [Microsoft Sql 2016 In A Windows Container With Docker - Youtube](https://www.youtube.com/watch?v=vkCelpe40Nc)
- * [Rancher Labs | Microservices Deployments With Kubernetes And Rancher | Rancher Labs](http://rancher.com/creating-microservices-deployments-on-kubernetes-with-rancher-part-2/)
+ * [Rancher Labs - Microservices Deployments With Kubernetes And Rancher | Rancher Labs](http://rancher.com/creating-microservices-deployments-on-kubernetes-with-rancher-part-2/)
  * [How Containers Have Panned Out](https://www.infoq.com/presentations/hbc-containers)
  * [A Service Mesh For Kubernetes, Part I: Top-line Service Metrics](https://blog.buoyant.io/2016/10/04/a-service-mesh-for-kubernetes-part-i-top-line-service-metrics/)
  * [A Survival Guide For Containerizing Your Infrastructure — Part 1: Why Switch? – Google Cloud Platform — Community – Medium](https://medium.com/google-cloud/a-survival-guide-for-containerizing-your-infrastructure-part-1-why-switch-8e8dee9fc66#.97nmzocvp)
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
- * [Distributed Tracing - The Next Step Of Apm | Apmdigest - Application Performance Management](http://www.apmdigest.com/distributed-tracing-the-next-step-of-apm)
+ * [Distributed Tracing - The Next Step Of Apm - Apmdigest - Application Performance Management](http://www.apmdigest.com/distributed-tracing-the-next-step-of-apm)
  * [Monitoring Microservices With Prometheus - Container Solutions](http://container-solutions.com/microservice-monitoring-with-prometheus/)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##

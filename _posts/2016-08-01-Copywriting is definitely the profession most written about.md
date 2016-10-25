@@ -27,9 +27,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
- * [How To Become A Better Pair Programmer - Part Two // Collective Idea | Crafting Web And Mobile Software Based In Holland, Michigan](http://collectiveidea.com/blog/archives/2016/07/27/how-to-become-a-better-pair-programmer-part-two/)
- * [What Happened When I Gave Up Multitasking For A Week | Fast Company | Business + Innovation](https://www.fastcompany.com/3062183/your-most-productive-self/what-happened-when-i-gave-up-multitasking-for-a-week)
- * [Bimodal It Leads To Technical Debt That Must Be Paid, With Interest | It World Canada News](http://www.itworldcanada.com/article/bimodal-it-leads-to-technical-debt-that-must-be-paid-with-interest/384927)
+ * [How To Become A Better Pair Programmer - Part Two // Collective Idea - Crafting Web And Mobile Software Based In Holland, Michigan](http://collectiveidea.com/blog/archives/2016/07/27/how-to-become-a-better-pair-programmer-part-two/)
+ * [What Happened When I Gave Up Multitasking For A Week - Fast Company | Business + Innovation](https://www.fastcompany.com/3062183/your-most-productive-self/what-happened-when-i-gave-up-multitasking-for-a-week)
+ * [Bimodal It Leads To Technical Debt That Must Be Paid, With Interest - It World Canada News](http://www.itworldcanada.com/article/bimodal-it-leads-to-technical-debt-that-must-be-paid-with-interest/384927)
 
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
@@ -38,7 +38,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Hiring Is A Team Game](http://www.cakesolutions.net/teamblogs/hiring-is-a-team-game)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
- * [Don’t Look Back In Anger: Retrospectives, Software Development And How Your Team Can Improve | Bazaarvoice: Engineering](http://blog.developer.bazaarvoice.com/2016/07/29/dont-look-back-in-anger-retrospectives-software-development-and-how-your-team-can-improve/)
+ * [Don’t Look Back In Anger: Retrospectives, Software Development And How Your Team Can Improve - Bazaarvoice: Engineering](http://blog.developer.bazaarvoice.com/2016/07/29/dont-look-back-in-anger-retrospectives-software-development-and-how-your-team-can-improve/)
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Security Enforcement Of The Microservices – Charles Moulliard's Blog](http://cmoulliard.github.io/microservices-security)
@@ -56,22 +56,22 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Exploring A Minimal Webapi With .Net Core And Nancyfx - Scott Hanselman](http://www.hanselman.com/blog/ExploringAMinimalWebAPIWithNETCoreAndNancyFX.aspx)
 
  * [How To Add Mvc To Your Asp.net Core Web Application - Jonhilton.net](https://jonhilton.net/2016/07/27/how-to-add-mvc-to-your-asp-net-core-web-application/)
- * [Don't Code Tired | Persistent Actors In Akka.net](http://dontcodetired.com/blog/post/Persistent-Actors-in-AkkaNET)
+ * [Don't Code Tired - Persistent Actors In Akka.net](http://dontcodetired.com/blog/post/Persistent-Actors-in-AkkaNET)
  * [Defend Asp.net And Wcf From Various Attacks Using Nginx](http://www.codeproject.com/Articles/1115111/Defend-ASP-NET-and-WCF-from-various-attacks-using)
  * [When Known .Net Bugs Bite You « Alois Kraus](https://aloiskraus.wordpress.com/2016/07/31/when-known-net-bugs-bite-you/)
 
 ## Other Languages  <a name="polygloting"></a> ##
  * [Cognifide/knotx: Knot.x Is A Light-weight And High-performance Reactive Microservice Assembler](https://github.com/cognifide/knotx)
- * [Hc | Writing Systemd Units](http://hokstadconsulting.com/devops/writing-systemd-units)
+ * [Hc - Writing Systemd Units](http://hokstadconsulting.com/devops/writing-systemd-units)
  * [Designing Testable Lambda Functions](https://claudiajs.com/tutorials/designing-testable-lambdas.html)
- * [Akka Series | Sacha's Blog Of Programmaticalness](https://sachabarbs.wordpress.com/2016/07/22/akka-series/)
+ * [Akka Series - Sacha's Blog Of Programmaticalness](https://sachabarbs.wordpress.com/2016/07/22/akka-series/)
 
 ## Javascript  <a name="javascript"></a> ##
  * [Metricsgraphics.js - A Library Based On D3.js, Optimized For Visualizing And Laying Out Time-series Data](http://metricsgraphicsjs.org/)
  * [Maxart2501/re-build: Building Regular Expressions With Natural Language](https://github.com/MaxArt2501/re-build)
 
 ## NodeJs <a name="nodejs"></a> ##
- * [Bringing Chakracore To Linux And Os X | Microsoft Edge Dev Blog](https://blogs.windows.com/msedgedev/2016/07/27/chakracore-on-linux-osx/)
+ * [Bringing Chakracore To Linux And Os X - Microsoft Edge Dev Blog](https://blogs.windows.com/msedgedev/2016/07/27/chakracore-on-linux-osx/)
  * [Image Processing And Manipulation In Node.js - Js Monthly London - Youtube](https://www.youtube.com/watch?v=ze7IV-LnzwQ)
  * [Perk: A Node.js Framework Built On Three Core Tenets: Documentation, Stability And Balance](http://perkframework.com/)
  * [Pimterry/server-components: A Simple, Lightweight Tool For Composable Html Rendering In Node.js, Based On Web Components.](https://github.com/pimterry/server-components)
@@ -82,7 +82,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Https Is Hard - Front-end London (Fel) - Youtube](https://www.youtube.com/watch?v=9PpzVA3U-lw)
  * [Website Speed Optimization Guide For Google Pagespeed Rules - Artzstudio](http://www.artzstudio.com/2016/07/website-speed-optimization-guide-for-google-pagespeed-rules/)
  * [Web Design In 4 Minutes](http://jgthms.com/web-design-in-4-minutes/)
- * [Offline Google Analytics Made Easy | Web Updates - Google Developers](https://developers.google.com/web/updates/2016/07/offline-google-analytics)
+ * [Offline Google Analytics Made Easy - Web Updates - Google Developers](https://developers.google.com/web/updates/2016/07/offline-google-analytics)
  * [The Illusion Of Life: An Svg Animation Case Study – Smashing Magazine](https://www.smashingmagazine.com/2016/07/an-svg-animation-case-study/)
  * [The Performance Benefits Of Rel=noopener - Jakearchibald.com](https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/)
  * [Css Containment In Chrome 52 — Dev Channel — Medium](https://medium.com/dev-channel/css-containment-in-chrome-52-f04a30bdc92a#.tkmhqdobd)
@@ -99,7 +99,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
- * [Reindexing Elasticsearch With Zero Downtime | Codementor](https://www.codementor.io/devops/tutorial/reindexing-elasticsearch-with-zero-downtime)
+ * [Reindexing Elasticsearch With Zero Downtime - Codementor](https://www.codementor.io/devops/tutorial/reindexing-elasticsearch-with-zero-downtime)
  * [Enterprise Success Depends On Mastery Of 7 Devops Pillars](http://devops.com/2016/08/01/7-pillars-of-devops-essential-foundations-for-enterprise-success/)
  * [Performing A/b Testing With Nginx And Nginx Plus - Nginx](https://www.nginx.com/blog/performing-a-b-testing-nginx-plus/)
  * [How To Set Up Multiple Secure (Ssl/tls, Qualys Ssl Labs A+) Websites Using Lxd Containers – Mi Blog Lah!](https://simos.info/blog/how-to-set-up-multiple-secure-ssltls-qualys-ssl-labs-a-websites-using-lxd-containers/)
@@ -111,10 +111,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Containers <a name="containers"></a> ##
  * [Docker 101 For Developers](https://auth0.com/blog/docker-101-for-developers)
  * [Runnablog — Cost-efficient Container Scheduling With Docker...](http://blog.runnable.com/post/147970274996/cost-efficient-container-scheduling-with-docker)
- * [Docker Built-in Orchestration Ready For Production: Docker 1.12 Goes Ga | Docker Blog](https://blog.docker.com/2016/07/docker-built-in-orchestration-ready-for-production-docker-1-12-goes-ga/)
+ * [Docker Built-in Orchestration Ready For Production: Docker 1.12 Goes Ga - Docker Blog](https://blog.docker.com/2016/07/docker-built-in-orchestration-ready-for-production-docker-1-12-goes-ga/)
  * [The Quest To Build An Unprivileged Container - The New Stack](http://thenewstack.io/quest-build-unprivileged-container/)
  * [Unikernel-based Microservices Will Transform The Cloud For The Iot Age](http://techbeacon.com/unikernel-based-microservices-will-transform-cloud-iot-age)
- * [Docker Built-in Orchestration Ready For Production: Docker 1.12 Goes Ga | Docker Blog](https://blog.docker.com/2016/07/docker-built-in-orchestration-ready-for-production-docker-1-12-goes-ga/)
+ * [Docker Built-in Orchestration Ready For Production: Docker 1.12 Goes Ga - Docker Blog](https://blog.docker.com/2016/07/docker-built-in-orchestration-ready-for-production-docker-1-12-goes-ga/)
  * [Jenkins Meets: The Corporate Proxy](http://blog.alexellis.io/jenkins-meets-the-proxy/)
  * [Common Dockerfile Mistakes - Atlassian Developers](https://developer.atlassian.com/blog/2016/06/common-dockerfile-mistakes/)
  * [Setup Docker On Windows Server 2016 - Dzone Devops](https://dzone.com/articles/setup-docker-on-windows-server-2016)
@@ -124,7 +124,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Monitoring and Performance <a name="monitoring"></a> ##
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [Surround 360 Is Now Open Source | Engineering Blog | Facebook Code](https://code.facebook.com/posts/265413023819735/surround-360-is-now-open-source/)
+ * [Surround 360 Is Now Open Source - Engineering Blog | Facebook Code](https://code.facebook.com/posts/265413023819735/surround-360-is-now-open-source/)
  * [Building Docker 1.12 On A Raspberry Pi · Docker Pirates Armed With Explosive Stuff](http://blog.hypriot.com/post/building-docker-directly-on-a-raspberry-pi/)
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##

@@ -50,7 +50,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Password Hashing: Why And How - It Hare On Soft.ware](http://ithare.com/password-hashing-why-and-how/)
  * [Zero Downtime](https://lostechies.com/gabrielschenker/2016/04/16/zero-downtime/)
- * [Experimenting With Network-based Programming | Mailchimp Developers Blog](http://devs.mailchimp.com/blog/network-based-programming-i/)
+ * [Experimenting With Network-based Programming - Mailchimp Developers Blog](http://devs.mailchimp.com/blog/network-based-programming-i/)
  * [Introducing The Nginx Microservices Reference Architecture - Nginx](https://www.nginx.com/blog/introducing-the-nginx-microservices-reference-architecture/)
  * [The 80% Rule - Edmundkirwan.com](http://edmundkirwan.com/general/80percent.html)
 
@@ -64,9 +64,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Using Cache In Asp.net Core 1.0 Rc1](http://wildermuth.com/2016/04/14/Using-Cache-in-ASP-NET-Core-1-0-RC1)
  * [Deploying Asp.net Core Rc1 To Azure App Services - Shawn Wildermuth](http://wildermuth.com/2016/04/18/Deploying-ASP-NET-Core-RC1-to-Azure-App-Services)
  * [Red Hat Developers Topic: .Net](http://developers.redhat.com/dotnet/)
- * [Sonarlint For Visualstudio 2.1 Released, Brings Consistency With Msbuild, Navigation To Sonarqube And Notifications | Microsoft Application Lifecycle Management](https://blogs.msdn.microsoft.com/visualstudioalm/2016/04/18/sonarlint-for-visualstudio-2-1-released-brings-consistency-with-msbuild-navigation-to-sonarqube-and-notifications/)
+ * [Sonarlint For Visualstudio 2.1 Released, Brings Consistency With Msbuild, Navigation To Sonarqube And Notifications - Microsoft Application Lifecycle Management](https://blogs.msdn.microsoft.com/visualstudioalm/2016/04/18/sonarlint-for-visualstudio-2-1-released-brings-consistency-with-msbuild-navigation-to-sonarqube-and-notifications/)
  * [The Netflix Tech Blog: A Scalable System For Ingestion And Delivery Of Timed Text](http://techblog.netflix.com/2016/04/a-scalable-system-for-ingestion-and.html)
- * [The Compiled Query Feature In Marten And Why It Rocks. | The Shade Tree Developer](https://jeremydmiller.com/2016/04/18/the-compiled-query-feature-in-marten-and-why-it-rocks/)
+ * [The Compiled Query Feature In Marten And Why It Rocks. - The Shade Tree Developer](https://jeremydmiller.com/2016/04/18/the-compiled-query-feature-in-marten-and-why-it-rocks/)
  * [Validating Commands With The Decorator Pattern](http://codeopinion.com/validating-commands/)
  * [Why Azure Rest Api-s And How To Prepare For Using Them?](http://gunnarpeipman.com/2016/04/why-azure-rest-api-s-and-how-to-prepare-for-using-them/)
 
@@ -83,7 +83,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Developing Small Javascript Components Without Frameworks](https://jack.ofspades.com/developing-small-javascript-components-without-frameworks/)
  * [Demystifying Cycle.js (Core Source)](https://medium.com/@whitecolory/demystifying-cycle-js-core-source-7bcae39fb64c#.vt0dngabn)
  * [Sonnyp/polygoat: Make A Javascript Function Support Both Promise And Callback Styles.](https://github.com/sonnyp/polygoat)
- * [Extra Fp For Rxjs | Better World By Better Software](https://glebbahmutov.com/blog/extra-fp-for-rx/)
+ * [Extra Fp For Rxjs - Better World By Better Software](https://glebbahmutov.com/blog/extra-fp-for-rx/)
  * [Building Realtime Applications With Cyclejs And Rxjs](https://blog.pusher.com/building-realtime-applications-with-cyclejs-and-rxjs/)
  * [Counting Promises Vs Rx](https://glebbahmutov.com/blog/counting-promises-vs-rx/)
  * [Introduction To P5.js](http://code.tutsplus.com/tutorials/introduction-to-p5js--cms-25665)
@@ -110,7 +110,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Don’t Program In Your Continuous Integration Tool](http://daveondevops.com/2016/04/13/avoidbuildtoolusecake/)
  * [Shared Vagrant Setup Across Multiple Projects](http://blog.moove-it.com/vagrant-multiple-projects/)
  * [Panama Papers Expose Batman: 4 Lessons For Enterprise Data Security](http://techbeacon.com/panama-papers-expose-batman-4-lessons-enterprise-data-security)
- * [Facebook Chef Cookbooks | Engineering Blog | Facebook Code](https://code.facebook.com/posts/1909042435988955/facebook-chef-cookbooks/)
+ * [Facebook Chef Cookbooks - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1909042435988955/facebook-chef-cookbooks/)
  * [Challenges Of Microservices Deployments](https://www.infoq.com/news/2016/04/msa-deployment-challenges)
  * [Adding Https To Your Web Site - Robert's Talk](https://robertnyman.com/2016/04/19/adding-https-to-your-web-site/)
 
@@ -143,5 +143,5 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
  * [What Has Microsoft Done For You Lately?](http://developer.telerik.com/content-types/opinion/microsoft-done-lately/)
  * [Maker’s Row - Factory Sourcing Made Easy](http://makersrow.com/)
- * [How To Write A Web Article | Viget](https://www.viget.com/articles/how-to-write-a-web-article)
- * [Jetbrains Joins The .Net Foundation | Resharper Ultimate Blog](http://blog.jetbrains.com/dotnet/2016/04/18/jetbrains-joins-the-net-foundation/)
+ * [How To Write A Web Article - Viget](https://www.viget.com/articles/how-to-write-a-web-article)
+ * [Jetbrains Joins The .Net Foundation - Resharper Ultimate Blog](http://blog.jetbrains.com/dotnet/2016/04/18/jetbrains-joins-the-net-foundation/)

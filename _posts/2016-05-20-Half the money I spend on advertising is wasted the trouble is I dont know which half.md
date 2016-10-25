@@ -27,17 +27,17 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
- * [Future Banktoday | Eps 10: Innovation And The Complexity Dilemma](https://www.youtube.com/watch?v=fsT5nRnFYag) - Interesting stuff
+ * [Future Banktoday - Eps 10: Innovation And The Complexity Dilemma](https://www.youtube.com/watch?v=fsT5nRnFYag) - Interesting stuff
  * [.Net Core Goes Rc2](http://developer.telerik.com/featured/net-core-goes-rc2/)
  * [Why Continuous Integration Is Important](https://blog.codeship.com/continuous-integration-important/)
- * [Explainers | Privacy International](https://privacyinternational.org/privacy-101)
+ * [Explainers - Privacy International](https://privacyinternational.org/privacy-101)
  * [How Sites Can Comply With Do Not Track](https://baycloud.github.io/DNTGuide/)
  * [The Third Wave Of Agile](http://www.solutionsiq.com/the-third-wave-of-agile/)
  * [Cognitive Cynefin: How Language And Bias Keep Us Complicated](https://www.youtube.com/watch?v=73uwRe7ctVg) - Awesome, you should see this!
 
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
- * [8 Fintech Trends To Watch | Thoughtworks](https://www.thoughtworks.com/insights/blog/finovate-and-future-fintech)
+ * [8 Fintech Trends To Watch - Thoughtworks](https://www.thoughtworks.com/insights/blog/finovate-and-future-fintech)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
  * [Why Great Products Need Great Collaboration – Smashing Magazine](https://www.smashingmagazine.com/2016/05/why-great-products-need-great-collaboration/)
@@ -52,7 +52,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## **.Net, C (& Powershell)**  <a name="net"></a> ##
  * [Farewell Project.json - Hello Msbuild And .Csproj (.Net Core)](http://ivanz.com/2016/05/17/farewell-project-json-hello-msbuild-and-csproj)
- * [Running And Debugging An Asp.net Core Rc2 Application In Docker | Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/05/17/running-and-debugging-an-asp-net-core-rc2-application-running-in-docker/)
+ * [Running And Debugging An Asp.net Core Rc2 Application In Docker - Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/05/17/running-and-debugging-an-asp-net-core-rc2-application-running-in-docker/)
  * [Getting Started With .Net Core And Docker](https://medium.com/@fminzoni/getting-started-with-net-core-and-docker-6f11c8c97e16#.hnedf9lko)
  * [Do Async Lambdas Return Tasks? - Bill Wagner](http://thebillwagner.com/Blog/Item/2016-05-18-DoasynclambdasreturnTasks)
  * [Asp.net Core: Watching Code](http://tattoocoder.com/asp-net-core-watching-code/)
@@ -79,10 +79,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [The Coach: A Modern Alternative To Yslow](https://www.maxcdn.com/blog/coach-yslow-alternative/)
  * [Our Best Practices Are Killing Mobile Web Performance · Molily](http://molily.de/mobile-web-performance/)
  * [Reducing Jpg File Size — Medium](https://medium.com/@duhroach/reducing-jpg-file-size-e5b27df3257c#.i59sjrbmb)
- * [Lazy Loading Images? Don’t Rely On Javascript! | Robin Osborne](http://robinosborne.co.uk/2016/05/16/lazy-loading-images-dont-rely-on-javascript/)
+ * [Lazy Loading Images? Don’t Rely On Javascript! - Robin Osborne](http://robinosborne.co.uk/2016/05/16/lazy-loading-images-dont-rely-on-javascript/)
  * [How To Make Accessible Web Components — A Brief Guide](https://www.sitepoint.com/accessible-web-components/)
  * [Using Css's Object-fit And Object-position Properties](https://www.sitepoint.com/using-css-object-fit-object-position-properties/)
- * [Houdini – Demystifying Css | Web Updates - Google Developers](https://developers.google.com/web/updates/2016/05/houdini)
+ * [Houdini – Demystifying Css - Web Updates - Google Developers](https://developers.google.com/web/updates/2016/05/houdini)
  * [Architecting Front-end Styles](https://robots.thoughtbot.com/architecting-front-end-styles)
  * [Good And Bad Css Practices For Beginners](https://speckyboy.com/2016/05/10/good-bad-css-practices/)
  * [The Safari Problem With Svg Sprites (Now Fixed)](https://www.smashingmagazine.com/2016/05/safari-svg-sprite-bug/)
@@ -101,12 +101,12 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Containers <a name="containers"></a> ##
  * [Azure Container Services](http://kjanshair.azurewebsites.net/Blog/DockerOnAzure)
  * [Docker: Run Azure Command-line Client Container](http://www.developmentalmadness.com/2016/05/17/docker-run-azure-command-line-client-container/)
- * [Docker Swarm On Azure With Powershell | Elton Stoneman](https://blog.sixeyed.com/production-docker-swarm-on-azure-why-you-should-use-powershell-and-docker-machine/)
+ * [Docker Swarm On Azure With Powershell - Elton Stoneman](https://blog.sixeyed.com/production-docker-swarm-on-azure-why-you-should-use-powershell-and-docker-machine/)
  * [From Containers To Container Orchestration](http://thenewstack.io/containers-container-orchestration/)
  * [Rapid Prototyping With Docker-compose](http://blog.alexellis.io/rapid-prototype-docker-compose/)
  * [Have Docker, Will Swarm — On Docker — Medium](https://medium.com/on-docker/have-docker-will-swarm-eafae7b58461#.906yq4e9z)
- * [Alpine Linux And Docker Nautilus Protect Crate Images | Crate.io](https://crate.io/a/alpine-linux-and-docker-nautilus-protect-crate/)
- * [Improving Docker With Unikernels: Introducing Hyperkit, Vpnkit And Datakit | Docker Blog](https://blog.docker.com/2016/05/docker-unikernels-open-source/)
+ * [Alpine Linux And Docker Nautilus Protect Crate Images - Crate.io](https://crate.io/a/alpine-linux-and-docker-nautilus-protect-crate/)
+ * [Improving Docker With Unikernels: Introducing Hyperkit, Vpnkit And Datakit - Docker Blog](https://blog.docker.com/2016/05/docker-unikernels-open-source/)
  * [Runc In 30 Seconds](http://blog.alexellis.io/runc-in-30-seconds/)
  * [Improving Docker With Unikernels: Introducing Hyperkit, Vpnkit And Datakit](https://blog.docker.com/2016/05/docker-unikernels-open-source/)
  * [How To Provision And Manage Remote Docker Hosts With Docker Machine On Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-provision-and-manage-remote-docker-hosts-with-docker-machine-on-ubuntu-16-04)
@@ -121,7 +121,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [Goto Night: Highway To Heaven - Building Microservices In The Cloud - Youtube](https://www.youtube.com/watch?v=xM8CBgqCEBY)
- * [13 Decks Java Developers Must See To Stay Updated | Takipi Blog](http://blog.takipi.com/13-decks-java-developers-must-see-to-stay-updated/)
+ * [13 Decks Java Developers Must See To Stay Updated - Takipi Blog](http://blog.takipi.com/13-decks-java-developers-must-see-to-stay-updated/)
  * [The State Of Web Security By Mike Milner](https://www.youtube.com/watch?v=tfvkC-L69xc)
  * [Understanding Ux And Hacking Perceived Performance](https://www.youtube.com/watch?v=VQ-q-7GO6N0&list=UU_DH6Z_K_3JRgOdDnwHLrLw)
  * [Living With Microservices At Pipedrive](http://www.slideshare.net/rreinurm/living-with-microservices-at-pipedrive)

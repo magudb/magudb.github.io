@@ -28,7 +28,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
  * [Collecting Windows 10 "Anniversary Edition" Keyboard Shortcuts - Scott Hanselman](http://www.hanselman.com/blog/CollectingWindows10AnniversaryEditionKeyboardShortcuts.aspx)
- * [You Are Not A Commodity | Software Engineering Daily](http://softwareengineeringdaily.com/2016/08/07/you-are-not-a-commodity/)
+ * [You Are Not A Commodity - Software Engineering Daily](http://softwareengineeringdaily.com/2016/08/07/you-are-not-a-commodity/)
  * [Strategic Technology: Outsourcing, Re-shoring, Changing Cultures And Digital Literacy – Charting Stacks](http://redmonk.com/fryan/2016/03/17/strategic-technology-outsourcing-re-shoring-changing-cultures-and-digital-literacy/)
  * [A Distributed Team Delivers Code Of Higher Quality - Yegor Bugayenko](http://www.yegor256.com/2016/08/05/distributed-teams-are-higher-quality.html)
  * [The Netflix Tech Blog: Building Fast.com](http://techblog.netflix.com/2016/08/building-fastcom.html)
@@ -38,16 +38,16 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [Design Thinking For Media That Matters - The New York Times](http://open.blogs.nytimes.com/2016/08/05/design-thinking-for-media-that-matters/)
- * [For Slas, There’s No Such Thing As 100% Uptime – Only 100% Transparency | Milliseconds Matter](https://blog.algolia.com/for-slas-theres-no-such-thing-as-100-uptime-only-100-transparency/)
+ * [For Slas, There’s No Such Thing As 100% Uptime – Only 100% Transparency - Milliseconds Matter](https://blog.algolia.com/for-slas-theres-no-such-thing-as-100-uptime-only-100-transparency/)
  * [Why The Game Of Business Needs To Change Its Rules — Medium](https://medium.com/@timoreilly/why-the-game-of-business-needs-to-change-its-rules-4332ee4917de#.nfj7oz1q4)
  * [What Makes An Awesome Company Culture? — Gocardless Blog](https://gocardless.com/blog/what-makes-awesome-company-culture/)
  * [After Decades Of Neglect, Functional Programming Is Finally Going Mainstream. Why Now?](http://blog.salsitasoft.com/why-now/)
 
 ## Agile, Organizations and process<a name="agile"></a> ##
  * [10 Common Scrum Mistakes And How To Avoid Them - Dzone Agile](https://dzone.com/articles/10-common-scrum-mistakes-and-how-to-avoid-them)
- * [Discovery From Day One | Thoughtworks](https://www.thoughtworks.com/insights/blog/discovery-day-one)
+ * [Discovery From Day One - Thoughtworks](https://www.thoughtworks.com/insights/blog/discovery-day-one)
  * [Scaling Teams To Grow Effective Organizations](https://www.infoq.com/news/2016/08/scaling-teams)
- * [A New Trilogy: The Enterprise Architect's Intro To Microservices | @Lightbend](http://www.lightbend.com/blog/a-new-trilogy-the-enterprise-architects-intro-to-microservices)
+ * [A New Trilogy: The Enterprise Architect's Intro To Microservices - @Lightbend](http://www.lightbend.com/blog/a-new-trilogy-the-enterprise-architects-intro-to-microservices)
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Representing A Collection As A Value Object - Enterprise Craftsmanship](http://enterprisecraftsmanship.com/2016/08/04/representing-a-collection-as-a-value-object/)
@@ -58,16 +58,16 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [C# - Rich Domain Models -- How, Exactly, Does Behavior Fit In? - Programmers Stack Exchange](https://programmers.stackexchange.com/questions/213577/rich-domain-models-how-exactly-does-behavior-fit-in)
  * [Persistence Vs. Durability In Messaging. Do You Know The Difference? – Red Hat Developer Blog](http://developers.redhat.com/blog/2016/08/10/persistence-vs-durability-in-messaging/)
  * [The Next Step For Even Safer Messaging: Letter Sealing « Line Engineers' Blog](http://developers.linecorp.com/blog/?p=3938)
- * [Powering Transactions Search With Elastic – Learnings From The Field | Paypal Engineering Blog](https://www.paypal-engineering.com/2016/08/10/powering-transactions-search-with-elastic-learnings-from-the-field/)
+ * [Powering Transactions Search With Elastic – Learnings From The Field - Paypal Engineering Blog](https://www.paypal-engineering.com/2016/08/10/powering-transactions-search-with-elastic-learnings-from-the-field/)
  * [Build Your Own Web Server](http://www.blackbytes.info/2016/08/build-your-own-web-server/)
  * [What Functional Programming Is + Why It Makes You Better](http://blog.functionalworks.com/2015/08/04/whatfpisandwhymakesbetter/)
  * [Michal Plachta - Purely Functional Web Apps (Lambda Days 2016) - Youtube](https://www.youtube.com/watch?v=oMfF9V52DT4)
 
 ## **.Net, C (& Powershell)**  <a name="net"></a> ##
  * [Blogged By Chris » Debug Dockerized .Net Core Apps With Vs Code](http://www.bloggedbychris.com/2016/08/03/debug-dockerized-net-core-apps-code/)
- * [Simulating Latency In Asp.net Core | Marius Schulz](https://blog.mariusschulz.com/2016/08/06/simulating-latency-in-asp-net-core)
+ * [Simulating Latency In Asp.net Core - Marius Schulz](https://blog.mariusschulz.com/2016/08/06/simulating-latency-in-asp-net-core)
  * [Asp.net Core Dependency Injection - Shawn Wildermuth](http://wildermuth.com/2016/08/07/ASP-NET-Core-Dependency-Injection)
- * [Building A Producer Consumer Queue With Tpl Dataflow | The Shade Tree Developer](https://jeremydmiller.com/2016/08/09/building-a-producer-consumer-queue-with-tpl-dataflow/)
+ * [Building A Producer Consumer Queue With Tpl Dataflow - The Shade Tree Developer](https://jeremydmiller.com/2016/08/09/building-a-producer-consumer-queue-with-tpl-dataflow/)
  * [Digging Into The Coreclr: Jit Introduction - Ayende @ Rahien](https://ayende.com/blog/174977/digging-into-the-coreclr-jit-introduction?Key=50679033-ead5-448d-916f-d41626de5d94)
  * [The Troika : Powershell, Yaml And Powershell Classes – Development In A Blink](http://dougfinke.com/blog/the-troika-powershell-yaml-and-powershell-classes/)
  * 
@@ -78,7 +78,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Javascript  <a name="javascript"></a> ##
  * [Anjana Vakil: Learning Functional Programming With Javascript - Jsunconf 2016 - Youtube](https://www.youtube.com/watch?v=e-5obm1G_FY)
- * [The State Of Javascript - Jack Franklin | August 2016 - Youtube](https://www.youtube.com/watch?v=5NIL3Epadj0)
+ * [The State Of Javascript - Jack Franklin - August 2016 - Youtube](https://www.youtube.com/watch?v=5NIL3Epadj0)
  * [Setting Up Flow When You’ve Already Got Babel In Place — Free Code Camp](https://medium.com/@thejameskyle/using-flow-with-babel-c04fdca8d14d#.16cp7ke8g)
  * [Javascript Functional Testing With Nightwatch.js](https://www.sitepoint.com/javascript-functional-testing-nightwatch-js/)
  * [The State Of Vue — The Vue Point — Medium](https://medium.com/the-vue-point/the-state-of-vue-1655e10a340a#.a4kb5ggr5)
@@ -90,12 +90,12 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Js-joda/js-joda: :Clock2: Immutable Date And Time Library For Javascript](https://github.com/js-joda/js-joda)
 ## NodeJs <a name="nodejs"></a> ##
  * [Jaco Labs: Nodejs + Docker - The Missing Manual](http://blog.getjaco.com/jaco-labs-nodejs-docker-missing-manual/)
- * [Node Hero - Monitoring Node.js Applications | @Risingstack](https://blog.risingstack.com/node-hero-monitoring-node-js-applications/)
+ * [Node Hero - Monitoring Node.js Applications - @Risingstack](https://blog.risingstack.com/node-hero-monitoring-node-js-applications/)
  * [Thorin.js Official Documentation](https://thorinjs.com/)
  * [How To Build Real-time Applications Using Node.js And Rethinkdb - Jscrambler Blogjscrambler Blog](https://blog.jscrambler.com/building-real-time-applications-using-node-js-rethinkdb/)
 
 ## Web including html and css  <a name="web"></a> ##
- * [Shadow Dom V1: Self-contained Web Components | Web Fundamentals - Google Developers](https://developers.google.com/web/fundamentals/primers/shadowdom/)
+ * [Shadow Dom V1: Self-contained Web Components - Web Fundamentals - Google Developers](https://developers.google.com/web/fundamentals/primers/shadowdom/)
  * [Starability - Accessible Rating System Demo](http://lunarlogic.github.io/starability/)
  * [The Complete Guide To Optimising Web Images](https://robots.thoughtbot.com/the-complete-guide-to-optimising-web-images)
  * [A Beginner's Guide To Progressive Web Apps – Smashing Magazine](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/)
@@ -106,13 +106,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Announcing Checkup: Simple, Self-hosted Health Checks — Plain Text — The Official Sourcegraph Blog](https://text.sourcegraph.com/announcing-checkup-simple-self-hosted-health-checks-c5707cf729ab#.d4fci9qnu)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
- * [Demystifying Continuous Integration, Delivery, And Deployment | Via @Codeship](https://blog.codeship.com/demystifying-continuous-integration-delivery-deployment/)
+ * [Demystifying Continuous Integration, Delivery, And Deployment - Via @Codeship](https://blog.codeship.com/demystifying-continuous-integration-delivery-deployment/)
  * [Vulnerability In The Linux Kernel's Tcp Stack Implementation - The Akamai Blog](https://blogs.akamai.com/2016/08/vulnerability-in-the-linux-kernels-tcp-stack-implementation.html)
  * [The Netflix Tech Blog: Introducing Winston - Event Driven Diagnostic And Remediation Platform](http://techblog.netflix.com/2016/08/introducing-winston-event-driven.html)
  * [Xen Exploitation Part 2: Xsa-148, From Guest To Host](http://blog.quarkslab.com/xen-exploitation-part-2-xsa-148-from-guest-to-host.html)
  * [How Containers, Microservices And Ai Will Lead To The Operatorless Data Center - The New Stack](http://thenewstack.io/how-containers-microservices-and-ai-will-lead-to-the-operatorless-data-center/)
  * [Creating A Windows Server 2016 Vagrant Box With Chef And Packer — Hurry Up And Wait!](http://www.hurryupandwait.io/blog/creating-a-windows-server-2016-vagrant-box-with-chef-and-packer)
- * [Getting Nginix Up And Running On An Ubuntu Box With Ssl And Http2 | Asp.net Monsters](http://aspnetmonsters.com/2016/08/2016-08-07-nginx2/)
+ * [Getting Nginix Up And Running On An Ubuntu Box With Ssl And Http2 - Asp.net Monsters](http://aspnetmonsters.com/2016/08/2016-08-07-nginx2/)
  * [Rules Of Thumb For Http/2 Push - Google Docs](https://docs.google.com/document/d/1K0NykTXBbbbTlv60t5MyJvXjqKGsCVNYHyLEXIxYMv0/preview?pref=2&pli=1)
  * [The Defcon Ctf Vm](http://fuzyll.com/2016/the-defcon-ctf-vm/)
 
@@ -120,10 +120,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Setup Docker On Windows Server 2016 - Dzone Devops](https://dzone.com/articles/setup-docker-on-windows-server-2016?__scoop_post=0cd98b20-18f0-11e6-a653-00221934899c&__scoop_topic=2681022#__scoop_post=0cd98b20-18f0-11e6-a653-00221934899c&__scoop_topic=2681022)
  * [Why Are Containers So Disruptive To The Data Centre? — Microscaling Systems — Medium](https://medium.com/microscaling-systems/why-are-containers-so-disruptive-to-the-data-centre-58dad83dda4c#.7rtip3wa8)
  * [Deploy Gogs, A Git Server](https://opsnotice.xyz/gogs-git-docker/)
- * [Service Discovery And Load Balancing Internals In Docker 1.12 | Sreenivas Makam's Blog](https://sreeninet.wordpress.com/2016/07/29/service-discovery-and-load-balancing-internals-in-docker-1-12/)
+ * [Service Discovery And Load Balancing Internals In Docker 1.12 - Sreenivas Makam's Blog](https://sreeninet.wordpress.com/2016/07/29/service-discovery-and-load-balancing-internals-in-docker-1-12/)
  * [Solving The Routing Mess For Services With Docker — Medium](https://medium.com/@lherrera/solving-the-routing-mess-for-services-in-docker-73492c37b335#.gcxvgr4hd)
  * [Demystifying Service Discovery Under Docker Engine 1.12.0 – Collabnix](http://collabnix.com/archives/1504)
- * [Curl With Http2 Support - A Minimal Alpine-based Docker Image | I Care, I Share, I'm Nathan Leclaire.](https://nathanleclaire.com/blog/2016/08/11/curl-with-http2-support---a-minimal-alpine-based-docker-image/)
+ * [Curl With Http2 Support - A Minimal Alpine-based Docker Image - I Care, I Share, I'm Nathan Leclaire.](https://nathanleclaire.com/blog/2016/08/11/curl-with-http2-support---a-minimal-alpine-based-docker-image/)
  * [Blogged By Chris » Debug Dockerized .Net Core Apps With Vs Code](http://www.bloggedbychris.com/2016/08/03/debug-dockerized-net-core-apps-code/)
  * [Docker Container Basics: An Operations Guide, Part 1 Of 3 - Nebulaworks Blog : Nebulaworks Blog](http://www.nebulaworks.com/blog/2016/08/04/docker-container-basics-operations-guide-part-1-3/)
  * [Cross-compiling Binaries For Multiple Architectures With Docker – Brainblog](http://blogs.nopcode.org/brainstorm/2016/07/26/cross-compiling-with-docker)
@@ -132,7 +132,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
- * [System Observability: How To Make Your Production Environment Great Again | Takipi Blog](http://blog.takipi.com/system-observability-making-your-production-environment-great-again/)
+ * [System Observability: How To Make Your Production Environment Great Again - Takipi Blog](http://blog.takipi.com/system-observability-making-your-production-environment-great-again/)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
  * [Off-the-shelf Hacker: Get Physical With Output Devices - The New Stack](http://thenewstack.io/off-shelf-hacker-get-physical-output-devices/)
@@ -143,14 +143,14 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Developing Event-driven Microservices With Event Sourcing And Cqrs](http://www.slideshare.net/chris.e.richardson/developing-eventdriven-microservices-with-event-sourcing-and-cqrs-svcc-svcc2015)
  * [Functional Reactive Programming For Natural User Interface - Youtube](https://www.youtube.com/watch?v=A469Fs2h10Y)
  * [The Top Sessions From This Year’s Kafka Summit Are...](http://www.confluent.io/blog/the-top-sessions-from-kafka-summit-2016)
- * [Unikernels And Unik With Scott Weiss | Software Engineering Daily](http://softwareengineeringdaily.com/2016/08/11/unikernels-and-unik-with-scott-weiss/)
+ * [Unikernels And Unik With Scott Weiss - Software Engineering Daily](http://softwareengineeringdaily.com/2016/08/11/unikernels-and-unik-with-scott-weiss/)
 
 ## Books and Papers<a name="books"></a>  ##
  * [React Enlightenment [Draft] - Gitbook](https://www.gitbook.com/book/frontendmasters/react-enlightenment/details)
 
 ## Releases <a name="releases"></a> ##
- * [Glass Mapper 4.2: The Most Flexible Sitecore Orm Just Got More Flexible | Cardinalcore](https://cardinalcore.co.uk/2016/08/10/glass-mapper-4-2-the-most-flexible-sitecore-orm-just-got-more-flexible/)
- * [Webapicontrib.core | Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/WebAPIContribCore?WT.mc_id=DX_MVP4025064)
+ * [Glass Mapper 4.2: The Most Flexible Sitecore Orm Just Got More Flexible - Cardinalcore](https://cardinalcore.co.uk/2016/08/10/glass-mapper-4-2-the-most-flexible-sitecore-orm-just-got-more-flexible/)
+ * [Webapicontrib.core - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/WebAPIContribCore?WT.mc_id=DX_MVP4025064)
  * [Angular: Angular 2 Rc5 - Ngmodules, Lazy Loading And Aot Compilation](http://angularjs.blogspot.dk/2016/08/angular-2-rc5-ngmodules-lazy-loading.html)
 
 

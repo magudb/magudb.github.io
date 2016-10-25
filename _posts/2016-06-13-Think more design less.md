@@ -28,15 +28,15 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
  * [Contained.af](https://contained.af/) - a really nerdy game
- * [A Nonprofit Case For Docker - Via @Codeship | Via @Codeship](https://blog.codeship.com/non-profit-case-docker/)
+ * [A Nonprofit Case For Docker - Via @Codeship - Via @Codeship](https://blog.codeship.com/non-profit-case-docker/)
  * [How The Internet Works: Submarine Fiber, Brains In Jars, And Coaxial Cables](http://arstechnica.com/information-technology/2016/05/how-the-internet-works-submarine-cables-data-centres-last-mile/)
  * [Clickbait And Traffic Laundering: How Ad Tech Is Destroying The Web](https://kalkis-research.com/clickbait-and-traffic-laundering-how-ad-tech-is-destroying-the-web)
  * [Dockercon 16](http://2016.dockercon.com/) - general session will be streamed
- * [Service Design Tools | Communication Methods Supporting Design Processes](http://www.servicedesigntools.org/)
+ * [Service Design Tools - Communication Methods Supporting Design Processes](http://www.servicedesigntools.org/)
  * [Creating Your Code Review Checklist - Daedtech](http://www.daedtech.com/creating-code-review-checklist/)
  * [Mob Programming - The Good, The Bad And The Great. - Meltwater Engineering Blog](http://underthehood.meltwater.com/blog/2016/06/01/mob-programming/)
  * [The Ideal Design Workflow — Prototyping: From Ux To Front End](https://blog.prototypr.io/the-ideal-design-workflow-2c200b8e337d#.ckswp6d0g)
- * [Dallas Clayton | Kid Lessons](https://creativemornings.com/talks/dallas-clayton/1)
+ * [Dallas Clayton - Kid Lessons](https://creativemornings.com/talks/dallas-clayton/1)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [The Crisis Facing The Web Platform — Medium](https://medium.com/@stopsatgreen/the-crisis-facing-the-web-platform-4ab47515ed42#.dno5wgmfk)
@@ -46,7 +46,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Agile, Organizations and process<a name="agile"></a> ##
  * [Learning And Adapting Is Key To Agile Project Team Success](https://dzone.com/articles/learning-and-adapting-is-key-to-agile-project-team)
- * [5 Theories Of Motivation A Leader Should Know | Future Processing](https://www.future-processing.pl/blog/5-theories-of-motivation-a-leader-should-know/)
+ * [5 Theories Of Motivation A Leader Should Know - Future Processing](https://www.future-processing.pl/blog/5-theories-of-motivation-a-leader-should-know/)
  * [3 Reasons Agile Will Not Succeed](http://blog.dmbcllc.com/3-reasons-agile-will-not-succeed/)
  * [Managing To Lead -Leadingagile](http://www.leadingagile.com/2016/06/managing-to-lead/)
  * [Leading Agile Change: Proven Change Models For Agile Transformation - Dzone Agile](https://dzone.com/articles/leading-agile-change-proven-change-models-for-agil)
@@ -69,8 +69,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Deploying Docker Containers Running Asp.net Core Rc2 To Microsoft Azure Cloud](http://laurentkempe.com/2016/06/08/Deploying-Docker-containers-running-ASPNET-Core-RC2-to-Microsoft-Azure-Cloud/)
  * [Mynatsclient - It Flushes, But So Can You](http://danielwertheim.se/mynatsclient-it-flushes-but-so-can-you/)
  * [Background Commands With Mediatr And Hangfire - Codeopinion](http://codeopinion.com/background-commands-mediatr-hangfire/) + [Hangfire – Background Jobs And Workers For Asp.net](http://hangfire.io/)
- * [My Oss Ci/cd Pipeline | Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/05/24/my-oss-cicd-pipeline/)
- * [Cqrs And Rest: The Perfect Match | Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/06/01/cqrs-and-rest-the-perfect-match/)
+ * [My Oss Ci/cd Pipeline - Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/05/24/my-oss-cicd-pipeline/)
+ * [Cqrs And Rest: The Perfect Match - Jimmy Bogard's Blog](https://lostechies.com/jimmybogard/2016/06/01/cqrs-and-rest-the-perfect-match/)
 
 ## Other Languages  <a name="polygloting"></a> ##
  * [Mongodb Queries Don’t Always Return All Matching Documents!](https://engineering.meteor.com/mongodb-queries-dont-always-return-all-matching-documents-654b6594a827#.6275qvp2g)
@@ -87,7 +87,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Joshbuchea/head: A List Of Everything That Could Go In The <Head> Of Your Document](https://github.com/joshbuchea/HEAD)
  * [Bootstrap 4: A Visual Guide To What’s New — Wdstack — Medium](https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387#.n3p3bvwlq)
  * [Open Sourcing Cloudflare’s Ui Framework](https://blog.cloudflare.com/cf-ui/)
- * [Progressively Less Progressive | Andrew Betts](https://trib.tv/2016/06/05/progressively-less-progressive/) 
+ * [Progressively Less Progressive - Andrew Betts](https://trib.tv/2016/06/05/progressively-less-progressive/) 
 
 ## Tools and things from Github <a name="tools"></a> ##
 
@@ -98,9 +98,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Abusing Privileged And Unprivileged Linux Containers](https://www.nccgroup.trust/us/our-research/abusing-privileged-and-unprivileged-linux-containers/?research=Whitepapers)
  * [The End Of The Router ? — Medium](https://medium.com/@HannesGredler/the-end-of-the-router-e4d769aea60f#.zdq2bqve7)
  * [A Deeper Look Into Microsoft's Azure Resource Manager - The New Stack](http://thenewstack.io/azure-resource-manager-microsoft-shifts-services-resources/)
- * [Blue-green Deployment | Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/05/23/blue-green-deployment/)
+ * [Blue-green Deployment - Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/05/23/blue-green-deployment/)
  * [Serverless Reference Architectures With Aws Lambda - All Things Distributed](http://www.allthingsdistributed.com/2016/05/aws-lambda-serverless-reference-architectures.html)
- * [Integrating Docker Hub In Your Application Build Process | Linux.com | The Source For Linux Information](https://www.linux.com/learn/integrating-docker-hub-your-application-build-process)
+ * [Integrating Docker Hub In Your Application Build Process - Linux.com | The Source For Linux Information](https://www.linux.com/learn/integrating-docker-hub-your-application-build-process)
 
 ## Containers <a name="containers"></a> ##
  * [Explaining Docker Image Ids](http://www.windsock.io/explaining-docker-image-ids/)
@@ -115,7 +115,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Running Elk Stack On Docker - Full Solution](http://www.avitzurel.com/blog/2016/06/06/running-elk-on-docker---full-solution/)
  * [Windows Container On Windows 10](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10)
  * [Writing Tests For Docker Images · Docker Notes By Sergej Jevsejev](http://docker-blog.jevsejev.io/2016/06/09/docker-image-tests/)
- * [Running Docker Container On Azure Batch | Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/running-docker-container-on-azure-batch/)
+ * [Running Docker Container On Azure Batch - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/running-docker-container-on-azure-batch/)
  * [Franky's Notes: Automating Docker Deployment With Azure Resource Manager](http://www.frankysnotes.com/2016/06/automating-docker-deployment-with-azure.html)
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
@@ -128,19 +128,19 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [Deploying ASP.NET Core applications using Docker Containers](https://channel9.msdn.com/Events/dotnetConf/2016/Deploying-ASPNET-Core-applications-using-Docker-Containers)
- * [Building Secure Web Apis With Asp.net Core | Dotnetconf 2016 | Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
+ * [Building Secure Web Apis With Asp.net Core - Dotnetconf 2016 | Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
  * [Microservices Within A Monolith: When To Consider A Hybrid Architectural Approach](https://developer.ibm.com/bluemix/2016/06/07/microservices-within-monolith-when-to-consider-hybrid-approach/)
  * [Using Docker Containers To Improve Reproducibility In Software And We…](http://www.slideshare.net/vincenzoferme/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering)
- * [Dotnetconf 2016 | Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016?sort=rating&direction=asc#tab_sortBy_rating)
+ * [Dotnetconf 2016 - Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016?sort=rating&direction=asc#tab_sortBy_rating)
  * [2016-05-24 What Is A Service (2016 Edition).pptx - Microsoft Powerpoint Online](https://onedrive.live.com/view.aspx?resid=123CCD2A7AB10107!736362)
 
 ## Books and Papers<a name="books"></a>  ##
- * [Hotspot Patterns: The Formal Definition And Automatic Detection Of Architecture Smells | The Morning Paper](https://blog.acolyer.org/2016/06/10/hotspot-patterns-the-formal-definition-and-automatic-detection-of-architecture-smells/)
+ * [Hotspot Patterns: The Formal Definition And Automatic Detection Of Architecture Smells - The Morning Paper](https://blog.acolyer.org/2016/06/10/hotspot-patterns-the-formal-definition-and-automatic-detection-of-architecture-smells/)
  * [Book: Mythical Man-month](http://nikolay.rocks/2016-06-10-mythical-manmonth)
- * [How Smart Is Your City Transportation? | J.d. Meier's Blog](https://blogs.msdn.microsoft.com/jmeier/2016/06/10/how-smart-is-your-city-transportation/)
+ * [How Smart Is Your City Transportation? - J.d. Meier's Blog](https://blogs.msdn.microsoft.com/jmeier/2016/06/10/how-smart-is-your-city-transportation/)
 
 ## Releases <a name="releases"></a> ##
- * [Announcing Windows 10 Insider Preview Build 14361 | Windows Experience Blog](https://blogs.windows.com/windowsexperience/2016/06/08/announcing-windows-10-insider-preview-build-14361/?WT.mc_id=DX_MVP4025064)
+ * [Announcing Windows 10 Insider Preview Build 14361 - Windows Experience Blog](https://blogs.windows.com/windowsexperience/2016/06/08/announcing-windows-10-insider-preview-build-14361/?WT.mc_id=DX_MVP4025064)
 
 ## Conferences or Courses<a name="conferences"></a> ##
  * [Upcoming Web Design Conferences (June–december 2016) – Smashing Magazine](https://www.smashingmagazine.com/2016/06/upcoming-web-design-conferences-june-december-2016/)
