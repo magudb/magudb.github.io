@@ -100,7 +100,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [A Deeper Look Into Microsoft's Azure Resource Manager - The New Stack](http://thenewstack.io/azure-resource-manager-microsoft-shifts-services-resources/)
  * [Blue-green Deployment - Gabriel Schenker's Blog](https://lostechies.com/gabrielschenker/2016/05/23/blue-green-deployment/)
  * [Serverless Reference Architectures With Aws Lambda - All Things Distributed](http://www.allthingsdistributed.com/2016/05/aws-lambda-serverless-reference-architectures.html)
- * [Integrating Docker Hub In Your Application Build Process - Linux.com | The Source For Linux Information](https://www.linux.com/learn/integrating-docker-hub-your-application-build-process)
+ * [Integrating Docker Hub In Your Application Build Process - Linux.com - The Source For Linux Information](https://www.linux.com/learn/integrating-docker-hub-your-application-build-process)
 
 ## Containers <a name="containers"></a> ##
  * [Explaining Docker Image Ids](http://www.windsock.io/explaining-docker-image-ids/)
@@ -115,7 +115,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Running Elk Stack On Docker - Full Solution](http://www.avitzurel.com/blog/2016/06/06/running-elk-on-docker---full-solution/)
  * [Windows Container On Windows 10](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10)
  * [Writing Tests For Docker Images · Docker Notes By Sergej Jevsejev](http://docker-blog.jevsejev.io/2016/06/09/docker-image-tests/)
- * [Running Docker Container On Azure Batch - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/running-docker-container-on-azure-batch/)
+ * [Running Docker Container On Azure Batch - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/running-docker-container-on-azure-batch/)
  * [Franky's Notes: Automating Docker Deployment With Azure Resource Manager](http://www.frankysnotes.com/2016/06/automating-docker-deployment-with-azure.html)
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
@@ -128,7 +128,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [Deploying ASP.NET Core applications using Docker Containers](https://channel9.msdn.com/Events/dotnetConf/2016/Deploying-ASPNET-Core-applications-using-Docker-Containers)
- * [Building Secure Web Apis With Asp.net Core - Dotnetconf 2016 | Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
+ * [Building Secure Web Apis With Asp.net Core - Dotnetconf 2016 - Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016/Building-Secure-Web-APIs-with-ASPNET-Core)
  * [Microservices Within A Monolith: When To Consider A Hybrid Architectural Approach](https://developer.ibm.com/bluemix/2016/06/07/microservices-within-monolith-when-to-consider-hybrid-approach/)
  * [Using Docker Containers To Improve Reproducibility In Software And We…](http://www.slideshare.net/vincenzoferme/using-docker-containers-to-improve-reproducibility-in-software-and-web-engineering)
  * [Dotnetconf 2016 - Channel 9](https://channel9.msdn.com/Events/dotnetConf/2016?sort=rating&direction=asc#tab_sortBy_rating)

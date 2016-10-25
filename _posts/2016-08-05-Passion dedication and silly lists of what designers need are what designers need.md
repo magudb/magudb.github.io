@@ -27,7 +27,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
- * [Getting Started With Swarm Mode - Docker Orchestration | Katacoda](https://www.katacoda.com/courses/docker-orchestration/getting-started-with-swarm-mode)
+ * [Getting Started With Swarm Mode - Docker Orchestration - Katacoda](https://www.katacoda.com/courses/docker-orchestration/getting-started-with-swarm-mode)
  * [Adaptiveconsulting/reactivetradercloud: Real-time Trading Platform Demo Showcasing Reactive Programming Principles Applied Across The Full Application Stack.](https://github.com/AdaptiveConsulting/ReactiveTraderCloud)
  * [The Art Of A Pull Request](https://ponyfoo.com/articles/art-of-pull-request)
 

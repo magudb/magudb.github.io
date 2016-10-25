@@ -48,7 +48,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Microservices – Please, Don’t](http://basho.com/posts/technical/microservices-please-dont/)
  * [Writing Microservices: An Example Through A Simple To-do Application – Red Hat Developer Blog](http://developers.redhat.com/blog/2016/09/15/writing-microservices-an-example-through-a-simple-to-do-application/)
- * [Decouple User Identity From Api Design To Build Scalable Microservices - Nordic Apis |](http://nordicapis.com/decouple-user-identity-from-api-design-to-build-scalable-microservices/)
+ * [Decouple User Identity From Api Design To Build Scalable Microservices - Nordic Apis -](http://nordicapis.com/decouple-user-identity-from-api-design-to-build-scalable-microservices/)
  * [Real-world Cqrs/es With Asp.net And Redis Part 1 - Overview](https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part-1-overview/)
  * [Monzo – Building A Modern Bank Backend](https://monzo.com/blog/2016/09/19/building-a-modern-bank-backend/)
  * ["Reasoning About Performance (In The Context Of Search)"](https://www.youtube.com/watch?v=80LKF2qph6I)
@@ -109,7 +109,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Ebay Releases Dynamic Application Security Testing Proxy As Open Source - Ebay Tech Blog](http://www.ebaytechblog.com/2016/09/19/ebay-releases-dynamic-application-security-testing-proxy-as-open-source/)
  * [Tuning Nginx - Via @Codeship - Via @Codeship](https://blog.codeship.com/tuning-nginx/)
  * [An Introduction To Coreos - Via @Codeship - Via @Codeship](https://blog.codeship.com/an-introduction-to-coreos/)
- * [Ladies And Gentlemen, Start Your Logging - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/ladies-and-gentlemen-start-your-logging/)
+ * [Ladies And Gentlemen, Start Your Logging - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/ladies-and-gentlemen-start-your-logging/)
 
 ## Containers <a name="containers"></a> ##
  * [Oci Is Building A Way For Kubernetes To Run Containers Without Docker](http://thenewstack.io/oci-building-way-kubernetes-run-containers-without-docker/)

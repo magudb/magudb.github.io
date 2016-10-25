@@ -31,7 +31,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Performing A Project Premortem](https://hbr.org/2007/09/performing-a-project-premortem) - I think this is extremely intersting way of starting with the end.
  * [Developer Bliss With Docker For Mac & Docker For Windows](https://blog.codewithdan.com/2016/06/20/developer-bliss-with-docker-for-mac-and-windows/)
  * [Free Https Certificates For Docker Containers Running Asp.net Core Rc2 On Microsoft Azure](http://laurentkempe.com/2016/06/20/Free-HTTPS-certificates-for-Docker-containers-running-ASPNET-Core-RC2-on-Microsoft-Azure/)
- * [Microsoft Brings Container Innovation To The Enterprise At Dockercon 2016 - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/microsoft-brings-container-innovation-to-the-enterprise-at-dockercon-2016/)
+ * [Microsoft Brings Container Innovation To The Enterprise At Dockercon 2016 - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/microsoft-brings-container-innovation-to-the-enterprise-at-dockercon-2016/)
  * [Don’t Scar On The First Cut](https://m.signalvnoise.com/dont-scar-on-the-first-cut-e9afd256afdf#.ps5y7rc97)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
@@ -105,7 +105,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Run npm scripts in a git pre-commit Hook](http://elijahmanor.com//npm-precommit-scripts/)
  * [Humidifier - Cloudformation Made Easier // Localytics Engineering Blog](http://eng.localytics.com/humidifier-cloudformation-made-easier/)
  * [Forgotten (But Awesome) Windows Command Prompt Features](http://www.hanselman.com/blog/ForgottenButAwesomeWindowsCommandPromptFeatures.aspx)
- * [Application Map: Filter And Pin To A Dashboard - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/application-map-filter-and-pin-to-a-dashboard/)
+ * [Application Map: Filter And Pin To A Dashboard - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/application-map-filter-and-pin-to-a-dashboard/)
  * [Computer Vision Algorithms - Algorithmia](https://algorithmia.com/tags/computer%20vision)
  * [Sysdig - Introducing Falco: Open Source, Behavioral Security From Sysdig](https://sysdig.com/blog/sysdig-falco/)
 
@@ -139,7 +139,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Badoo Tech Blog :: Collection And Analysis Of Daemon Logs At Badoo](https://techblog.badoo.com/blog/2016/06/06/collection-and-analysis-of-daemon-logs-at-badoo/)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [A Path To Unsupervised Learning Through Adversarial Networks - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1587249151575490/a-path-to-unsupervised-learning-through-adversarial-networks/)
+ * [A Path To Unsupervised Learning Through Adversarial Networks - Engineering Blog - Facebook Code](https://code.facebook.com/posts/1587249151575490/a-path-to-unsupervised-learning-through-adversarial-networks/)
  * [Feature Extraction: Science Or Engineering? – Zalando Tech Blog](https://tech.zalando.de/blog/feature-extraction-science-or-engineering/)
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##

@@ -150,7 +150,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Releases <a name="releases"></a> ##
  * [Glass Mapper 4.2: The Most Flexible Sitecore Orm Just Got More Flexible - Cardinalcore](https://cardinalcore.co.uk/2016/08/10/glass-mapper-4-2-the-most-flexible-sitecore-orm-just-got-more-flexible/)
- * [Webapicontrib.core - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/WebAPIContribCore?WT.mc_id=DX_MVP4025064)
+ * [Webapicontrib.core - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/WebAPIContribCore?WT.mc_id=DX_MVP4025064)
  * [Angular: Angular 2 Rc5 - Ngmodules, Lazy Loading And Aot Compilation](http://angularjs.blogspot.dk/2016/08/angular-2-rc5-ngmodules-lazy-loading.html)
 
 

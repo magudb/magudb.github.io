@@ -53,7 +53,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Your Open Source Project Is Considered Harmful - Telerik Developer Network](http://developer.telerik.com/featured/open-source-project-considered-harmful/)
  * [Best Practices For Designing A Pragmatic Restful Api - Vinay Sahni](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
  * [The Netflix Tech Blog: Extracting Image Metadata At Scale](http://techblog.netflix.com/2016/03/extracting-image-metadata-at-scale.html)
- * [Data-driven Quality - Info | The Guardian](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
+ * [Data-driven Quality - Info - The Guardian](https://www.theguardian.com/info/developer-blog/2016/mar/21/data-driven-quality)
  * [3 Types Of Tests For Microservices And Distributed Application Systems](http://techbeacon.com/3-non-negotiable-tests-microservices-distributed-app-environments?beta=1)
  * [Micro-services For Performance](https://vanilla-java.github.io/2016/03/22/Micro-services-for-performance.html)
  * [Observability At Twitter: Technical Overview, Part Ii](https://blog.twitter.com/2016/observability-at-twitter-technical-overview-part-ii)

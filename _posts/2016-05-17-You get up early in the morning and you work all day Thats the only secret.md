@@ -94,7 +94,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Javascript  <a name="javascript"></a> ##
  * [Flipclock.js](http://flipclockjs.com/)
  * [Hacking Sunday - Javascript Metaprogramming - Overwriting Localstorage](https://zisismaras.me/hacking_sunday/2016/05/07/javascript-metaprogramming-overwrite-localstorage.html)
- * [Basics - Introduction To Graphql | Learn Graphql](https://learngraphql.com/basics/introduction)
+ * [Basics - Introduction To Graphql - Learn Graphql](https://learngraphql.com/basics/introduction)
 
 ### NodeJs <a name="nodejs"></a> ###
  * [Introducing Queues In Node.js](http://blog.yld.io/2016/05/10/introducing-queues/)

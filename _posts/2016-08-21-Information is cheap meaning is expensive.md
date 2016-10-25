@@ -167,7 +167,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Yow! West 2016 Andy Marks & Martin Feckie - Monoglot Microservices - Youtube](https://www.youtube.com/watch?v=FbDYQa90uZs)
  * [Rachel Reese On The Good And Bad Of Microservices (With F#)](https://www.infoq.com/interviews/rachel-reese-microservices-fsharp-qcon-london-2016)
  * [Alberto Brandolini — The Precision Blade - Youtube](https://www.youtube.com/watch?v=lG46Yo_9DPc&list=PLve553MhJLs4YkEnHmOjWJv0B-6WY0-JI&index=4)
- * [Azure Data Lake: Powershell, Cli, Sdks, And Apis - Data Exposed | Channel 9](https://channel9.msdn.com/Shows/Data-Exposed/Azure-Data-Lake-PowerShell-CLI-SDKs-and-APIs?WT.mc_id=dlvr_twitter_ch9)
+ * [Azure Data Lake: Powershell, Cli, Sdks, And Apis - Data Exposed - Channel 9](https://channel9.msdn.com/Shows/Data-Exposed/Azure-Data-Lake-PowerShell-CLI-SDKs-and-APIs?WT.mc_id=dlvr_twitter_ch9)
  * [Tensorflow In Practice With Rajat Monga - Software Engineering Daily](http://softwareengineeringdaily.com/2016/08/18/tensorflow-in-practice-with-rajat-monga/)
  * [What The Functor Is A Monad](https://realm.io/news/altconf-daniel-steinberg-what-the-functor-monad/)
 

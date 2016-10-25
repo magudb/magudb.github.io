@@ -28,7 +28,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
  * [How To Become A Better Pair Programmer - Part Two // Collective Idea - Crafting Web And Mobile Software Based In Holland, Michigan](http://collectiveidea.com/blog/archives/2016/07/27/how-to-become-a-better-pair-programmer-part-two/)
- * [What Happened When I Gave Up Multitasking For A Week - Fast Company | Business + Innovation](https://www.fastcompany.com/3062183/your-most-productive-self/what-happened-when-i-gave-up-multitasking-for-a-week)
+ * [What Happened When I Gave Up Multitasking For A Week - Fast Company - Business + Innovation](https://www.fastcompany.com/3062183/your-most-productive-self/what-happened-when-i-gave-up-multitasking-for-a-week)
  * [Bimodal It Leads To Technical Debt That Must Be Paid, With Interest - It World Canada News](http://www.itworldcanada.com/article/bimodal-it-leads-to-technical-debt-that-must-be-paid-with-interest/384927)
 
 
@@ -124,7 +124,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Monitoring and Performance <a name="monitoring"></a> ##
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [Surround 360 Is Now Open Source - Engineering Blog | Facebook Code](https://code.facebook.com/posts/265413023819735/surround-360-is-now-open-source/)
+ * [Surround 360 Is Now Open Source - Engineering Blog - Facebook Code](https://code.facebook.com/posts/265413023819735/surround-360-is-now-open-source/)
  * [Building Docker 1.12 On A Raspberry Pi · Docker Pirates Armed With Explosive Stuff](http://blog.hypriot.com/post/building-docker-directly-on-a-raspberry-pi/)
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##

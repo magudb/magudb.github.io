@@ -115,10 +115,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [Scalable Architecture With Lee Atchison - Software Engineering Daily](http://softwareengineeringdaily.com/2016/07/08/scalable-architecture-with-lee-atchison/)
- * [Dockercon 16: Windows Server & Docker - The Internals Behind Bringing Docker & Containers To Windows - Black Belt - The Containers Channel | Channel 9](https://channel9.msdn.com/Blogs/containers/DockerCon-16-Windows-Server-Docker-The-Internals-Behind-Bringing-Docker-Containers-to-Windows) 
+ * [Dockercon 16: Windows Server & Docker - The Internals Behind Bringing Docker & Containers To Windows - Black Belt - The Containers Channel - Channel 9](https://channel9.msdn.com/Blogs/containers/DockerCon-16-Windows-Server-Docker-The-Internals-Behind-Bringing-Docker-Containers-to-Windows) 
  * [Scaling Our Tech Organization And Architecture – Zalando Tech Blog](https://tech.zalando.de/blog/scaling-our-tech-organization-and-architecture/)
  * [Instant-loading Offline-first (Progressive Web App Summit 2016) - Youtube](https://www.youtube.com/watch?v=qDJAz3IIq18)
- * [Strategic And Collaborative Domain-driven Design - Skillscast | 5th July 2016](https://skillsmatter.com/skillscasts/8004-strategic-and-collaborative-domain-driven-design)
+ * [Strategic And Collaborative Domain-driven Design - Skillscast - 5th July 2016](https://skillsmatter.com/skillscasts/8004-strategic-and-collaborative-domain-driven-design)
  * [Domain-driven Design Europe](https://dddeurope.com/2016/dan-bergh-johnsson.html)
 
 ## Books and Papers<a name="books"></a>  ##

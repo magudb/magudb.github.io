@@ -52,7 +52,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Distributed Systems Vs Compositionality—roland Kuhn - Youtube](https://www.youtube.com/watch?v=LcUIIRqXwTY)
  * [Cqrs/es – Or Is It? – Adaptech Solutions](http://adaptechsolutions.net/cqrs-es-or-is-it/?__s=amwwwz5judsp1dsfgko7)
  * [Renato Cavalcanti - Functional And Reactive Event Sourced Applications - Youtube](https://www.youtube.com/watch?v=A-oAFV5__4k&feature=youtu.be&__s=amwwwz5judsp1dsfgko7)
- * [Event Storming For Fun And Profit - Skillscast | 9th June 2016](https://skillsmatter.com/skillscasts/8003-event-storming-for-fun-and-profit)
+ * [Event Storming For Fun And Profit - Skillscast - 9th June 2016](https://skillsmatter.com/skillscasts/8003-event-storming-for-fun-and-profit)
  * [Service-based Architecture As An Alternative To Microservice Architecture](https://www.infoq.com/news/2016/10/service-based-architecture)
  * [Oliver Gierke - Evolving Distributed Systems](http://olivergierke.de/2016/10/evolving-distributed-systems/)
  * [Kafka Streams With Jay Kreps - Software Engineering Daily](http://softwareengineeringdaily.com/2016/10/07/kafka-streams-with-jay-kreps/)
@@ -131,5 +131,5 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Conferences or Courses<a name="conferences"></a> ##
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
- * [Free Tool Protects Mac Users From Webcam Surveillance - Threatpost | The First Stop For Security News](https://threatpost.com/free-tool-protects-mac-users-from-webcam-surveillance/121154/)
+ * [Free Tool Protects Mac Users From Webcam Surveillance - Threatpost - The First Stop For Security News](https://threatpost.com/free-tool-protects-mac-users-from-webcam-surveillance/121154/)
  * [Cloudy Gamer: Playing Overwatch On Azure's New Monster Gpu Instances](http://lg.io/2016/10/12/cloudy-gamer-playing-overwatch-on-azures-new-monster-gpu-instances.html)

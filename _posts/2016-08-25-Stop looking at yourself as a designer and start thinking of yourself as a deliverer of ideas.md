@@ -96,7 +96,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## NodeJs <a name="nodejs"></a> ##
  * [Kue For Node.js Microservices - /Dev/urandom](https://nmaggioni.xyz/2016/08/20/Kue-for-Node-JS-microservices/)
  * [Creating Your First App With Adonisjs And Adding Authentication](https://auth0.com/blog/creating-your-first-app-with-adonisj-and-adding-authentication)
- * [Creating A Hubot Script For The Aws Api Gateway - Nordic Apis |](http://nordicapis.com/creating-a-hubot-script-for-the-aws-api-gateway/)
+ * [Creating A Hubot Script For The Aws Api Gateway - Nordic Apis -](http://nordicapis.com/creating-a-hubot-script-for-the-aws-api-gateway/)
 
 ## Web including html and css  <a name="web"></a> ##
  * [The Basics Of Web Application Security](http://martinfowler.com/articles/web-security-basics.html)
@@ -146,7 +146,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [How To Train Your Microservice - Doug Sherman - Youtube](https://www.youtube.com/watch?v=cSnfFqDW4jQ)
  * [Continuous Delivery For Microservice Architectures With Concourse & Cloud Foundry - Alex Ley - Youtube](https://www.youtube.com/watch?v=NWZzZgDcIFk)
  * [Keynote: Postcapitalism By Jamie Dobson - Youtube](https://www.youtube.com/watch?v=MGdQnL4-H9M)
- * [Run Powershell Natively On Linux With Docker - Microsoft Azure | Channel 9](https://channel9.msdn.com/Shows/msftazure/Run-PowerShell-Natively-on-Linux-with-Docker)
+ * [Run Powershell Natively On Linux With Docker - Microsoft Azure - Channel 9](https://channel9.msdn.com/Shows/msftazure/Run-PowerShell-Natively-on-Linux-with-Docker)
  * [Container Security Round Table - Youtube](https://www.youtube.com/watch?v=eY0wIj7lsEw)
  * [Front End Center — Webpack From First Principles - Youtube](https://www.youtube.com/watch?v=WQue1AN93YU)
  * [From Mvc To Flux - Js Monthly London - Youtube](https://www.youtube.com/watch?v=p8tqhf5qKOI)

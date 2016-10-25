@@ -110,7 +110,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Don’t Program In Your Continuous Integration Tool](http://daveondevops.com/2016/04/13/avoidbuildtoolusecake/)
  * [Shared Vagrant Setup Across Multiple Projects](http://blog.moove-it.com/vagrant-multiple-projects/)
  * [Panama Papers Expose Batman: 4 Lessons For Enterprise Data Security](http://techbeacon.com/panama-papers-expose-batman-4-lessons-enterprise-data-security)
- * [Facebook Chef Cookbooks - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1909042435988955/facebook-chef-cookbooks/)
+ * [Facebook Chef Cookbooks - Engineering Blog - Facebook Code](https://code.facebook.com/posts/1909042435988955/facebook-chef-cookbooks/)
  * [Challenges Of Microservices Deployments](https://www.infoq.com/news/2016/04/msa-deployment-challenges)
  * [Adding Https To Your Web Site - Robert's Talk](https://robertnyman.com/2016/04/19/adding-https-to-your-web-site/)
 

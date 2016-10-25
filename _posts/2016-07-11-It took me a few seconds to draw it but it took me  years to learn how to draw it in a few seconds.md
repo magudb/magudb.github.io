@@ -104,7 +104,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Containers <a name="containers"></a> ##
  * [Docker Tutorial For Beginners](https://dinosaurscode.xyz/tutorials/2016/07/02/docker-tutorial-for-beginners/)
- * [Windows Server Containers On Azure Container Service Private Preview - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/windows-server-containers-using-docker-swarm-on-azure-container-service-private-preview/)
+ * [Windows Server Containers On Azure Container Service Private Preview - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/windows-server-containers-using-docker-swarm-on-azure-container-service-private-preview/)
  * [Windows Containers And Docker](https://www.simple-talk.com/cloud/platform-as-a-service/windows-containers-and-docker/)
  * [Lint-condo - A Lint Container For Docker](https://keylocation.sg/our-tech/lint-condo-container-docker)
  * [Docker Services, Stack And Distributed Application Bundle](http://blog.couchbase.com/2016/july/docker-services-stack-distributed-application-bundle)
@@ -120,7 +120,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Javascript Error Monitoring](https://davidwalsh.name/trackjs)
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [Introducing Opencellular: An Open Source Wireless Access Platform - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform/)
+ * [Introducing Opencellular: An Open Source Wireless Access Platform - Engineering Blog - Facebook Code](https://code.facebook.com/posts/1754757044806180/introducing-opencellular-an-open-source-wireless-access-platform/)
  * [Machine Learning Driven Programming: A New Programming For A New World - High Scalability -](http://highscalability.com/blog/2016/7/6/machine-learning-driven-programming-a-new-programming-for-a.html)
  * [Heavy Metal And Natural Language Processing - Part 1](http://www.degeneratestate.org/posts/2016/Apr/20/heavy-metal-and-natural-language-processing-part-1/)
 

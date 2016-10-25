@@ -56,13 +56,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [Part 1 - First Pop Coffee Company · Nick Chamberlain](https://buildplease.com/fpc/fpc-bigpicture-1/)
- * [Ddd Exchange 2016 - 9th - 10th Jun 2016 | London](https://skillsmatter.com/conferences/7225-ddd-exchange-2016#skillscasts)
+ * [Ddd Exchange 2016 - 9th - 10th Jun 2016 - London](https://skillsmatter.com/conferences/7225-ddd-exchange-2016#skillscasts)
  * [Geode In Domain Driven Design And Reactive Programming - Youtube](https://www.youtube.com/watch?v=lZf4O_XFXw0&__s=amwwwz5judsp1dsfgko7)
  * [Renato Cavalcanti - Functional And Reactive Event Sourced Applications - Youtube](https://www.youtube.com/watch?v=A-oAFV5__4k&__s=amwwwz5judsp1dsfgko7)
  * [Why Domain-driven Design And Reactive Programming](https://www.youtube.com/watch?v=Jz8Aq3mzDxc)
  * [Reactivesummit 2016 - Youtube](https://www.youtube.com/playlist?list=PLKKQHTLcxDVbtF-1ABemSbG1GWMDg824r)
  * [Take The Api Approach To Microservices And Lessons Learned From Soa - Mulesoft Blog](http://blogs.mulesoft.com/dev/microservices-dev/api-approach-to-microservices-lessons-learned-from-soa/)
- * [Asynchronous Apis In Choreographed Microservices - Nordic Apis |](http://nordicapis.com/asynchronous-apis-in-choreographed-microservices/)
+ * [Asynchronous Apis In Choreographed Microservices - Nordic Apis -](http://nordicapis.com/asynchronous-apis-in-choreographed-microservices/)
  * [Microservices With Kubernetes, Docker, And Jenkins - Youtube](https://www.youtube.com/watch?v=wl-49Dk-u3A)
  * [Handling Eventual Consistency In Jvm Microservices With Event Sourcing - Youtube](https://www.youtube.com/watch?v=53DVkaW5Fb0&__s=amwwwz5judsp1dsfgko7)
  * [An Architecture With Cqrs And Event Sourcing By Eugen Paraschiv - Youtube](https://www.youtube.com/watch?v=bVnjI0XOA9w&sns=tw&__s=amwwwz5judsp1dsfgko7)

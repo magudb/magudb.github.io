@@ -44,7 +44,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [The Scientific Nature Of Continuous Delivery - The New Stack](http://thenewstack.io/scientific-nature-continuous-delivery/)
  * [The Big Lie: Tech Companies And Diversity Hiring — Don’t Panic, Just Hire](https://42hire.com/the-big-lie-tech-companies-and-diversity-hiring-f52fb82abfbf#.idyzd3gxq)
  * [Adventures In Pair Designing: Pomming - - Bocoup](https://bocoup.com/weblog/adventures-in-pair-designing-pomming)
- * [How To Hold A Killer First Hackathon Or Developer Conference - Nordic Apis |](http://nordicapis.com/how-to-hold-a-killer-first-hackathon-or-developer-conference/)
+ * [How To Hold A Killer First Hackathon Or Developer Conference - Nordic Apis -](http://nordicapis.com/how-to-hold-a-killer-first-hackathon-or-developer-conference/)
 
 
 ## Agile, Organizations and process<a name="agile"></a> ##
@@ -107,7 +107,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Mobile Input Types](http://mobileinputtypes.com/)
  * [The History Of The Url: Path, Fragment, Query, And Auth - Eager Blog](https://eager.io/blog/the-history-of-the-url-path-fragment-query-auth/)
  * [Dashboard](http://blazecss.com/templates/dashboard/)
- * [Marvelous Markdown With Vscode - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/Marvelous-Markdown-with-VSCode?WT.mc_id=DX_MVP4025064)
+ * [Marvelous Markdown With Vscode - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/Marvelous-Markdown-with-VSCode?WT.mc_id=DX_MVP4025064)
 
 ## Tools and things from Github <a name="tools"></a> ##
  * [Inkle/inky: An Editor For Ink: Inkle's Narrative Scripting Language](https://github.com/inkle/inky)
@@ -117,7 +117,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [What Release Managers Need To Understand In The Continuous Delivery Age](http://techbeacon.com/release-management-age-cd-are-you-ready-responsibility)
  * [Deepening Devops With Math](https://blog.engineyard.com/2016/deepening-devops-with-math)
- * [Cgi Script Vulnerability ‘Httpoxy’ Allows Man-in-the-middle Attack - Threatpost | The First Stop For Security News](https://threatpost.com/cgi-script-vulnerability-httpoxy-allows-man-in-the-middle-attacks/119345/)
+ * [Cgi Script Vulnerability ‘Httpoxy’ Allows Man-in-the-middle Attack - Threatpost - The First Stop For Security News](https://threatpost.com/cgi-script-vulnerability-httpoxy-allows-man-in-the-middle-attacks/119345/)
  * [Service Fabric Reverse Proxy - Microsoft Azure](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-reverseproxy/)
  * [Dcoker/biscuit: Biscuit Is A Multi-region Ha Key-value Store For Your Aws Infrastructure Secrets.](https://github.com/dcoker/biscuit)
  * [Bbc Blogs - Internet Blog - Enabling Secure Http For Bbc Online](http://www.bbc.co.uk/blogs/internet/entries/f6f50d1f-a879-4999-bc6d-6634a71e2e60)
@@ -137,7 +137,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Off-the-shelf Hacker: A Look At Chip Shot, The $9 Nano-linux Machine - The New Stack](http://thenewstack.io/look-chip-shot-9-nano-linux-machine/)
 
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
- * [Crypto101 Introductory Course For Programmers - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/Crypto101-Introductory-Course-for-Programmers?WT.mc_id=DX_MVP4025064)
+ * [Crypto101 Introductory Course For Programmers - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/Crypto101-Introductory-Course-for-Programmers?WT.mc_id=DX_MVP4025064)
  * [Greg Young — A Decade Of Ddd, Cqrs, Event Sourcing - Youtube](https://www.youtube.com/watch?v=LDW0QWie21s)
  * [Exploring The Orleans Distributed Virtual Actor Model With Richard Astbury On The Hanselminutes Technology Podcast: Fresh Air For Developers](http://hanselminutes.com/536/exploring-the-orleans-distributed-virtual-actor-model-with-richard-astbury)
  * [The Beating Heart Of Cqrs On The Clr With Paulmichael Blasucci On Vimeo](https://vimeo.com/171178586)

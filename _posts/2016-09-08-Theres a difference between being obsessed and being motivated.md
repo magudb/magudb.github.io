@@ -56,9 +56,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Runnablog — Lessons Learned While Building Microservices](http://blog.runnable.com/post/149676042396/lessons-learned-while-building-microservices)
  * [Stateless Sessions For Stateful Minds: Jwts Explained And How You Can Make The Switch](https://auth0.com/blog/stateless-auth-for-stateful-minds)
  * [Domain-driven Design: The Good Parts - Jimmy Bogard On Vimeo](https://vimeo.com/179889630?__s=amwwwz5judsp1dsfgko7)
- * [Stop Over-engineering! - Skillscast | 9th June 2016](https://skillsmatter.com/skillscasts/8082-stop-over-engineering?__s=amwwwz5judsp1dsfgko7)
+ * [Stop Over-engineering! - Skillscast - 9th June 2016](https://skillsmatter.com/skillscasts/8082-stop-over-engineering?__s=amwwwz5judsp1dsfgko7)
  * [Ddd And Microservices: At Last, Some Boundaries!](https://www.infoq.com/presentations/ddd-microservices-2016?__s=amwwwz5judsp1dsfgko7)
- * [What Lies Beneath - Skillscast | 9th June 2016](https://skillsmatter.com/skillscasts/7798-what-lies-beneath?__s=amwwwz5judsp1dsfgko7)
+ * [What Lies Beneath - Skillscast - 9th June 2016](https://skillsmatter.com/skillscasts/7798-what-lies-beneath?__s=amwwwz5judsp1dsfgko7)
  * [About Streams Lifetime](https://thinkbeforecoding.github.io/FsUno.Prod/About%20Streams%20Lifetime.html?__s=amwwwz5judsp1dsfgko7)
  * [Domain Model Isolation - Enterprise Craftsmanship](http://enterprisecraftsmanship.com/2016/09/01/domain-model-isolation/)
  * [A16z Podcast: All About Microservices — A16z — Overcast](https://overcast.fm/+BlzF9PS3E)
@@ -146,7 +146,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
- * [Using Iot Data To Hack The World - Nordic Apis |](http://nordicapis.com/using-iot-data-to-hack-the-world/)
+ * [Using Iot Data To Hack The World - Nordic Apis -](http://nordicapis.com/using-iot-data-to-hack-the-world/)
  * [Deploying An Iot Swarm With Docker Machine · Docker Pirates Armed With Explosive Stuff](http://blog.hypriot.com/post/deploy-swarm-on-chip-with-docker-machine/)
  * [Install Docker 1.12 On The $9 C.h.i.p. Computer · Docker Pirates Armed With Explosive Stuff](http://blog.hypriot.com/post/install-docker-on-chip-computer/)
  * [Off The Shelf Rapid Prototyping - The Red Queen Coder](http://redqueencoder.com/off-the-shelf-rapid-prototyping/)

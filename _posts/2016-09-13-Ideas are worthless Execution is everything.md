@@ -85,7 +85,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [How To Send An Sms With Node.js Using Twilio](https://twilioinc.wpengine.com/2016/09/how-to-send-an-sms-with-node-js-using-twilio.html)
 
 ## Web including html and css  <a name="web"></a> ##
- * [Don’t Underutilize These 5 Amazing Http Performance Features - Nordic Apis |](http://nordicapis.com/dont-underutilize-these-5-amazing-http-performance-features/)
+ * [Don’t Underutilize These 5 Amazing Http Performance Features - Nordic Apis -](http://nordicapis.com/dont-underutilize-these-5-amazing-http-performance-features/)
  * How to do Web Accessibility QA - [Part 1](https://www.viget.com/articles/how-to-do-web-accessibility-qa-part-1) & [Part 2](https://www.viget.com/articles/how-to-do-web-accessibility-qa-part-2)
  * [A Nerd's Guide To Color On The Web - Css-tricks](https://css-tricks.com/nerds-guide-color-web/)
  * [Rebalancing How The Web Is Built - The Beautiful, Tormented Machine](http://manu.sporny.org/2016/rebalancing/)

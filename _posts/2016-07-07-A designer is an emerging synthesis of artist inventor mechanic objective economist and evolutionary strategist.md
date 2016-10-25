@@ -61,7 +61,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Architecture & Software development practices <a name="development"></a> ##
  * [How Facebook Live Streams To 800,000 Simultaneous Viewers - High Scalability -](http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html)
- * [Your Api Is Never Fully Released - Nordic Apis |](http://nordicapis.com/your-api-is-never-fully-released/)
+ * [Your Api Is Never Fully Released - Nordic Apis -](http://nordicapis.com/your-api-is-never-fully-released/)
  * [Lossless Compression With Brotli With Rust For A Bit Of Pied Piper - Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/)
  * [Sitemaps As A Microservice - Findmypast Tech](http://tech.findmypast.com/sitemaps-as-a-microservice/)
  * [The Guts n’ Glory of Database Internals](https://ayende.com/blog/posts/series/174337/the-guts-n-glory-of-database-internals)
@@ -106,7 +106,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Web including html and css  <a name="web"></a> ##
  * [How To Build A Reliable Transaction Experience For Your Customers](http://blog.yld.io/2016/06/24/how-to-build-a-reliable-transaction-experience-for-your-customers/)
- * [Building Better Enterprise Web Applications: Challenges](https://www.sitepen.com/blog/2016/06/28/building-better-enterprise-web-applications-challenges/) + [Part 2: Solutions](https://www.sitepen.com/blog/2016/06/29/building-better-enterprise-web-applications-part-2-solutions/) + [- Building Better Enterprise Web Applications Part 3: Sitepen Solutions | Blog | Sitepen](https://www.sitepen.com/blog/2016/06/30/building-better-enterprise-web-applications-part-3-sitepen-solutions/)
+ * [Building Better Enterprise Web Applications: Challenges](https://www.sitepen.com/blog/2016/06/28/building-better-enterprise-web-applications-challenges/) + [Part 2: Solutions](https://www.sitepen.com/blog/2016/06/29/building-better-enterprise-web-applications-part-2-solutions/) + [- Building Better Enterprise Web Applications Part 3: Sitepen Solutions - Blog - Sitepen](https://www.sitepen.com/blog/2016/06/30/building-better-enterprise-web-applications-part-3-sitepen-solutions/)
  * [Tips For Conducting User Research Interviews](https://robots.thoughtbot.com/tips-for-conducting-user-research-interviews)
 
 ## Tools and things from Github <a name="tools"></a> ##
@@ -136,7 +136,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Videos, presentations & Podcasts <a name="videos"></a> ##
  * [Asp.net Core Kestrel: Adventures In Building A Fast Web Server](https://vimeo.com/172009499)
  * [Tackling Consumption Chaos In Microservice Architectures - O'reilly Media](https://www.oreilly.com/ideas/tackling-consumption-chaos-in-microservice-architectures)
- * [Dockercon 2016: Part 1 Of Top 10 Videos - Docker Blog](https://blog.docker.com/2016/06/dockercon-part-1-top-10-video/) + [Dockercon 2016: Part 2 Of Top 10 Videos | Docker Blog](https://blog.docker.com/2016/06/dockercon-part-2-top-10-video/)
+ * [Dockercon 2016: Part 1 Of Top 10 Videos - Docker Blog](https://blog.docker.com/2016/06/dockercon-part-1-top-10-video/) + [Dockercon 2016: Part 2 Of Top 10 Videos - Docker Blog](https://blog.docker.com/2016/06/dockercon-part-2-top-10-video/)
  * [Video: How To Run Linux And Bash On "Windows 10 Anniversary Update" - Scott Hanselman](http://www.hanselman.com/blog/VIDEOHowToRunLinuxAndBashOnWindows10AnniversaryUpdate.aspx)
  * [Dockercon 2016: Deep Dive Into Docker For Developers - Docker Blog](https://blog.docker.com/2016/07/dockercon-docker-developers/)
 

@@ -66,7 +66,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Microservices For Mortals - Youtube](https://www.youtube.com/watch?v=5ZSA99aq6UA)
  * [Microservices Minus The Hype How To Build And Why - Youtube](https://www.youtube.com/watch?v=rRsQXWbYiN4)
  * [Nolanlawson/optimize-js: Optimize A Javascript File For Faster Initial Load By Wrapping Eagerly-invoked Functions](https://github.com/nolanlawson/optimize-js)
- * [The Seven (More) Deadly Sins Of Microservices - Skillscast | 27th September 2016](https://skillsmatter.com/skillscasts/8844-the-seven-more-deadly-sins-of-microservices)
+ * [The Seven (More) Deadly Sins Of Microservices - Skillscast - 27th September 2016](https://skillsmatter.com/skillscasts/8844-the-seven-more-deadly-sins-of-microservices)
  * [Google Cloud Platform Blog: Bringing Pokémon Go To Life On Google Cloud](https://cloudplatform.googleblog.com/2016/09/bringing-Pokemon-GO-to-life-on-Google-Cloud.html)
  * [Migrating Apps To The Cloud — Shunting The Event Stream – Medium](https://medium.com/@KevinHoffman/migrating-apps-to-the-cloud-shunting-the-event-stream-8c2f6f309242#.qk8bynehj)
 
@@ -118,7 +118,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Free Learn Grid Layout Video Series](http://gridbyexample.com/video/)
 
 ## Tools and things from Github <a name="tools"></a> ##
- * [Introducing Osquery - Engineering Blog | Facebook Code](https://code.facebook.com/posts/844436395567983/introducing-osquery/) - [Windows Provisioning - Osquery](https://osquery.readthedocs.io/en/stable/development/windows-provisioning/)
+ * [Introducing Osquery - Engineering Blog - Facebook Code](https://code.facebook.com/posts/844436395567983/introducing-osquery/) - [Windows Provisioning - Osquery](https://osquery.readthedocs.io/en/stable/development/windows-provisioning/)
  * [What Happens When You Start A Process On Linux? - Julia Evans](http://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
@@ -131,7 +131,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Creating A Docker Container Host On Windows Nano Server With Chef — Hurry Up And Wait!](http://www.hurryupandwait.io/blog/creating-a-docker-container-host-on-windows-nano-server-with-chef)
  * [An Overview: Containers For C#](http://blog.alexellis.io/p/6d07da90-ca6b-4d70-b4b7-e3cadd11e987/)
  * [Microsoft Sql 2016 In A Windows Container With Docker - Youtube](https://www.youtube.com/watch?v=vkCelpe40Nc)
- * [Rancher Labs - Microservices Deployments With Kubernetes And Rancher | Rancher Labs](http://rancher.com/creating-microservices-deployments-on-kubernetes-with-rancher-part-2/)
+ * [Rancher Labs - Microservices Deployments With Kubernetes And Rancher - Rancher Labs](http://rancher.com/creating-microservices-deployments-on-kubernetes-with-rancher-part-2/)
  * [How Containers Have Panned Out](https://www.infoq.com/presentations/hbc-containers)
  * [A Service Mesh For Kubernetes, Part I: Top-line Service Metrics](https://blog.buoyant.io/2016/10/04/a-service-mesh-for-kubernetes-part-i-top-line-service-metrics/)
  * [A Survival Guide For Containerizing Your Infrastructure — Part 1: Why Switch? – Google Cloud Platform — Community – Medium](https://medium.com/google-cloud/a-survival-guide-for-containerizing-your-infrastructure-part-1-why-switch-8e8dee9fc66#.97nmzocvp)

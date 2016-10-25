@@ -49,7 +49,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Google's Grpc: A Lean And Mean Communication Protocol For Microservices - The New Stack](http://thenewstack.io/grpc-lean-mean-communication-protocol-microservices/)
  * [Why App Development Is Going Micro - Best Tech Magazine](http://www.besttechmagazine.com/why-app-development-is-going-micro/)
  * [Microservice Architecture With Michele Titolo – The Women In Tech Show](https://thewomenintechshow.com/2016/09/06/microservice-architecture-with-michele-titolo/)
- * [Highlights From @Scale 2016 - Engineering Blog | Facebook Code](https://code.facebook.com/posts/310885679260307/highlights-from-scale-2016) 
+ * [Highlights From @Scale 2016 - Engineering Blog - Facebook Code](https://code.facebook.com/posts/310885679260307/highlights-from-scale-2016) 
  * [Cqrs & Event Sourcing In The Wild](http://www.slideshare.net/michieltcs/cqrs-event-sourcing-in-the-wild?__s=amwwwz5judsp1dsfgko7)
  * [Heynickc/awesome-ddd: A Curated List Of Domain-driven Design (Ddd), Command Query Responsibility Segregation (Cqrs), Event Sourcing, And Event Storming Resources](https://github.com/heynickc/awesome-ddd)
 
@@ -94,7 +94,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Content Security Policy, Your Future Best Friend – Smashing Magazine](https://www.smashingmagazine.com/2016/09/content-security-policy-your-future-best-friend/)
 
 ## Tools and things from Github <a name="tools"></a> ##
- * [Dhcplb: An Open Source Load Balancer - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1734309626831603/dhcplb-an-open-source-load-balancer/)
+ * [Dhcplb: An Open Source Load Balancer - Engineering Blog - Facebook Code](https://code.facebook.com/posts/1734309626831603/dhcplb-an-open-source-load-balancer/)
  * [Flutter Is A New Project To Help Developers Build High-performance, High-fidelity, Mobile Apps For Ios And Android From A Single Codebase.](https://flutter.io/)
  * [Introducing Kyt — Our Web App Configuration Toolkit - The New York Times](http://open.blogs.nytimes.com/2016/09/13/introducing-kyt-our-web-app-configuration-toolkit/?_r=0)
  * [Down And Dirty With Windows Nano Server 2016 - Infoworld](http://www.infoworld.com/article/3119770/windows-server/down-and-dirty-with-windows-nano-server-2016.html)

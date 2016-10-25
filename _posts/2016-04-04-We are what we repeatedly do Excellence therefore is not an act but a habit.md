@@ -112,7 +112,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Tls Secured Private Registries](http://docker-saigon.github.io/post/Private-Registry-Setup/)
  * [Introduction To Docker](http://kjanshair.azurewebsites.net/Blog/IntroToDocker)
  * [Docker's - Beginner Guide - Hack.guides()](http://tutorials.pluralsight.com/devops/docker-s-beginner-guide)
- * [Tools Built On Top Of The Docker Api - Nordic Apis |](http://nordicapis.com/tools-built-on-top-of-the-docker-api/)
+ * [Tools Built On Top Of The Docker Api - Nordic Apis -](http://nordicapis.com/tools-built-on-top-of-the-docker-api/)
 
 ## Monitoring <a name="monitoring"></a> ##
  * [Four Key Elements Of Unified Monitoring In The Digital World - About:performance](http://apmblog.dynatrace.com/2016/03/29/14486/)

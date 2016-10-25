@@ -30,7 +30,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [I'm A Fucking Webmaster](https://justinjackson.ca/webmaster/)
  * [Dudes For Diversity: How One Guy Can Make A Positive Impact](http://thenewstack.io/dudes-diversity-one-guy-can-make-positive-impact/) - This is important!
  * [Born For It: How The Image Of Software Developers Came About](https://www.thoughtworks.com/insights/blog/born-it-how-image-software-developers-came-about)
- * [Blockchain: Beyond Cryptocurrency - Nordic Apis |](http://nordicapis.com/the-uses-of-blockchain-beyond-cryptocurrency/)
+ * [Blockchain: Beyond Cryptocurrency - Nordic Apis -](http://nordicapis.com/the-uses-of-blockchain-beyond-cryptocurrency/)
  * [How I Satisfied My Passion For Software Development And Open-source By Doing A Part-time Phd](http://omerio.com/how-i-satisfied-my-passion-for-software-development-and-open-source-by-doing-a-part-time-phd/)
  * [6 Ways To Modernize Product Development Process For B2b Disruption](https://dzone.com/articles/6-ways-to-modernize-product-development-process-fo)
  * [Alex/what-happens-when: An Attempt To Answer The Age Old Interview Question "What Happens When You Type Google.com Into Your Browser And Press Enter?"](https://github.com/alex/what-happens-when)

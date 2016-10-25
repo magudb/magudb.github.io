@@ -75,7 +75,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Tools and things from Github <a name="tools"></a> ##
  * [Msbuild Structured Log: Record And Visualize Your Builds](http://www.hanselman.com/blog/MSBuildStructuredLogRecordAndVisualizeYourBuilds.aspx)
  * [Prose Is A Content Editor For Github Designed For Managing Websites.](http://prose.io/)
- * [Turning On Windows Features Using Powershell Dsc Extension And Azure Cli - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/turn-on-windows-feature-using-dsc-cli/)
+ * [Turning On Windows Features Using Powershell Dsc Extension And Azure Cli - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/turn-on-windows-feature-using-dsc-cli/)
  * [Structurizr - Express](https://structurizr.com/express#1)
  * [Handy Bash Feature: Process Substitution — Medium](https://medium.com/@joewalnes/handy-bash-feature-process-substitution-8eb6dce68133#.dujc56fa3)
 

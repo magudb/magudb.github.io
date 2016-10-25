@@ -33,7 +33,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [Knowledge-sharing Architects As An Alternative To Coding Architects - It Hare On Soft.ware](http://ithare.com/knowledge-sharing-architects-as-an-alternative-to-coding-architects/)
  * [Eventstorming - What You Need To Know](http://danielwhittaker.me/2016/07/08/eventstorming-what-you-need-to-know/)
  * [Tech Recruiting: Hire For Fit, Train For Skills - Treehouse Blog](http://blog.teamtreehouse.com/technical-recruiting-hire-fit-train-skills)
- * [12+ Frameworks To Build Chatops Bots - Nordic Apis |](http://nordicapis.com/12-frameworks-to-build-chatops-bots/)
+ * [12+ Frameworks To Build Chatops Bots - Nordic Apis -](http://nordicapis.com/12-frameworks-to-build-chatops-bots/)
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
  * [How To Become A Better Pair Programmer - Part One // Collective Idea - Crafting Web And Mobile Software Based In Holland, Michigan](http://collectiveidea.com/blog/archives/2016/07/21/how-to-become-a-better-pair-programmer-part-one/)
