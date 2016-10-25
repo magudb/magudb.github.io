@@ -1,15 +1,15 @@
 
 # SEO settings
 title: "Udbjorg.Net"
-title2: "About absolutely nothing" # default: ""
+title2: " - About absolutely nothing" # default: ""
 description: "A blog with links and sometimes great thoughts"
 keywords: "Udbjorg, Links, Great ideas, Grand thoughts"
 url: https://magudb.github.io # site url
 baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-70467704-1
 repo: https://github.com/magudb/magudb.github.io
-disqus_shortname: "heiswayi"
+disqus_shortname: "magudb"
 twitter_username: "magnusudbjorg"
 comments: true
 
