@@ -4,8 +4,9 @@ title: "Udbjorg.Net"
 title2: " - About absolutely nothing" # default: ""
 description: "A blog with links and sometimes great thoughts"
 keywords: "Udbjorg, Links, Great ideas, Grand thoughts"
-url: https://magudb.github.io # site url
+url: https://udbjorg.net # site url
 baseurl: null # apply null if repo name is something like username.github.io
+enforce_ssl: udbjorg.net
 
 google_analytics: UA-70467704-1
 repo: https://github.com/magudb/magudb.github.io
@@ -29,15 +30,15 @@ sass:
 # Author settings
 author:
   name     : "Magnus Udbjorg"
-  job      : "Senior Consultant"
+  job      : "Senior IT-Consultant"
   bio      : "I’m a developer by heart, but currently studying an executive masters in IT-Management. I think almost every aspect of IT is interesting and something that we can use to bring good to the world."
-  thumb    : /images/author.jpg
+  thumb    : /images/magnus.jpg
   email    : magnus@udbjorg.net
   url      : http://magudb.github.io
   github   : http://github.com/magudb
   twitter  : http://twitter.com/magnusudbjorg
   facebook : https://www.facebook.com/udbjorg
-  linkedin : www.linkedin.com/in/magnusudbjorg
+  linkedin : http://www.linkedin.com/in/magnusudbjorg
 
 # social settings
 og_locale: "en_US"
