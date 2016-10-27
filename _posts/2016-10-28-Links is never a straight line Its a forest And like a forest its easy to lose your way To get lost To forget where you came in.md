@@ -5,6 +5,7 @@ description: "Links is never a straight line. It’s a forest, And like a forest
 comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
+
 ##Categories
 * [My favorites](#favorites)
 * [Ideas, Thoughts, comments](#ideas)
