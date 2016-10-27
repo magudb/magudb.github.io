@@ -34,11 +34,11 @@ author:
   bio      : "I’m a developer by heart, but currently studying an executive masters in IT-Management. I think almost every aspect of IT is interesting and something that we can use to bring good to the world."
   thumb    : /images/magnus.jpg
   email    : magnus@udbjorg.net
-  url      : http://magudb.github.io
-  github   : http://github.com/magudb
-  twitter  : http://twitter.com/magnusudbjorg
+  url      : https://udnjorg.net
+  github   : https://github.com/magudb
+  twitter  : https://twitter.com/magnusudbjorg
   facebook : https://www.facebook.com/udbjorg
-  linkedin : http://www.linkedin.com/in/magnusudbjorg
+  linkedin : https://www.linkedin.com/in/magnusudbjorg
 
 # social settings
 og_locale: "en_US"
