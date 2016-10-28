@@ -4,6 +4,7 @@ title: "Ideas are worthless. Execution is everything."
 description: "Ideas are worthless. Execution is everything."
 comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/09/13/better-linked-loved-cannot-niccolo-machiavelli/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

@@ -4,6 +4,7 @@ title: "It is a mistake to think that you are the typical target user."
 description: "It is a mistake to think that you are the typical target user."
 comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/09/20/none-abstract-concepts-comes-closer-fulfilled-utopia-links-theodor-adorno/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

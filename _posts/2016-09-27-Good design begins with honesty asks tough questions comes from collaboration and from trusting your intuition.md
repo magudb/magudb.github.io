@@ -4,6 +4,7 @@ title: "Good design begins with honesty, asks tough questions, comes from collab
 description: "Good design begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition."
 comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/09/27/links-never-links-matter-define-contours-can/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

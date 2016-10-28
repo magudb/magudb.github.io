@@ -4,6 +4,7 @@ title: "There&#8217;s a difference between being obsessed and being motivated."
 description: "There&#8217;s a difference between being obsessed and being motivated."
 comments: true
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/09/08/give-four-links-teach-children-seed-sown-will-never-uprooted-vladimir-lenin/"
 ---
 ## Categories ##
  * [My favorites](#favorites)
