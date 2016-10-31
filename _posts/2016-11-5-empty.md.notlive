@@ -1,0 +1,90 @@
+---
+layout: post
+title: ""
+description: ""
+comments: true
+keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+---
+
+## Categories ##
+* [My favorites](#favorites)
+* [Ideas, Thoughts, comments](#ideas)
+* [Agile, Organizations and process](#agile)
+* [Architecture & Software development practices](#development)
+* [.Net & C#](#net)
+* [Javascript](#javascript)
+* [Other Languages](#polygloting)
+* [Frontend matters](#web)
+* [Tools](#tools)
+* [Monitoring](#monitoring)
+* [Cloud, DevOps and Security](#devops)
+* [Containers](#containers)
+* [Machine Learning, IoT and other very fancy buzzwords](#iot)
+* [Books](#books)
+* [Made me Laugh, Cry or just news](#news)
+
+# My favorites<a name="favorites"></a> #
+* [Adopting Serverless — Architectures And Security](https://read.acloud.guru/adopting-serverless-architectures-and-security-254a0c12b54a#.c0vuumu5n)
+* [Why You Should Argue With Your Employees](https://m.signalvnoise.com/why-you-should-argue-with-your-employees-ab8189fcd1c4#.bpx6yef3h)
+* ['Thanks For Using Containers!' ... Said No Ceo Ever - The New Stack](http://thenewstack.io/said-no-ceo-ever-things-dont-matter-cloud/)
+* [The No More Ransom Project](https://www.nomoreransom.org/)
+* [Sitecore And Docker - Today! - Invokecommand.net](http://invokecommand.net/posts/sitecore-and-docker-today)
+
+## Ideas, Thoughts, comments <a name="ideas"></a> ##
+* [Introducing Projects For Organizations](https://github.com/blog/2272-introducing-projects-for-organizations)
+* [Microservices As A Metaphor For The Evolution Of Work | David Rowley | Pulse | Linkedin](https://www.linkedin.com/pulse/microservices-trends-metaphor-evolution-work-david-rowley)
+* [How Failing Fast Drives Us Forward At Zalando Tech – Zalando Tech Blog](https://tech.zalando.com/blog/how-failing-fast-drives-us-forward-at-zalando-tech/)
+
+## Agile, Organizations and process<a name="agile"></a> ##
+* [Actionable Agile Tools](https://www.infoq.com/articles/actionable-agile-tools)
+* [Goto 2016 • Why Cross-functional Teams Build Better Microservices • Peter-gillard Moss - Youtube](https://www.youtube.com/watch?v=J_bhu84SspM)
+* [34th Ebay Tech Talk: Mobile.de's Lean Way To Microservices, July 7th 2016 - Youtube](https://www.youtube.com/watch?v=CTx9c1z-SoI)
+* [Need A Strategy? Let It Grow Like A Weed In The Garden | Henry Mintzberg](http://www.mintzberg.org/blog/growing-strategies)
+
+## Architecture & Software development practices <a name="development"></a> ##
+* [Abhi Jain's .Net Blog: Domain Vs Sub Domain Vs Bounded Context In Ddd](http://www.abhijainsblog.com/2016/10/domain-vs-sub-domain-vs-bounded-context.html)
+* [Building Microservices Application On Aws - Jaxenter](https://jaxenter.com/building-microservices-application-on-aws-129890.html)
+
+## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
+* [Implementing An Event Sourced Aggregate · Nick Chamberlain](https://buildplease.com/pages/fpc-9/)
+* [Command Handlers · Nick Chamberlain](https://buildplease.com/pages/fpc-10/)
+* [The Software Developer Workflow With Docker And Asp.net Core](https://www.excella.com/insights/the-software-developer-workflow-with-docker-and-asp-net-core)
+* [Using Dotnet Watch Test For Continuous Testing With .Net Core And Xunit.net - Scott Hanselman](http://www.hanselman.com/blog/UsingDotnetWatchTestForContinuousTestingWithNETCoreAndXUnitnet.aspx)
+* [How Does The 'Fixed' Keyword Work? · Performance Is A Feature!](http://mattwarren.org/2016/10/26/How-does-the-fixed-keyword-work/)
+* [Bearer Token Authentication In Asp.net Core | .Net Web Development And Tools Blog](https://blogs.msdn.microsoft.com/webdev/2016/10/27/bearer-token-authentication-in-asp-net-core/)
+
+## Other Languages  <a name="polygloting"></a> ##
+* [Software That Writes And Evolves Software – The Composition – Medium](https://medium.com/the-composition/software-that-writes-and-evolves-software-953578a6fc36#.o6vn0nruk)
+
+## Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a> ##
+* [Walmart Debuts Electrode, An Open Source Platform For React/node.js Apps - The New Stack](http://thenewstack.io/strap-electrodes-walmart-labs-open-source-alive/)
+* [Six Tiny But Awesome Es6 Features](https://davidwalsh.name/es6-features)
+* [Token-based Authentication With Node - Michael Herman](http://mherman.org/blog/2016/10/28/token-based-authentication-with-node/)
+
+## Frontend matters <a name="web"></a> ##
+
+## Tools and things from Github <a name="tools"></a> ##
+
+## Cloud, DevOps and Security<a name="devops"></a> ##
+* [Service Discovery At Stripe](https://stripe.com/blog/service-discovery-at-stripe)
+* [Atombombing: A Code Injection That Bypasses Current Security Solutions](http://blog.ensilo.com/atombombing-a-code-injection-that-bypasses-current-security-solutions)
+* [Saelo/jscpwn: Poc Exploit For Cve-2016-4622](https://github.com/saelo/jscpwn) + [.:: Phrack Magazine ::.](http://phrack.com/papers/attacking_javascript_engines.html)
+* [Serverless Operations Is Not A Solved Problem](https://www.infoq.com/news/2016/10/Serverless-Operations)
+* [Automatic Deployment At Shopify – Engineering](https://engineering.shopify.com/227358148-automatic-deployment-at-shopify)
+
+## Containers <a name="containers"></a> ##
+* [Labs/security At Master · Docker/labs](https://github.com/docker/labs/tree/master/security)
+* [Visualize Your Raspberry Pi Containers With Portainer Or Ui For Docker · Docker Pirates Armed With Explosive Stuff](https://blog.hypriot.com/post/new-docker-ui-portainer/)
+* [Docker Container Anti Patterns](http://blog.couchbase.com/2016/october/docker-container-anti-patterns)
+* [Considerations For Running Docker For Windows Server 2016 With Hyper-v Vms - Docker Blog](https://blog.docker.com/2016/10/considerations-running-docker-windows-server-2016-hyper-v-vms/)
+
+## Monitoring and Performance <a name="monitoring"></a> ##
+
+## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
+
+## Books and Papers<a name="books"></a> ##
+
+## Made me Laugh, Cry or just news. <a name="news"></a> ##
+* [Giving Back To The Design Community – Facebook Design – Medium](https://medium.com/facebook-design/giving-back-to-the-design-community-2c0b4cbb091f#.jo98jrw3x)
+* [Etsy Design](https://medium.com/etsy-design)
+* [Buy Seeed Iot Grove Kit For Windows Review - Microsoft Store](https://www.microsoftstore.com/store/msusa/en_US/pdp/Seeed-IoT-Grove-Kit-for-Windows/productID.5063211000)
