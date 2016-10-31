@@ -1,13 +1,20 @@
-##Categories
+---
+layout: post
+title: ""
+description: ""
+comments: true
+keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+---
+
+## Categories ##
 * [My favorites](#favorites)
 * [Ideas, Thoughts, comments](#ideas)
 * [Agile, Organizations and process](#agile)
 * [Architecture & Software development practices](#development)
 * [.Net & C#](#net)
 * [Javascript](#javascript)
-* [NodeJs](#nodejs)
 * [Other Languages](#polygloting)
-* [Web including html and css](#web)
+* [Frontend matters](#web)
 * [Tools](#tools)
 * [Monitoring](#monitoring)
 * [Cloud, DevOps and Security](#devops)
@@ -16,32 +23,32 @@
 * [Books](#books)
 * [Made me Laugh, Cry or just news](#news)
 
-#My favorites<a name="favorites"></a>
+# My favorites<a name="favorites"></a> #
 
-##Ideas, Thoughts, comments <a name="ideas"></a>
+## Ideas, Thoughts, comments <a name="ideas"></a> ##
 
-##Agile, Organizations and process<a name="agile"></a>
+## Agile, Organizations and process<a name="agile"></a> ##
 
-##Architecture & Software development practices <a name="development"></a>
+## Architecture & Software development practices <a name="development"></a> ##
 
-##**.Net, C#, F# (& Powershell)**  <a name="net"></a>
+## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
 
-##Other Languages  <a name="polygloting"></a>
+## Other Languages  <a name="polygloting"></a> ##
 
-##Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a>
+## Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a> ##
 
-##Web including html and css  <a name="web"></a>
+## Frontend matters <a name="web"></a> ##
 
-##Tools and things from Github <a name="tools"></a>
+## Tools and things from Github <a name="tools"></a> ##
 
-##Cloud, DevOps and Security<a name="devops"></a>
+## Cloud, DevOps and Security<a name="devops"></a> ##
 
-##Containers <a name="containers"></a>
+## Containers <a name="containers"></a> ##
 
-##Monitoring and Performance <a name="monitoring"></a>
+## Monitoring and Performance <a name="monitoring"></a> ##
 
-##Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a>
+## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
 
-##Books and Papers<a name="books"></a> 
+## Books and Papers<a name="books"></a> ##
 
-##Made me Laugh, Cry or just news. <a name="news"></a>
+## Made me Laugh, Cry or just news. <a name="news"></a> ##
