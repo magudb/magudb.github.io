@@ -5,15 +5,3 @@
 		<small><a href="https://github.com/heiswayi/thinkspace">Thinkspace</a> theme by <a href="http://heiswayi.github.io/">Heiswayi Nrird</a>.</small>
 	</div>
 </footer>
-<script>    
-    var elements = document.querySelectorAll("a");
-    for (var i = 0; i < elements.length; i++) {
-      elements[i].addEventListener("click", function(event) {
-        var url = event.getAttribute("href");
-        console.log(url);
-        ga('send', 'event', 'outbound', 'click', url, {
-            'transport': 'beacon'
-        });
-      });
-    }
-</script>
