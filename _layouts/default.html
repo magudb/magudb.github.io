@@ -9,20 +9,18 @@ layout: compress
       {% include header.html %}
       {{ content }}
       {% include footer.html %}
-    </main>
-    <script>
-    window.store = {
-      {% for post in site.posts %}
-        "{{ post.url | slugify }}": {
-          "title": "{{ post.title | xml_escape }}",
-          "author": "{{ post.author | xml_escape }}",
-          "category": "{{ post.category | xml_escape }}",
-          "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-          "url": "{{ post.url | xml_escape }}"
-        }
-        {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    };
-  </script>
+    </main>   
+    <script>    
+    var elements = document.querySelectorAll("a");
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener("click", function(event) {
+             ga('send', 'event', {
+              eventCategory: 'Outbound Link',
+              eventAction: 'click',
+              eventLabel: event.target.href
+            });
+      });
+    }
+</script>
   </body>
 </html>
