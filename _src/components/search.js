@@ -1,4 +1,4 @@
-// Original JavaScript code by Chirp Internet: www.chirp.com.au
+// Original JavaScript code by Chirp Internet www.chirp.com.au
 // Please acknowledge use of this code by including this header.
 
 import Fuse from "fuse.js"
@@ -22,18 +22,13 @@ var options = {
 };
 
 export function init() {
-    var inputs = Array.prototype.slice.call(document.querySelectorAll("search"))
-    inputs.forEach(inputs => {
-        inputs.setAttribute('disabled', 'disabled')
-    });
+    let results_container = document.querySelector("#search-results");
+    if(!results_container){
+      return new Promise();
+    }
     return fetch("/search.json")
         .then(result => result.json())
         .then(result => {
-            var inputs = Array.prototype.slice.call(document.querySelectorAll("search"))
-            inputs.forEach(inputs => {
-                inputs.setAttribute('disabled', 'false')
-            });
-
             index = new Fuse(result, options);
             return index;
         })
