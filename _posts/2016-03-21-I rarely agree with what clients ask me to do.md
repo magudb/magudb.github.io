@@ -29,7 +29,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 # My favorites<a name="favorites"></a> #
  * [Managing Frontend In The Microservices Architecture](http://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html) - good article on something i have been wondering about
  * [Stack Overflow Developer Survey 2016 Results](https://stackoverflow.com/research/developer-survey-2016#work) - always good with some dat ascience
- * [Why The New It4it Reference Architecture Is A Game Changer](http://techbeacon.com/why-new-it4it-reference-architecture-game-changer) + [The Open Group It4it™ Reference Architecture, Version 2.0](https://www2.opengroup.org/ogsys/catalog/c155)
+ * [Why The New It4it Reference Architecture Is A Game Changer](http://techbeacon.com/why-new-it4it-reference-architecture-game-changer) + [The Open Group It4it Reference Architecture, Version 2.0](https://www2.opengroup.org/ogsys/catalog/c155)
  * [How To Sharpen Pencils](https://vimeo.com/60718161) it isn't yak-shaving
  * [The Tool We Built To Keep Everyone In The Loop At Basecamp](https://m.signalvnoise.com/the-tool-we-built-to-keep-everyone-in-the-loop-at-basecamp-69bc58312014#.x5jer41bv) - Maybe an idea for the CH hackathon...
  * [Frameworks Don't Make Much Sense](http://www.catonmat.net/blog/frameworks-dont-make-sense/) - I tend to agree that frameworkbase can harm your abilities as a developer
@@ -70,7 +70,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Javascript  <a name="javascript"></a> ##
  * [Critical - Extract & Inline Critical-path Css In Html Pages](https://github.com/addyosmani/critical)
- * [Mxnetjs: Javascript Package For Deep Learning In Browser (Without Server)](https://github.com/dmlc/mxnet.js/)
+ * [Mxnetjs Javascript Package For Deep Learning In Browser (Without Server)](https://github.com/dmlc/mxnet.js/)
  * [Mar 17	Seams In JavascriptMike Pennisi](https://bocoup.com/weblog/seams-in-javascript)
  * [New Flavors Of Javascript](http://blog.moove-it.com/new-flavors-javascript/)
  * [What Is Ally.js?](http://allyjs.io/)

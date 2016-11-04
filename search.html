@@ -4,13 +4,11 @@ title: Search
 permalink: /search/
 ---
 
-<form action="/search" method="get">
+<form>
   <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
+  <input type="submit" value="search" id="search-button">
 </form>
 
 <ul id="search-results"></ul>
 
-<script src="{{ "/assets/js/lunr.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}"></script>
