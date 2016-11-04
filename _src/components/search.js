@@ -37,6 +37,7 @@ export function init() {
             index = new Fuse(result, options);
             return index;
         })
+        .catch(err=> console.log(err));
 }
 
 export function For(value) {
