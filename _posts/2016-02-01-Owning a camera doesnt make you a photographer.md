@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Owning a camera doesn&#8217;t make you a photographer."
-description: "Owning a camera doesn&#8217;t make you a photographer."
+title: "Owning a camera doesn't make you a photographer."
+description: "Owning a camera doesn't make you a photographer."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

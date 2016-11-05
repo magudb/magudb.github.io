@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Design is more than just a few tricks to the eye. It&#8217;s a few tricks to the brain."
-description: "Design is more than just a few tricks to the eye. It&#8217;s a few tricks to the brain."
+title: "Design is more than just a few tricks to the eye. It's a few tricks to the brain."
+description: "Design is more than just a few tricks to the eye. It's a few tricks to the brain."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

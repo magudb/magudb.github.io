@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "I make solutions nobody wants to problems that don&#8217;t exist."
-description: "I make solutions nobody wants to problems that don&#8217;t exist."
+title: "I make solutions nobody wants to problems that don't exist."
+description: "I make solutions nobody wants to problems that don't exist."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

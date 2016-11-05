@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "There&#8217;s a difference between being obsessed and being motivated."
-description: "There&#8217;s a difference between being obsessed and being motivated."
+title: "There's a difference between being obsessed and being motivated."
+description: "There's a difference between being obsessed and being motivated."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

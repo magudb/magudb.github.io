@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A lot of the things about design that tend to get designers really interested aren&#8217;t that important."
-description: "A lot of the things about design that tend to get designers really interested aren&#8217;t that important."
+title: "A lot of the things about design that tend to get designers really interested aren't that important."
+description: "A lot of the things about design that tend to get designers really interested aren't that important."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

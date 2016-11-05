@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Whether you think you can or whether you think you can&#8217;t &#8211; you are right."
-description: "Whether you think you can or whether you think you can&#8217;t &#8211; you are right."
+title: "Whether you think you can or whether you think you can't - you are right."
+description: "Whether you think you can or whether you think you can't - you are right."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"

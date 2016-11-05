@@ -6,7 +6,11 @@ import queryString from "query-string"
 import Mark from "mark.js"
 
 var searchTemplate = (model) => {
-    return `<li><a href="${model.url}?searched=${model.value}">[${model.date}] - ${model.title}</a></li>`;
+    return `<article class="post-item">
+        <span class="post-meta date-label">${model.date}</span>
+        <div class="article-title"><span class="badge-default">${model.category}</span>  <a class="post-link" href="${model.url}?searched=${model.value}">${model.title}</a></div>
+      </article>`;
+  
 };
 
 var index;
@@ -16,7 +20,7 @@ var options = {
     location: 0,
     distance: 10,
     keys: [
-        "title",
+        "category",
         "content"
     ]
 };
