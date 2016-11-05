@@ -6,7 +6,7 @@ import queryString from "query-string"
 import Mark from "mark.js"
 
 var searchTemplate = (model) => {
-    return `<li><a href="${model.url}?searched=${model.value}">${model.title}</a></li>`;
+    return `<li><a href="${model.url}?searched=${model.value}">[${model.date}] - ${model.title}</a></li>`;
 };
 
 var index;
