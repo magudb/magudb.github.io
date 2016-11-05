@@ -24,7 +24,9 @@ var options = {
 export function init() {
     let results_container = document.querySelector("#search-results");
     if(!results_container){
-      return new Promise();
+      return new Promise((resolved, rejected)=>{ 
+          resolved();
+      });
     }
     return fetch("/search.json")
         .then(result => result.json())
@@ -74,13 +76,9 @@ export function bootstrap_dom(input_element, button_element, action) {
     }
 
 
-    // if (!button) {
-    //     var form = document.querySelector('#search');
-    //     return form.addEventListener('submit', function(e) {
-    //         e.preventDefault();
-    //         location.href = `/search?query=${inputNav.value}`
-    //     }, false);
-    // }
+    if (!button) {
+       return;
+    }
 
     button.addEventListener("click", (event) => {
         event.preventDefault();
