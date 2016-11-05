@@ -39,6 +39,9 @@ export function init() {
 
 export function For(value) {
     let results = index.search(value);
+    if(results.length <1){
+        return `<li>Could not find anything with <em>${value}</em></li>`
+    }
     return results.map(model => {
         model.value = value;
         return searchTemplate(model);
@@ -51,6 +54,7 @@ export function bootstrap_dom(input_element, button_element, action) {
     let button = document.querySelector(button_element);
     let results_container = document.querySelector("#search-results");
     const parsed = queryString.parse(location.search);
+    
     if (results_container) {
         while (results_container.firstChild) {
             results_container.removeChild(results_container.firstChild);
