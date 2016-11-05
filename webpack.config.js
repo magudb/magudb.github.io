@@ -11,7 +11,7 @@ module.exports = {
         filename: "app.js"
 
     },
-    entry: ['babel-polyfill',"./_src/app.js"],
+    entry: ["./_src/app.js"],
     module: {
         loaders: [
             {

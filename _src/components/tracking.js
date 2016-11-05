@@ -5,7 +5,7 @@ let isRelativeUrl = (url) => {
 };
 
 export function for_google() {
-    var elements = document.querySelectorAll("a");
+    var elements =  Array.prototype.slice.call(document.querySelectorAll("a"));
     elements.forEach(element => {
         element.addEventListener("click", function (event) {
             var isRelative = isRelativeUrl(event.target.href)

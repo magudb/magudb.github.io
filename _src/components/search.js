@@ -5,14 +5,14 @@ import Fuse from "fuse.js"
 import queryString from "query-string"
 import Mark from "mark.js"
 
-var searchTemplate = (model) => {
+let searchTemplate = (model) => {
     return `<article class="post-item">
         <span class="post-meta date-label">${model.date}</span>
         <div class="article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.value}">${model.title}</a></div>
       </article>`;
 };
 
-var hasClass = function (el, className) {
+let hasClass = function (el, className) {
     if (el.classList) {
         return el.classList.contains(className);
     } else {
@@ -20,7 +20,7 @@ var hasClass = function (el, className) {
     }
 }
 
-var addClass = function (el, className) {
+let addClass = function (el, className) {
     if (el.classList) {
         el.classList.add(className);
     } else {
@@ -29,7 +29,7 @@ var addClass = function (el, className) {
     return el;
 }
 
-var removeClass = function (el, className) {
+let removeClass = function (el, className) {
     if (el.classList) {
         el.classList.remove(className);
     } else {
