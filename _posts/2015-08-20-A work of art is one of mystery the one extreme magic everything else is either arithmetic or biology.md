@@ -3,6 +3,7 @@ layout: post
 title: "A work of art is one of mystery, the one extreme magic; everything else is either arithmetic or biology."
 description: "A work of art is one of mystery, the one extreme magic; everything else is either arithmetic or biology."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 #  Must see ..! #

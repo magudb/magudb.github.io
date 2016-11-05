@@ -3,6 +3,7 @@ layout: post
 title: "It took me a few seconds to draw it, but it took me 34 years to learn how to draw it in a few seconds."
 description: "It took me a few seconds to draw it, but it took me 34 years to learn how to draw it in a few seconds."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

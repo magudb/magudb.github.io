@@ -3,6 +3,7 @@ layout: post
 title: "If I forget the words, they weren’t very memorable in the first place."
 description: "If I forget the words, they weren’t very memorable in the first place."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 #   My favorits (*) #

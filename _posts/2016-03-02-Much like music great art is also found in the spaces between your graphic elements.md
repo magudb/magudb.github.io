@@ -3,6 +3,7 @@ layout: post
 title: "Much like music, great art is also found in the spaces between your graphic elements."
 description: "Much like music, great art is also found in the spaces between your graphic elements."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

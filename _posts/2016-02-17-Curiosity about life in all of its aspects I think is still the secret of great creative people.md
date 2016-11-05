@@ -3,6 +3,7 @@ layout: post
 title: "Curiosity about life in all of its aspects, I think, is still the secret of great creative people."
 description: "Curiosity about life in all of its aspects, I think, is still the secret of great creative people."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 # My favorites #

@@ -3,6 +3,7 @@ layout: post
 title: "Copywriting is definitely the profession most written about."
 description: "Copywriting is definitely the profession most written about."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

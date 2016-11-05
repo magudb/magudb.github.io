@@ -3,6 +3,7 @@ layout: post
 title: "In the presence of good rationale, maintainers should be willing to change their mind often."
 description: "In the presence of good rationale, maintainers should be willing to change their mind often."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 

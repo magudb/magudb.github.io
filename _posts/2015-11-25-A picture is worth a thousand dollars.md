@@ -3,6 +3,7 @@ layout: post
 title: "A picture is worth a thousand dollars."
 description: "A picture is worth a thousand dollars."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 # Weekly links (* is for everyone) #

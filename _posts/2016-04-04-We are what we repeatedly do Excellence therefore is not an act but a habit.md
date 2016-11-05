@@ -3,6 +3,7 @@ layout: post
 title: "We are what we repeatedly do. Excellence, therefore, is not an act, but a habit."
 description: "We are what we repeatedly do. Excellence, therefore, is not an act, but a habit."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

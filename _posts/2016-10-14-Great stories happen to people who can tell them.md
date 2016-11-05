@@ -3,6 +3,7 @@ layout: post
 title: "Great stories happen to people who can tell them."
 description: "Great stories happen to people who can tell them."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/10/14/soon-link-generality-entered-scene"
 ---

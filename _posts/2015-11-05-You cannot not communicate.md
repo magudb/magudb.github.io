@@ -3,6 +3,7 @@ layout: post
 title: "You cannot not communicate."
 description: "You cannot not communicate."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 # Weekly links (* is for everyone) #

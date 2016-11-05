@@ -3,6 +3,7 @@ layout: post
 title: "I rarely agree with what clients ask me to do."
 description: "I rarely agree with what clients ask me to do."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

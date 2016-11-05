@@ -3,6 +3,7 @@ layout: post
 title: "A designer who gives her art away, makes no pay. A designer who keeps her art to herself, makes no friends. "
 description: "A designer who gives her art away, makes no pay. A designer who keeps her art to herself, makes no friends. "
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

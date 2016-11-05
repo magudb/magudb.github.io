@@ -3,6 +3,7 @@ layout: post
 title: "Write drunk; edit sober."
 description: "Write drunk; edit sober."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

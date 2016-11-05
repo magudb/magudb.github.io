@@ -3,6 +3,7 @@ layout: post
 title: "I love deadlines. I like the whooshing sound they make as they go by."
 description: "I love deadlines. I like the whooshing sound they make as they go by."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/08/31/eyes-authority-maybe-rightly-nothing-looks-like-link-ordinary-man-giorgio-agamben/"
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Bimodal, Two-speed? Why are we looking into this?"
 description: "Why are we inventing new and complex ways when we have [Insert Word] the solution for everything?"
+category: "Big thoughts"
 comments: true
 keywords: "Bimodal, Gartner, Ambidexterity, DevOps"
 ---

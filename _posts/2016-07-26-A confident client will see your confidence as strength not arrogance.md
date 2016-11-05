@@ -3,6 +3,7 @@ layout: post
 title: "A confident client will see your confidence as strength, not arrogance."
 description: "A confident client will see your confidence as strength, not arrogance."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

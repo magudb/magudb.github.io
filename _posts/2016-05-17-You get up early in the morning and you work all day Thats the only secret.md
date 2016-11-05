@@ -3,6 +3,7 @@ layout: post
 title: "You get up early in the morning and you work all day. That’s the only secret."
 description: "You get up early in the morning and you work all day. That’s the only secret."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

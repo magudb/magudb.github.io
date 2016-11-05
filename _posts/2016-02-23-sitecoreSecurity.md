@@ -4,6 +4,7 @@ title: "Sitecore Security"
 description: "NWebSec and Sitecote"
 comments: true
 keywords: "Sitecore, security, nwebsec"
+category: "Sitecore"
 ---
 k## Introduction - A year of breaches
 

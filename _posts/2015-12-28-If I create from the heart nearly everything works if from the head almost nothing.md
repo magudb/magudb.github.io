@@ -3,6 +3,7 @@ layout: post
 title: "If I create from the heart, nearly everything works; if from the head, almost nothing."
 description: "If I create from the heart, nearly everything works; if from the head, almost nothing."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ##   My favorits (*) ##

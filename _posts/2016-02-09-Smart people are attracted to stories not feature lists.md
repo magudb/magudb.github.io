@@ -3,6 +3,7 @@ layout: post
 title: "Smart people are attracted to stories, not feature lists."
 description: "Smart people are attracted to stories, not feature lists."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 # My favorites #

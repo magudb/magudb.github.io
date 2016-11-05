@@ -3,6 +3,7 @@ layout: post
 title: "Links is never a straight line. It’s a forest, And like a forest it’s easy to lose your way.. To get lost... To forget where you came in."
 description: "Links is never a straight line. It’s a forest, And like a forest it’s easy to lose your way.. To get lost... To forget where you came in"
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 

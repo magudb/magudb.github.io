@@ -3,6 +3,7 @@ layout: post
 title: "No great thing is created suddenly."
 description: "No great thing is created suddenly."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 ## Categories ##

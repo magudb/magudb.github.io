@@ -3,6 +3,7 @@ layout: post
 title: "No masterpiece was ever created by a lazy artist."
 description: "No masterpiece was ever created by a lazy artist."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 #  Must see - this is for all! #

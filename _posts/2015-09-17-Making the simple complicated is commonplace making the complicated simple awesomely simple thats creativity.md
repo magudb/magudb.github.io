@@ -3,6 +3,7 @@ layout: post
 title: "Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that&#8217;s creativity."
 description: "Making the simple complicated is commonplace; making the complicated simple, awesomely simple, that&#8217;s creativity."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 

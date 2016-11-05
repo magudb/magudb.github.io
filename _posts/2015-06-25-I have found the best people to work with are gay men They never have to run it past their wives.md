@@ -3,6 +3,7 @@ layout: post
 title: "I have found the best people to work with are gay men. They never have to &#8216;run it past their wives.&#8217;"
 description: "I have found the best people to work with are gay men. They never have to &#8216;run it past their wives.&#8217;"
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 #  Must see #

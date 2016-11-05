@@ -3,6 +3,7 @@ layout: post
 title: "Give a crap. Don’t give a fuck."
 description: "Give a crap. Don’t give a fuck."
 comments: true
+category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 # Weekly links (* is for everyone) #
