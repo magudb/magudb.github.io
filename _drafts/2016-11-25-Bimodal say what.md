@@ -30,7 +30,7 @@ Development is seen as strategy and Operation is seen as tactical
 ##Sprinters over Marathoners, tales of bi-cultured##
 
 ##The real problem##
-I think the real problem we can solve with a dualistic approach is innovation, not how we maintain or develop the IT.
+is innovation, not how we maintain or develop the IT.
 
 
 [^1]: Ambidexterity?
