@@ -36,3 +36,10 @@ I think the real problem we can solve with a dualistic approach is innovation, n
 [^1]: Ambidexterity?
 [^O'Reilly & Tushman, 2007, p. 22] - O'Reilly, C. O. & Tushman, M., 2007. Ambidexterity as a Dynamic Capability: Resolving the Innovator’s Dilemma. s.l.:s.n.
 [^Lavie, et al., 2010] - Lavie, D., Stettner, U. & E., T. M., 2010. Exploration and Exploitation Within and Across Organizations. The Academy of Management Annals, 4(1), pp. 109-155.
+
+[Bimodal It](http://martinfowler.com/bliki/BimodalIT.html){:target="_blank"}
+[The Flaw At The Heart Of Bimodal It - Continuous Delivery](https://continuousdelivery.com/2016/04/the-flaw-at-the-heart-of-bimodal-it/){:target="_blank"}
+[Multi-speed It - The It Skeptic](http://www.itskeptic.org/content/multi-speed-it){:target="_blank"}
+[Bimodal It: What's Not To Like? - The New Stack](http://thenewstack.io/bimodal-it-whats-not-to-like/){:target="_blank"}
+[Bimodal Considered Harmful](http://www.forbes.com/sites/justinwarren/2016/10/25/bimodal-considered-harmful/3/#1384d5ff700d){:target="_blank"}
+[Why Gartner’s Mode 1 / Mode 2 Is Dangerous Thinking - Solinea](http://solinea.com/blog/gartners-mode-1-mode-2-dangerous-thinking){:target="_blank"}
