@@ -63,7 +63,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Building A Modern, Scalable Backend: Modernizing Monolithic Applications – Medium](https://medium.com/@derrickburns/building-a-modern-scalable-backend-modernizing-monolithic-applications-15fc3b8101fa#.w9dxnih17){:target="_blank"}
 * [The Reality Of Microservices In The Enterprise - The New Stack](http://thenewstack.io/reality-microservices-enterprise/){:target="_blank"}
 * [Purposes Of The Serverless Architecture Style](https://specify.io/concepts/serverless-baas-faas){:target="_blank"}
-* [A Comparison Of Authentication Options Within Microservice Systems - Skillscast | 7th November 2016](https://skillsmatter.com/skillscasts/8746-a-comparison-of-authentication-options-within-microservice-systems){:target="_blank"}
+* [A Comparison Of Authentication Options Within Microservice Systems - Skillscast - 7th November 2016](https://skillsmatter.com/skillscasts/8746-a-comparison-of-authentication-options-within-microservice-systems){:target="_blank"}
 * [Episode 13 - O’reilly Software Architecture Conference - Codeand_](http://codeand.us/podcast/episode-13/){:target="_blank"}
 * [Mastering Chaos - A Netflix Guide To Microservices](http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices){:target="_blank"}
 * [Develop Faster With An Open Source Microservices Platform By James Strachan - Youtube](https://www.youtube.com/watch?v=bERRJksRB1A){:target="_blank"}
