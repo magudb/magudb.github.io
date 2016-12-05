@@ -37,7 +37,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [​The Cxo Guide To Microservices - Thoughtworks](https://www.thoughtworks.com/insights/blog/cxo-guide-microservices){:target="_blank"}
 
 ## Agile, Organizations and process<a name="agile"></a> ##
-* [Diversity In The Songkick Technology Team - #F80046](http://devblog.songkick.com/2016/11/25/diversity-in-the-songkick-technology-team/){:target="_blank"}
+* [Diversity In The Songkick Technology Team](http://devblog.songkick.com/2016/11/25/diversity-in-the-songkick-technology-team/){:target="_blank"}
 * [Code Is Better When We Write It Together - 8th Light](https://8thlight.com/blog/daniel-irvine/2016/11/28/code-is-better-when-we-write-it-together.html){:target="_blank"}
 
 ## Architecture & Software development practices <a name="development"></a> ##

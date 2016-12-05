@@ -40,7 +40,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Code Review In Remote Teams – Hypothesis](https://hypothes.is/blog/code-review-in-remote-teams/){:target="_blank"}
 
 ## Agile, Organizations and process<a name="agile"></a> ##
-* [The Art Of The Design Sprint - Info | The Guardian](https://www.theguardian.com/info/developer-blog/2016/dec/02/the-art-of-the-design-sprint){:target="_blank"}
+* [The Art Of The Design Sprint - Info - The Guardian](https://www.theguardian.com/info/developer-blog/2016/dec/02/the-art-of-the-design-sprint){:target="_blank"}
 * [First Things First, Trust Each Other - Labs](https://labs.spotify.com/2016/12/05/first-things-first-trust-each-other/){:target="_blank"}
 
 ## Architecture & Software development practices <a name="development"></a> ##
