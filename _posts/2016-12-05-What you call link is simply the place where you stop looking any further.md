@@ -24,7 +24,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Books](#books)
 * [Made me Laugh, Cry or just news](#news)
 
-# My favorites<a name="favorites"></a> #  010000005266703
+# My favorites<a name="favorites"></a> #  
 * [Create An Environmental Monitoring Dashboard](http://blog.alexellis.io/environmental-monitoring-dashboard/){:target="_blank"}
 * [Slack Client For Commodore 64](http://1amstudios.com/2016/11/27/c64-slack-client/){:target="_blank"}
 * [Pbering/socker: Sitecore And Docker, End To End Example](https://github.com/pbering/Socker){:target="_blank"}
