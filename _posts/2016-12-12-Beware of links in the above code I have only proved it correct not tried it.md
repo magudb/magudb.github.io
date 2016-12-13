@@ -108,6 +108,6 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Containerized Docker Application Lifecycle With Microsoft Platform And Tools](https://buildazure.com/2016/12/07/free-ebook-containerized-docker-application-lifecycle-with-microsoft-platform-and-tools/){:target="_blank"}
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
-* [Game Of Phones - Card Game, Iphone, Cards Against Humanity, Smartphone | Uncommongoods](http://www.uncommongoods.com/product/game-of-phones){:target="_blank"}
+* [Game Of Phones - Card Game, Iphone, Cards Against Humanity, Smartphone - Uncommongoods](http://www.uncommongoods.com/product/game-of-phones){:target="_blank"}
 * [Awesome, Legal, Wireless Retrogaming With A Hyperkin Retron 5 And 8bitdo's Nes30pro](http://www.hanselman.com/blog/AwesomeLegalWirelessRetrogamingWithAHyperkinRetron5And8bitdosNes30pro.aspx){:target="_blank"}
 * [Online Courses For Kids – Jam](https://jam.com/){:target="_blank"}
