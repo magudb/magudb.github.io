@@ -84,22 +84,19 @@
             return Math.round(fp);
         } else if ('performance' in window) {
             const navTiming = window.performance.timing;
-            // See http://msdn.microsoft.com/ff974719
+           
             if (navTiming && navTiming.msFirstPaint && navTiming.navigationStart !== 0) {
-                // See http://msdn.microsoft.com/ff974719
+              
                 return navTiming.msFirstPaint - navTiming.navigationStart;
             }
         }
         return null;
     }
-
-    // Take measurement after page load.
+    
     window.addEventListener('load', function () {
         const fp = getFirstPaintIfSupported();
         if (fp) {
             const metric = new Metric('firstpaint');
-
-            // No need to call start()/end(). Can send a value, directly.
             metric.sendToAnalytics('load', metric.name, fp);
         }
     });
