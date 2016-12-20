@@ -45,7 +45,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Architecture & Software development practices <a name="development"></a> ##
 * [Gilt ♥ Open Source / From Monolothic To Microservices - Gilt's Journey To Microservices On Aws](http://tech.gilt.com/conferences/2016/12/13/emerson-louriero-at-aws-reinvent){:target="_blank"}
-* [Real-world Software Security Lessons - Info | The Guardian](https://www.theguardian.com/technology/2016/dec/16/real-world-software-security-lessons){:target="_blank"}
+* [Real-world Software Security Lessons - Info - The Guardian](https://www.theguardian.com/technology/2016/dec/16/real-world-software-security-lessons){:target="_blank"}
 
 ## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
 * [How To Use Your Gpu In .Net - Codeproject](https://www.codeproject.com/Articles/1116907/How-to-Use-Your-GPU-in-NET){:target="_blank"}
