@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "firmitas, utilitas, venustas"
-description: " firmitas, utilitas, venusta (Durability, Utility, Beauty) - Marcus Vitruvius Pollio"
+description: "firmitas, utilitas, venusta (Durability, Utility, Beauty) - Marcus Vitruvius Pollio"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
