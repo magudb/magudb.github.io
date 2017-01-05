@@ -110,7 +110,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
 * [Exploring The Tessel 2 Iot And Robotics Development Board - Scott Hanselman](http://www.hanselman.com/blog/ExploringTheTessel2IoTAndRoboticsDevelopmentBoard.aspx){:target="_blank"}
-* [From “A Pc On Every Desktop” To “Deep Learning In Every Software” - Blog | Microsoft Azure](https://azure.microsoft.com/en-us/blog/from-a-pc-on-every-desktop-to-deep-learning-in-every-software/){:target="_blank"}
+* [From “A Pc On Every Desktop” To “Deep Learning In Every Software”](https://azure.microsoft.com/en-us/blog/from-a-pc-on-every-desktop-to-deep-learning-in-every-software/){:target="_blank"}
 
 ## Books and Papers<a name="books"></a> ##
 
