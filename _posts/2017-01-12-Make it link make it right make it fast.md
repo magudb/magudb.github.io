@@ -24,6 +24,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Books](#books)
 * [Made me Laugh, Cry or just news](#news)
 
+
 # My favorites<a name="favorites"></a> #
 * [Ryanmcdermott/clean-code-javascript: Clean Code Concepts Adapted For Javascript](https://github.com/ryanmcdermott/clean-code-javascript){:target="_blank"}
 * [I Recommend That Any Security Or Infrastructure Team Putting Off A Comprehensive Approach To Logging Drop Nearly Everything To Invest In It.](https://medium.com/starting-up-security/learning-from-a-year-of-security-breaches-ed036ea05d9b#.y4q4d0l10){:target="_blank"}
@@ -46,7 +47,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [A Dark And Stormy Night: Operational Antipatterns](https://www.infoq.com/presentations/operational-antipattern){:target="_blank"}
 * [13 Scaling-related Lessons I Learned As A Software Engineer](https://www.techinasia.com/talk/13-scaling-lessons-learned-software-engineer){:target="_blank"}
 * [Better Complex Event Processing At Scale Using A Microservices-based Streaming Architecture (Part 1) - Mapr](https://www.mapr.com/blog/better-complex-event-processing-scale-using-microservices-based-streaming-architecture-part-1){:target="_blank"}
-* [Microservice Architecture Demystified - Tushar Agrawal | Pulse | Linkedin](https://www.linkedin.com/pulse/microservice-architecture-demystified-tushar-agrawal){:target="_blank"}
+* [Microservice Architecture Demystified - Tushar Agrawal - Pulse - Linkedin](https://www.linkedin.com/pulse/microservice-architecture-demystified-tushar-agrawal){:target="_blank"}
 * [Security In A Reactive Microservices Architecture - Spr](http://spr.com/security-reactive-microservices-architecture/){:target="_blank"}
 * [The Hard Truths About Microservices And Software Delivery - Youtube](https://www.youtube.com/watch?v=HOZGbSBK90k){:target="_blank"}
 * [3 Considerations For Transitioning From A Monolith To Microservices - Youtube](https://www.youtube.com/watch?v=u9zYP-gPy4I){:target="_blank"}
@@ -80,7 +81,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Frontend matters <a name="web"></a> ##
 * [The Basics Of Web Application Security](http://martinfowler.com/articles/web-security-basics.html#AuthorizeActions){:target="_blank"}
 * [Web App Manifest Generator](https://tomitm.github.io/appmanifest/){:target="_blank"}
-* [What We Learnt From Our Mistakes In 2016 - Info | The Guardian](https://www.theguardian.com/info/developer-blog/2016/dec/18/what-we-learnt-from-our-mistakes-in-2016){:target="_blank"}
+* [What We Learnt From Our Mistakes In 2016 - Info - The Guardian](https://www.theguardian.com/info/developer-blog/2016/dec/18/what-we-learnt-from-our-mistakes-in-2016){:target="_blank"}
 * [Webcomponents.org](https://www.webcomponents.org/){:target="_blank"}
 * [Architecting A Web App To “Just Work” Offline (Part 1)](https://blog.superhuman.com/architecting-a-web-app-to-just-work-offline-part-1-8697f316c0eb#.85ehgcon8){:target="_blank"}
 
