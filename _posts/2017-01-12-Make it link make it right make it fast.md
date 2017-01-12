@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Make it link, make it right, make it fast."
+description: "Make it work, make it right, make it fast. - Kent Beck"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -50,7 +50,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Security In A Reactive Microservices Architecture - Spr](http://spr.com/security-reactive-microservices-architecture/){:target="_blank"}
 * [The Hard Truths About Microservices And Software Delivery - Youtube](https://www.youtube.com/watch?v=HOZGbSBK90k){:target="_blank"}
 * [3 Considerations For Transitioning From A Monolith To Microservices - Youtube](https://www.youtube.com/watch?v=u9zYP-gPy4I){:target="_blank"}
-
+* [Nt Coding Blog: Finding Service Boundaries: The One Rule That Matters](http://ntcoding.co.uk/blog/2017/01/finding-service-boundaries-one-rule?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
+* 
 ## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
 * [Mediatr Behaviors - Codeopinion](http://codeopinion.com/mediatr-behaviors/){:target="_blank"}
 * [Building .Net Microservices](https://www.infoq.com/presentations/cloud-native-net-microservices){:target="_blank"}
@@ -59,6 +60,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Other Languages  <a name="polygloting"></a> ##
 * [Building A Serverless Application With Docker](http://blog.contino.io/blog/building-a-serverless-application-with-docker){:target="_blank"}
+* [Building A Cqrs/es Web Application In Elixir Using Phoenix - Binary Consulting](https://10consulting.com/2017/01/04/building-a-cqrs-web-application-in-elixir-using-phoenix/?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 
 ## Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a> ##
 * [Authoring And Publishing Javascript Modules With Flow](http://javascriptplayground.com/blog/2017/01/npm-flowjs-javascript/){:target="_blank"}
@@ -66,6 +68,14 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Conditioner.js • Frizz Free, Environment-aware, Javascript Modules](http://conditionerjs.com/){:target="_blank"}
 * [The Most Hearted Of 2016! - Codepen Blog](https://blog.codepen.io/2017/01/11/the-most-hearted-of-2016/){:target="_blank"}
 * [How To Avoid Common Pitfalls In Javascript - Codementor](https://www.codementor.io/thinker3197/tutorials/avoid-common-pitfalls-in-javascript-u0hzz2nfw){:target="_blank"}
+* [10 Tips To Become A Better Node Developer In 2017](https://www.sitepoint.com/10-tips-to-become-a-better-node-developer/){:target="_blank"}
+* [Opencv Tutorial: Computer Vision With Node.js - @Risingstack](https://community.risingstack.com/opencv-tutorial-computer-vision-with-node-js/){:target="_blank"}
+* [Razorframe](http://www.razorfra.me/){:target="_blank"}
+* [Keithcollins/pi-bots: A Simple System For Running Twitter Bots From Your Raspberry Pi](https://github.com/keithcollins/pi-bots){:target="_blank"}
+* [Improving The State Of Your App With Redux -Telerik Developer Network](http://developer.telerik.com/topics/web-development/improving-state-app-redux/){:target="_blank"}
+* [Array Iteration Methods Summarized](https://gist.github.com/ljharb/58faf1cfcb4e6808f74aae4ef7944cff){:target="_blank"}
+* [How To Get A Performance Boost Using Webassembly](https://hackernoon.com/how-to-get-a-performance-boost-using-webassembly-8844ec6dd665#.kf8z9a2ob){:target="_blank"}
+* [Userpixel/micromustache: An Extremely Fast And Small Sub-implementation Of The {{Mustache}} Template Engine For Javascript](https://github.com/userpixel/micromustache){:target="_blank"}
 
 ## Frontend matters <a name="web"></a> ##
 * [The Basics Of Web Application Security](http://martinfowler.com/articles/web-security-basics.html#AuthorizeActions){:target="_blank"}
