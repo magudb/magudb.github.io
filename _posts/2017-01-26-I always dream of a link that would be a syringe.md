@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "I always dream of a link that would be a syringe."
+description: "I always dream of a pen that would be a syringe. - Jacques Derrida"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -63,6 +63,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Team Geek: A Software Developer's Guide To Working Well With Others By Brian W. Fitzpatrick — Reviews, Discussion, Bookclubs, Lists](https://www.goodreads.com/book/show/14514115-team-geek){:target="_blank"}
 * [Url Culture Provider Using Middleware As Filters In Asp.net Core 1.1.0](http://andrewlock.net/url-culture-provider-using-middleware-as-mvc-filter-in-asp-net-core-1-1-0/){:target="_blank"}
 * [Building Microservices With Asp.net Core (Without Mvc) - Strathweb. A Free Flowing Web Tech Monologue.](http://www.strathweb.com/2017/01/building-microservices-with-asp-net-core-without-mvc/){:target="_blank"}
+* [Introducing Alba For Integration Testing Against Asp.net Core Applications - The Shade Tree Developer](https://jeremydmiller.com/2017/01/25/introducing-alba-for-integration-testing-against-asp-net-core-applications/){:target="_blank"}
+* [Refactoring Towards Resilience: A Primer](https://jimmybogard.com/refactoring-towards-resilience-a-primer/){:target="_blank"}
 
 ## Other Languages  <a name="polygloting"></a> ##
 * [Finch: Functional Web Development - Underscore](http://underscore.io/blog/posts/2017/01/24/finch-functional-web-development.html){:target="_blank"}
@@ -90,6 +92,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Containers <a name="containers"></a> ##
 * [Docker Container’s Filesystem Demystified – Medium](https://medium.com/@nagarwal/docker-containers-filesystem-demystified-b6ed8112a04a#.u36k67lnc){:target="_blank"}
+* [What’s New In Docker Engine 1.13 Swarm Mode? – Collabnix](http://collabnix.com/archives/2381){:target="_blank"}
+* [Deploy Docker Compose Services To Swarm](http://blog.arungupta.me/deploy-docker-compose-services-swarm/){:target="_blank"}
+* [Assessing Clusters Of Containers — Rather Than Single Containers — Is A Better ](http://thenewstack.io/monitoring-reset-containers/){:target="_blank"}
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
 * [Four Load Testing Mistakes Developers Love To Make](https://engineering.klarna.com/four-load-testing-mistakes-developers-love-to-make-68b443f7e8a2#.57jinhos1){:target="_blank"}
