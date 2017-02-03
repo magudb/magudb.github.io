@@ -58,6 +58,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [What Is Structured Logging And Why Developers Need It - Stackify](https://stackify.com/what-is-structured-logging-and-why-developers-need-it/){:target="_blank"}
 * [Building Event-driven Microservices Using Cqrs And Serverless](http://www.kennybastani.com/2017/01/building-event-driven-microservices.html?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 * [Reactive Streams, J.u.concurrent, & Beyond!](https://www.infoq.com/presentations/streams-jdk){:target="_blank"}
+
 ## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
 * [Debugging .Net Core On Unix Over Ssh - Microsoft Application Lifecycle Management](https://blogs.msdn.microsoft.com/visualstudioalm/2017/01/26/debugging-net-core-on-unix-over-ssh/){:target="_blank"}
 * [Microbus: In-process Mediator - Codeopinion](http://codeopinion.com/microbus-in-process-mediator/){:target="_blank"}
@@ -93,7 +94,6 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Tools and things from Github <a name="tools"></a> ##
 * [Kyle Isom: "Openssh Keys: A Walkthrough"](https://kyleisom.net/articles/ssh_keys.html){:target="_blank"}
-
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
 * [Ramitsurana/awesome-kubernetes: A Curated List For Awesome Kubernetes Sources](https://github.com/ramitsurana/awesome-kubernetes){:target="_blank"}

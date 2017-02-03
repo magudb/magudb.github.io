@@ -31,7 +31,6 @@ We will take advantage of Variables, Builders and Provisioners.
 
 ## Builders ##
 in this post we will look at:
-* [Googlecompute](https://www.packer.io/docs/builders/googlecompute.html){:target="_blank"}
 * [Amazon-ebs](https://www.packer.io/docs/builders/amazon.html){:target="_blank"}
 * [Azure-arm](https://www.packer.io/docs/builders/azure-arm.html){:target="_blank"}
 
