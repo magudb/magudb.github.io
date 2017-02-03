@@ -45,7 +45,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [It Is Not Your Domain - Ouarzy's Blog](http://www.ouarzy.com/2017/01/25/it-is-not-your-domain/?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 * [On Aggregates And Domain Service Interaction](https://ocramius.github.io/blog/on-aggregates-and-external-context-interactions/?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 * [Message Queues & You - 12 Reasons To Use Message Queuing - Stackify](https://stackify.com/message-queues-12-reasons/){:target="_blank"}
-* [Designing A True Rest State Machine - Nordic Apis |](http://nordicapis.com/designing-a-true-rest-state-machine/){:target="_blank"}
+* [Designing A True Rest State Machine - Nordic Apis -](http://nordicapis.com/designing-a-true-rest-state-machine/){:target="_blank"}
 * [The Rest And Then Some - Youtube](https://www.youtube.com/watch?v=QIv9YR1bMwY){:target="_blank"}
 * [Microservices - When To React Vs. Orchestrate](https://developer.capitalone.com/blog-post/microservices-when-to-react-vs-orchestrate/){:target="_blank"}
 * [Microservices Architecture - @Herbertograca](https://herbertograca.com/2017/01/26/microservices-architecture/){:target="_blank"}
@@ -105,7 +105,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Rendlelabs/eventstore-azure-terraform: Terraform Plan To Create An Eventstore Cluster In Microsoft Azure](https://github.com/RendleLabs/eventstore-azure-terraform){:target="_blank"}
 
 ## Containers <a name="containers"></a> ##
-* [Democratizing Distributed Systems With Metaparticle - Linux.com | The Source For Linux Information](https://www.linux.com/news/learn/kubernetes/democratizing-distributed-systems-metaparticle){:target="_blank"}
+* [Democratizing Distributed Systems With Metaparticle - Linux.com - The Source For Linux Information](https://www.linux.com/news/learn/kubernetes/democratizing-distributed-systems-metaparticle){:target="_blank"}
 * [Kubernetes Deployment Options - Google Slides](https://docs.google.com/presentation/d/1rmcIzebGsN4REuQhTkaCVISYB9hg_Pk0n1ypwiKq0Bk/edit#slide=id.p){:target="_blank"}
 * [Dockerfiles-windows/traefik At Master · Stefanscherer/dockerfiles-windows](https://github.com/StefanScherer/dockerfiles-windows/tree/master/traefik#use-with-lets-encrypt){:target="_blank"}
 * [Veggiemonk/awesome-docker: A Curated List Of Docker Resources And Projects](https://github.com/veggiemonk/awesome-docker){:target="_blank"}

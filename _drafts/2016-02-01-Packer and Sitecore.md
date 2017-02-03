@@ -23,23 +23,20 @@ But to get a real benefit from immutablity you should look into how you can depl
 > Packer is a tool for creating machine and container images for multiple platforms from a single source configuration.[*](https://www.packer.io/)
 Simply put this is a tool you can use to define your server images with. 
 
-# Packer and AWS #
-This is "quite" simpel, You need a set of credentials for your AWS account(s). To set the correct policy see [Using An IAM Instance Profile](https://www.packer.io/docs/builders/amazon.html#using-an-iam-instance-profile)
-
-For more information on "Amazon Ami Builder" see [here](https://www.packer.io/docs/builders/amazon.html#using-an-iam-instance-profile){:target="_blank"}.
-First we create 4 files:
-* `template.json` - The Packer template file.
-* `Bootstrap.txt` - File to bootstrap the AMI builder machine, this ensure that we can use this machine to build the new AMI.
-* `Install-feature.ps1` - Powershell script to configure your AMI with IIS and ASP.Net.
-* `configure-website.ps1` - Powershell script to configure the website.
-
-First we'll look at the `template.json` this is our entry point to generate AMI's, this is the definition of how we will create our server. 
+First we'll look at the `template.json` this is our entry point to generate "images". The definition of how we will create our server. 
 We will take advantage of Variables, Builders and Provisioners. 
 *Builders* are components that are able to create a image for a platform
 *Provisioners* are components that install and configure software within a running machine prior to that machine being turned into a static image. 
 *Variables* are just that.
 
 ## Builders ##
+in this post we will look at:
+* [Googlecompute](https://www.packer.io/docs/builders/googlecompute.html){:target="_blank"}
+* [Amazon-ebs](https://www.packer.io/docs/builders/amazon.html){:target="_blank"}
+* [Azure-arm](https://www.packer.io/docs/builders/azure-arm.html){:target="_blank"}
+
+The builder(s) will have different formats and you cna have multiple builders in your template-file but let us look at the builder i use for AWS. 
+
 ```
 "builders": [
     {
@@ -56,6 +53,34 @@ We will take advantage of Variables, Builders and Provisioners.
     }
   ]
 ```
+
+# Packer and AWS #
+This is "quite" simpel, You need a set of credentials for your AWS account(s). To set the correct policy see [Using An IAM Instance Profile](https://www.packer.io/docs/builders/amazon.html#using-an-iam-instance-profile)
+
+For more information on "Amazon Ami Builder" see [here](https://www.packer.io/docs/builders/amazon.html#using-an-iam-instance-profile){:target="_blank"}.
+First we create 4 files:
+* `template.json` - The Packer template file.
+* `Bootstrap.txt` - File to bootstrap the AMI builder machine, this ensure that we can use this machine to build the new AMI.
+* `Install-feature.ps1` - Powershell script to configure your AMI with IIS and ASP.Net.
+* `configure-website.ps1` - Powershell script to configure the website.
+
+```
+"builders": [
+    {
+      "type": "amazon-ebs",    
+      "region": "eu-west-1",
+      "source_ami": "ami-29f7dd5a",
+      "instance_type": "t2.micro",
+      "communicator": "winrm",
+      "winrm_username": "Administrator",
+      "winrm_use_ssl": true,
+      "winrm_insecure": true,
+      "user_data_file": "bootstrap-aws.txt",
+      "ami_name": "Sitecore AMI {{user `version`}}"
+    }
+  ]
+```
+
 
 All the code for this is [here](https://github.com/magudb/packer-sitecore)
 
