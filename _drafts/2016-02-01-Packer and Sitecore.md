@@ -35,7 +35,7 @@ in this post we will look at:
 * [Amazon-ebs](https://www.packer.io/docs/builders/amazon.html){:target="_blank"}
 * [Azure-arm](https://www.packer.io/docs/builders/azure-arm.html){:target="_blank"}
 
-The builder(s) will have different formats and you cna have multiple builders in your template-file but let us look at the builder i use for AWS. 
+The builder(s) will have different formats and you can have multiple builders in your template-file below is an example for at template for AWS. 
 
 ```
 "builders": [
