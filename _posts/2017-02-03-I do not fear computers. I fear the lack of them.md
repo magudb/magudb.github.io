@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "I do not fear links. I fear the lack of them."
+description: "I do not fear computers. I fear the lack of them. - Issac Assimov"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -57,7 +57,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Microservices – An Agile Architecture Introduction - Kloud Blog](https://blog.kloud.com.au/2017/01/31/microservices-an-agile-architecture-introduction/){:target="_blank"}
 * [What Is Structured Logging And Why Developers Need It - Stackify](https://stackify.com/what-is-structured-logging-and-why-developers-need-it/){:target="_blank"}
 * [Building Event-driven Microservices Using Cqrs And Serverless](http://www.kennybastani.com/2017/01/building-event-driven-microservices.html?__s=amwwwz5judsp1dsfgko7){:target="_blank"}
-
+* [Reactive Streams, J.u.concurrent, & Beyond!](https://www.infoq.com/presentations/streams-jdk){:target="_blank"}
 ## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
 * [Debugging .Net Core On Unix Over Ssh - Microsoft Application Lifecycle Management](https://blogs.msdn.microsoft.com/visualstudioalm/2017/01/26/debugging-net-core-on-unix-over-ssh/){:target="_blank"}
 * [Microbus: In-process Mediator - Codeopinion](http://codeopinion.com/microbus-in-process-mediator/){:target="_blank"}
