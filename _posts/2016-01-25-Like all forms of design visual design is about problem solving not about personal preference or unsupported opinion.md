@@ -150,7 +150,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Videos & Podcasts ##
  * [Scott Johnston, Docker: Rethinking App Development And Delivery](http://thenewstack.io/docker-rethinking-development-delivery-environments/)
 
-## [Books](https://intranet.codehouse.com/development/Library) - **[Reading guides here](http://confluence.codehouse.com/x/HADj)**  ##
+## [Books](#) - **[Reading guides here](#)**  ##
  * [Continuous Delivery](https://dzone.com/storage/assets/1007956-dzone-continuousdelivery2016.pdf)
  * [Free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
  * [Killed by Proxy: Analyzing Client-end TLS Interception Software](http://users.encs.concordia.ca/~mmannan/publications/ssl-interception-ndss2016.pdf)

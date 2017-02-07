@@ -7,7 +7,7 @@ category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
 #  Must see - this is for all! #
-  * [From functional to Reactive - patterns in domain modeling]() - This is truely mindblowing, i love Domain modelling in the functional paradigm. Btw. remember to read [Functional thinking](https://intranet.codehouse.com/development/Library/Development%20Concepts/Functional%20Thinking)
+  * [From functional to Reactive - patterns in domain modeling]() - This is truely mindblowing, i love Domain modelling in the functional paradigm. Btw. remember to read [Functional thinking](#/Development%20Concepts/Functional%20Thinking)
   * [Microservice Challenges](http://www.infoq.com/presentations/microservices-asynchronous-functional) - I think this is one of the best talks oon Microservices i have heard yet. this is from microchg2015, but it is almost the same as Goto. go see it if you want to understand microservice! 
   * [The End of Safe Harbor and a Scary Path Forward](http://lucumr.pocoo.org/2015/10/6/end-of-safe-harbor/) - this is something you should know.
   * [Innovate or Die: The Rise of Microservices](http://blogs.wsj.com/cio/2015/10/05/innovate-or-die-the-rise-of-microservices/)

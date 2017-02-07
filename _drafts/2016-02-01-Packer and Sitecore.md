@@ -80,14 +80,16 @@ First we create 4 files:
   ]
 ```
 
+## Ressources: ##
 
-All the code for this is [here](https://github.com/magudb/packer-sitecore)
-
-More guides here:
-* [Getting Packer To Work For Windows On Aws](http://blog.petegoo.com/2016/05/10/packer-aws-windows/){:target="_blank"}
 
 # Packer and Azure #
 
-# Packer and Google#
 
-# Packer and Docker #
+## Ressources: ##
+* [Getting Packer To Work For Windows On Aws](http://blog.petegoo.com/2016/05/10/packer-aws-windows/){:target="_blank"}
+
+
+# Docker #
+
+All the code for this is [here](https://github.com/magudb/packer-sitecore)
