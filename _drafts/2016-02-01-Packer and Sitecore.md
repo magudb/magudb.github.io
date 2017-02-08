@@ -9,10 +9,10 @@ keywords: "Docker, Hashicorp, Packer, Sitecore"
 
 # Abstract #
 Well I think it is interesting to see how we can utilize different tool to build and deploy Sitecore. Sitecore is in nature not a very kind deployable unit, but i will try to sketch up a few different way to create this immutable deployment.
-I will give a short tour of different cloud vendor and how you can use Packer to create your Server Images
+We should strive to get rid of [snowflake servers]()
 
 In this article i will not use a Sitecore website, but a simple html page to demonstrate the building of virtual server images. 
-If i where to use Sitecore i would disable alot og the xDb to make the Content Delivery instances as deployable as possible, and i would not make the Database part of the deployment. 
+If i where to use Sitecore i would disablethings like the xDb to make the Content Delivery instances as deployable as possible, and i would not make the Database part of the deployment. 
 
 But to get a real benefit from immutablity you should look into how you can deploy everything needed for a Sitecore CD, making the whole infrastructure immutable, this will open the doors for [Canary release](https://martinfowler.com/bliki/CanaryRelease.html){:target="_blank"} or [Blue/green deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html){:target="_blank"}.
 
