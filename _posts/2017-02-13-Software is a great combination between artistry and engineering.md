@@ -119,5 +119,6 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Use Your Raspberry Pi As A Headless System Without A Monitor](https://www.thepolyglotdeveloper.com/2016/02/use-your-raspberry-pi-as-a-headless-system-without-a-monitor/){:target="_blank"}
 
 ## Books and Papers<a name="books"></a> ##
-
+ * Nothing
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
+ * Nothing
