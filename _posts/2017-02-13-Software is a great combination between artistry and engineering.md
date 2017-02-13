@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Links is a great combination between artistry and engineering."
+description: "Software is a great combination between artistry and engineering."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
