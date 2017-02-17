@@ -29,6 +29,8 @@ We will take advantage of Variables, Builders and Provisioners.
 *Provisioners* are components that install and configure software within a running machine prior to that machine being turned into a static image. 
 *Variables* are just that.
 
+
+
 ## Builders ##
 in this post we will look at:
 * [Amazon-ebs](https://www.packer.io/docs/builders/amazon.html){:target="_blank"}
