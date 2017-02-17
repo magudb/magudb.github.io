@@ -6,6 +6,7 @@ comments: true
 category: "Hackathon"
 keywords: "LEGO, Hackathon, Me, Gavel"
 ---
+
 # Hackathon and Judging #
 In january i did my second hackathon for LEGO, It went well. But this post is not about Hackathon, this is about using Docker to enable judges to vote.
 In my search for how to make the best hackathons in the world, I found [Gavel](http://www.anishathalye.com/2016/09/19/gavel-an-expo-judging-system/) and i really like the idea that you are force to always judging between the last project you saw and the current. 
