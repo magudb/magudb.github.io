@@ -5,6 +5,7 @@ description: "Operating systems are like underwear — nobody really wants to lo
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "2017/Operating-systems-are-like-underwear-—-nobody-really-wants-to-look-at-them"
 ---
 
 ## Categories ##
