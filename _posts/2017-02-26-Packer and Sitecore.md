@@ -4,7 +4,7 @@ title: "Using Packer to Create Immutable servers to deploy Sitecore or other asp
 description: "Using Packer to Create Immutable servers"
 comments: true
 category: "Sitecore"
-keywords: "Docker, Hashicorp, Packer, Sitecore"
+keywords: "Hashicorp, Packer, Sitecore"
 ---
 ```
 Work in progress
@@ -30,6 +30,8 @@ We will take advantage of Variables, Builders and Provisioners.
 *Builders* are components that are able to create a image for a platform
 *Provisioners* are components that install and configure software within a running machine prior to that machine being turned into a static image. 
 *Variables* are just that.
+
+We could also use Docker, this i will look at another day.
 
 ## Builders ##
 in this post we will look at:
