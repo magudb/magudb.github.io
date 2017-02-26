@@ -107,15 +107,5 @@ First we create 4 files:
 I am using Windows Remote Management to connect to the image, I don't know if there is a smarter why maybe remote powershell.
 
 ## Ressources: ##
-
-
-# Packer and Azure #
-
-
-## Ressources: ##
 * [Getting Packer To Work For Windows On Aws](http://blog.petegoo.com/2016/05/10/packer-aws-windows/){:target="_blank"}
-
-
-
-
-All the code for this is [here](https://github.com/magudb/packer-sitecore)
+* All the code for this is [here](https://github.com/magudb/packer-sitecore)
