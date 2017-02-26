@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Using Packer to Create Immutable servers to deploy Sitecore"
+title: "Using Packer to Create Immutable servers to deploy Sitecore or other asp.net app"
 description: "Using Packer to Create Immutable servers"
 comments: true
 category: "Sitecore"
 keywords: "Docker, Hashicorp, Packer, Sitecore"
 ---
-
+```
+Work in progress
+```
 # Abstract #
 Well I think it is interesting to see how we can utilize different tool to build and deploy Sitecore. Sitecore is in nature not a very kind deployable unit, but i will try to sketch up a few different way to create this immutable deployment.
-We should strive to get rid of [snowflake servers]()
+We should strive to get rid of [snowflake servers](https://martinfowler.com/bliki/SnowflakeServer.html)
 
 In this article i will not use a Sitecore website, but a simple html page to demonstrate the building of virtual server images. 
 If i where to use Sitecore i would disablethings like the xDb to make the Content Delivery instances as deployable as possible, and i would not make the Database part of the deployment. 
@@ -28,8 +30,6 @@ We will take advantage of Variables, Builders and Provisioners.
 *Builders* are components that are able to create a image for a platform
 *Provisioners* are components that install and configure software within a running machine prior to that machine being turned into a static image. 
 *Variables* are just that.
-
-
 
 ## Builders ##
 in this post we will look at:
@@ -52,6 +52,26 @@ The builder(s) will have different formats and you can have multiple builders in
       "user_data_file": "bootstrap-aws.txt",
       "ami_name": "Sitecore AMI {{user `version`}}"
     }
+  ]
+```
+
+## Provisioners ##
+This is basically the why we cconfigure our images for all cloud vendors
+```
+ "provisioners": [
+    {
+      "type": "file",
+      "source": "../Website.zip",
+      "destination": "c:\\temp\\Website.zip"
+    },
+    {
+      "type": "powershell",
+      "scripts": [
+        "./install-feature.ps1",
+        "./configure-website.ps1"
+      ]
+    }
+    
   ]
 ```
 
@@ -82,6 +102,8 @@ First we create 4 files:
   ]
 ```
 
+I am using Windows Remote Management to connect to the image, I don't know if there is a smarter why maybe remote powershell.
+
 ## Ressources: ##
 
 
@@ -92,6 +114,6 @@ First we create 4 files:
 * [Getting Packer To Work For Windows On Aws](http://blog.petegoo.com/2016/05/10/packer-aws-windows/){:target="_blank"}
 
 
-# Docker #
+
 
 All the code for this is [here](https://github.com/magudb/packer-sitecore)

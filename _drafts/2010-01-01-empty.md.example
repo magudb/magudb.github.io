@@ -12,16 +12,15 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Ideas, Thoughts, comments](#ideas)
 * [Agile, Organizations and process](#agile)
 * [Architecture & Software development practices](#development)
-* [.Net & C#](#net)
-* [Javascript](#javascript)
-* [Other Languages](#polygloting)
+* [Programming](#net)
 * [Frontend matters](#web)
-* [Tools](#tools)
-* [Monitoring](#monitoring)
-* [Cloud, DevOps and Security](#devops)
+* [Tools and things from Github](#tools)
+* [DevOps](#devops)
+* [Cloud](#cloud)
+* [Security](#security)
 * [Containers](#containers)
-* [Machine Learning, IoT and other very fancy buzzwords](#iot)
-* [Books](#books)
+* [Monitoring and Performance](#monitoring)
+* [All things fancy](#buzz)
 * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
@@ -32,24 +31,22 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Architecture & Software development practices <a name="development"></a> ##
 
-## **.Net, C#, F# (& Powershell)**  <a name="net"></a> ##
-
-## Other Languages  <a name="polygloting"></a> ##
-
-## Javascript && NodeJs <a name="javascript"></a><a name="nodejs"></a> ##
+## Programming <a name="net"></a> ##
 
 ## Frontend matters <a name="web"></a> ##
 
 ## Tools and things from Github <a name="tools"></a> ##
 
-## Cloud, DevOps and Security<a name="devops"></a> ##
+## DevOps<a name="devops"></a> ##
+
+## Cloud <a name="cloud"></a>##
+
+## Security<a name="security"></a> ##
 
 ## Containers <a name="containers"></a> ##
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
 
-## Machine Learning, IoT and other very fancy buzzwords <a name="iot"></a> ##
-
-## Books and Papers<a name="books"></a> ##
+## All things fancy <a name="buzz"></a> ##
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
