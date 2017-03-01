@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Whatever good things we link end up linking us."
+description: "Whatever good things we build end up building us."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -24,10 +24,11 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
-* [In The Trump Age, Developers Are Building Apps To Help Refugees - Fast Company | Business + Innovation](https://www.fastcompany.com/3068129/in-the-trump-age-developers-are-building-apps-to-help-refugees){:target="_blank"}
+* [In The Trump Age, Developers Are Building Apps To Help Refugees - Fast Company - Business + Innovation](https://www.fastcompany.com/3068129/in-the-trump-age-developers-are-building-apps-to-help-refugees){:target="_blank"}
 * [Lego Ideas - Dungeon Master](https://ideas.lego.com/projects/165437){:target="_blank"}
 * [Shattered](https://shattered.io/){:target="_blank"} - Check your SSL!
 * [Circuit Cubes](https://tenkalabs.com/){:target="_blank"}
+* [Build A 2-stage Balloon Rocket - Scientific American](https://www.scientificamerican.com/article/build-a-2-stage-balloon-rocket/){:target="_blank"}
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Some Ebooks from Cake Solutions](http://www.cakesolutions.net/ebooks){:target="_blank"}
@@ -80,7 +81,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Introducing Downr](http://www.bradygaster.com/posts/introducing-downr){:target="_blank"}
 * [Hyperapp/hyperapp: 1kb Javascript Library For Building Frontend Applications.](https://github.com/hyperapp/hyperapp){:target="_blank"}
 * [Icons8 Lunacy - Sketch Viewer For Windows - Icons8](https://icons8.com/lunacy){:target="_blank"}
-
+* [Azure Command Line 2.0 Now Generally Available - Blog - Microsoft Azure](https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-vm-storage-and-network-azure-cli-2-0/){:target="_blank"}
 
 ## DevOps<a name="devops"></a> ##
 * [Continuous Integration And Delivery For Mobile – Code @ Hootsuite](http://code.hootsuite.com/continuous-integration-and-delivery-for-mobile/){:target="_blank"}
@@ -99,6 +100,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Dropbox/securitybot](https://github.com/dropbox/securitybot){:target="_blank"}
 
 ## Containers <a name="containers"></a> ##
+* [Build A Lightweight Dev Rig For Running Windows Docker Containers - Elton Stoneman](https://blog.sixeyed.com/build-a-dev-rig-for-running-windows-docker-containers/){:target="_blank"}
 * [Let's Build The Smallest Possible Docker Image · Docker Pirates Armed With Explosive Stuff](https://blog.hypriot.com/post/build-smallest-possible-docker-image/){:target="_blank"}
 * [Control Gpio With Your Raspberry Pi And Docker Swarm](http://blog.alexellis.io/gpio-on-swarm/){:target="_blank"}
 * [Kaivoanastetiks/container-orchestration-comparison: A Comparison Of The Different Container Orchestration Tools Available.](https://github.com/KaivoAnastetiks/container-orchestration-comparison){:target="_blank"}
@@ -121,3 +123,6 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
 * [Drawing Books](http://eleganthack.com/drawing-books/){:target="_blank"}
+* [Shadow The Jewels (Dj Shadow Vs Run The Jewels) By Dj Skarface](https://soundcloud.com/djskarface/shadowthejewels){:target="_blank"}
+* [Moby - Long Ambients 1: Calm. Sleep. (2016) Full Album - Youtube](https://www.youtube.com/watch?v=XThua40bAss){:target="_blank"}
+* [An Artist Mends Cracks In The Sidewalk With Gold](http://hyperallergic.com/358112/sidewalk-kintsukuroi-rachel-sussman/){:target="_blank"}
