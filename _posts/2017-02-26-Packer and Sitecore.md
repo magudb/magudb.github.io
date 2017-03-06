@@ -52,7 +52,7 @@ The builder(s) will have different formats and you can have multiple builders in
       "winrm_use_ssl": true,
       "winrm_insecure": true,
       "user_data_file": "bootstrap-aws.txt",
-      "ami_name": "Sitecore AMI {{user `version`}}"
+      "ami_name": "Sitecore AMI version"
     }
   ]
 ```
@@ -99,7 +99,7 @@ First we create 4 files:
       "winrm_use_ssl": true,
       "winrm_insecure": true,
       "user_data_file": "bootstrap-aws.txt",
-      "ami_name": "Sitecore AMI {{user `version`}}"
+      "ami_name": "Sitecore AMI version"
     }
   ]
 ```

@@ -1,5 +1,5 @@
 FROM ruby:2.1
-
+ENV JEKYLL_ENV=production
 
 RUN apt-get update \
   && apt-get install -y \
@@ -8,23 +8,12 @@ RUN apt-get update \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/
 
-RUN gem install \
-  github-pages \
-  jekyll \
-  jekyll-paginate \
-  jekyll-redirect-from \
-  kramdown \
-  rdiscount \
-  rouge \
-  html-proofer \
-  bourbon \
-  sass \
-  pygments.rb
-  
+RUN gem install bundler --no-ri --no-rdoc
 
 VOLUME /src
 EXPOSE 4000
 COPY . /src
 
 WORKDIR /src
+RUN  bundle install
 ENTRYPOINT ["jekyll"]
