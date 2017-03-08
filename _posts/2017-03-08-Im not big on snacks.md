@@ -79,7 +79,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Create A Class With .Net Core And Roslyn - Code It Yourself...](https://carlos.mendible.com/2017/03/02/create-a-class-with-net-core-and-roslyn/){:target="_blank"}
 * [Mutability Vs. Immutability: Valid Objects · David Raab](http://sidburn.github.io/blog/2017/02/27/mutability-vs-immutability-validation){:target="_blank"}
 * [4 Javascript Design Patterns You Should Know - Scotch](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know){:target="_blank"}
-* [What’s New In The .Net Platform - Visual Studio 2017 Launch | Channel 9](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T103?WT.mc_id=DX_MVP4025064){:target="_blank"}
+* [What’s New In The .Net Platform - Visual Studio 2017 Launch  -  Channel 9](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T103?WT.mc_id=DX_MVP4025064){:target="_blank"}
 
 ## Frontend matters <a name="web"></a> ##
 * [Progressive Web App Libraries In Production – Dev Channel – Medium](https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34#.eqyf677eh){:target="_blank"}
