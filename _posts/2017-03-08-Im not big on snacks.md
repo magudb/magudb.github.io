@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "I'm not big on snacks, but I if do, I like a few M&M's."
+description: "I'm not big on snacks, but I if do, I like a few M&M's. - Grandmaster Flash"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -24,9 +24,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
+* [Announcing New Asp.net Core And Web Development Features In Visual Studio 2017 - .Net Web Development And Tools Blog](https://blogs.msdn.microsoft.com/webdev/2017/03/07/announcing-visual-studio-2017/){:target="_blank"}
 * [World Wide Web, Not Wealthy Western Web (Part 1) – Smashing Magazine](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-1/){:target="_blank"}
+* [Coding Kata Month - Ebay Tech Blog](http://www.ebaytechblog.com/2017/03/06/coding-kata-month/){:target="_blank"}
 * [Moving To Https - Migrate From Http To Https With Ease.](https://movingtohttps.com/){:target="_blank"}
-* [Project Mosaic—frontend Microservices](https://www.mosaic9.org/){:target="_blank"}
 * [Netflix Make It](http://makeit.netflix.com/projects/personal-trainer){:target="_blank"}
 * [Getting Smart: Applying Continuous Delivery To Data Science To Drive Car Sales - Thoughtworks](https://www.thoughtworks.com/insights/blog/getting-smart-applying-continuous-delivery-data-science-drive-car-sales){:target="_blank"}
 * [Tenets Of Sre – Medium](https://medium.com/@jerub/tenets-of-sre-8af6238ae8a8#.3l1kx0ooy){:target="_blank"}
@@ -53,6 +54,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Continuous Refactoring - Codit](https://www.codit.eu/blog/2017/02/28/continuous-refactoring/){:target="_blank"}
 * [Bdd, Microservices, And Serenity Bdd - John Ferguson Smart](https://johnfergusonsmart.com/bdd-and-microservices/){:target="_blank"}
 * [Case Study: How To Move From A (Middleware) Monolith To Cloud, Containers And Microservices - Youtube](https://www.youtube.com/watch?v=YSBpR7syFRs){:target="_blank"}
+* [Serverless Architecture: Five Design Patterns - The New Stack](https://thenewstack.io/serverless-architecture-five-design-patterns/){:target="_blank"}
 
 ## Programming <a name="net"></a> ##
 * [Better World By Better Software](https://glebbahmutov.com/blog//tags/sentry/){:target="_blank"}
@@ -77,6 +79,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Create A Class With .Net Core And Roslyn - Code It Yourself...](https://carlos.mendible.com/2017/03/02/create-a-class-with-net-core-and-roslyn/){:target="_blank"}
 * [Mutability Vs. Immutability: Valid Objects · David Raab](http://sidburn.github.io/blog/2017/02/27/mutability-vs-immutability-validation){:target="_blank"}
 * [4 Javascript Design Patterns You Should Know - Scotch](https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know){:target="_blank"}
+* [What’s New In The .Net Platform - Visual Studio 2017 Launch | Channel 9](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T103?WT.mc_id=DX_MVP4025064){:target="_blank"}
 
 ## Frontend matters <a name="web"></a> ##
 * [Progressive Web App Libraries In Production – Dev Channel – Medium](https://medium.com/dev-channel/progressive-web-app-libraries-in-production-b52cad37d34#.eqyf677eh){:target="_blank"}
@@ -85,7 +88,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Annotation Is Now A Web Standard – Hypothesis](https://hypothes.is/blog/annotation-is-now-a-web-standard/){:target="_blank"}
 * [Our Journey In Smoke Test Frameworks – Code @ Hootsuite](http://code.hootsuite.com/our-journey-in-smoke-test-frameworks/){:target="_blank"}
 * [Brutalist Framework](http://www.brutalistframework.com/index){:target="_blank"}
-
+* [Create Offline Web Apps Using Service Workers & Pouchdb](https://www.sitepoint.com/offline-web-apps-service-workers-pouchdb/){:target="_blank"}
+* [Testing Service Workers – Dev Channel – Medium](https://medium.com/dev-channel/testing-service-workers-318d7b016b19#.w70f71ou1){:target="_blank"}
+* 
 ## Tools and things from Github <a name="tools"></a> ##
 * [Tinohager/nager.date: C# Public Holiday Calculation](https://github.com/tinohager/Nager.Date){:target="_blank"}
 * [Nuget Gallery - Visual Studio Locator 1.0.40](https://www.nuget.org/packages/vswhere/){:target="_blank"}
@@ -99,6 +104,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Improving Design Collaboration With Zeplin - Prolific Blog](http://blog.prolificinteractive.com/2017/03/02/improving-designer-and-developer-collaboration-with-zeplin/){:target="_blank"}
 * [Piotr Wittchen » Control Spotify On Linux Like A Hacker](http://blog.wittchen.biz.pl/control-spotify-on-linux-like-a-hacker/){:target="_blank"}
 * [Git Better! Learn Aliases, Settings, Tools, Background](https://www.sitepoint.com/git-better-learn-aliases-settings-tools-background/){:target="_blank"}
+* [Cake - Cake V0.18.0 Released](http://cakebuild.net/blog/2017/03/cake-v0.18.0-released){:target="_blank"}
+* [Project.json To Msbuild Conversion Guide](http://www.natemcmaster.com/blog/2017/01/19/project-json-to-csproj/){:target="_blank"}
 
 ## DevOps<a name="devops"></a> ##
 * [Consul On Kubernetes: Deployment And Monitoring Using Prometheus](https://www.weave.works/running-consul-kubernetes-monitoring-prometheus/){:target="_blank"}
@@ -106,6 +113,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Build Database Clusters With Mongodb](https://www.linode.com/docs/databases/mongodb/build-database-clusters-with-mongodb){:target="_blank"}
 * [Continuous Delusion At The Infrastructure Layer - Cloudscaling](http://cloudscaling.com/blog/devops/continuous-delusion-at-the-infrastructure-layer/){:target="_blank"}
 * [Nsq Docs 0.3.8 - Design](http://nsq.io/overview/design.html){:target="_blank"}
+* [How To Install Glusterfs With A Replicated High Availability Storage Volume On Ubuntu Linux 16.04 Lts](https://www.cyberciti.biz/faq/howto-glusterfs-replicated-high-availability-storage-volume-on-ubuntu-linux/){:target="_blank"}
+* [Goto 2016 • Implementing Infrastructure As Code • Kief Morris - Youtube](https://www.youtube.com/watch?v=K843Ukiw3d8){:target="_blank"}
 
 ## Cloud <a name="cloud"></a>##
 * [Dodging S3 Downtime With Nginx And Haproxy](https://blog.sentry.io/2017/03/01/dodging-s3-downtime-with-nginx-and-haproxy.html){:target="_blank"}
@@ -115,6 +124,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Microsoft: Azure Breaks Kubernetes Free from Exclusivity, Lock-in](https://thenewstack.io/microsofts-burns-azure-breaks-kubernetes-free-exclusivity-lock/){:target="_blank"}
 * [Tooling Around With Cloudformation Helpers](https://www.whaletech.co/2017/02/28/Tooling-around-with-CloudFormation-helpers.html){:target="_blank"}
 * [Florian Motlik - Challenges Of Serverless In 2017](http://flomotlik.me/blog/challenges-of-serverless-in-2017/){:target="_blank"}
+* [Scoping Aws Iam Roles To Docker Containers](https://eng.lyft.com/scoping-aws-iam-roles-to-docker-containers-c9c5f8f2f75#.6k82cg9n5){:target="_blank"}
 
 ## Security<a name="security"></a> ##
 * [Secrets And Lie-abilities: The State Of Modern Secret Management (2017) – On Docker – Medium](https://medium.com/on-docker/secrets-and-lie-abilities-the-state-of-modern-secret-management-2017-c82ec9136a3d#.f6uvth7pu){:target="_blank"}
@@ -132,6 +142,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Control Gpio With Your Raspberry Pi And Docker Swarm](http://blog.alexellis.io/gpio-on-swarm/){:target="_blank"}
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
+* [Log Management: Graylog Vs Elk – Jetruby – Medium](https://medium.com/jetruby/log-management-graylog-vs-elk-fc93428e0f66#.8nl2sp6di){:target="_blank"}
 
 ## All things fancy <a name="buzz"></a> ##
 * [Off-the-shelf Hacker: Get Beyond 'Blinking The Led' - The New Stack](https://thenewstack.io/off-shelf-hacker-get-beyond-blinking-led/){:target="_blank"}
