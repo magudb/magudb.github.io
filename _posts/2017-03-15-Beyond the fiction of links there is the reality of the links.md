@@ -25,7 +25,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 # My favorites<a name="favorites"></a> #
 * [Keep The Internet Open - Sam Altman](http://blog.samaltman.com/keep-the-internet-open){:target="_blank"}
-* [The End-to-end Refresh Of Our Server Hardware Fleet - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1241554625959357/the-end-to-end-refresh-of-our-server-hardware-fleet/){:target="_blank"}
+* [The End-to-end Refresh Of Our Server Hardware Fleet - Engineering Blog -Facebook Code](https://code.facebook.com/posts/1241554625959357/the-end-to-end-refresh-of-our-server-hardware-fleet/){:target="_blank"}
 * [Visual Studio 2017 Docker Tooling And Sitecore - Invokecommand.net](http://invokecommand.net/posts/vs2017-docker-tooling-and-sitecore){:target="_blank"}
 * [Docker Reference Architecture: Development Pipeline Best Practices Using Docker Ee - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Development_Pipeline_Best_Practices_Using_Docker_EE){:target="_blank"} + [Docker Reference Architecture: Docker Ee Best Practices And Design Considerations - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture:_Docker_EE_Best_Practices_and_Design_Considerations){:target="_blank"}
 * World Wide Web, Not Wealthy Western Web  [(Part 1)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-1/){:target="_blank"} & [(Part 2)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-2/){:target="_blank"}
