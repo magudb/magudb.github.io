@@ -26,7 +26,6 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 # My favorites<a name="favorites"></a> #
 * [Keep The Internet Open - Sam Altman](http://blog.samaltman.com/keep-the-internet-open){:target="_blank"}
 * [The End-to-end Refresh Of Our Server Hardware Fleet - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1241554625959357/the-end-to-end-refresh-of-our-server-hardware-fleet/){:target="_blank"}
-* [Estimering - En Spildt Kunst? - Therese Hansen](http://qed.dk/therese-hansen/2017/03/10/estimering-en-spildt-kunst/){:target="_blank"} (In danish)
 * [Visual Studio 2017 Docker Tooling And Sitecore - Invokecommand.net](http://invokecommand.net/posts/vs2017-docker-tooling-and-sitecore){:target="_blank"}
 * [Docker Reference Architecture: Development Pipeline Best Practices Using Docker Ee - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Development_Pipeline_Best_Practices_Using_Docker_EE){:target="_blank"} + [Docker Reference Architecture: Docker Ee Best Practices And Design Considerations - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture:_Docker_EE_Best_Practices_and_Design_Considerations){:target="_blank"}
 * World Wide Web, Not Wealthy Western Web  [(Part 1)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-1/){:target="_blank"} & [(Part 2)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-2/){:target="_blank"}
@@ -38,6 +37,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Design In Tech Report – Design Trends Revolutionizing The Entrepreneurial And Corporate Ecosystems In Tech. Related M&a Activity, New Patterns In Creativity × Business, And The Rise Of Computational Design.](https://designintechreport.wordpress.com/){:target="_blank"}
 
 ## Agile, Organizations and process<a name="agile"></a> ##
+* [Estimering - En Spildt Kunst? - Therese Hansen](http://qed.dk/therese-hansen/2017/03/10/estimering-en-spildt-kunst/){:target="_blank"} (In danish)
 
 ## Architecture & Software development practices <a name="development"></a> ##
 * [Simplifying Your Transition From Macro To Microservices - Via @Codeship - Via @Codeship](https://blog.codeship.com/simplifying-your-transition-from-macro-to-microservices/){:target="_blank"}
