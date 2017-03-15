@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Beyond the fiction of links, there is the reality of the links."
+description: "Beyond the fiction of reality, there is the reality of the fiction. -  Slavoj Žižek,"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -24,13 +24,18 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
+* [Keep The Internet Open - Sam Altman](http://blog.samaltman.com/keep-the-internet-open){:target="_blank"}
 * [The End-to-end Refresh Of Our Server Hardware Fleet - Engineering Blog | Facebook Code](https://code.facebook.com/posts/1241554625959357/the-end-to-end-refresh-of-our-server-hardware-fleet/){:target="_blank"}
 * [Estimering - En Spildt Kunst? - Therese Hansen](http://qed.dk/therese-hansen/2017/03/10/estimering-en-spildt-kunst/){:target="_blank"} (In danish)
 * [Visual Studio 2017 Docker Tooling And Sitecore - Invokecommand.net](http://invokecommand.net/posts/vs2017-docker-tooling-and-sitecore){:target="_blank"}
 * [Docker Reference Architecture: Development Pipeline Best Practices Using Docker Ee - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Development_Pipeline_Best_Practices_Using_Docker_EE){:target="_blank"} + [Docker Reference Architecture: Docker Ee Best Practices And Design Considerations - Docker, Inc.](https://success.docker.com/Architecture/Docker_Reference_Architecture:_Docker_EE_Best_Practices_and_Design_Considerations){:target="_blank"}
 * World Wide Web, Not Wealthy Western Web  [(Part 1)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-1/){:target="_blank"} & [(Part 2)](https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-2/){:target="_blank"}
+* [Microsoft/malmo-challenge: Task And Example Code For The Malmo Collaborative Ai Challenge](https://github.com/Microsoft/malmo-challenge){:target="_blank"}
+
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Practical Design Discovery · An A List Apart Article](https://alistapart.com/article/practical-design-discovery){:target="_blank"}
+* [12 Big Ideas From Game Design You Should Know](http://eleganthack.com/12-big-ideas-from-game-design-you-should-know/){:target="_blank"}
+* [Design In Tech Report – Design Trends Revolutionizing The Entrepreneurial And Corporate Ecosystems In Tech. Related M&a Activity, New Patterns In Creativity × Business, And The Rise Of Computational Design.](https://designintechreport.wordpress.com/){:target="_blank"}
 
 ## Agile, Organizations and process<a name="agile"></a> ##
 
@@ -57,22 +62,27 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Selfencapsulation](https://martinfowler.com/bliki/SelfEncapsulation.html){:target="_blank"}
 * [Asp.net Core: Environment Based Configuring Methods - Gunnar Peipman - Programming Blog](http://gunnarpeipman.com/2017/03/aspnet-core-configure-environment/){:target="_blank"}
 * [Creating A Fully Functional F# Microservice (Quartz.net, Net.mail)](https://mnie.github.io/2017-03-11-sentimentAppPart3/){:target="_blank"}
+* [Asp.net Core: Environment Based Start-up Classes - Gunnar Peipman - Programming Blog](http://gunnarpeipman.com/2017/03/aspnet-core-startup-classes/){:target="_blank"}
 
 ## Frontend matters <a name="web"></a> ##
 * [A Complete Guide To Css Grid - Codrops Css Reference](https://tympanus.net/codrops/css_reference/grid/){:target="_blank"}
 * [Introduction To Web Audio Api - Css-tricks](https://css-tricks.com/introduction-web-audio-api/){:target="_blank"}
 * [Css Architecture Block-element-modifier (Bem) - Sitepoint](https://www.sitepoint.com/css-architecture-block-element-modifier-bem/){:target="_blank"}
 * [Building Web Extensions Because You Can - Via @Codeship - Via @Codeship](https://blog.codeship.com/building-web-extensions-because-you-can/){:target="_blank"}
+* [Web-pull-to-refresh/readme.md At Master · Apeatling/web-pull-to-refresh](https://github.com/apeatling/web-pull-to-refresh/blob/master/README.md){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a> ##
 * [Aster1sk/easyldap: A Dockerized Ldap Server + Basic Web Administration Interface](https://github.com/aster1sk/easyldap/){:target="_blank"}
 * [Wildduck-email/wildduck: Imap Server Built With Node.js, Mongodb And Redis](https://github.com/wildduck-email/wildduck){:target="_blank"}
 * [Tarent/loginsrv: Login Server Providing A Jwt Login For Multiple Login Backends](https://github.com/tarent/loginsrv){:target="_blank"}
 * [Linux Cheat Sheet: 16 Linux Server Monitoring Commands You Really Need To Know](https://insights.hpe.com/articles/16-linux-server-monitoring-commands-you-really-need-to-know-1703.html){:target="_blank"}
+* [Hyperapp/hyperapp: 1kb Javascript Library For Building Frontend Applications.](https://github.com/hyperapp/hyperapp){:target="_blank"}
 
 ## DevOps<a name="devops"></a> ##
 * [Setup A Windows Docker Ci With Appveyor](https://stefanscherer.github.io/setup-windows-docker-ci-appveyor/){:target="_blank"}a
 * [Hoodie: Uber Engineering’s Incremental Processing Framework On Hadoop - Uber Engineering Blog](https://eng.uber.com/hoodie/){:target="_blank"}
+* [Ansible/lightbulb: Progressive Ansible Training Sessions](https://github.com/ansible/lightbulb){:target="_blank"}
+* [Nginscript: A Custom Javascript Implementation For Nginx & Nginx Plus](https://www.nginx.com/blog/introduction-nginscript/){:target="_blank"}
 
 ## Cloud <a name="cloud"></a>##
 * [Beta Docker Community Edition For Google Cloud Platform - Docker Blog](https://blog.docker.com/2017/03/beta-docker-community-edition-google-cloud-platform/){:target="_blank"}
@@ -90,6 +100,8 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [How To Dockerize Windows Applications: The 5 Steps - Elton Stoneman](https://blog.sixeyed.com/how-to-dockerize-windows-applications/){:target="_blank"}
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
+* [Airbnb/streamalert: Streamalert Is A Serverless, Realtime Data Analysis Framework Which Empowers You To Ingest, Analyze, And Alert On Data From Any Environment, Using Datasources And Alerting Logic You Define.](https://github.com/airbnb/streamalert){:target="_blank"}
+* [Usenix Enigma 2017 — Streamalert: A Serverless, Real-time Intrusion Detection Engine - Youtube](https://www.youtube.com/watch?v=QVtzMy_tNcQ){:target="_blank"}
 
 ## All things fancy <a name="buzz"></a> ##
 * [Off-the-shelf Hacker: Automation Meets The Wine Devotee - The New Stack](https://thenewstack.io/off-shelf-hacker-automation-meets-wine-devotee/){:target="_blank"}
