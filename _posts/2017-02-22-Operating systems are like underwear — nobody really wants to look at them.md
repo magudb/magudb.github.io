@@ -113,7 +113,7 @@ redirect_from: "2017/Operating-systems-are-like-underwear-—-nobody-really-want
 * [Certsimple - An Nginx Config For 2017](https://certsimple.com/blog/nginx-http2-load-balancing-config){:target="_blank"}
 * [Automating Dacpac Deployments Using Sql Compare](http://www.red-gate.com/blog/automating-dacpac-deployments-using-the-sql-compare-command-line-and-powershell){:target="_blank"}
 * [Devops – A Dba’s Perspective - Devopsguys](https://www.devopsguys.com/2017/02/10/devops-a-dba-perspective/){:target="_blank"}
-* [Secure, Streamline, And Simplify Application Deployments Using Docker Secrets Management - Alex Rhea | Pulse | Linkedin](https://www.linkedin.com/pulse/secure-streamline-simplify-application-deployments-using-alex-rhea){:target="_blank"}
+* [Secure, Streamline, And Simplify Application Deployments Using Docker Secrets Management - Alex Rhea - Pulse - Linkedin](https://www.linkedin.com/pulse/secure-streamline-simplify-application-deployments-using-alex-rhea){:target="_blank"}
 * [Practical Scaling Techniques For Web Sites](https://hackernoon.com/practical-scaling-techniques-for-web-sites-554a38dbd492#.kwhhiconj){:target="_blank"}
 * [Zero To Http/2 With Aws And Hugo - Habd.as](https://habd.as/zero-to-http-2-aws-hugo/){:target="_blank"}
 * [Penny Pinching In The Cloud: Running And Managing Lots Of Web Apps On A Single Azure App Service - Scott Hanselman](https://www.hanselman.com/blog/PennyPinchingInTheCloudRunningAndManagingLOTSOfWebAppsOnASingleAzureAppService.aspx){:target="_blank"}
@@ -125,7 +125,7 @@ redirect_from: "2017/Operating-systems-are-like-underwear-—-nobody-really-want
 * [The Definitive Cheatsheet For Docker Secrets](http://blog.pascalandy.com/the-definitive-cheatsheet-for-docker-secrets/){:target="_blank"}
 * [Docker Compose With Swarm Secrets](http://training.play-with-docker.com/swarm-compose-secrets/){:target="_blank"}
 * [Overlay Network Driver With Support For Docker Swarm Mode Now Available To Windows Insiders On Windows 10 - Virtualization Blog](https://blogs.technet.microsoft.com/virtualization/2017/02/09/overlay-network-driver-with-support-for-docker-swarm-mode-now-available-to-windows-insiders-on-windows-10/){:target="_blank"}
-* [Docker - New .Net Core Tooling - On .Net | Channel 9](https://channel9.msdn.com/Shows/On-NET/Docker-New-NET-Core-tooling){:target="_blank"}
+* [Docker - New .Net Core Tooling - On .Net - Channel 9](https://channel9.msdn.com/Shows/On-NET/Docker-New-NET-Core-tooling){:target="_blank"}
 * [Deploy The Voting App On A Docker Swarm Using Compose Version 3 – @Lucjuggery – Medium](https://medium.com/lucjuggery/deploy-the-voting-apps-stack-on-a-docker-swarm-4390fd5eee4#.wxc7qvoxf){:target="_blank"}
 * [Dockerizing Ghost And Buster To Run A Blog On Github Pages](https://stefanscherer.github.io/dockerizing-ghost-buster/){:target="_blank"}
 * [Using Yarn With Docker](https://hackernoon.com/using-yarn-with-docker-c116ad289d56#.nlysjronp){:target="_blank"}

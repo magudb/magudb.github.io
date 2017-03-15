@@ -8,7 +8,7 @@ keywords: "Bimodal, Gartner, Ambidexterity, DevOps"
 ---
 
 #Introduction#
-Gartner and Forrester both introducede the idea of a dual mode IT, my interpertation of this is a reintroduction of ambidexterity[^1] set only in the context of IT. I have not read the complete setup from Gartner, but i read the [Executive summary](https://www.gartner.com/imagesrv/cio/pdf/cio_agenda_execsum2014.pdf) and this [What Gartner’s Bimodal It Model Means To Enterprise Cios | Cio](http://www.cio.com/article/2875803/cio-role/what-gartner-s-bimodal-it-model-means-to-enterprise-cios.html){:target="_blank"}.
+Gartner and Forrester both introducede the idea of a dual mode IT, my interpertation of this is a reintroduction of ambidexterity[^1] set only in the context of IT. I have not read the complete setup from Gartner, but i read the [Executive summary](https://www.gartner.com/imagesrv/cio/pdf/cio_agenda_execsum2014.pdf) and this [What Gartner’s Bimodal It Model Means To Enterprise Cios - Cio](http://www.cio.com/article/2875803/cio-role/what-gartner-s-bimodal-it-model-means-to-enterprise-cios.html){:target="_blank"}.
 Based on this interpretation i will look at some of the critique and ideas of this reintroduction of ambidexterity.
 
 I think we need something like bimodal, though i think Gartners Bimodal is the wrong way, we have had the idea of the dual nature of organization for a while now.

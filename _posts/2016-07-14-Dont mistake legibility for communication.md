@@ -88,7 +88,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
  * [How To Run Graphical Ubuntu Linux From Bash Shell In Windows 10](http://thehackernews.com/2016/07/ubuntu-gui-windows-10.html?m=1)
  * [Kubernetes: Minikube: Easily Run Kubernetes Locally](http://blog.kubernetes.io/2016/07/minikube-easily-run-kubernetes-locally.html)
  * [Plivo/opsworks: The Missing Opsworks Cli](https://github.com/plivo/opsworks)
-| [Lepton Image Compression: Saving 22% Losslessly From Images At 15mb/s | Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/)
+- [Lepton Image Compression: Saving 22% Losslessly From Images At 15mb/s - Dropbox Tech Blog](https://blogs.dropbox.com/tech/2016/07/lepton-image-compression-saving-22-losslessly-from-images-at-15mbs/)
 
 ## Cloud, DevOps and Security<a name="devops"></a> ##
  * [Introduction To Kubernetes Architecture - X-team](http://x-team.com/2016/07/introduction-kubernetes-architecture/)
