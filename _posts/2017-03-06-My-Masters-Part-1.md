@@ -24,7 +24,7 @@ There are two sides to these questions - What does the literature say and how is
 The broad definition of DevOps is to promote better communication between the developers and the operators.
 
 We also see that people like Michael Porter are hearing about DevOps and the potential merits of this. In the article [How Smart, Connected Products Are Transforming Companies](https://hbr.org/2015/10/how-smart-connected-products-are-transforming-companies) he presents his view on DevOps. 
-![How Smart, Connected Products Are Transforming Companies](/assets/images/2015/09/R1510G_PORTER_ANEWORGANIZATIONAL.png)
+![How Smart, Connected Products Are Transforming Companies](/assets/images/R1510G_PORTER_ANEWORGANIZATIONAL.png)
 So to begin to look into DevOps I will need a definition, so I have an idea of how organizations are perceiving DevOps and use this to build a better understanding of why we implement DevOps.
 
 ## Why do we implement ##
