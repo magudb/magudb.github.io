@@ -108,3 +108,4 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Off-the-shelf Hacker: Thinking About A Robotic Coffee Maker - The New Stack](https://thenewstack.io/off-shelf-hacker-thinking-robotic-coffee-maker/){:target="_blank"}
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
+
