@@ -94,7 +94,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Cloud <a name="cloud"></a>##
 * [Adding A Let’s Encrypt Certificate To An Azure-hosted Website - Precision Computing](http://www.leeholmes.com/blog/2017/03/21/adding-a-lets-encrypt-certificate-to-an-azure-hosted-website/){:target="_blank"}
 * [Aws Iam Policies In A Nutshell](http://start.jcolemorrison.com/aws-iam-policies-in-a-nutshell/){:target="_blank"}
-* [Lambda Architecture For Fault Tolerant Applications - Eharmony Engineering | Vijay Vangapandu](http://www.eharmony.com/engineering/lambda-architecture-for-fault-tolerant-applications/#.WNtp2_nygUE){:target="_blank"}
+* [Lambda Architecture For Fault Tolerant Applications - Eharmony Engineering - Vijay Vangapandu](http://www.eharmony.com/engineering/lambda-architecture-for-fault-tolerant-applications/#.WNtp2_nygUE){:target="_blank"}
 
 ## Security<a name="security"></a> ##
 * [Ddos Of Past, Present And Future - The Akamai Blog](https://blogs.akamai.com/2017/03/ddos-of-past-present-and-future.html){:target="_blank"}
@@ -117,7 +117,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## All things fancy <a name="buzz"></a> ##
 * [Sales Soar: Raspberry Pi British Board Beats Commodore 64, World's Third Best-selling Computerthe Magpi Magazine](https://www.raspberrypi.org/magpi/raspberry-pi-sales/){:target="_blank"}
-* [Surface Dial For Dev's - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/Surface-Dial-for-Devs?WT.mc_id=DX_MVP4025064){:target="_blank"}
+* [Surface Dial For Dev's - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/Surface-Dial-for-Devs?WT.mc_id=DX_MVP4025064){:target="_blank"}
 * Neural Networks Without a PhD: [Introduction](http://coderoncode.com/machine-learning/2017/03/26/neural-networks-without-a-phd-part1.html){:target="_blank"} & [Components Of A Neural Network](http://coderoncode.com/machine-learning/2017/03/26/neural-networks-without-a-phd-part2.html){:target="_blank"}
 * [Off-the-shelf Hacker: The Industrial Strength Physical Computing Stack - The New Stack](https://thenewstack.io/off-shelf-hacker-industrial-strength-physical-computing-stack/){:target="_blank"}
 
