@@ -1,7 +1,9 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Adding links to a late software project 
+makes it later!"
+description: "Adding manpower to a late software project 
+makes it later!"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
