@@ -39,6 +39,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Stack Overflow Developer Survey 2017](https://stackoverflow.com/insights/survey/2017){:target="_blank"}
 * [Etsy’s Debriefing Facilitation Guide For Blameless Postmortems - Code As Craft](https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/?__s=pir8xboj4vzsweesgzec){:target="_blank"} ´[Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf)
 * [The Web, Worldwide](https://www.webworldwide.io/){:target="_blank"}
+
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Yow! Cto Summit 2016 - Youtube](https://www.youtube.com/playlist?list=PLIpl4GKFQR6cTXv5x6gRr6IN6V3KXVDUZ&__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 * [Questions For Our First 1:1 - Lara Hogan](http://larahogan.me/blog/first-one-on-one-questions/){:target="_blank"}
