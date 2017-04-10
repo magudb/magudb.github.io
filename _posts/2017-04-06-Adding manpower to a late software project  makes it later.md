@@ -1,10 +1,13 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Adding links to a late software project 
+makes it later!"
+description: "Adding manpower to a late software project 
+makes it later!"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "2017/Adding-manpower-to-a-late-software-project--makes-it-later"
 ---
 
 ## Categories ##
@@ -37,11 +40,13 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Stack Overflow Developer Survey 2017](https://stackoverflow.com/insights/survey/2017){:target="_blank"}
 * [Etsy’s Debriefing Facilitation Guide For Blameless Postmortems - Code As Craft](https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/?__s=pir8xboj4vzsweesgzec){:target="_blank"} ´[Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf)
 * [The Web, Worldwide](https://www.webworldwide.io/){:target="_blank"}
+
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Yow! Cto Summit 2016 - Youtube](https://www.youtube.com/playlist?list=PLIpl4GKFQR6cTXv5x6gRr6IN6V3KXVDUZ&__s=amwwwz5judsp1dsfgko7){:target="_blank"}
 * [Questions For Our First 1:1 - Lara Hogan](http://larahogan.me/blog/first-one-on-one-questions/){:target="_blank"}
 * [Why - Telekom Design](https://telekom.design/why.html){:target="_blank"}
 * [Let Serverless Solve The Technology Problems You Don’t Have](https://medium.com/@manwaring/let-serverless-solve-the-technology-problems-you-dont-have-7b39e854567b){:target="_blank"}
+* [The Carbon Five Guide To User Research: The What’s, How’s, And Why’s Of Prototyping](http://blog.carbonfive.com/2017/04/03/the-carbon-five-guide-to-user-research-the-whats-hows-and-whys-of-prototyping/){:target="_blank"}
 
 ## Agile, Organizations and process<a name="agile"></a> ##
 * [On Writing Feature Requirements - Css-tricks](https://css-tricks.com/writing-feature-requirements/){:target="_blank"}
@@ -126,6 +131,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [How We Implement Disaster Recovery And High Availability With Postgres On Citus Cloud - Citus Data](https://www.citusdata.com/blog/2017/03/23/a-look-into-disaster-recovery-and-high-availability-and-how-they-work-with-postgres-on-citus-cloud/){:target="_blank"}
 * [Reducing Alert Noise: Going From 1000 Alerts To 10 Alerts Overnight - Victorops](https://victorops.com/blog/reducing-alert-noise-going-1000-alerts-10-alerts-overnight/){:target="_blank"}
 * [Prometheus: The Unsung Heroes [I] ](https://www.youtube.com/watch?v=1zbKLz62FG8){:target="_blank"}
+* [Monitoring Docker Swarm With Cadvisor, Influxdb And Grafana - Botleg](https://botleg.com/stories/monitoring-docker-swarm-with-cadvisor-influxdb-and-grafana/){:target="_blank"}
 
 ## All things fancy <a name="buzz"></a> ##
 * [Paul's Geek Dad Blog: Using Ibm Bluemix Watson Apis To Optimise My Cv (Resume)](http://pdwhomeautomation.blogspot.dk/2017/03/using-ibm-bluemix-watson-apis-to.html){:target="_blank"}
