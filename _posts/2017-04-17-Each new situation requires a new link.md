@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Each new situation requires a new architecture"
+description: "Each new situation requires a new architecture - Jean Nouvel"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -34,6 +34,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Running An Effective Mobile Team, Part 1 – Accidentally In Code](https://cate.blog/2017/04/06/running-an-effective-mobile-team-part-1/){:target="_blank"}
 * [Design Thinking: Out Of The Classroom, Into The Fire - Paypal & Braintree | Developer - Blog](https://devblog.paypal.com/design-thinking-pm/){:target="_blank"}
 * [Introduction · Codeflow Docs](https://codeflow.checkr.com/){:target="_blank"} & [Checkr/codeflow: Open Source Event Based Platform As A Service](https://github.com/checkr/codeflow){:target="_blank"}
+* [Think You Know The Top Web Browsers? – Samsung Internet Developers – Medium](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175){:target="_blank"}
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Identifying Emergent Behaviors Of Complex Systems — In Nature And Computers - The New Stack](https://thenewstack.io/identifying-emergent-behaviors-complex-systems-nature-computers/){:target="_blank"}
