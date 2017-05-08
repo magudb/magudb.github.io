@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "You never finish a program, you just stop working on it."
+description: "You never finish a program, you just stop working on it."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -37,6 +37,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Anna Concurrenina By Kyle Kingsbury](https://www.youtube.com/watch?v=eSaFVX4izsQ){:target="_blank"}
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
+* [I Am A Technologist, Not A Female Technologist - Thoughtworks](https://www.thoughtworks.com/insights/blog/i-am-technologist-not-female-technologist){:target="_blank"}
 * [Docker Enables Polyglot Shops - Via @Codeship - Via @Codeship](https://blog.codeship.com/docker-enables-polyglot-shops/){:target="_blank"}
 * [Applying Okrs - Dan North & Associates](https://dannorth.net/2017/05/01/applying-okrs/){:target="_blank"}
 * [The Lost Promise Of Cloud - Thoughtworks](https://www.thoughtworks.com/insights/blog/lost-promise-cloud){:target="_blank"}
@@ -49,6 +50,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Continuous Delivery: 7 Hard-earned Lessons For Getting It Right - Informationweek](http://www.informationweek.com/devops/continuous-delivery-7-hard-earned-lessons-for-getting-it-right/a/d-id/1328684){:target="_blank"}
 * [Software Developer's Guide To Being An Effective Leader - Simple Programmer](https://simpleprogrammer.com/2017/05/01/being-an-effective-leader/){:target="_blank"}
 * [How We Defined The Ux-product Management Relationship - Viget](https://www.viget.com/articles/how-we-defined-the-ux-product-management-relationship){:target="_blank"}
+* [The Art Of Lean Performance](http://ddegrandis.com/the-art-of-lean-performance/){:target="_blank"}
 
 ## Architecture & Software development practices <a name="development"></a> ##
 * [Rule Of Twos And Microservice Architecture – Capital One Devexchange – Medium](https://medium.com/capital-one-developers/rule-of-twos-and-microservice-architecture-3f57db7f6896){:target="_blank"}
@@ -59,6 +61,9 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Illusion Of Reuse](http://tech.transferwise.com/illusion-of-reuse/){:target="_blank"}
 * [How We Solved Authentication And Authorization In Our Microservice Architecture](https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6){:target="_blank"}
 * [Anna Shcherbinina - Scaling Issues With Monoliths, Microservices And Hybrids, Rubyconfby 2017 - Youtube](https://www.youtube.com/watch?v=iOSLPcRe8tk){:target="_blank"}
+* [What Is Structured Logging? - Dzone Devops](https://dzone.com/articles/what-is-structured-logging){:target="_blank"}
+* [Building Express Backbone: Facebook’s New Long-haul Network - Engineering Blog : Facebook Code](https://code.facebook.com/posts/1782709872057497/building-express-backbone-facebook-s-new-long-haul-network/){:target="_blank"}
+* [Piotr Wittchen » Basic Code Refactoring Principles](http://blog.wittchen.biz.pl/basic-code-refactoring-principles/){:target="_blank"}
 
 ## Programming <a name="net"></a> ##
 * [Garbage Collection In C# :: Jakub Chodounský :: The Diary Of A Software Developer](https://chodounsky.net/2017/05/03/garbage-collection-in-c-sharp/){:target="_blank"}
@@ -69,15 +74,19 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Login & Authentication For Your Asp.net Core Web Api - The Big Picture - Jonhilton.net](https://jonhilton.net/2017/05/03/login-authentication-asp-net-core-web-api-big-picture/){:target="_blank"}
 * [Five Surprises After Using .Net Core For Six Months - George Stocker](https://georgestocker.com/2017/05/02/five-surprises-after-using-net-core-for-six-months/){:target="_blank"}
 * [Machine Learning For Developers](http://developer.telerik.com/topics/machine-learning/machine-learning-developers/){:target="_blank"}
+* [An Elasticsearch Cheat Sheet – Fred Thoughts](https://thoughts.t37.net/an-elasticsearch-cheat-sheet-9b92c9211d7b){:target="_blank"}
+* [Async Functions - Making Promises Friendly  -  Web  :  Google Developers](https://developers.google.com/web/fundamentals/getting-started/primers/async-functions){:target="_blank"}
 
 ## Frontend matters <a name="web"></a> ##
-* [Getting Started With Headless Chrome  -  Web  |  Google Developers](https://developers.google.com/web/updates/2017/04/headless-chrome){:target="_blank"}
+* [Getting Started With Headless Chrome  -  Web  :  Google Developers](https://developers.google.com/web/updates/2017/04/headless-chrome){:target="_blank"}
 * [Optimizing Web Fonts For Performance: The State Of The Art — Sitepoint](https://www.sitepoint.com/optimizing-web-fonts-for-performance-the-state-of-the-art/){:target="_blank"}
 * [A11y Style Guide](http://a11y-style-guide.com/style-guide/){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a> ##
 * [Using Localstack For A Fake Aws S3 For Local Development - Will's Blog](http://bluesock.org/~willkg/blog/dev/using_localstack_for_s3.html#){:target="_blank"}
 * [Adnanh/webhook: Webhook Is A Lightweight Configurable Tool Written In Go, That Allows You To Easily Create Http Endpoints (Hooks) On Your Server, Which You Can Use To Execute Configured Commands.](https://github.com/adnanh/webhook){:target="_blank"}
+* [Onlineschemachange Rebuilt In Python - Engineering Blog : Facebook Code](https://code.facebook.com/posts/1290069194423954/onlineschemachange-rebuilt-in-python/){:target="_blank"}
+* [Mbasso/awesome-wasm: 😎 Curated List Of Awesome Things Regarding Webassembly (Wasm) Ecosystem.](https://github.com/mbasso/awesome-wasm){:target="_blank"}
 
 ## DevOps<a name="devops"></a> ##
 * [Understanding When To Use Rabbitmq Or Apache Kafka](https://content.pivotal.io/blog/understanding-when-to-use-rabbitmq-or-apache-kafka){:target="_blank"}
@@ -85,15 +94,19 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Five Takeaways From Devopsdays Seattle - Devops](http://blog.catchpoint.com/2017/05/02/five-takeways-devopsdays/){:target="_blank"}
 * [Openshift.io](https://openshift.io/){:target="_blank"}
 * [Serverless For Private Clouds (Or Managing The Server For A Serverless (!?) App)](https://medium.com/@pfernandom/serverless-for-private-clouds-or-managing-the-server-for-a-serverless-app-f9321e45a910){:target="_blank"}
+* [How We Upgraded A 22tb Mysql Cluster From 5.6 To 5.7 (In 9 Months)](https://thoughts.t37.net/how-we-upgraded-a-22tb-mysql-cluster-from-5-6-to-5-7-in-9-months-cc41b391895d){:target="_blank"}
+* [Introducing Machine Learning For The Elastic Stack - Elastic](https://www.elastic.co/blog/introducing-machine-learning-for-the-elastic-stack){:target="_blank"}
 
 ## Cloud <a name="cloud"></a>##
 * [Node Is The Wrong Runtime For Serverless](https://read.acloud.guru/node-is-the-wrong-runtime-for-serverless-jk-c69595f6a8eb){:target="_blank"}
 
 ## Security<a name="security"></a> ##
+* [Google Online Security Blog: Protecting You Against Phishing](https://security.googleblog.com/2017/05/protecting-you-against-phishing.html){:target="_blank"}
 
 ## Containers <a name="containers"></a> ##
 * [A Look Into Docker's Moby Project - The New Stack](https://thenewstack.io/what-is-the-moby-project/){:target="_blank"}
 * [What Is The Moby Project? - Lee Calcote](http://blog.gingergeek.com/2017/05/what-is-the-moby-project/){:target="_blank"}
+* [Docker’s Linuxkit – Contino – Medium](https://medium.com/contino-io/dockers-linuxkit-2c460769f522){:target="_blank"}
 * [Secure Substrate: Least Privilege Container Deployment - Youtube](https://www.youtube.com/watch?v=iHQCVFMBdCA){:target="_blank"}
 * [Package Minio S3 As An Appliance With Linuxkit](http://blog.alexellis.io/minio-linuxkit/){:target="_blank"} 
 * [Networking For Docker Containers (A Primer)](https://mesosphere.com/blog/2017/03/23/networking-docker-containers/){:target="_blank"}
@@ -102,6 +115,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Monitoring and Performance <a name="monitoring"></a> ##
 * [A Monitoring Solution For Docker Hosts, Containers And Containerized Services](https://stefanprodan.com/2016/a-monitoring-solution-for-docker-hosts-containers-and-containerized-services/){:target="_blank"}
 * [360° Monitoring Of Your Microservices // Speaker Deck](https://speakerdeck.com/xeraa/360-degrees-monitoring-of-your-microservices){:target="_blank"}
+* [How To Monitor Hosts And Services With Icinga On Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-monitor-hosts-and-services-with-icinga-on-ubuntu-16-04){:target="_blank"}
 
 ## All things fancy <a name="buzz"></a> ##
 
