@@ -60,7 +60,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [What’s Your Decomposition Strategy? – Built To Adapt](https://builttoadapt.io/whats-your-decomposition-strategy-e19b8e72ac8f){:target="_blank"}
 * [Characteristics Of Good Apis - Daedtech](http://www.daedtech.com/characteristics-good-apis/){:target="_blank"}
 * [Serverless Event Sourcing At Nordstrom – A Cloud Guru](https://read.acloud.guru/serverless-event-sourcing-at-nordstrom-ea69bd8fb7cc){:target="_blank"}
-* [5 Protocols For Event-driven Api Architectures - Nordic Apis |](http://nordicapis.com/5-protocols-for-event-driven-api-architectures/){:target="_blank"}
+* [5 Protocols For Event-driven Api Architectures - Nordic Apis -](http://nordicapis.com/5-protocols-for-event-driven-api-architectures/){:target="_blank"}
 * [Getting Things Right With Checklists – Production Ready – Medium](https://medium.com/production-ready/getting-things-right-with-checklists-24455a99dddf){:target="_blank"}
 * [Taking Zero-downtime Load Balancing Even Further](https://engineeringblog.yelp.com/2017/05/taking-zero-downtime-load-balancing-even-further.html){:target="_blank"}
 * [Four Nines And Beyond: A Guide To High Availability Infrastructure - Statuspage.io Blog](http://blog.statuspage.io/high-availability){:target="_blank"}
@@ -79,7 +79,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Frontend matters <a name="web"></a> ##
 * [Jamstack Vs Isomorphic Server Side Rendering - Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/){:target="_blank"}
-* [Diagnose And Log To Console  -  Web  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/console/console-write#styling_console_output_with_css){:target="_blank"}
+* [Diagnose And Log To Console  -  Web  -  Google Developers](https://developers.google.com/web/tools/chrome-devtools/console/console-write#styling_console_output_with_css){:target="_blank"}
 * [Addy Osmani: The Browser Hackers Guide To Instantly Loading Everything - Jsconf Eu 2017 - Youtube](https://www.youtube.com/watch?v=7vUs5yOuv-o){:target="_blank"}
 * [Using Cors Policies To Implement Csrf Protection - Mixmax Engineering Blog](https://mixmax.com/blog/modern-csrf){:target="_blank"}
 * [Introduction To Webpack: Entry, Output, Loaders, And Plugins - Css-tricks](https://css-tricks.com/introduction-webpack-entry-output-loaders-plugins/){:target="_blank"}
