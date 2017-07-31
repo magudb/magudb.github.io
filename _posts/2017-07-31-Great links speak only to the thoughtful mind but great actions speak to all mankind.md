@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Great links speak only to the thoughtful mind, but great actions speak to all mankind"
+description: "Great thoughts speak only to the thoughtful mind, but great actions speak to all mankind."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -24,15 +24,23 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
+* [The Evolution Of Trust](http://ncase.me/trust/){:target="_blank"}
 * [Monospaced Programming Fonts With Ligatures - Scott Hanselman](https://www.hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx){:target="_blank"}
 * [Principles Of Automated Testing](http://www.lihaoyi.com/post/PrinciplesofAutomatedTesting.html){:target="_blank"}
 * [Periscope Data - Using Raspberry Pis To Build Beautiful Wall-mounted Dashboards](https://webflow-blog.periscopedata.com/blog/wall-mounted-dashboards){:target="_blank"}
 * [Practical User Research: Creating A Culture Of Learning In Large Organizations · An A List Apart Article](https://alistapart.com/article/practical-user-research-creating-a-culture){:target="_blank"}
+* [Support Driven Development: Listen Now So You Don't Hear It Later - Scalyr Blog](http://blog.scalyr.com/2017/07/support-driven-development/){:target="_blank"}
+* [Dear Tech Dudes, Stop Being So Dumb About Women - Techcrunch](https://techcrunch.com/2017/07/23/dear-tech-dudes-stop-being-such-idiots-about-women/){:target="_blank"}
+* [Conferencelist : Find A Tech Conference Near You](https://conferencelist.co/){:target="_blank"}
+* [/Dev/lawyer The Mit License, Line By Line](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html){:target="_blank"}
 
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [Five Ways To Receive Negative Feedback Well – Signal V. Noise](https://m.signalvnoise.com/five-ways-to-receive-negative-feedback-well-f9edd3d27097){:target="_blank"}
-* [Getting Into The Flow: What Devops And Microservices Need To Make Software Development Much More Productive - Fin Goulding | Pulse | Linkedin](https://www.linkedin.com/pulse/getting-flow-what-devops-microservices-need-make-much-fin-goulding){:target="_blank"}
+* [Getting Into The Flow: What Devops And Microservices Need To Make Software Development Much More Productive - Fin Goulding - Pulse - Linkedin](https://www.linkedin.com/pulse/getting-flow-what-devops-microservices-need-make-much-fin-goulding){:target="_blank"}
 * [The Only Metric That Matters — Now With Fancy Slides!](https://news.greylock.com/the-only-metric-that-matters-now-with-fancy-slides-232474cf414c){:target="_blank"}
+* [Evolving Team Leadership](https://www.cevo.com.au/devops/2017/05/16/evolving-team-leadership.html){:target="_blank"}
+* [How To Build Documentation That Will Drive Sales](https://auth0.com/blog/how-to-build-documentation-that-will-drive-sales/){:target="_blank"}
+
 
 ## Agile, Organizations and process<a name="agile"></a> ##
 * [Why Good Bosses Tune In To Their People - Mckinsey & Company](http://www.mckinsey.com/global-themes/leadership/why-good-bosses-tune-in-to-their-people){:target="_blank"}
@@ -48,6 +56,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Ultimate Guide To Api Design](https://blog.qmo.io/ultimate-guide-to-api-design/){:target="_blank"}
 * [Why Now Why Microservices Why Not Soa? – James Governor's Monkchips](http://redmonk.com/jgovernor/2017/07/21/why-now-why-microservices-why-not-soa/){:target="_blank"}
 * [Event Bus Implementation(s) – Hacker Noon](https://hackernoon.com/event-bus-implementation-s-d2854a9fafd5){:target="_blank"}
+* Database Updates Across Two Databases - [Part 1](http://engineering.rallyhealth.com/microservices/soa/databases/transactions/2017/07/17/database-updates-across-two-databases-part-1.html){:target="_blank"} & [Part 2](http://engineering.rallyhealth.com/microservices/soa/databases/transactions/messaging/2017/07/17/database-updates-across-two-databases-part-2.html){:target="_blank"}
 
 
 ## Programming <a name="net"></a> ##
@@ -63,7 +72,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Scaling Node.js Applications – Freecodecamp](https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc?gi=8692abffe7a8){:target="_blank"}
 * [Peachpie - Open Source Php Compiler To .Net And Wordpress Under Asp.net Core - Scott Hanselman](https://www.hanselman.com/blog/PeachpieOpenSourcePHPCompilerToNETAndWordPressUnderASPNETCore.aspx){:target="_blank"}
 * [[Javascript] Difference Between Var, Let And Const Keywords?](http://www.nodesimplified.com/2017/07/javascript-difference-between-var-let.html){:target="_blank"}
-
+* [Grpc In Production](https://about.sourcegraph.com/go/grpc-in-production-alan-shreve){:target="_blank"}
 ## Frontend matters <a name="web"></a> ##
 * [Offline Web Applications — Lessons Learned – Pragmatists](https://blog.pragmatists.com/offline-web-applications-lessons-learned-4ec7f17d4a3e){:target="_blank"}
 * [Progressive Enhancement With Brotli](https://engineeringblog.yelp.com/2017/07/progressive-enhancement-with-brotli.html){:target="_blank"}
@@ -78,10 +87,17 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Regex Previewer](https://medium.com/@0x1AD2/visual-studio-code-treasures-1accae07c60a){:target="_blank"}
 * [Graphcool/chromeless: 🖥 Chrome Automation Made Simple. Runs Locally Or Headless On Aws Lambda.](https://github.com/graphcool/chromeless){:target="_blank"}
 * [Grycap/scar: Serverless Container-aware Architectures (E.g. Docker In Aws Lambda)](https://github.com/grycap/scar){:target="_blank"}
+* [Dthree/addict: Get A Full Active Directory Rest Api In 30 Seconds](https://github.com/dthree/addict){:target="_blank"}
 * [Architect](https://github.com/arc-repos){:target="_blank"}
+* [Fabiolb/fabio: A Fast, Modern, Zero-conf Load Balancing Http(s) Router For Deploying Microservices Managed By Consul.](https://github.com/fabiolb/fabio){:target="_blank"}
+* 
 ## DevOps<a name="devops"></a> ##
 * [How To Identify Major Blockers In A Ci/cd Pipeline - Via @Codeship - Via @Codeship](https://blog.codeship.com/how-to-identify-major-blockers-in-a-cicd-pipeline/){:target="_blank"}
 * [On The False Equivalence Of Devops, Vs Itil’s “Standard Change” (And Why It’s A Problem)](https://medium.com/@JonHall_/on-the-false-equivalence-of-devops-and-itils-standard-change-and-why-it-s-a-problem-9a63b85b11a){:target="_blank"}
+* [Aquasecurity/manifesto: Use Manifesto To Store And Query Metadata For Container Images.](https://github.com/aquasecurity/manifesto){:target="_blank"}
+* [Linux Fu: Better Bash Scripting - Hackaday](http://hackaday.com/2017/07/21/linux-fu-better-bash-scripting/){:target="_blank"}
+* [Camptocamp/terraboard: Web Dashboard To Inspect Terraform States](https://github.com/camptocamp/terraboard){:target="_blank"}
+* [Everyone Is Not Ops – Cindy Sridharan – Medium](https://medium.com/@cindysridharan/the-death-of-ops-is-greatly-exaggerated-ff3bd4a67f24){:target="_blank"}
 
 ## Cloud <a name="cloud"></a>##
 * [Story Of A Successful Migration To Google Cloud Platform](https://medium.com/meilleursagents-engineering/story-of-a-successful-migration-to-google-cloud-platform-6bc7fa0798e8){:target="_blank"}
@@ -90,15 +106,18 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Javascript Gets An Onramp To Lambda Serverless With The Open Source Architect Tool - The New Stack](https://thenewstack.io/javascript-gets-onramp-lambda-serverless-open-source-architect-tool/){:target="_blank"}
 
 ## Security<a name="security"></a> ##
-
+* [Passbolt/passbolt_docker: Get Started With Passbolt Using Docker!](https://github.com/passbolt/passbolt_docker){:target="_blank"}
+* 
 ## Containers <a name="containers"></a> ##
+* [Create Your First Azure Container Instances Container - Microsoft Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart){:target="_blank"}
 * [Demystifying The Open Container Initiative (Oci) Specifications - Docker Blog](https://blog.docker.com/2017/07/demystifying-open-container-initiative-oci-specifications/){:target="_blank"}
 * [Tpryan/whack_a_pod: A Demo Application That Turns A Kubernetes Cluster Into A Whack A Mole Game, Where The Moles Are Pods.](https://github.com/tpryan/whack_a_pod){:target="_blank"}
 * [Docker Basics, Part Zero: Why Should I Care About Containers (And Microservices) Anyway? - The New Stack](https://thenewstack.io/docker-basics-part-zero-care-containers-microservices-anyway/){:target="_blank"}
-* [Using Containers To Deliver Microservices From Legacy Systems – Bringing The Power Of Modern To Mainframe Application Workload! - Didier Durand | Pulse | Linkedin](https://www.linkedin.com/pulse/using-containers-deliver-microservices-from-legacy-systems-durand){:target="_blank"}
-* [Ci/cd For Docker Environments - Neil Cresswell | Pulse | Linkedin](https://www.linkedin.com/pulse/cicd-docker-environments-neil-cresswell){:target="_blank"}
+* [Using Containers To Deliver Microservices From Legacy Systems – Bringing The Power Of Modern To Mainframe Application Workload! - Didier Durand - Pulse - Linkedin](https://www.linkedin.com/pulse/using-containers-deliver-microservices-from-legacy-systems-durand){:target="_blank"}
+* [Ci/cd For Docker Environments - Neil Cresswell - Pulse - Linkedin](https://www.linkedin.com/pulse/cicd-docker-environments-neil-cresswell){:target="_blank"}
 * [Replacing Servicemonitor.exe With Iis Error Log Events In Windows Iis Container – Various Tech Notes](https://artisticcheese.wordpress.com/2017/07/20/replacing-servicemonitor-exe-with-iis-error-log-events-in-windows-iis-container/){:target="_blank"}
 * [Bucketbench: Comparing Container Runtime Performance – Integrated Code](https://integratedcode.us/2017/06/29/bucketbench-comparing-container-runtime-performance/){:target="_blank"}
+* [Cloud Functions Vs Container Engine – James Wilson – Medium](https://medium.com/@JamWils/cloud-functions-vs-container-engine-5c773e364ced){:target="_blank"}
 
 ## Monitoring and Performance <a name="monitoring"></a> ##
 * [Lumogon - Inspect, Report, And Analyze Container Applications.](https://lumogon.com/){:target="_blank"}
