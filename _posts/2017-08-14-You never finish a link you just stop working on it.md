@@ -33,7 +33,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Microsoft Didn’t Sandbox Windows Defender, So I Did - Trail Of Bits Blog](https://blog.trailofbits.com/2017/08/02/microsoft-didnt-sandbox-windows-defender-so-i-did/){:target="_blank"}
 * [Exclusive: Here's The Full 10-page Anti-diversity Screed Circulating Internally At Google [Updated]](http://gizmodo.com/exclusive-heres-the-full-10-page-anti-diversity-screed-1797564320){:target="_blank"}
 * [Pakastin/open-source-flash: Petition To Open Source Flash And Shockwave Spec](https://github.com/pakastin/open-source-flash){:target="_blank"}
-* [When Your Tech Debt Comes Due - Kevin Scott | Pulse | Linkedin](https://www.linkedin.com/pulse/when-your-tech-debt-comes-due-kevin-scott){:target="_blank"}
+* [When Your Tech Debt Comes Due - Kevin Scott - Pulse - Linkedin](https://www.linkedin.com/pulse/when-your-tech-debt-comes-due-kevin-scott){:target="_blank"}
 * [Chief Technology Officer Job Description: What Does A Cto Do? - Buttercms](https://buttercms.com/blog/chief-technology-officer-job-description-what-does-a-cto-do){:target="_blank"}
 
 
@@ -47,7 +47,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Agile, Organizations and process<a name="agile"></a> ##
 * [An Open Leader Has At Least Three Responsibilities - Opensource.com](https://opensource.com/open-organization/17/8/what-open-leader-do){:target="_blank"}
-* [The Most Valuable Lesson I've Learned As A Ceo - Jeff Weiner | Pulse | Linkedin](https://www.linkedin.com/pulse/20140203145935-22330283-the-most-valuable-lesson-i-ve-learned-as-a-ceo?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
+* [The Most Valuable Lesson I've Learned As A Ceo - Jeff Weiner - Pulse - Linkedin](https://www.linkedin.com/pulse/20140203145935-22330283-the-most-valuable-lesson-i-ve-learned-as-a-ceo?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
 * [What Google Learned From Its Quest To Build The Perfect Team - The New York Times](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
 * [How To Tell The Truth – Andreessen Horowitz](https://a16z.com/2017/07/27/how-to-tell-the-truth/?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
 * [Evolving Team Leadership](https://www.cevo.com.au/devops/2017/05/16/evolving-team-leadership.html){:target="_blank"}
@@ -71,7 +71,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Best Practices For Javascript Library Versioning - Adam Bard And His Magical Blog](https://adambard.com/blog/on-library-versioning/){:target="_blank"}
 
 ## Programming <a name="net"></a> ##
-* [Test Double - Our Thinking | Shape Testing With Javascript Streams And Lodash Fp](http://blog.testdouble.com/posts/2017-08-03-shape-testing-with-javascript-streams.html){:target="_blank"}
+* [Test Double - Our Thinking - Shape Testing With Javascript Streams And Lodash Fp](http://blog.testdouble.com/posts/2017-08-03-shape-testing-with-javascript-streams.html){:target="_blank"}
 * [Nuxt.js: A Universal Vue.js Application Framework — Sitepoint](https://www.sitepoint.com/nuxt-js-universal-vue-js/){:target="_blank"}
 * [Denysdovhan/wtfjs: A List Of Funny And Tricky Javascript Examples](https://github.com/denysdovhan/wtfjs#readme){:target="_blank"}
 * [Understanding Service Workers](http://blog.88mph.io/2017/07/28/understanding-service-workers/){:target="_blank"}
