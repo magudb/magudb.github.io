@@ -36,7 +36,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Ideas, Thoughts, comments <a name="ideas"></a> ##
 * [A Webops Postmortem](http://cavaliercoder.com/blog/webops-postmortem.html){:target="_blank"}
 * [Yagni, Cargo Cult And Overengineering - The Planes Won't Land Just Because You Built A Runway In Your Backyard · Codeahoy](https://codeahoy.com/2017/08/19/yagni-cargo-cult-and-overengineering-the-planes-wont-land-just-because-you-built-a-runway-in-your-backyard/){:target="_blank"}
-* [Engineering Personas - Casey Rosenthal | Pulse | Linkedin](https://www.linkedin.com/pulse/engineering-personas-casey-rosenthal){:target="_blank"}
+* [Engineering Personas - Casey Rosenthal - Pulse - Linkedin](https://www.linkedin.com/pulse/engineering-personas-casey-rosenthal){:target="_blank"}
 * [How To Interview Engineers - Triplebyte](http://blog.triplebyte.com/how-to-interview-engineers){:target="_blank"}
 * [Developer Tip To Save Your Eyes – Nikolay Garmash – Medium](https://medium.com/@GarmashNikolay/developer-tip-to-save-your-eyes-f83135baa64c){:target="_blank"}
 
@@ -47,7 +47,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Elad Blog: Feelings Of Failure](http://blog.eladgil.com/2017/08/feelings-of-failure.html){:target="_blank"}
 * [What I Hear When You Tell Me Your Company Doesn’t Do Meetings](https://mfbt.ca/what-i-hear-when-you-tell-me-your-company-doesnt-do-meetings-dfbb57a038d6){:target="_blank"}
 * [Playing The Agile Self-assessment Game In Your Retrospectives - Ben Linders](https://www.benlinders.com/2017/self-assessment-game-as-retro-format/){:target="_blank"}
-* [Engineering Personas - Casey Rosenthal | Pulse | Linkedin](https://www.linkedin.com/pulse/engineering-personas-casey-rosenthal){:target="_blank"}
+* [Engineering Personas - Casey Rosenthal - Pulse - Linkedin](https://www.linkedin.com/pulse/engineering-personas-casey-rosenthal){:target="_blank"}
 
 ## Architecture & Software development practices <a name="development"></a> ##
 * [Apis As Infrastructure: Future-proofing Stripe With Versioning](https://stripe.com/blog/api-versioning){:target="_blank"}
@@ -76,7 +76,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Tools and things from Github <a name="tools"></a> ##
 * [Refit By Paulcbetts](http://paulcbetts.github.io/refit/){:target="_blank"}
 * [Fokkezb/j2m: [Unmaintained] Convert From Jira Text Formatting To Github Flavored Markdown And Back Again](https://github.com/FokkeZB/J2M){:target="_blank"}
-* [Custom Elements V1: Reusable Web Components  -  Web  |  Google Developers](https://developers.google.com/web/fundamentals/architecture/building-components/customelements){:target="_blank"}
+* [Custom Elements V1: Reusable Web Components  -  Web  -  Google Developers](https://developers.google.com/web/fundamentals/architecture/building-components/customelements){:target="_blank"}
 * [Notifme/notifme-sdk: A Node.js Library To Send All Kinds Of Transactional Notifications.](https://notifme.github.io/notifme-sdk/){:target="_blank"}
 * [Lewisvo/awesome-linux-software: 🐧 A List Of Awesome Applications, Software, Tools And Other Materials For Linux Distros.](https://github.com/LewisVo/Awesome-Linux-Software){:target="_blank"}
 * [Solo-io/squash: The Debugger For Microservices](https://github.com/solo-io/squash){:target="_blank"}
