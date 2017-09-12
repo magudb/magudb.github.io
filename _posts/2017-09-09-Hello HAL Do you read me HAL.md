@@ -97,7 +97,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Mikeal/r2: Http Client. Spiritual Successor To Request.](https://github.com/mikeal/r2){:target="_blank"}
 * [Fastify/getting-started.md At Master · Fastify/fastify](https://github.com/fastify/fastify/blob/master/docs/Getting-Started.md){:target="_blank"}
 * [Github - Alexellis/derek: Derek - A Serverless To Manage Prs And Issues](https://github.com/alexellis/derek){:target="_blank"}
-* [Missed Clippy? He's Baaackkkk... - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/Missed-Clippy-Hes-baaackkkk){:target="_blank"}
+* [Missed Clippy? He's Baaackkkk... - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/Missed-Clippy-Hes-baaackkkk){:target="_blank"}
 
 
 ## DevOps<a name="devops"></a> ##
@@ -120,4 +120,4 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
 * [Preschool Pocket Treasures — Melissa Kaseman](http://www.melissakaseman.com/preschool-pocket-treasures/){:target="_blank"}
-* [Missed Clippy? He's Baaackkkk... - Coding4fun Blog | Channel 9](https://channel9.msdn.com/coding4fun/blog/Missed-Clippy-Hes-baaackkkk){:target="_blank"} - we have missed you
+* [Missed Clippy? He's Baaackkkk... - Coding4fun Blog - Channel 9](https://channel9.msdn.com/coding4fun/blog/Missed-Clippy-Hes-baaackkkk){:target="_blank"} - we have missed you
