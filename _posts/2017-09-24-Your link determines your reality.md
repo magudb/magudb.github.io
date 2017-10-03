@@ -56,7 +56,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Get To Know The Actor Model](https://monades.roperzh.com/get-to-know-the-actor-model/){:target="_blank"}
 * [Microservice Principles: Smart Endpoints And Dumb Pipes](https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f){:target="_blank"}
 * [Using Event Sourcing In A Legacy Environment · Nick Chamberlain](https://buildplease.com/pages/poisonpill/){:target="_blank"}
-* [Api Style Guide And Patterns: The Evolutionary Journey Continues - Paypal & Braintree | Developer - Blog](https://devblog.paypal.com/announcing-the-latest-api-style-guide/){:target="_blank"}
+* [Api Style Guide And Patterns: The Evolutionary Journey Continues - Paypal & Braintree - Developer - Blog](https://devblog.paypal.com/announcing-the-latest-api-style-guide/){:target="_blank"}
 * [Know How Restful Your Api Is: An Overview Of The Richardson Maturity Model - Rhd Blog](https://developers.redhat.com/blog/2017/09/13/know-how-restful-your-api-is-an-overview-of-the-richardson-maturity-model/){:target="_blank"}
 * [How Do We Write Factories For Event Sourced Aggregates? · Nick Chamberlain](https://buildplease.com/pages/constructing-aggregates/){:target="_blank"}
 
