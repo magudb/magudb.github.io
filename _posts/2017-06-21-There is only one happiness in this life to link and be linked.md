@@ -21,7 +21,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Containers](#containers)
 * [Monitoring and Performance](#monitoring)
 * [All things fancy](#buzz)
-* [Made me Laugh, Cry or just news](#news)53930347978
+* [Made me Laugh, Cry or just news](#news)
 
 # My favorites<a name="favorites"></a> #
 * [Keep Interviewing And Nobody Explodes – Wework Engineering](https://engineering.wework.com/keep-interviewing-and-nobody-explodes-450fd95631b2){:target="_blank"}
