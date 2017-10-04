@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: ""
+title: "Any code of your own that you haven't looked at for six or more months might as well have been written by someone else."
+description: "Any code of your own that you haven't looked at for six or more months might as well have been written by someone else."
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
@@ -53,15 +53,20 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Architecture & Software development practices <a name="development"></a> ##
 * [Communication Between Microservices: How To Avoid Common Problems](https://stackify.com/communication-microservices-avoid-common-problems/){:target="_blank"}
 * From CRUD to CQRS with Dropwizard - [Part 1](http://dresscode.renttherunway.com/blog/cqrs1){:target="_blank"}, [Part 2](http://dresscode.renttherunway.com/blog/cqrs2){:target="_blank"} & [Part 3](http://dresscode.renttherunway.com/blog/cqrs3){:target="_blank"}
+* [About When Not To Do Microservices – Software Blog](http://blog.christianposta.com/microservices/when-not-to-do-microservices/){:target="_blank"}
+* [From Php To Javascript With Node.js – Matters](https://blog.matters.tech/migrating-from-php-to-javascript-with-node-js-155534498b58){:target="_blank"}
+* [Health Score Metrics As A Software Craftsmanship Enabler - Linkedin Engineering](https://engineering.linkedin.com/blog/2017/10/health-score-metrics-as-a-software-craftsmanship-enabler?__s=6izvcszagfpuqzzmdi2h){:target="_blank"}
 
 ## Programming <a name="net"></a> ##
 * [Introducing Express Gateway 1.2.0 – Hacker Noon](https://hackernoon.com/introducing-express-gateway-1-2-0-19a1fc29587b){:target="_blank"}
 * [Myths About Unit Tests - 8th Light](https://8thlight.com/blog/fabien-townsend/2017/09/19/myths-about-unit-tests.html){:target="_blank"}
 * [Talks/blockchain.md At Master · Geraldb/talks](https://github.com/geraldb/talks/blob/master/blockchain.md){:target="_blank"}
+* [Pemrouz/fero: Light, Fast, Scalable, Streaming Microservices Made Easy](https://github.com/pemrouz/fero){:target="_blank"}
 
 # Frontend matters <a name="web"></a> ##
 * [StencilJs](https://stenciljs.com/){:target="_blank"}
 * [WorkboxJs - PWA help](https://workboxjs.org/){:target="_blank"}
+* [Essential Image Optimization](https://images.guide/){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a> ##
 * [H2non/baloo: Expressive End-to-end Http Api Testing Made Easy In Go (Golang)](https://github.com/h2non/baloo){:target="_blank"}
@@ -88,8 +93,10 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 * [Run Linux Containers On Windows - Ubuntu Tutorials](https://tutorials.ubuntu.com/tutorial/tutorial-windows-ubuntu-hyperv-containers#0){:target="_blank"}
 * [Exciting New Things For Docker With Windows Server 1709 - Docker Blog](https://blog.docker.com/2017/09/docker-windows-server-1709/){:target="_blank"}
 * [Managing Infrastructure In The World Of Containers - David Chung (Docker) - Youtube](https://www.youtube.com/watch?v=lISIuYz1cHY&list=PLcHZXHMeDzxUFXG2SucvyDBB5GzrSrMup&index=2){:target="_blank"}
-## Monitoring and Performance <a name="monitoring"></a> ##
+* [A 1 Kb Docker Container - Nathan's Notepad](https://blog.quickmediasolutions.com/2017/09/28/a-1-kb-docker-container.html){:target="_blank"}
 
+## Monitoring and Performance <a name="monitoring"></a> ##
+* [How To Find Wordpress Performance Bottlenecks With New Relic](https://kinsta.com/blog/wordpress-performance-new-relic/){:target="_blank"}
 ## All things fancy <a name="buzz"></a> ##
 
 ## Made me Laugh, Cry or just news. <a name="news"></a> ##
