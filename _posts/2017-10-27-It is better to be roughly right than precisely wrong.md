@@ -5,6 +5,7 @@ description: "It is better to be roughly right than precisely wrong"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2010/It-is-better-to-be-roughly-right-than-precisely-wrong/"
 ---
 
 ## Categories ##
