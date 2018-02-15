@@ -1,5 +1,5 @@
 ﻿/* global self, caches, fetch, URL, Response */
-//require('serviceworker-cache-polyfill');
+
 var prefix = 'udbjorg';
 
 var version = 1;
