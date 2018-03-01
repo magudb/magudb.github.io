@@ -40,7 +40,7 @@ keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript,
 ## Frontend matters <a name="web"></a> ##
 * [Codepen - Snake Highlight](https://codepen.io/ainalem/full/EQXjOR/){:target="_blank"}
 * [Why Ux Researchers Should Learn About Sre Practices](https://medium.com/@aHev/why-ux-researchers-should-learn-sre-practices-a2b213e69a8a){:target="_blank"}
-* [Introduction  -  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/webpack/){:target="_blank"}
+* [Introduction  -  Web Fundamentals  -  Google Developers](https://developers.google.com/web/fundamentals/performance/webpack/){:target="_blank"}
 * A Gentle and Practical Introduction to Progressive Web Apps - [Part 1](https://www.telerik.com/blogs/a-gentle-and-practical-introduction-to-progressive-web-apps){:target="_blank"} & [Part 2](https://www.telerik.com/blogs/gentle-and-practical-introduction-to-progressive-web-apps-part-2){:target="_blank"}
 * [Authentication Best Practices For Vue - Sqreen Blog - Modern Application Security](https://blog.sqreen.io/authentication-best-practices-vue/){:target="_blank"}
 
