@@ -45,7 +45,7 @@ redirect_from: "2018/links"
 * [Cloud Native Programming Language - Ballerina.io](https://ballerina.io/){:target="_blank"}
 * [React Native At Airbnb – Airbnb Engineering & Data Science – Medium](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c){:target="_blank"}
 * [The Ryujit Transition Is Complete! - .Net Blog](https://blogs.msdn.microsoft.com/dotnet/2018/06/19/the-ryujit-transition-is-complete/){:target="_blank"}
-* [Keynote: Design Heuristics - Skillscast | 26th April 2018](https://skillsmatter.com/skillscasts/11685-we-are-delighted-to-have-mathias-verraes-at-ddd-exchange-2018#video){:target="_blank"}
+* [Keynote: Design Heuristics - Skillscast - 26th April 2018](https://skillsmatter.com/skillscasts/11685-we-are-delighted-to-have-mathias-verraes-at-ddd-exchange-2018#video){:target="_blank"}
 * [Messages Over Structure - Youtube](https://www.youtube.com/watch?time_continue=2&v=2nDNMB_wXcE){:target="_blank"}
 * [Alberto Brandolini - 50,000 Orange Stickies Later - Youtube](https://www.youtube.com/watch?v=1i6QYvYhlYQ){:target="_blank"}
 * [Surviving A Migration To Microservices - Youtube](https://www.youtube.com/watch?v=SDkmPoKZW3Q){:target="_blank"}
