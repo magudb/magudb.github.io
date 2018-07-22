@@ -5,7 +5,7 @@ description: "Booya links up in here!"
 comments: true
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
-redirect_from: "2018/links"
+
 ---
 
 ## Categories ##
