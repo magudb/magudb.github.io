@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "22-07-2018 - links"
+title: "22-07-2018 - links extravaganza"
 description: "Links just links."
 comments: true
 category: "Links"
