@@ -5,6 +5,7 @@ description: "Give a crap. Don’t give a fuck."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Give-a-crap-Dont-give-a-fuck/"
 ---
 # Weekly links (* is for everyone) #
 

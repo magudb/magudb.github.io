@@ -5,6 +5,7 @@ description: "The details are not the details. They make the design."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/The-details-are-not-the-details-They-make-the-design/"
 ---
 #  Must see #
  * [Design guru Don Norman slams Apple’s ease-of-use ‘disservice’](http://www.idgconnect.com/abstract/10261/design-guru-don-norman-slams-apple-ease-disservice) - well, uhm...

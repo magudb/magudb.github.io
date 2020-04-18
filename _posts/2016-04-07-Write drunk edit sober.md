@@ -5,6 +5,7 @@ description: "Write drunk; edit sober."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Write-drunk-edit-sober/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

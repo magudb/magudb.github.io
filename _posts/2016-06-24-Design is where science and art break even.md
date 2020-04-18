@@ -5,6 +5,7 @@ description: "Design is where science and art break even."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Design-is-where-science-and-art-break-even/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

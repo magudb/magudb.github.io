@@ -5,6 +5,7 @@ description: "Given enough eyeballs, all bugs are shallow.- Linus Torvalds - Lin
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2018/All-bugs-are-shallow/"
 ---
 
 ## Categories ##

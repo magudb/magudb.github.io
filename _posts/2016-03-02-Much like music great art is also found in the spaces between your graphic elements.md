@@ -5,6 +5,7 @@ description: "Much like music, great art is also found in the spaces between you
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Much-like-music-great-art-is-also-found-in-the-spaces-between-your-graphic-elements/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

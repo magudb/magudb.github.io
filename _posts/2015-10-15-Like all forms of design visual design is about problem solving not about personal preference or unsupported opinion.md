@@ -5,6 +5,7 @@ description: "Like all forms of design, visual design is about problem solving, 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Like-all-forms-of-design-visual-design-is-about-problem-solving-not-about-personal-preference-or-unsupported-opinion/"
 ---
 Weekly links (* is for everyone)
 

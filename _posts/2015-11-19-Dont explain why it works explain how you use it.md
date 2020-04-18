@@ -5,6 +5,7 @@ description: "Don’t explain why it works; explain how you use it."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Dont-explain-why-it-works-explain-how-you-use-it/"
 ---
 # Weekly links (* is for everyone) #
 

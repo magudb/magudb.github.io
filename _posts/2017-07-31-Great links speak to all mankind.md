@@ -5,6 +5,7 @@ description: "Great thoughts speak only to the thoughtful mind, but great action
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Great-links-speak-to-all-mankind/"
 ---
 
 

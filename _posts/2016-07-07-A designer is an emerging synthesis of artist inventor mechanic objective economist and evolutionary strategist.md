@@ -5,6 +5,7 @@ description: "A designer is an emerging synthesis of artist, inventor, mechanic,
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/A-designer-is-an-emerging-synthesis-of-artist-inventor-mechanic-objective-economist-and-evolutionary-strategist/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

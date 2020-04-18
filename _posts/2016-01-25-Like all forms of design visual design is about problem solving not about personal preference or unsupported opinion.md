@@ -5,6 +5,7 @@ description: "Like all forms of design, visual design is about problem solving, 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Like-all-forms-of-design-visual-design-is-about-problem-solving-not-about-personal-preference-or-unsupported-opinion/"
 ---
 # Blame  #
  *   [Each necessary, but only jointly sufficient](http://www.kitchensoap.com/2012/02/10/each-necessary-but-only-jointly-sufficient/?platform=hootsuite) - I think we need to really understand this about complex systems: **there is no root cause.** not just as developers but as architects, Product owners, Projectmanagers, etc.

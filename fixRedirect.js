@@ -27,7 +27,7 @@ const directoryPath = path.join(__dirname, '_posts');
     console.log("DOOOOING IT");
     await Promise.all(mdFiles.map(async f => {
         const content = f.content.join("\n");
-        await writeFile(f.file, content);
+        await writeFile(`_posts/${f.file}`, content);
         console.log(`Writing redirect to ${f.file}`);
     }));
 })()

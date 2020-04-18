@@ -5,6 +5,7 @@ description: "Success is a lousy teacher. It seduces smart people into thinking 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Links-is-a-lousy-teacher/"
 ---
 
 ## Categories ##

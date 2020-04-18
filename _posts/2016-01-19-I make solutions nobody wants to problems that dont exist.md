@@ -5,6 +5,7 @@ description: "I make solutions nobody wants to problems that don't exist."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/I-make-solutions-nobody-wants-to-problems-that-dont-exist/"
 ---
 # My favorites #
  * [Not Just Code Monkeys](https://www.youtube.com/watch?v=Z8aECe4lp44) - you should watch this if you havent done this yet.

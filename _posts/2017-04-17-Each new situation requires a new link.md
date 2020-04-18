@@ -5,6 +5,7 @@ description: "Each new situation requires a new architecture - Jean Nouvel"
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Each-new-situation-requires-a-new-link/"
 ---
 
 ## Categories ##

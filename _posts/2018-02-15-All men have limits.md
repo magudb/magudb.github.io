@@ -5,6 +5,7 @@ description: "All men have limits. They learn what they are and learn not to exc
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2018/All-men-have-limits/"
 ---
 
 ## Categories ##

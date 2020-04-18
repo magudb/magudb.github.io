@@ -5,6 +5,7 @@ description: "Using Packer to Create Immutable servers"
 comments: false
 category: "Sitecore"
 keywords: "Hashicorp, Packer, Sitecore"
+redirect_from: "/2017/Packer-and-Sitecore/"
 ---
 ```
 Work in progress

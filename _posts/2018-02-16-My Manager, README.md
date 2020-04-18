@@ -5,6 +5,7 @@ description: "My Manager README"
 comments: false
 category: "Manager"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2018/My-Manager,-README/"
 ---
 # My README on what I value and what my team can expect from me #
 I have tried finding a format for having transparency into me as a manager, I don't know if this is a perfect way, but it is one way. So hopefully this will evolve with me and my teams to match where we are in the world. Feel free to send me some feedback

@@ -5,6 +5,7 @@ description: "Be curious. Read widely. Try new things. I think a lot of what peo
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Be-curious-Read-widely-Try-new-things-I-think-a-lot-of-what-people-call-intelligence-boils-down-to-curiosity-/"
 ---
 #   My favorits (*) #
   * [The Senior Engineer Role](http://glebbahmutov.com/blog/the-senior-engineer-role/) - What do you think? 

@@ -5,6 +5,7 @@ description: "Clients don't understand their success is reliant on standing out,
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Clients-dont-understand-their-success-is-reliant-on-standing-out-not-fitting-in/"
 ---
 #  Must see? #
  * [Handling Uncertainty When Estimating Software Projects](https://www.lullabot.com/articles/handling-uncertainty-when-estimating-software-projects) - interesting reading!

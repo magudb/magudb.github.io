@@ -5,6 +5,7 @@ description: "Whether you think you can or whether you think you can't - you are
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Whether-you-think-you-can-or-whether-you-think-you-cant--you-are-right/"
 ---
 
 #  Must see #

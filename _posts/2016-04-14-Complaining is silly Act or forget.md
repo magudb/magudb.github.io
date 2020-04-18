@@ -5,6 +5,7 @@ description: "Complaining is silly. Act or forget."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Complaining-is-silly-Act-or-forget/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

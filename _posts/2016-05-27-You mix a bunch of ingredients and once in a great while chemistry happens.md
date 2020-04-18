@@ -5,6 +5,7 @@ description: "You mix a bunch of ingredients, and once in a great while, chemist
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/You-mix-a-bunch-of-ingredients-and-once-in-a-great-while-chemistry-happens/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

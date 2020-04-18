@@ -5,6 +5,7 @@ description: "Using Gavel and Docker to handle judging at Hackathons"
 comments: false
 category: "Hackathon"
 keywords: "LEGO, Hackathon, Me, Gavel"
+redirect_from: "/2017/Using-Gavel-and-Docker-to-handle-judging-at-Hackathons/"
 ---
 
 # Hackathon and Judging #

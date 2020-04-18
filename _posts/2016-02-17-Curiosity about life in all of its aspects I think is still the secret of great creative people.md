@@ -5,6 +5,7 @@ description: "Curiosity about life in all of its aspects, I think, is still the 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Curiosity-about-life-in-all-of-its-aspects-I-think-is-still-the-secret-of-great-creative-people/"
 ---
 # My favorites #
  * [5 Programming Languages That Are Fading Fast](http://techbeacon.com/5-programming-languages-are-fading-fast) - So are we going obsolete? 

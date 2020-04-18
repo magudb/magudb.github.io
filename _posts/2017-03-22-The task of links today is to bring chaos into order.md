@@ -5,6 +5,7 @@ description: "The task of art today is to bring chaos into order - Theodor Adron
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/The-task-of-links-today-is-to-bring-chaos-into-order/"
 ---
 
 ## Categories ##

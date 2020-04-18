@@ -5,6 +5,7 @@ description: "“The unavoidable price of reliability is simplicity.” – C. A
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/The-unavoidable-price-of-reliability-is-links/"
 ---
 
 ## Categories ##

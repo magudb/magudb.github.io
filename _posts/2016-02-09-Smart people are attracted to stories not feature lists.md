@@ -5,6 +5,7 @@ description: "Smart people are attracted to stories, not feature lists."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Smart-people-are-attracted-to-stories-not-feature-lists/"
 ---
 # My favorites #
  * [Project Natick](http://www.projectnatick.com/) - Kinda awesome!

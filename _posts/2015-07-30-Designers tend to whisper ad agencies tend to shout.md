@@ -5,6 +5,7 @@ description: "Designers tend to whisper, ad agencies tend to shout."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Designers-tend-to-whisper-ad-agencies-tend-to-shout/"
 ---
 #  Must see #
   * [The Heart of Agile](https://secure.trifork.com/cph-2015/freeevent/index.jsp?eventOID=7188) - Meetup with AListar Cockburn on agile, i have a plus one.

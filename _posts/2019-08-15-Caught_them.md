@@ -5,6 +5,7 @@ description: "More links found all over the internet."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2019/Caught_them/"
 ---
 <!-- markdownlint-disable MD033 MD020-->
 # My favorites<a name="favorites"></a>

@@ -5,6 +5,7 @@ description: "Standards are like toothbrushes, everybody agrees you should have 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Standards-are-like-toothbrushes-everybody-agrees-you-should-have-one-but-no-one-wants-to-use-yours/"
 ---
 #  Must see #
  * [Micro Services: Java, the Unix Way](http://www.infoq.com/presentations/Micro-Services) - this is a great talk on Microservices

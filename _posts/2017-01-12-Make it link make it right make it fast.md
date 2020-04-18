@@ -5,6 +5,7 @@ description: "Make it work, make it right, make it fast. - Kent Beck"
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Make-it-link-make-it-right-make-it-fast/"
 ---
 
 ## Categories ##

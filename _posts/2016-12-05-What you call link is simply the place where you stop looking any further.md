@@ -5,6 +5,7 @@ description: "What you call 'root cause' is simply the place where you stop look
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/What-you-call-link-is-simply-the-place-where-you-stop-looking-any-further/"
 ---
 
 ## Categories ##

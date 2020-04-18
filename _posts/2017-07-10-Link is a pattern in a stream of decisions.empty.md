@@ -5,6 +5,7 @@ description: "“Strategy is a pattern in a stream of decisions” —Henry Mint
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Link-is-a-pattern-in-a-stream-of-decisions.empty/"
 ---
 
 ## Categories ##

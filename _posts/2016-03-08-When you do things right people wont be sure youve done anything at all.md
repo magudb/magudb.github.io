@@ -5,6 +5,7 @@ description: "When you do things right, people won’t be sure you’ve done any
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/When-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

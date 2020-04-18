@@ -5,6 +5,7 @@ description: "You get up early in the morning and you work all day. That’s the
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/You-get-up-early-in-the-morning-and-you-work-all-day-Thats-the-only-secret/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

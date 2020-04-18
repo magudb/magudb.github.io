@@ -5,6 +5,7 @@ description: "Making the simple complicated is commonplace; making the complicat
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Making-the-simple-complicated-is-commonplace-making-the-complicated-simple-awesomely-simple-thats-creativity/"
 ---
 
 #  Must see() #

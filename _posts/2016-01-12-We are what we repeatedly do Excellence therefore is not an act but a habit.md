@@ -5,6 +5,7 @@ description: "We are what we repeatedly do. Excellence, therefore, is not an act
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/We-are-what-we-repeatedly-do-Excellence-therefore-is-not-an-act-but-a-habit/"
 ---
 # My favorits (*) #
  * [The 10 Best David Bowie Samples In Hip-hop](http://www.highsnobiety.com/2016/01/12/best-david-bowie-hip-hop-samples/)

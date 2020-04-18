@@ -5,6 +5,7 @@ description: "Wonderfully designed > beautifully designed. Any day."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Wonderfully-designed--beautifully-designed-Any-day/"
 ---
 # Weekly links (* is for everyone) #
 

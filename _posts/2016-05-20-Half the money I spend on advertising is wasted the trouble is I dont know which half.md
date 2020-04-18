@@ -5,6 +5,7 @@ description: "Half the money I spend on advertising is wasted; the trouble is I 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Half-the-money-I-spend-on-advertising-is-wasted-the-trouble-is-I-dont-know-which-half/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

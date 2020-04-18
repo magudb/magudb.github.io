@@ -5,6 +5,7 @@ description: "If I forget the words, they weren’t very memorable in the first 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/If-I-forget-the-words-they-werent-very-memorable-in-the-first-place/"
 ---
 #   My favorits (*) #
  * [Apploitation In A City Of Instaserfs](https://www.policyalternatives.ca/publications/monitor/apploitation-city-instaserfs) - Scary, hopefully this will be isolated to SF...

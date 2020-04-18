@@ -5,6 +5,7 @@ description: "No masterpiece was ever created by a lazy artist."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/No-masterpiece-was-ever-created-by-a-lazy-artist/"
 ---
 #  Must see - this is for all! #
   * [My favorite interview question](https://www.nczonline.net/blog/2015/09/my-favorite-interview-question/) - It is a good question!

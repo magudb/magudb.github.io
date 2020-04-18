@@ -5,6 +5,7 @@ description: "Translation is not a matter of words only: it is a matter of makin
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Translation-is-not-a-matter-of-words-only-it-is-a-matter-of-making-intelligible-a-whole-culture/"
 ---
 #  Must see #
  * [Don’t Fuck Up the Culture](https://medium.com/@bchesky/dont-fuck-up-the-culture-597cde9ee9d4)

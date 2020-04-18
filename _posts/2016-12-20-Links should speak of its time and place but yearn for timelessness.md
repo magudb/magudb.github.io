@@ -5,6 +5,7 @@ description: "Architecture should speak of its time and place, but yearn for tim
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Links-should-speak-of-its-time-and-place-but-yearn-for-timelessness/"
 ---
 
 ## Categories ##

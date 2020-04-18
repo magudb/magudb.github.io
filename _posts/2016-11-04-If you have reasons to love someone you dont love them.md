@@ -5,6 +5,7 @@ description: "If you have reasons to love someone, you don’t love them - Zizek
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/If-you-have-reasons-to-love-someone-you-dont-love-them/"
 ---
 
 ## Categories ##

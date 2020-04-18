@@ -5,6 +5,7 @@ description: "Typography is a beautiful group of letters, not a group of beautif
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Typography-is-a-beautiful-group-of-letters-not-a-group-of-beautiful-letters/"
 ---
 #  Must see #
   * [DC2 - Desktop Container Computer for Docker Containers](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe) - we should all have one!

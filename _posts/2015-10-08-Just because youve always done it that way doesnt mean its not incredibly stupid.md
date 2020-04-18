@@ -5,6 +5,7 @@ description: "Just because you've always done it that way doesn't mean it's not 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Just-because-youve-always-done-it-that-way-doesnt-mean-its-not-incredibly-stupid/"
 ---
 #  Must see - this is for all! #
   * [From functional to Reactive - patterns in domain modeling]() - This is truely mindblowing, i love Domain modelling in the functional paradigm. Btw. remember to read [Functional thinking](#/Development%20Concepts/Functional%20Thinking)

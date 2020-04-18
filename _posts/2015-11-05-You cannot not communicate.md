@@ -5,6 +5,7 @@ description: "You cannot not communicate."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/You-cannot-not-communicate/"
 ---
 # Weekly links (* is for everyone) #
 

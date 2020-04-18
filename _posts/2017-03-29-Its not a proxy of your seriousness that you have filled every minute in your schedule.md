@@ -5,6 +5,7 @@ description: "It's not a proxy of your seriousness that you have filled every mi
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Its-not-a-proxy-of-your-seriousness-that-you-have-filled-every-minute-in-your-schedule/"
 ---
 
 ## Categories ##

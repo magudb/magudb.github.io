@@ -5,6 +5,7 @@ description: "To say a grid is limiting is to say that language is limiting, or 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/To-say-a-grid-is-limiting-is-to-say-that-language-is-limiting-or-typography-is-limiting/"
 ---
 #  Must see #
   * [CQRS but different](https://vimeo.com/131199089) - Great video, with a focus on the but different. it think this is a must see!

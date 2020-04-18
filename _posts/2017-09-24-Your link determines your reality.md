@@ -5,6 +5,7 @@ description: "Your focus determines your reality. - Qui-Gon Jin"
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Your-link-determines-your-reality/"
 ---
 
 ## Categories ##

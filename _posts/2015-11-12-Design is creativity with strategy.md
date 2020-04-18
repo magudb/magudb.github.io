@@ -5,6 +5,7 @@ description: "Design is creativity with strategy."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Design-is-creativity-with-strategy/"
 ---
 # Weekly links (* is for everyone) #
 

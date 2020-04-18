@@ -5,6 +5,7 @@ description: "If I had more time, I would have written a shorter letter."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/If-I-had-more-time-I-would-have-written-a-shorter-letter/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

@@ -5,6 +5,7 @@ description: "“The reason we go to poetry is not for wisdom, but for the disma
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/The-reason-we-go-to-links-is-not-for-wisdom/"
 ---
 
 ## Categories ##

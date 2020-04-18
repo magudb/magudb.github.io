@@ -5,6 +5,7 @@ description: "A designer who gives her art away, makes no pay. A designer who ke
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/A-designer-who-gives-her-art-away-makes-no-pay-A-designer-who-keeps-her-art-to-herself-makes-no-friends-/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

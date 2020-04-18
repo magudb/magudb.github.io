@@ -5,6 +5,7 @@ description: "A confident client will see your confidence as strength, not arrog
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/A-confident-client-will-see-your-confidence-as-strength-not-arrogance/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

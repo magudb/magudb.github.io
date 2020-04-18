@@ -5,6 +5,7 @@ description: "Think more, design less."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Think-more-design-less/"
 ---
 # My favorites #
  * [5 Small Changes You Can Make To Fall In Love With Work](http://blog.socialcast.com/5-small-changes-you-can-make-to-fall-in-love-with-work/) - [You're 87% More Likely To Love Your Job If You Work From Home](http://www.forbes.com/sites/markmurphy/2016/01/24/youre-87-more-likely-to-love-your-job-if-you-work-from-home-i-e-telecommuting/#6a70fe644c95)

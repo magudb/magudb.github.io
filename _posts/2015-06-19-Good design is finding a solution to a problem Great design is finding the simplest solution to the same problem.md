@@ -5,6 +5,7 @@ description: "Good design is finding a solution to a problem. Great design is fi
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Good-design-is-finding-a-solution-to-a-problem-Great-design-is-finding-the-simplest-solution-to-the-same-problem/"
 ---
 
 #  Must see #

@@ -5,6 +5,7 @@ description: "Stop looking at yourself as a designer, and start thinking of your
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Stop-looking-at-yourself-as-a-designer-and-start-thinking-of-yourself-as-a-deliverer-of-ideas/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

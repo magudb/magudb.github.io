@@ -5,6 +5,7 @@ description: "Links is never a straight line. It’s a forest, And like a forest
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Links-is-never-a-straight-line-Its-a-forest-And-like-a-forest-its-easy-to-lose-your-way-To-get-lost-To/"
 ---
 
 ## Categories ##

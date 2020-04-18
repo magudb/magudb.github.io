@@ -5,6 +5,7 @@ description: "Let your watchword be order and your beacon beauty."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Let-your-watchword-be-order-and-your-beacon-beauty/"
 ---
 #  Must see #
   * [Docker: Not Even a Linker](http://adamierymenko.com/docker-not-even-a-linker/) - A interesting perspective on Docker

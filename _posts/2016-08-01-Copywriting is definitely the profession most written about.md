@@ -5,6 +5,7 @@ description: "Copywriting is definitely the profession most written about."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Copywriting-is-definitely-the-profession-most-written-about/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

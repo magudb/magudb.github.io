@@ -5,6 +5,7 @@ description: "I'm not big on snacks, but I if do, I like a few M&M's. - Grandmas
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Im-not-big-on-snacks/"
 ---
 
 ## Categories ##

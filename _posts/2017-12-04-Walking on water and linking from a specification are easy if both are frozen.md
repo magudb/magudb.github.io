@@ -5,6 +5,7 @@ description: "Walking on water and developing software from a specification are 
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Walking-on-water-and-linking-from-a-specification-are-easy-if-both-are-frozen/"
 ---
 
 ## Categories ##

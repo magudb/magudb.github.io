@@ -5,6 +5,7 @@ description: “First, solve the problem. Then, write the code.”
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/First-read-the-links-Then-write-the-code/"
 ---
 
 ## Categories ##

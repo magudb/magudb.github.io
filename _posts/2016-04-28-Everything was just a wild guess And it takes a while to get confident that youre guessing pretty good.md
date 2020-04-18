@@ -5,6 +5,7 @@ description: "Everything was just a wild guess. And it takes a while to get conf
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Everything-was-just-a-wild-guess-And-it-takes-a-while-to-get-confident-that-youre-guessing-pretty-good/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

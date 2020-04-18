@@ -5,6 +5,7 @@ description: "A work of art is one of mystery, the one extreme magic; everything
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/A-work-of-art-is-one-of-mystery-the-one-extreme-magic-everything-else-is-either-arithmetic-or-biology/"
 ---
 #  Must see ..! #
   * [INTRODUCING THE TECHNICAL PREVIEW OF DOCKER ENGINE FOR WINDOWS SERVER 2016](http://blog.docker.com/2015/08/tp-docker-engine-windows-server-2016/)

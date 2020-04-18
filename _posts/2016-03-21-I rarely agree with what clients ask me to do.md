@@ -5,6 +5,7 @@ description: "I rarely agree with what clients ask me to do."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/I-rarely-agree-with-what-clients-ask-me-to-do/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

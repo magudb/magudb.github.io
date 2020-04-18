@@ -5,6 +5,7 @@ description: "It's OK to do stupid things, except when you notice them."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Its-OK-to-do-stupid-things-except-when-you-notice-them/"
 ---
 
 > ‘Industrial innovation includes the technical, design, manufacturing, management and

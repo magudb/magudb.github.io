@@ -5,6 +5,7 @@ description: "2019-04-28 - Just links.."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2019/just-links/"
 ---
 <!-- markdownlint-disable MD033 MD020-->
 #My favorites<a name="favorites"></a>#

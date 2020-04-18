@@ -5,6 +5,7 @@ description: "I'm looking into who danish compaines are defining DevOps, and how
 category: "Master"
 comments: false
 keywords: "DigitalTranformation, DevOps, Dev-Ops, Digital-Transformatiom"
+redirect_from: "/2017/My-Masters-Part-1/"
 ---
 
 #So i'm doing an executive master#

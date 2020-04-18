@@ -5,6 +5,7 @@ description: "In the presence of good rationale, maintainers should be willing t
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/In-the-presence-of-good-rationale-maintainers-should-be-willing-to-change-their-mind-often/"
 ---
 
 #  Must see #

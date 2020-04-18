@@ -5,6 +5,7 @@ description: "Passion, dedication, and silly lists of what designers need are wh
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Passion-dedication-and-silly-lists-of-what-designers-need-are-what-designers-need/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

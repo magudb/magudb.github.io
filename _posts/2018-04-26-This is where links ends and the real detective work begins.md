@@ -5,6 +5,7 @@ description: "'This is where programming ends, and the real detective work begin
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2018/This-is-where-links-ends-and-the-real-detective-work-begins/"
 ---
 
 ## Categories ##

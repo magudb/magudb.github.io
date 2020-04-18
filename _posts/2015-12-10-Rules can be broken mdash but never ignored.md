@@ -5,6 +5,7 @@ description: "Rules can be broken &mdash; but never ignored."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Rules-can-be-broken-mdash-but-never-ignored/"
 ---
 # Weekly links (* is for everyone) #
 

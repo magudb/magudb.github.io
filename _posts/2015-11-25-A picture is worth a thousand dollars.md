@@ -5,6 +5,7 @@ description: "A picture is worth a thousand dollars."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/A-picture-is-worth-a-thousand-dollars/"
 ---
 # Weekly links (* is for everyone) #
 

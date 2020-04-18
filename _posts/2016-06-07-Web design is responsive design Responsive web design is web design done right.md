@@ -5,6 +5,7 @@ description: "Web design is responsive design. Responsive web design is web desi
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2016/Web-design-is-responsive-design-Responsive-web-design-is-web-design-done-right/"
 ---
 ## Categories ##
  * [My favorites](#favorites)

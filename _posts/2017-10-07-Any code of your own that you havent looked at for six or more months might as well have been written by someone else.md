@@ -5,6 +5,7 @@ description: "Any code of your own that you haven't looked at for six or more mo
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2017/Any-code-of-your-own-that-you-havent-looked-at-for-six-or-more-months-might-as-well-have-been-written-by-someone-else/"
 ---
 
 ## Categories ##

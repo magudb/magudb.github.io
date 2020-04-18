@@ -5,6 +5,7 @@ description: "Luck is the residue of design."
 comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
+redirect_from: "/2015/Luck-is-the-residue-of-design/"
 ---
 # Weekly links (* is for everyone) #
 
