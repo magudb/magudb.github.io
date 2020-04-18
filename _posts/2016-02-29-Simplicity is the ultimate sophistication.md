@@ -2,7 +2,7 @@
 layout: post
 title: "Simplicity is the ultimate sophistication."
 description: "Simplicity is the ultimate sophistication."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

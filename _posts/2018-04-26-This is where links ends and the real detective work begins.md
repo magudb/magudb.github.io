@@ -2,7 +2,7 @@
 layout: post
 title: "This is where links ends, and the real detective work begins"
 description: "'This is where programming ends, and the real detective work begins.'- Phillip Winter"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

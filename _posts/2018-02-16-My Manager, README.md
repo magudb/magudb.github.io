@@ -2,7 +2,7 @@
 layout: post
 title: "Magnus Udbjørg, As a manager."
 description: "My Manager README"
-comments: true
+comments: false
 category: "Manager"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

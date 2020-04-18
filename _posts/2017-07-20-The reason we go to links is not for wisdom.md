@@ -2,7 +2,7 @@
 layout: post
 title: "The reason we go to links is not for wisdom, but for the dismantling of wisdom"
 description: "“The reason we go to poetry is not for wisdom, but for the dismantling of wisdom” ― Jacques Lacan"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

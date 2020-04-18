@@ -2,7 +2,7 @@
 layout: post
 title: "Everything was just a wild guess. And it takes a while to get confident that you're guessing pretty good."
 description: "Everything was just a wild guess. And it takes a while to get confident that you're guessing pretty good."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Owning a camera doesn't make you a photographer."
 description: "Owning a camera doesn't make you a photographer."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

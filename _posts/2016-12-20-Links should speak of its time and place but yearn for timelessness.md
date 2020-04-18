@@ -2,7 +2,7 @@
 layout: post
 title: "Links should speak of its time and place, but yearn for timelessness."
 description: "Architecture should speak of its time and place, but yearn for timelessness. - Frank Gehry"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

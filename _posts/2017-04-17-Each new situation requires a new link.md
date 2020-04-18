@@ -2,7 +2,7 @@
 layout: post
 title: "Each new situation requires a new architecture"
 description: "Each new situation requires a new architecture - Jean Nouvel"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

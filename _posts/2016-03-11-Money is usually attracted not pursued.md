@@ -2,7 +2,7 @@
 layout: post
 title: "Money is usually attracted, not pursued."
 description: "Money is usually attracted, not pursued."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

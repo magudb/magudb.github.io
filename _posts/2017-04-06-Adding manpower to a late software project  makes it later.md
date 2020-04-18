@@ -4,7 +4,7 @@ title: "Adding links to a late software project
 makes it later!"
 description: "Adding manpower to a late software project 
 makes it later!"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "2017/Adding-manpower-to-a-late-software-project--makes-it-later"

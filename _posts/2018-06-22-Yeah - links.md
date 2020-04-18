@@ -2,7 +2,7 @@
 layout: post
 title: "Links - 22-06-2018"
 description: ""
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

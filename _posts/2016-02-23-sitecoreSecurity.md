@@ -2,7 +2,7 @@
 layout: post
 title: "Sitecore Security"
 description: "NWebSec and Sitecote"
-comments: true
+comments: false
 keywords: "Sitecore, security, nwebsec"
 category: "Sitecore"
 redirect_from: "2016/02/23/sitecore-and-content-security-policy/"

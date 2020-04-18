@@ -2,7 +2,7 @@
 layout: post
 title: "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
 description: "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

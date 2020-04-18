@@ -2,7 +2,7 @@
 layout: post
 title: "Whether you think you can or whether you think you can't - you are right."
 description: "Whether you think you can or whether you think you can't - you are right."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

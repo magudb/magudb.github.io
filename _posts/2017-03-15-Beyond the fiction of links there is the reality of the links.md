@@ -2,7 +2,7 @@
 layout: post
 title: "Beyond the fiction of links, there is the reality of the links."
 description: "Beyond the fiction of reality, there is the reality of the fiction. -  Slavoj Žižek,"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

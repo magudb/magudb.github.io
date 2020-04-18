@@ -2,7 +2,7 @@
 layout: post
 title: "Links is an expression of values."
 description: "Architecture is an expression of values. – Norman Foster"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

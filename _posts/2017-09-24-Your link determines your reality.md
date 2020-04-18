@@ -2,7 +2,7 @@
 layout: post
 title: "Your link determines your reality."
 description: "Your focus determines your reality. - Qui-Gon Jin"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "It's OK to do stupid things, except when you notice them."
 description: "It's OK to do stupid things, except when you notice them."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

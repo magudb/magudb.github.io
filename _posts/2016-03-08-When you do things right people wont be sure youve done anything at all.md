@@ -2,7 +2,7 @@
 layout: post
 title: "When you do things right, people won’t be sure you’ve done anything at all."
 description: "When you do things right, people won’t be sure you’ve done anything at all."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

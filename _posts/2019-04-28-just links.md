@@ -2,7 +2,7 @@
 layout: post
 title: "2019-04-28 - Just links..."
 description: "2019-04-28 - Just links.."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

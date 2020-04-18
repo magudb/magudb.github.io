@@ -2,7 +2,7 @@
 layout: post
 title: "Clients don't understand their success is reliant on standing out, not fitting in."
 description: "Clients don't understand their success is reliant on standing out, not fitting in."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

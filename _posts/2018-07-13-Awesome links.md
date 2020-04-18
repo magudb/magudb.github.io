@@ -2,7 +2,7 @@
 layout: post
 title: "Awesome Links - 13-07-2018"
 description: "Booya links up in here!"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Link, Lænke, Die Linke"
 description: "More links found all over the internet."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

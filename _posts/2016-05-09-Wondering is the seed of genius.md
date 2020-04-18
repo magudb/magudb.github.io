@@ -2,7 +2,7 @@
 layout: post
 title: "Wondering is the seed of genius."
 description: "Wondering is the seed of genius."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

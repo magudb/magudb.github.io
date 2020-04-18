@@ -2,7 +2,7 @@
 layout: post
 title: "Rules can be broken &mdash; but never ignored."
 description: "Rules can be broken &mdash; but never ignored."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

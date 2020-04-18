@@ -2,7 +2,7 @@
 layout: post
 title: "Good design means never having to say 'Click Here.'"
 description: "Good design means never having to say 'Click Here.'"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

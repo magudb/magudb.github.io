@@ -3,7 +3,7 @@ layout: post
 title: "Do you use DevOps?"
 description: "I'm looking into who danish compaines are defining DevOps, and how they will utilize this."
 category: "Master"
-comments: true
+comments: false
 keywords: "DigitalTranformation, DevOps, Dev-Ops, Digital-Transformatiom"
 ---
 #I'm doing an executive master#

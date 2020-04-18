@@ -2,7 +2,7 @@
 layout: post
 title: "I make solutions nobody wants to problems that don't exist."
 description: "I make solutions nobody wants to problems that don't exist."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

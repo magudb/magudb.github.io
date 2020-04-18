@@ -2,7 +2,7 @@
 layout: post
 title: "Good design is finding a solution to a problem. Great design is finding the simplest solution to the same problem."
 description: "Good design is finding a solution to a problem. Great design is finding the simplest solution to the same problem."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

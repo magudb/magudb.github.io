@@ -2,7 +2,7 @@
 layout: post
 title: "You mix a bunch of ingredients, and once in a great while, chemistry happens."
 description: "You mix a bunch of ingredients, and once in a great while, chemistry happens."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

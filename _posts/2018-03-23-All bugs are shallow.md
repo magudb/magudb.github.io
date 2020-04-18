@@ -2,7 +2,7 @@
 layout: post
 title: "Given enough links, all bugs are shallow"
 description: "Given enough eyeballs, all bugs are shallow.- Linus Torvalds - Linus’s Law"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

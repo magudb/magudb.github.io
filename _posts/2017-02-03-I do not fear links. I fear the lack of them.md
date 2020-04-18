@@ -2,7 +2,7 @@
 layout: post
 title: "I do not fear links. I fear the lack of them."
 description: "I do not fear computers. I fear the lack of them. - Issac Assimov"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

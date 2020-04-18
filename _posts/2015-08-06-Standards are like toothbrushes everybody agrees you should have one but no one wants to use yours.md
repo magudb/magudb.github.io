@@ -2,7 +2,7 @@
 layout: post
 title: "Standards are like toothbrushes, everybody agrees you should have one, but no one wants to use yours."
 description: "Standards are like toothbrushes, everybody agrees you should have one, but no one wants to use yours."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

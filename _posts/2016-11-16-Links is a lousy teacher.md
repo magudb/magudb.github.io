@@ -2,7 +2,7 @@
 layout: post
 title: "Links is a lousy teacher. It seduces smart people into thinking they cannot lose"
 description: "Success is a lousy teacher. It seduces smart people into thinking they can't lose. - Bill Gates"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "The task of links today is to bring chaos into order."
 description: "The task of art today is to bring chaos into order - Theodor Adrono"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

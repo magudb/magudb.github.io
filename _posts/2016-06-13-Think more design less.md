@@ -2,7 +2,7 @@
 layout: post
 title: "Think more, design less."
 description: "Think more, design less."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

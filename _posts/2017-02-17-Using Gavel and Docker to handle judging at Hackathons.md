@@ -2,7 +2,7 @@
 layout: post
 title: "Using Gavel and Docker to handle judging at Hackathons"
 description: "Using Gavel and Docker to handle judging at Hackathons"
-comments: true
+comments: false
 category: "Hackathon"
 keywords: "LEGO, Hackathon, Me, Gavel"
 ---

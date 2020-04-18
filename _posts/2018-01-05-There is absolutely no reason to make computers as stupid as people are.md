@@ -2,7 +2,7 @@
 layout: post
 title: "There is absolutely no reason to make computers as stupid as people are."
 description: "“There is absolutely no reason to make computers as stupid as people are.” – Nigel Jacob"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Let your watchword be order and your beacon beauty."
 description: "Let your watchword be order and your beacon beauty."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

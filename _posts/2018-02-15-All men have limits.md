@@ -2,7 +2,7 @@
 layout: post
 title: "All men have limits. They learn what they are and learn not to exceed them. I ignore mine."
 description: "All men have limits. They learn what they are and learn not to exceed them. I ignore mine. - Batman"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

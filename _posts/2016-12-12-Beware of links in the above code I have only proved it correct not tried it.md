@@ -2,7 +2,7 @@
 layout: post
 title: "Beware of links in the above code I have only proved it correct not tried it"
 description: "Beware of bugs in the above code; I have only proved it correct, not tried it.- Donald E. Knuth."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Design works best when it gets out of the user's way."
 description: "Design works best when it gets out of the user's way."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

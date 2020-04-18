@@ -2,7 +2,7 @@
 layout: post
 title: “First, read the links. Then, write the code.”
 description: “First, solve the problem. Then, write the code.”
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

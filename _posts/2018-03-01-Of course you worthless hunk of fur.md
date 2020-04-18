@@ -2,7 +2,7 @@
 layout: post
 title: "Of course you worthless hunk of fur"
 description: "“Of course you worthless hunk of fur, books are the real treasures of the world.” ― Skeletor"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "What you call 'link' is simply the place where you stop looking any further."
 description: "What you call 'root cause' is simply the place where you stop looking any further. - Sidney Dekker"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

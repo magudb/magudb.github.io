@@ -2,7 +2,7 @@
 layout: post
 title: "Before links can be reusable it first has to be usable."
 description: "Before software can be reusable it first has to be usable. (Ralph Johnson)"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

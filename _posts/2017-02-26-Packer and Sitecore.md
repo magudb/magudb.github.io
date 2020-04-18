@@ -2,7 +2,7 @@
 layout: post
 title: "Using Packer to Create Immutable servers to deploy Sitecore or other asp.net app"
 description: "Using Packer to Create Immutable servers"
-comments: true
+comments: false
 category: "Sitecore"
 keywords: "Hashicorp, Packer, Sitecore"
 ---

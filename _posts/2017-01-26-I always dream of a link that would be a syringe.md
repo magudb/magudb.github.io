@@ -2,7 +2,7 @@
 layout: post
 title: "I always dream of a link that would be a syringe."
 description: "I always dream of a pen that would be a syringe. - Jacques Derrida"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

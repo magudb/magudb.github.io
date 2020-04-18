@@ -2,7 +2,7 @@
 layout: post
 title: "Designers tend to whisper, ad agencies tend to shout."
 description: "Designers tend to whisper, ad agencies tend to shout."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

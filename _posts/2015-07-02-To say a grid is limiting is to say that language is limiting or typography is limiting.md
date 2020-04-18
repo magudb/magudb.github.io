@@ -2,7 +2,7 @@
 layout: post
 title: "To say a grid is limiting is to say that language is limiting, or typography is limiting."
 description: "To say a grid is limiting is to say that language is limiting, or typography is limiting."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

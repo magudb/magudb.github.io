@@ -2,7 +2,7 @@
 layout: post
 title: "Design is creativity with strategy."
 description: "Design is creativity with strategy."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "A designer is an emerging synthesis of artist, inventor, mechanic, objective economist and evolutio­nary strategist."
 description: "A designer is an emerging synthesis of artist, inventor, mechanic, objective economist and evolutio­nary strategist."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

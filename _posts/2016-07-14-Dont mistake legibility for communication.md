@@ -2,7 +2,7 @@
 layout: post
 title: "Don't mistake legibility for communication."
 description: "Don't mistake legibility for communication."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

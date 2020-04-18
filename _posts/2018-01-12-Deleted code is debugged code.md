@@ -2,7 +2,7 @@
 layout: post
 title: "Deleted code is debugged code."
 description: "“Deleted code is debugged code.” – Jeff Sickel"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

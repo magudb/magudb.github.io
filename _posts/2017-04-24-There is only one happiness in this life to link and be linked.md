@@ -2,7 +2,7 @@
 layout: post
 title: "There is only one happiness in this life, to link and be linked."
 description: "trye story"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

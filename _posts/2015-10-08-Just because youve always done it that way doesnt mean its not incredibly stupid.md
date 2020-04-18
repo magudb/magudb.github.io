@@ -2,7 +2,7 @@
 layout: post
 title: "Just because you've always done it that way doesn't mean it's not incredibly stupid."
 description: "Just because you've always done it that way doesn't mean it's not incredibly stupid."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

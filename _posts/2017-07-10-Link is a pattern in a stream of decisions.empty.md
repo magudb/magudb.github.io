@@ -2,7 +2,7 @@
 layout: post
 title: "Link is a pattern in a stream of decisions"
 description: "“Strategy is a pattern in a stream of decisions” —Henry Mintzberg"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

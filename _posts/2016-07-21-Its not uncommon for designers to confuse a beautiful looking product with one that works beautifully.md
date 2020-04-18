@@ -2,7 +2,7 @@
 layout: post
 title: "It’s not uncommon for designers to confuse a beautiful looking product with one that works beautifully."
 description: "It’s not uncommon for designers to confuse a beautiful looking product with one that works beautifully."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

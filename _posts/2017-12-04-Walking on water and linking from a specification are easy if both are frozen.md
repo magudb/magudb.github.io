@@ -2,7 +2,7 @@
 layout: post
 title: "Walking on water and linking from a specification are easy if both are frozen."
 description: "Walking on water and developing software from a specification are easy if both are frozen. – Edward V. Berard"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Design is where science and art break even."
 description: "Design is where science and art break even."
-comments: true
+comments: false
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 category: "Links"
 ---

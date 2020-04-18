@@ -2,7 +2,7 @@
 layout: post
 title: "Don’t explain why it works; explain how you use it."
 description: "Don’t explain why it works; explain how you use it."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

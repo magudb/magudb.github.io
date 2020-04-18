@@ -2,7 +2,7 @@
 layout: post
 title: "You can’t stop the change, any more than you can stop the suns from setting"
 description: " “You can’t stop the change, any more than you can stop the suns from setting.” — Shmi Skywalker"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

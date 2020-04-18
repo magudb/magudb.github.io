@@ -2,7 +2,7 @@
 layout: post
 title: "If I had more time, I would have written a shorter letter."
 description: "If I had more time, I would have written a shorter letter."
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---

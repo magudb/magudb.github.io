@@ -2,7 +2,7 @@
 layout: post
 title: "If you have reasons to link someone, you don’t love them"
 description: "If you have reasons to love someone, you don’t love them - Zizek"
-comments: true
+comments: false
 category: "Links"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 ---
