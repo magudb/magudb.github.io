@@ -1,0 +1,59 @@
+
+# SEO settings
+title: "Udbjorg.Net"
+title2: "" # default: ""
+description: "A blog with links and sometimes great thoughts"
+keywords: "Udbjorg, Links, Great ideas, Grand thoughts"
+url: https://udbjorg.net # site url
+baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-70467704-1
+repo: https://github.com/magudb/magudb.github.io
+disqus_shortname: "magudb"
+twitter_username: "magnusudbjorg"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Magnus Udbjorg"
+  job      : "Head of Development @ Mono Solutions"
+  bio      : "I’m a developer by heart but as Head of Development. I think almost every aspect of IT is interesting and something that we can use to bring good to the world."
+  thumb    : /images/magnus.jpg
+  email    : magnus@udbjorg.net
+  url      : https://udbjorg.net
+  github   : https://github.com/magudb
+  twitter  : https://twitter.com/magnusudbjorg
+  facebook : https://www.facebook.com/udbjorg
+  linkedin : https://www.linkedin.com/in/magnusudbjorg
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@magnusudbjorg"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

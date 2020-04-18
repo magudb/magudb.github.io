@@ -1,0 +1,18 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <main class="wrapper">
+      {% include header.html %}
+      {{ content }}
+      {% include footer.html %}
+    </main>   
+    <script>    
+       
+    </script>
+    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
+  </body>
+</html>
