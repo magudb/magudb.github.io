@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "More WFH reading"
+title: "Links"
 description: "Links, ALOT!"
 comments: false
 category: "Links"
