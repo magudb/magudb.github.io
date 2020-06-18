@@ -12,10 +12,10 @@ redirect_from: "2020/Back-to-Reality"
 
 When the unjust becomes just - resistance becomes duty.
 
-- http://www.pisab.org/we-are-undoing-racism/ 
-- https://www.naacp.org/ 
-- https://nmaahc.si.edu/connect/give
-- https://donate.splcenter.org/
+- [http://www.pisab.org/we-are-undoing-racism/](http://www.pisab.org/we-are-undoing-racism/)
+- [https://www.naacp.org/](https://www.naacp.org/)
+- [https://nmaahc.si.edu/connect/give](https://nmaahc.si.edu/connect/give)
+- [https://donate.splcenter.org/](https://donate.splcenter.org/)
 - [Black Lives Matter Css - Bonfire](https://www.bonfire.com/black-lives-matter-css/buy/){:target="_blank"}
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
