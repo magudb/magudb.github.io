@@ -23,6 +23,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
+- [Understanding Event Driven Architecture - Hacker Noon](https://hackernoon.com/understanding-event-driven-architecture-ub1k3umo){:target="_blank"}
 - [Building Domain Driven Microservices - By Chandra Ramalingam | Walmartlabs | Jul, 2020 | Medium](https://medium.com/walmartlabs/building-domain-driven-microservices-af688aa1b1b8){:target="_blank"}
 - [Immediate Domain Event Salvation With Mediatr - Blog](https://ardalis.com/immediate-domain-event-salvation-with-mediatr/){:target="_blank"}
 - [Effective Code Reviews: Bettering Products, Teams, And Engineers - Paypal Engineering](https://medium.com/paypal-engineering/effective-code-reviews-53d62a203b2f){:target="_blank"}
@@ -46,3 +47,6 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Yahoo/VSSH: Go Library To Handle Tens Of Thousands Ssh Connections And Execute The Command(s) With Higher-level Api For Building Network Device / Server Automation.](https://github.com/yahoo/vssh){:target="_blank"}
 - [Ortelius/ortelius: Ortelius Maps Your Microservice Configurations With Their Relationships To The Application That Use Them. Your Microservice Configurations Are Versioned And Tracked So They Are Never Lost.](https://github.com/ortelius/ortelius){:target="_blank"}
 - [Jckuester/awsls: A List Command For Aws Resources](https://github.com/jckuester/awsls){:target="_blank"}
+- [Goodwithtech/dockle: Container Image Linter For Security, Helping Build The Best-practice Docker Image, Easy To Start](https://github.com/goodwithtech/dockle){:target="_blank"}
+- [Cellbang/malagu: Malagu Development Framework (Qq: 1013685855 钉钉: 31992376)](https://github.com/cellbang/malagu){:target="_blank"}
+- [Securisec/serverless-completer: Vscode Serverless.yml Completer](https://github.com/securisec/serverless-completer){:target="_blank"}
