@@ -14,6 +14,7 @@ redirect_from: "2020/Whooaa,-links/"
 - [The Art Of The Okr, Redux – Eleganthack](http://eleganthack.com/the-art-of-the-okr-redux/){:target="_blank"}
 - [Lisadziuba/marketing-for-engineers: A Curated Collection Of Marketing Articles & Tools To Grow Your Product.](https://github.com/LisaDziuba/Marketing-for-Engineers){:target="_blank"}
 
+
 ## Agile, Organizations and Product<a name="agile"></a>
 
 - [Building Security Into The Customer Experience](https://www.mckinsey.com/business-functions/risk/our-insights/building-security-into-the-customer-experience){:target="_blank"}
