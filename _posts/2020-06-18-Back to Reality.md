@@ -5,7 +5,7 @@ description: "Links and #BlackLivesMatter"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
-redirect_from: "2020/Back-to-Reality"
+redirect_from: "/2020/Back-to-Reality/"
 ---
 
 # BlackLivesMatter.
