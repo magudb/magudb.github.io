@@ -5,6 +5,7 @@ description: "Links, ALOT!"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
+redirect_from: "2020/Whooaa,-links"
 ---
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
