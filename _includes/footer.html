@@ -29,8 +29,9 @@
     trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
     (window,"{{ site.google_analytics }}",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
   </script>
-<script type="module">
-	import { getCLS, getFID, getLCP } from 'https://unpkg.com/web-vitals@0.2.4/dist/web-vitals.es5.min.js?module';
+  <script defer src="https://unpkg.com/web-vitals@0.2.4/dist/web-vitals.es5.umd.min.js"></script>
+<script >
+	
 
 	function sendToGoogleAnalytics({ name, delta, id }) {
 		console.log(name, delta, id);
@@ -44,7 +45,7 @@
 		});
 	}
 
-	getCLS(sendToGoogleAnalytics);
-	getFID(sendToGoogleAnalytics);
-	getLCP(sendToGoogleAnalytics);
+	webVitals.getCLS(sendToGoogleAnalytics);
+	webVitals.getFID(sendToGoogleAnalytics);
+	webVitals.getLCP(sendToGoogleAnalytics);
 </script>
