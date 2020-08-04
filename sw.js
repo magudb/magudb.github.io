@@ -2,7 +2,7 @@
 
 var prefix = 'udbjorg';
 
-var version = 1;
+var version = 2;
 var previousVersion = version - 1;
 var offline_version = "0.0.1";
 
@@ -20,38 +20,24 @@ var ignoreUrl = function (url) {
     return false;
 };
 
-self.addEventListener('fetch', function (event) {
-
+self.addEventListener('fetch', function(event) {
     if (ignoreUrl(event.request.url) || event.request.method !== 'GET') {
         return;
     }
     
-    var fetchRequest = event.request.clone();
-    var networkRequest = fetch(fetchRequest)
-        .then(
-            function (response) {
-                if (!response || response.status !== 200 || response.type !== 'basic') {
-                    return response;
-                }
-                var responseToCache = response.clone();
-                caches.open(CACHE_NAME)
-                    .then(function (cache) {
-                        cache.put(event.request, responseToCache);
-                    });
-                return response;
-            }
-        );
-    event.respondWith(
-        caches.match(event.request).then(function (response) {
-            return response || networkRequest;
+  event.respondWith(
+    caches.open(CACHE_NAME).then(function(cache) {
+      return cache.match(event.request).then(function(response) {
+        var fetchPromise = fetch(event.request).then(function(networkResponse) {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
         })
-        .catch(function () {
-            if (event.request.mode === "navigate") {
-                return caches.match(OFFLINE_PAGE);
-            }
-        })
-    );
+        return response || fetchPromise;
+      })
+    })
+  );
 });
+
 
 self.addEventListener('install', function (event) {
    

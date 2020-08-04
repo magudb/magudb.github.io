@@ -26,7 +26,7 @@ redirect_from: "/2020/Whooaa,-links/"
 ## Architecture, Development & Software development practices <a name="development"></a>
 
 - [Understanding Event Driven Architecture - Hacker Noon](https://hackernoon.com/understanding-event-driven-architecture-ub1k3umo){:target="_blank"}
-- [Building Domain Driven Microservices - By Chandra Ramalingam | Walmartlabs | Jul, 2020 | Medium](https://medium.com/walmartlabs/building-domain-driven-microservices-af688aa1b1b8){:target="_blank"}
+- [Building Domain Driven Microservices - By Chandra Ramalingam - Walmartlabs - Jul, 2020 - Medium](https://medium.com/walmartlabs/building-domain-driven-microservices-af688aa1b1b8){:target="_blank"}
 - [Immediate Domain Event Salvation With Mediatr - Blog](https://ardalis.com/immediate-domain-event-salvation-with-mediatr/){:target="_blank"}
 - [Effective Code Reviews: Bettering Products, Teams, And Engineers - Paypal Engineering](https://medium.com/paypal-engineering/effective-code-reviews-53d62a203b2f){:target="_blank"}
 - [Introducing Dotnet-monitor, An Experimental Tool - .Net Blog](https://devblogs.microsoft.com/dotnet/introducing-dotnet-monitor/){:target="_blank"}
