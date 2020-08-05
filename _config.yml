@@ -47,6 +47,17 @@ twitter_site: "@magnusudbjorg"
 algolia:
   application_id: V2C3F87EP4
   index_name: udbjorg
+  extensions_to_index:
+    - html
+    - md
+  files_to_exclude:
+    - index.html
+    - search.html
+    - _plugins/*.html
+    - _layouts/*.html
+    - _includes/*.html
+    - _drafts/*.md
+
 
 gems:
   - bourbon

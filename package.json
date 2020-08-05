@@ -12,6 +12,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.19.0",
     "mark.js": "^8.11.1",
+    "moment": "^2.27.0",
     "node-sass": "^3.7.0",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
