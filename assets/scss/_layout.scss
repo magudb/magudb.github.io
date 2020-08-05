@@ -290,3 +290,25 @@ hr {
     }
   }
 }
+
+.row {
+  display: table;
+}
+
+.title, .dots, .value {
+  display: table-cell;
+}
+
+.title, .value {
+  white-space: nowrap;
+}
+
+.table {
+  width: 100%;
+  margin: 10px;
+}
+
+.dots {
+  border-bottom: 1px dotted gray;
+  width: 100%;
+}
