@@ -7,7 +7,7 @@ import * as tracking from "./components/tracking.js"
 
 tracking.for_google();
 search.init().then((index) => {
-    search.bootstrap_dom("#search-box", "#search-button", search.For);
+    search.bootstrap_dom("#search-box", "#search-button", search.For, index);
 });
 
 
