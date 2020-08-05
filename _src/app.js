@@ -1,15 +1,16 @@
 import * as search from "./components/search.js"
 console.log("Udbjorg V1.0.3");
 
-
-search.bootstrap_dom("#search-box", "#search-button", search.For, search.init());
+let index = search.init();
+search.bootstrap_dom("#search-box", "#search-button", search.For, index);
 
 // @ts-ignore
 if (window.errorpage) {
-    let query = decodeURI(location.pathname);
-    let spilt = query.split("/");
-    console.log(spilt[spilt.length-1])
-    search.For(spilt[spilt.length-1], search.init())
+    let path = decodeURI(location.pathname);
+    let spilt = path.split("/");
+    let query = spilt[spilt.length-1];
+    console.log(query, index)
+    search.For(query, index)
         .then(results => {
             console.log(results)
         })
