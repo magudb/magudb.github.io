@@ -29,12 +29,12 @@ title: Home
           <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
       {% endunless %}
-       {% if post.category != 'Links' %}     
+       <!-- {% if post.category != 'Links' %}      -->
        <article class="post-item">
         <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
         <div class="article-title"><span class="badge-default"><a href="/categories#{{post.category | slugify}}">{{post.category}}</a></span>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
       </article>
-       {% endif %}      
+       <!-- {% endif %}       -->
     {% endfor %}
   </div>
 

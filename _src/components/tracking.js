@@ -14,7 +14,7 @@ export function for_google() {
                 return;
             }
             event.preventDefault();
-            ga('send', 'event', {
+            ma.trackEvent('send', 'event', {
                 eventCategory: 'Outbound Link',
                 eventAction: 'click',
                 eventLabel: event.target.href

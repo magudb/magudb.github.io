@@ -109,8 +109,9 @@
                     eventLabel: id,
                     nonInteraction: true,
                 });
-            }
+            };
             addEventListener('DOMContentLoaded', function () {
+                console.log("WebVitals");
                 webVitals.getCLS(sendToGoogleAnalytics);
                 webVitals.getFID(sendToGoogleAnalytics);
                 webVitals.getLCP(sendToGoogleAnalytics);
