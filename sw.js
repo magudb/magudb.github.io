@@ -10,11 +10,7 @@ var CACHE_NAME = `${prefix}-v${version}`;
 var PREVIOUS_CACHE_NAME = `${prefix}-v${previousVersion}`;
 var OFFLINE_PAGE = `/offline/offline-${offline_version}.html`;
 
-var urlsToCache = [
-    "/",
-    "/assets/css/main.css",
-    "/assets/js/app.js"
-];
+var urlsToCache = [];
 var ignoreUrl = function (url) {
     const uri = new URL(url); 
     return false;

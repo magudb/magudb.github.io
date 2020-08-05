@@ -1,7 +1,7 @@
 
 # SEO settings
 title: "Udbjorg.Net"
-title2: "" # default: ""
+title2: "Blog" # default: ""
 description: "A blog with links and sometimes great thoughts"
 keywords: "Udbjorg, Links, Great ideas, Grand thoughts"
 url: https://udbjorg.net # site url
