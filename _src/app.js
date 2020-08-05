@@ -4,7 +4,7 @@ require('babel-polyfill');
 
 import * as search from "./components/search.js"
 import * as tracking from "./components/tracking.js"
-
+console.log("Udbjorg V1.0.2");
 tracking.for_google();
 let index = search.init();
 search.bootstrap_dom("#search-box", "#search-button", search.For, index);
