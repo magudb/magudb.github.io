@@ -55,10 +55,13 @@ Here we generate all the categories.
         {% endif %}
       {% endunless %}
       {% if post.category contains ct %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><span class="badge-default">{{post.category}}</span>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-      </article>
+      <div class="table">
+        <article class="row">        
+         <div class="title article-title"><span class="badge-default"><a href="/categories#{{post.category | slugify}}">{{post.category}}</a></span>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+         <div class="dots"></div>
+         <div class="value post-meta date-label">{{ post.date | date: "%b %d" }}</div>
+       </article>
+     </div>
       {% endif %}
     {% endfor %}
   </div>

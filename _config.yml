@@ -1,9 +1,9 @@
 
 # SEO settings
 title: "Udbjorg.Net"
-title2: "Blog" # default: ""
+title2: " Blog" # default: ""
 description: "A blog with links and sometimes great thoughts"
-keywords: "Udbjorg, Links, Great ideas, Grand thoughts"
+keywords: "Udbjorg, Links, Great ideas, thoughts, Love"
 url: https://udbjorg.net # site url
 baseurl: null # apply null if repo name is something like username.github.io
 
