@@ -4,12 +4,23 @@ require('babel-polyfill');
 
 import * as search from "./components/search.js"
 import * as tracking from "./components/tracking.js"
+
 console.log("Udbjorg V1.0.2");
 tracking.for_google();
 let index = search.init();
 search.bootstrap_dom("#search-box", "#search-button", search.For, index);
 
+// @ts-ignore
+window.errorSearch=function(){
+    let query = decodeURI(location.pathname);
+    let spilt = query.split("/");
 
+    search.For(spilt[spilt.length], index)
+    .then(results=> {
+       console.log(results)
+    })
+    .catch(_ => console.log(_));
+}
 
 if ('serviceWorker' in navigator) {
 

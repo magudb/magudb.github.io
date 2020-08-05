@@ -58,7 +58,14 @@ algolia:
     - _layouts/*.html
     - _includes/*.html
     - _drafts/*.md
-
+  settings:
+    searchableAttributes:  
+      - unordered(content)                                                       
+      - title                                                                    
+      - headings     
+      - url                                                            
+      - slug  
+      - desctiption  
 
 gems:
   - bourbon

@@ -9,6 +9,7 @@ module Jekyll
           record.delete(:html)
           record.delete(:redirect_from)
           record.delete(:headings)
+          record.delete(:comments)
         record
       end
     end
