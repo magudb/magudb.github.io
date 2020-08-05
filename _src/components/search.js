@@ -1,5 +1,6 @@
 import queryString from "query-string"
 import Mark from "mark.js"
+import moment from 'moment'
 import algoliasearch from 'algoliasearch/lite';
 // @ts-ignore
 require('./helper.js');
@@ -15,7 +16,7 @@ class Model {
      * @param {any} searchTerm
      */
     constructor(date, category, url, title, searchTerm) {
-        this.date = date;
+        this.date = moment.unix(date);
         this.category = category;
         this.url = url;
         this.title = title;
