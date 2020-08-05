@@ -4,19 +4,6 @@ title: Home
 ---
 
 {% include intro.html %}
-{% assign latestLinks = site.posts | where:"category","Links" | first %}
-<section class="post-list">
-  <div class="container">
-      <article class="post-item">
-        <span class="post-meta date-label">{{ latestLinks.date | date: "%b %d" }}</span>
-        <div class="article-title"><span class="badge-default">Latest links</span>  <a class="post-link" href="{{ latestLinks.url | prepend: site.baseurl }}">{{ latestLinks.title }}</a></div>
-      </article>
-       <article class="post-item">
-        <span class="post-meta date-label">All</span>
-        <div class="article-title"><span class="badge-default">All</span> <a href="/categories#links">{{site.posts | where:"category","Links" | size}} {{latestLinks.category}} posts are here</a></div>
-      </article>
-  </div>
-</section>
 <section class="post-list">
   <div class="container">
     {% for post in site.posts %}
@@ -29,12 +16,12 @@ title: Home
           <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
       {% endunless %}
-       <!-- {% if post.category != 'Links' %}      -->
+      
        <article class="post-item">
         <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
         <div class="article-title"><span class="badge-default"><a href="/categories#{{post.category | slugify}}">{{post.category}}</a></span>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
       </article>
-       <!-- {% endif %}       -->
+      
     {% endfor %}
   </div>
 
