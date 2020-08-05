@@ -27,18 +27,18 @@ class Model {
  * @param{Model} model
  */
 let searchTemplate = (model) => {
-    return `<article class="post-item">
-        <span class="post-meta date-label">${model.date}</span>
-        <div class="article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.searchTerm}">${model.title}</a></div>
-      </article>`;
+    return ` <div class="table"><article class="post-item">
+    <div class="title article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.searchTerm}">${model.title}</a></div>
+    <div class="dots"></div>
+    <span class="value post-meta date-label">${model.date}</span>
+    </article>
+    </div>`;
 };
 
 export function init() {
     let results_container = document.querySelector("#search-results");
     if (!results_container) {
-        return new Promise((resolved, rejected) => {
-            resolved();
-        });
+        return;
     }
     return client.initIndex('udbjorg');
 }
