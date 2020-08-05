@@ -7,15 +7,15 @@ import * as tracking from "./components/tracking.js"
 
 console.log("Udbjorg V1.0.2");
 tracking.for_google();
-let index = search.init();
-search.bootstrap_dom("#search-box", "#search-button", search.For, index);
+
+search.bootstrap_dom("#search-box", "#search-button", search.For, search.init());
 
 // @ts-ignore
-window.errorSearch=function(){
+window.errorSearch= function(){
     let query = decodeURI(location.pathname);
     let spilt = query.split("/");
-
-    search.For(spilt[spilt.length], index)
+    console.log(spilt[spilt.length])
+    search.For(spilt[spilt.length], search.init())
     .then(results=> {
        console.log(results)
     })
