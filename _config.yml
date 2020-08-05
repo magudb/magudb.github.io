@@ -47,6 +47,7 @@ twitter_site: "@magnusudbjorg"
 algolia:
   application_id: V2C3F87EP4
   index_name: udbjorg
+  nodes_to_index: 'p,blockquote,li,div, a'
   extensions_to_index:
     - html
     - md
