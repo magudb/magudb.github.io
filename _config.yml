@@ -49,11 +49,11 @@ algolia:
   index_name: udbjorg
   nodes_to_index: 'p,blockquote,li,div, a'
   extensions_to_index:
-    - html
     - md
   files_to_exclude:
     - index.html
     - search.html
+    - categories.html
     - _plugins/*.html
     - _layouts/*.html
     - _includes/*.html
