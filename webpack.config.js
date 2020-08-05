@@ -42,11 +42,11 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin("../../assets/css/bundle.css"),       
-        // new webpack.optimize.UglifyJsPlugin({
-        //    compress: {
-        //        warnings: false
-        //    }
-        // })
+        new webpack.optimize.UglifyJsPlugin({
+           compress: {
+               warnings: false
+           }
+        })
     ]
 };
 module.exports.devtool = '#source-map'
