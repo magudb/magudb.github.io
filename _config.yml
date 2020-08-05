@@ -44,6 +44,10 @@ og_locale: "en_US"
 twitter_card: "summary_large_image"
 twitter_site: "@magnusudbjorg"
 
+algolia:
+  application_id: V2C3F87EP4
+  index_name: udbjorg
+
 gems:
   - bourbon
   - jekyll-paginate
