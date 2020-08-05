@@ -8,8 +8,8 @@ search.bootstrap_dom("#search-box", "#search-button", search.For, search.init())
 if (window.errorpage) {
     let query = decodeURI(location.pathname);
     let spilt = query.split("/");
-    console.log(spilt[spilt.length])
-    search.For(spilt[spilt.length], search.init())
+    console.log(spilt[spilt.length-1])
+    search.For(spilt[spilt.length-1], search.init())
         .then(results => {
             console.log(results)
         })
