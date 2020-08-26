@@ -23,7 +23,7 @@ redirect_from: "2020/Back-to-work"
 ## Agile, Organizations and process<a name="agile"></a>
 
 - [5 Tips For Managing An Underperformer — Remotely](https://hbr.org/2020/07/5-tips-for-managing-an-underperformer-remotely){:target="_blank"}
-- [A Simple Framework For Software Engineering Management - By Andrei Gridnev | The Startup | Jul, 2020 | Medium](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2){:target="_blank"}
+- [A Simple Framework For Software Engineering Management - By Andrei Gridnev - The Startup - Jul, 2020 - Medium](https://medium.com/swlh/a-simple-framework-for-software-engineering-management-f70b216540f2){:target="_blank"}
 - [Debugging Engineering Velocity And Leading High-performing Teams - Leaddev](https://leaddev.com/debugging-engineering-velocity-and-leading-high-performing-teams){:target="_blank"}
 - [How To Spot And Magnify The Powers Of Your Engineering Superheroes - First Round Review](https://firstround.com/review/how-to-spot-and-magnify-the-powers-of-your-engineering-superheroes/){:target="_blank"}
 - [How To Make Your Data Science Team Faster (And Speed Up Progress)](https://www.makingdatamistakes.com/how-to-make-your-data-science-team-faster-and-speed-up-progress/){:target="_blank"}
