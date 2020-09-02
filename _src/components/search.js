@@ -31,7 +31,7 @@ let searchTemplate = (model) => {
     return ` <div class="table"><article class="post-item">
     <div class="title article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.searchTerm}">${model.title}</a></div>
     <div class="dots"></div>
-    <span class="value post-meta date-label">${model.date}</span>
+    <span class="value post-meta date-label">${model.date.toLocaleString()}</span>
     </article>
     </div>`;
 };
