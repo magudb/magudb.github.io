@@ -41,7 +41,7 @@ export function init() {
     if (!results_container) {
         return;
     }
-    return client.initIndex('udbjorg');
+    return client.initIndex('blog');
 }
 
 
