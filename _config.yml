@@ -45,8 +45,8 @@ twitter_card: "summary_large_image"
 twitter_site: "@magnusudbjorg"
 
 algolia:
-  application_id: V2C3F87EP4
-  index_name: udbjorg
+  application_id: 6Y72AUE3HV
+  index_name: blog
   nodes_to_index: 'p,blockquote,li,div, a'
   extensions_to_index:
     - md
