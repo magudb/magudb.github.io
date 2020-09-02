@@ -16,7 +16,7 @@ class Model {
      * @param {any} searchTerm
      */
     constructor(date, category, url, title, searchTerm) {
-        this.date = moment.unix(date);
+        this.date = moment(date);
         this.category = category;
         this.url = url;
         this.title = title;
