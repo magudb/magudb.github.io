@@ -4,7 +4,7 @@ import moment from 'moment'
 import algoliasearch from 'algoliasearch/lite';
 // @ts-ignore
 require('./helper.js');
-const client = algoliasearch('V2C3F87EP4', '86a487b963384e7203f2120ef30e4cf2');
+const client = algoliasearch('6Y72AUE3HV', 'ee323bf7cf869c312f0f4518df252c89');
 
 class Model {
 
