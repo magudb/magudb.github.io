@@ -33,8 +33,8 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Why You — Yes, You — Need Enterprise Architecture](https://sloanreview.mit.edu/article/why-you-yes-you-need-enterprise-architecture/?og=Home+Tiled){:target="_blank"}
 - [The Engineering Manager's Guide To Open, Honest And Constructive Feedback - Leaddev](https://leaddev.com/engineering-managers-guide-open-honest-and-constructive-feedback?ref=range.co){:target="_blank"}
 - [How To Choose Software Development Kpis For Your Board Deck](https://codeclimate.com/blog/engineering-kpis-board-deck/){:target="_blank"}
-- [Setting Goals With Your Engineers That Don’t Completely Suck - By Danielle Leong | Medium](https://medium.com/@tsunamino/setting-goals-with-your-engineers-that-dont-completely-suck-cb76b87e4275){:target="_blank"}
-- [Recruiting & Interviewing — Benefits & Frustrations Nobody Tells You About! - By Vitaly Futoriansky | Ni Tech Blog | Aug, 2020 | Medium](https://medium.com/ni-tech-talk/recruiting-interviewing-benefits-frustrations-nobody-tells-you-about-d1287db72dd1){:target="_blank"}
+- [Setting Goals With Your Engineers That Don’t Completely Suck - By Danielle Leong - Medium](https://medium.com/@tsunamino/setting-goals-with-your-engineers-that-dont-completely-suck-cb76b87e4275){:target="_blank"}
+- [Recruiting & Interviewing — Benefits & Frustrations Nobody Tells You About! - By Vitaly Futoriansky - Ni Tech Blog - Aug, 2020 - Medium](https://medium.com/ni-tech-talk/recruiting-interviewing-benefits-frustrations-nobody-tells-you-about-d1287db72dd1){:target="_blank"}
 - [Building The Perfect Tech Team](https://humansplus.tech/building-the-perfect-tech-team/){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
