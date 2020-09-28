@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "New links, but what happened after?"
+title: "What happened next links?"
 description: "Links, ALOT!"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
-redirect_from: "2020/New-links,-but-what-happened-after"
+redirect_from: "2020/What happened next links"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
