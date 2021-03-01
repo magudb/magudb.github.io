@@ -36,4 +36,4 @@ jobs:
       - name: Tinysearch
         run: cargo install tinysearch
       - name: Create index
-        run: tinysearch tinysearch.json 
+        run: tinysearch ./_site/tinysearch.json 
