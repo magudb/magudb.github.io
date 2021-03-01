@@ -36,5 +36,7 @@ jobs:
         run: cargo install wasm-pack
       - name: Tinysearch
         run: cargo install tinysearch
+      - name: ls
+        run: ls
       - name: Create index
         run: tinysearch public/tinysearch.json
