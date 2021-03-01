@@ -15,14 +15,26 @@ jobs:
   updateIndex:
 
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, 'New post:')"
+    # if: "contains(github.event.head_commit.message, 'New post:')"
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
-      with:
-        ruby-version: 2.6
-    - name: Install dependencies
-      run: bundle install
-    - name: Update Index
-      run: ALGOLIA_API_KEY='${{ secrets.ALGOLIA }}' bundle exec jekyll algolia
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Run cargo check
+        uses: actions-rs/cargo@v1
+        continue-on-error: true  # WARNING: only for this example, remove it!
+        with:
+          command: check
+      - name: wasm-pack
+        run: cargo install wasm-pack
+      - name: Tinysearch
+        run: cargo install tinysearch
+      - name: Create index
+        run: tinysearch public/tinysearch.json
