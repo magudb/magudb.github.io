@@ -31,9 +31,11 @@ jobs:
         continue-on-error: true  # WARNING: only for this example, remove it!
         with:
           command: check
+      - name: Tinysearch check
+        run: ls -la
       - name: wasm-pack
         run: cargo install wasm-pack
       - name: Tinysearch
         run: cargo install tinysearch
       - name: Create index
-        run: tinysearch ./_site/tinysearch.json 
+        run: tinysearch _site/tinysearch.json 
