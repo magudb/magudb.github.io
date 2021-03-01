@@ -5,7 +5,7 @@ title2: " Blog" # default: ""
 description: "A blog with links and sometimes great thoughts"
 keywords: "Udbjorg, Links, Great ideas, thoughts, Love"
 url: https://udbjorg.net # site url
-baseurl: null # apply null if repo name is something like username.github.io
+baseurl: udbjorg.net # apply null if repo name is something like username.github.io
 
 google_analytics: UA-70467704-1
 repo: https://github.com/magudb/magudb.github.io
