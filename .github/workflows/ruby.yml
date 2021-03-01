@@ -8,12 +8,11 @@
 name: Ruby
 
 on:
-  push:
-    branches: [ master ]
+  page_build
 
 jobs:
-  updateIndex:
-
+  tinysearch:
+    environment: github-pages
     runs-on: ubuntu-latest
     # if: "contains(github.event.head_commit.message, 'New post:')"
     steps:
@@ -36,7 +35,5 @@ jobs:
         run: cargo install wasm-pack
       - name: Tinysearch
         run: cargo install tinysearch
-      - name: ls
-        run: ls
       - name: Create index
         run: tinysearch public/tinysearch.json

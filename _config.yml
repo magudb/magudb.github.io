@@ -44,29 +44,6 @@ og_locale: "en_US"
 twitter_card: "summary_large_image"
 twitter_site: "@magnusudbjorg"
 
-algolia:
-  application_id: 6Y72AUE3HV
-  index_name: blog
-  nodes_to_index: 'p,blockquote,li,div, a'
-  extensions_to_index:
-    - md
-  files_to_exclude:
-    - index.html
-    - search.html
-    - categories.html
-    - _plugins/*.html
-    - _layouts/*.html
-    - _includes/*.html
-    - _drafts/*.md
-  settings:
-    searchableAttributes:  
-      - unordered(content)                                                       
-      - title                                                                    
-      - headings     
-      - url                                                            
-      - slug  
-      - desctiption  
-
 gems:
   - bourbon
   - jekyll-paginate
