@@ -12,13 +12,13 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Finance For Non-finance Directors: Part 1](https://www.annashipman.co.uk/jfdi/finance-part-1.html){:target="_blank"}
 - [The Great Eventually Consistent Mandatory Funtime [Team] Offsite](https://twitter.com/rondoftw/status/1304143989939949568){:target="_blank"}
 - [Modules, Monoliths, And Microservices · Tailscale Blog](https://tailscale.com/blog/modules-monoliths-and-microservices/){:target="_blank"}
-- [The Importance Of A Great Developer Experience - By Nick Tune | Technology Strategy Ideas And Insights | Feb, 2021 | Medium](https://medium.com/nick-tune-tech-strategy-blog/the-importance-of-a-great-developer-experience-40567abc0e9a){:target="_blank"}
+- [The Importance Of A Great Developer Experience - By Nick Tune - Technology Strategy Ideas And Insights - Feb, 2021 - Medium](https://medium.com/nick-tune-tech-strategy-blog/the-importance-of-a-great-developer-experience-40567abc0e9a){:target="_blank"}
 - [Crowbits – Electronic Blocks For Stem Education At Any Level By Elecrow — Kickstarter](https://www.kickstarter.com/projects/elecrow/crowbits-electronic-blocks-for-stem-education-at-any-level){:target="_blank"}
 - [Sickcodes/docker-osx: Run Mac In A Docker! Run Near Native Osx-kvm In Docker! X11 Forwarding! Ci/cd For Os X!](https://github.com/sickcodes/Docker-OSX){:target="_blank"}
 - [Design For Delight: Essential Design Thinking Resources To Support Creative Problem Solving – Ibm Developer](https://developer.ibm.com/blogs/design-thinking-resources-support-problem-solving-for-call-for-code/){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
-- [Nurturing Design In Your Software Engineering Culture - By Nick Tune | Technology Strategy Ideas And Insights | Mar, 2021 | Medium](https://medium.com/nick-tune-tech-strategy-blog/nurturing-design-in-your-software-engineering-culture-3f960d321af){:target="_blank"}
+- [Nurturing Design In Your Software Engineering Culture - By Nick Tune - Technology Strategy Ideas And Insights - Mar, 2021 - Medium](https://medium.com/nick-tune-tech-strategy-blog/nurturing-design-in-your-software-engineering-culture-3f960d321af){:target="_blank"}
 - [You're Not Just A Manager, You're Also A Boss - Leaddev](https://leaddev.com/professional-development/youre-not-just-manager-youre-also-boss){:target="_blank"}
 - [The Planning Onion: A Product Management Concept](https://www.stridenyc.com/blog/the-planning-onion-a-product-management-concept){:target="_blank"}
 - [Innovation Isn’t All Fun And Games — Creativity Needs Discipline](https://hbr.org/2019/01/the-hard-truth-about-innovative-cultures){:target="_blank"}
