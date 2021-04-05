@@ -7,6 +7,18 @@ import Mark from "mark.js"
 // @ts-ignore
 require('./helper.js');
 
+var index;
+var options = {
+    tokenize: true,
+    threshold: 0.1,
+    location: 0,
+    distance: 10,
+    keys: [
+        "category",
+        "content"
+    ]
+};
+
 let searchTemplate = (model) => {
     return `<article class="post-item">
         <span class="post-meta date-label">${model.date}</span>
