@@ -1,10 +1,9 @@
 import * as search from "./components/search.js"
 console.log("Udbjorg V1.0.4");
+(async ()=>{
+    await search.bootstrap_dom("#search-box", "#search-button", search.For);
+})()
 
-
-search.init().then((index) => {
-    search.bootstrap_dom("#search-box", "#search-button", search.For);
-});
 
 // @ts-ignore
 if (window.errorpage) {

@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "build":"webpack"
+    "build": "webpack"
   },
+  "browserslist": "> 0.25%, not dead",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/runtime": "^7.13.10",
     "fuse.js": "^2.5.0",
     "mark.js": "^8.11.1",
     "moment": "^2.27.0",
@@ -10,11 +14,11 @@
     "whatwg-fetch": "^3.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/polyfill": "^7.12.1",
     "autoprefixer": "^6.3.6",
-    "babel-core": "^6.9.1",
-    "babel-loader": "^6.2.7",
+    "babel-loader": "^8.2.2",
     "babel-polyfill": "^6.16.0",
-    "babel-preset-es2015": "^6.9.0",
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^1.1.11",

@@ -7,9 +7,6 @@ import Mark from "mark.js"
 // @ts-ignore
 require('./helper.js');
 
-var index;
-
-
 let searchTemplate = (model) => {
     return `<article class="post-item">
         <span class="post-meta date-label">${model.date}</span>
@@ -17,32 +14,19 @@ let searchTemplate = (model) => {
       </article>`;
 };
 
-export function init() {
-    let results_container = document.querySelector("#search-results");
-    if (!results_container) {
-        return new Promise((resolved, rejected) => {
-            resolved();
-        });
-    }
-    return fetch("/search.json")
-        .then(result => result.json())
-        .then(result => {
-            index = new Fuse(result,  {
-                tokenize: true,
-                threshold: 0.1,
-                location: 0,
-                distance: 10,
-                keys: [
-                    "category",
-                    "content"
-                ]
-            });
-            return index;
-        })
-        .catch(err => console.log(err));
-}
-
-export function For(value) {
+export async function For(value) {
+    let response =await fetch("/search.json");
+    let result = await response.json();
+    let index = new Fuse(result,  {
+        tokenize: true,
+        threshold: 0.1,
+        location: 0,
+        distance: 10,
+        keys: [
+            "category",
+            "content"
+        ]
+    });
     let results = index.search(value);
     if (results.length < 1) {
         return `<article class="post-item">       
@@ -72,7 +56,11 @@ let cleanResults = (container) => {
 
 }
 
-export function bootstrap_dom(input_element, button_element, action) {
+export async function bootstrap_dom(input_element, button_element, action) {
+    let results_container = document.querySelector("#search-results");
+    if (!results_container) {
+        return;
+    }
     let input = document.querySelector(input_element);
     let inputNav = document.querySelector("#search");
     let button = document.querySelector(button_element);
@@ -89,7 +77,7 @@ export function bootstrap_dom(input_element, button_element, action) {
     }
 
     if (parsed.query) {
-        var results = action(parsed.query);
+        var results = await action(parsed.query);
         input.value = parsed.query;
         inputNav.value = parsed.query;
         cleanResults(results_container)
@@ -101,9 +89,9 @@ export function bootstrap_dom(input_element, button_element, action) {
         return;
     }
 
-    button.addEventListener("click", (event) => {
+    button.addEventListener("click",async (event) => {
         event.preventDefault();
-        var results = action(input.value)
+        var results =await action(input.value)
         cleanResults(results_container)
             .then(_ => { results_container.innerHTML = results; })
             .catch(_ => console.log(_));

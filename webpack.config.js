@@ -11,7 +11,7 @@ module.exports = {
         filename: "app.js"
 
     },
-    entry: ["./_src/app.js"],
+    entry: ['@babel/polyfill',"./_src/app.js"],
     module: {
         loaders: [
             {
@@ -19,8 +19,9 @@ module.exports = {
                 exclude: /node_modules\//,
                 loader: "babel",
                 query: {
-                    presets: ['es2015'],
-                    compact: false
+                    "presets": [["@babel/preset-env", { "targets": "defaults" }]],
+                    compact: true,
+                    plugins: ["@babel/transform-runtime"]
                 }
             },
             {
@@ -42,11 +43,6 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin("../../assets/css/bundle.css"),       
-        new webpack.optimize.UglifyJsPlugin({
-           compress: {
-               warnings: false
-           }
-        })
     ]
 };
 module.exports.devtool = '#source-map'
