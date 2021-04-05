@@ -8,16 +8,7 @@ import Mark from "mark.js"
 require('./helper.js');
 
 var index;
-var options = {
-    tokenize: true,
-    threshold: 0.1,
-    location: 0,
-    distance: 10,
-    keys: [
-        "category",
-        "content"
-    ]
-};
+
 
 let searchTemplate = (model) => {
     return `<article class="post-item">
@@ -36,7 +27,16 @@ export function init() {
     return fetch("/search.json")
         .then(result => result.json())
         .then(result => {
-            index = new Fuse(result, options);
+            index = new Fuse(result,  {
+                tokenize: true,
+                threshold: 0.1,
+                location: 0,
+                distance: 10,
+                keys: [
+                    "category",
+                    "content"
+                ]
+            });
             return index;
         })
         .catch(err => console.log(err));
