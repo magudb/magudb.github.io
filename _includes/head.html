@@ -110,12 +110,11 @@
                     nonInteraction: true,
                 });
             };
-            addEventListener('DOMContentLoaded', function () {
-                console.log("WebVitals");
+            addEventListener('DOMContentLoaded', function () {               
                 webVitals.getCLS(sendToGoogleAnalytics);
                 webVitals.getFID(sendToGoogleAnalytics);
                 webVitals.getLCP(sendToGoogleAnalytics);
             });
         </script>
-<script src="https://cdn.jsdelivr.net/npm/prerender_all@1.0.0/prerender.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prerender_all@1.0.0/prerender.min.js"></script>
 </head>

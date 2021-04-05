@@ -13,7 +13,3 @@ gem 'kramdown'
 gem 'rdiscount'
 gem 'rouge'
 gem 'pygments.rb'
-
-group :jekyll_plugins do
-    gem 'jekyll-algolia'
-end

@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "build":"webpack"
+  },
   "dependencies": {
-    "algoliasearch": "^4.3.1",
+    "fuse.js": "^2.5.0",
+    "mark.js": "^8.11.1",
+    "moment": "^2.27.0",
+    "query-string": "^4.2.3",
+    "whatwg-fetch": "^3.3.1"
+  },
+  "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.7",
@@ -11,16 +20,12 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.19.0",
-    "mark.js": "^8.11.1",
-    "moment": "^2.27.0",
     "node-sass": "^4.13.1",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
-    "query-string": "^4.2.3",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.3",
-    "whatwg-fetch": "^3.3.1"
+    "webpack": "^1.13.3"
   }
 }

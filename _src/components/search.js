@@ -1,95 +1,66 @@
+// Original JavaScript code by Chirp Internet www.chirp.com.au
+// Please acknowledge use of this code by including this header.
+
+import Fuse from "fuse.js"
 import queryString from "query-string"
 import Mark from "mark.js"
-import moment from 'moment'
-import algoliasearch from 'algoliasearch/lite';
 // @ts-ignore
 require('./helper.js');
-const client = algoliasearch('6Y72AUE3HV', 'ee323bf7cf869c312f0f4518df252c89');
 
-class Model {
-
-    /**
-     * @param {any} date
-     * @param {any} category
-     * @param {any} url
-     * @param {any} title
-     * @param {any} searchTerm
-     */
-    constructor(date, category, url, title, searchTerm) {
-        this.date = moment(date);
-        this.category = category;
-        this.url = url;
-        this.title = title;
-        this.searchTerm = searchTerm
-    }
-}
-
-/**
- * @param{Model} model
- */
 let searchTemplate = (model) => {
-    return ` <div class="table"><article class="post-item">
-    <div class="title article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.searchTerm}">${model.title}</a></div>
-    <div class="dots"></div>
-    <span class="value post-meta date-label">${model.date.toLocaleString()}</span>
-    </article>
-    </div>`;
+    return `<article class="post-item">
+        <span class="post-meta date-label">${model.date}</span>
+        <div class="article-title"><span class="badge-default"><a href="/categories#${model.category}">${model.category}</a></span>  <a class="post-link" href="${model.url}?searched=${model.value}">${model.title}</a></div>
+      </article>`;
 };
 
 export function init() {
     let results_container = document.querySelector("#search-results");
     if (!results_container) {
-        return;
+        return new Promise((resolved, rejected) => {
+            resolved();
+        });
     }
-    return client.initIndex('blog');
+    return fetch("/search.json")
+        .then(result => result.json())
+        .then(result => {
+            index = new Fuse(result, options);
+            return index;
+        })
+        .catch(err => console.log(err));
 }
 
+export function For(value) {
+    let results = index.search(value);
+    if (results.length < 1) {
+        return `<article class="post-item">       
+        <div class="article-title">Could not find anything with <em>${value}</em></div>
+      </article>`
 
-export function For(value, index) {
-    /**
-     * @param {any} _
-     */
-    return  index.search(value)
-    .then(({ hits }) => {
-        if (hits.length < 1) {
-            return `<article class="post-item">       
-            <div class="article-title">Could not find anything with <em>${value}</em></div>
-          </article>`
-    
-        }
-        return  hits.map(hit => {
-            let model = new Model(hit.date, hit.category, hit.url,hit.title, value);
-            return searchTemplate(model);
-        }).join("\r\n");
-      })
-      .catch(_ => console.log(_));
-   
+    }
+    return results.map(model => {
+        model.value = value;
+        return searchTemplate(model);
+    }).join("\r\n");
 }
 
-/**
- * @param {Element} container
- */
-let cleanResults = (container) => {  
+let cleanResults = (container) => {
+    return new Promise((resolved, rejected) => {
         Array.prototype.slice.call(document.querySelectorAll(".post-item"))
-            .forEach(element => {                        
+            .forEach(element => {
+                console.log(element);
                 element.animate("animated fadeOut")
                     .then(el => {
                         container.removeChild(el);
                     })
                     .catch(err => console.log(err))
             });
-        return container;
-
+        return resolved(container);
+    });
 
 }
 
-/**
- * @param {string} input_element
- * @param {string} button_element
- * @param {{ (value: any, index: any): any; (arg0: any, arg1: any): Promise<any>; }} action
- * @param {any} index
- */
-export function bootstrap_dom(input_element, button_element, action, index) {
+export function bootstrap_dom(input_element, button_element, action) {
     let input = document.querySelector(input_element);
     let inputNav = document.querySelector("#search");
     let button = document.querySelector(button_element);
@@ -97,8 +68,7 @@ export function bootstrap_dom(input_element, button_element, action, index) {
     const parsed = queryString.parse(location.search);
 
     if (parsed.searched) {
-        let post = document.querySelector(".post");
-        var instance = new Mark(post);
+        var instance = new Mark(document.querySelector(".post"));
         instance.mark(parsed.searched, {
             accuracy: 'complementary',
             debug: true
@@ -107,31 +77,24 @@ export function bootstrap_dom(input_element, button_element, action, index) {
     }
 
     if (parsed.query) {
+        var results = action(parsed.query);
         input.value = parsed.query;
         inputNav.value = parsed.query;
-      
-        action(parsed.query, index)
-        .then(results=> {
-            cleanResults(results_container);
-            results_container.innerHTML = results;
-        })
-        .catch(_ => console.log(_));
-    
+        cleanResults(results_container)
+            .then(_ => { results_container.innerHTML = results; })
+            .catch(_ => console.log(_));
+
     }
     if (!button) {
         return;
     }
 
-    
     button.addEventListener("click", (event) => {
         event.preventDefault();
-       
-        action(parsed.query, index)
-        .then(results=> {
-            cleanResults(results_container);
-            results_container.innerHTML = results;
-        })
-        .catch(_ => console.log(_));
+        var results = action(input.value)
+        cleanResults(results_container)
+            .then(_ => { results_container.innerHTML = results; })
+            .catch(_ => console.log(_));
     })
 
 }
