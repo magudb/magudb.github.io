@@ -64,7 +64,6 @@ export async function bootstrap_dom(input_element, button_element, action) {
     let input = document.querySelector(input_element);
     let inputNav = document.querySelector("#search");
     let button = document.querySelector(button_element);
-    let results_container = document.querySelector("#search-results");
     const parsed = queryString.parse(location.search);
 
     if (parsed.searched) {
