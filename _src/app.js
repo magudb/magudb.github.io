@@ -1,8 +1,10 @@
 import * as search from "./components/search.js"
-console.log("Udbjorg V1.0.3");
+console.log("Udbjorg V1.0.4");
 
-let index = search.init();
-search.bootstrap_dom("#search-box", "#search-button", search.For, index);
+
+search.init().then((index) => {
+    search.bootstrap_dom("#search-box", "#search-button", search.For);
+});
 
 // @ts-ignore
 if (window.errorpage) {
