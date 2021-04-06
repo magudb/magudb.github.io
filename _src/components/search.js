@@ -1,9 +1,9 @@
 // Original JavaScript code by Chirp Internet www.chirp.com.au
 // Please acknowledge use of this code by including this header.
 
-import Fuse from "fuse.js"
-import queryString from "query-string"
-import Mark from "mark.js"
+import Fuse from "fuse.js";
+import queryString from "query-string";
+import Mark from "mark.js";
 // @ts-ignore
 require('./helper.js');
 
@@ -16,10 +16,10 @@ let searchTemplate = (model) => {
 
 const search = async (value) => {
     let response = await fetch("/search.json");
-    
+
     let result = await response.json();
-    console.log(result)
-    let index = new Fuse(result,  {
+
+    let index = new Fuse(result, {
         tokenize: true,
         threshold: 0.1,
         location: 0,
@@ -30,18 +30,18 @@ const search = async (value) => {
         ]
     });
     let results = index.search(value);
-    console.log(results)
+
     if (results.length < 1) {
         return `<article class="post-item">       
         <div class="article-title">Could not find anything with <em>${value}</em></div>
-      </article>`
+      </article>`;
 
     }
-    return results.map(model => {
+    return results.sort((a, b) => (new Date(b.date)) - (new Date(a.date))).map(model => {
         model.value = value;
         return searchTemplate(model);
     }).join("\r\n");
-}
+};
 
 let cleanResults = (container) => {
     return new Promise((resolved, rejected) => {
@@ -52,14 +52,14 @@ let cleanResults = (container) => {
                     .then(el => {
                         container.removeChild(el);
                     })
-                    .catch(err => console.log(err))
+                    .catch(err => console.log(err));
             });
         return resolved(container);
     });
 
-}
+};
 
-export async function For(value){
+export async function For(value) {
     return await search(value);
 }
 
@@ -88,18 +88,18 @@ export async function bootstrap_dom(input_element, button_element) {
         input.value = parsed.query;
         inputNav.value = parsed.query;
         await cleanResults(results_container);
-        results_container.innerHTML = results;      
+        results_container.innerHTML = results;
 
     }
     if (button) {
-        button.addEventListener("click",async (event) => {
+        button.addEventListener("click", async (event) => {
             event.preventDefault();
-            var results =await search(input.value);
+            var results = await search(input.value);
             console.log(results);
             await cleanResults(results_container);
             results_container.innerHTML = results;
-              
-        })
-    }   
+
+        });
+    }
 
 }
