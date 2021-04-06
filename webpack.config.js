@@ -19,7 +19,7 @@ module.exports = {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /\.(?:css)$/,
         // Apply a cache-first strategy.
-        handler: 'StaleWhileRevalidate',
+        handler: 'CacheFirst',
         options: {
           // Use a custom cache name.
           cacheName: 'css',
@@ -27,9 +27,21 @@ module.exports = {
       },
       {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
-        urlPattern: /\*./,
+        urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
+  
         // Apply a cache-first strategy.
-        handler: 'StaleWhileRevalidate',
+        handler: 'CacheFirst',
+  
+        options: {
+          // Use a custom cache name.
+          cacheName: 'images',
+        },
+      },
+      {
+        // Match any request that ends with .png, .jpg, .jpeg or .svg.
+        urlPattern: /.*/,
+        // Apply a cache-first strategy.
+        handler: 'CacheFirst',
         options: {
           // Use a custom cache name.
           cacheName: 'html',
