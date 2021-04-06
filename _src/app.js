@@ -10,7 +10,7 @@ if (window.errorpage) {
     let path = decodeURI(location.pathname);
     let spilt = path.split("/");
     let query = spilt[spilt.length-1];    
-    search.search(query)
+    search.For(query)
         .then(results => {
             console.log(results)
         })

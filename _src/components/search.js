@@ -59,7 +59,9 @@ let cleanResults = (container) => {
 
 }
 
-export const search;
+export async function For(value){
+    return await search(value);
+}
 
 export async function bootstrap_dom(input_element, button_element) {
     let results_container = document.querySelector("#search-results");
