@@ -33,8 +33,9 @@ module.exports = {
       {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /.*/,
+        method: "GET",
         // Apply a cache-first strategy.
-        handler: 'CacheFirst'       
+        handler: 'StaleWhileRevalidate'       
       }],
       modifyURLPrefix: {
         '': '/assets/js/'
