@@ -20,33 +20,20 @@ module.exports = {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /\.(?:css)$/,
         // Apply a cache-first strategy.
-        handler: 'CacheFirst',
-        options: {
-          // Use a custom cache name.
-          cacheName: 'css',
-        },
+        handler: 'CacheFirst'        
       },
       {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /\.(?:png|jpg|jpeg|svg)$/,
   
         // Apply a cache-first strategy.
-        handler: 'CacheFirst',
-  
-        options: {
-          // Use a custom cache name.
-          cacheName: 'images',
-        },
+        handler: 'CacheFirst'  
       },
       {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /.*/,
         // Apply a cache-first strategy.
-        handler: 'CacheFirst',
-        options: {
-          // Use a custom cache name.
-          cacheName: 'html',
-        },
+        handler: 'CacheFirst'       
       }],
       modifyURLPrefix: {
         '': '/assets/js/'
