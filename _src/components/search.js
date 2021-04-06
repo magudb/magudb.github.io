@@ -26,7 +26,7 @@ const search = async (value) => {
         distance: 10,
         keys: [
             "category",
-            "content"
+            "body"
         ]
     });
     let results = index.search(value);
