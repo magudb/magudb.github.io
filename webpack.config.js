@@ -13,6 +13,7 @@ module.exports = {
       // and not allow any straggling "old" SWs to hang around
       clientsClaim: true,
       skipWaiting: true,
+      navigationPreload:true,
       cleanupOutdatedCaches: true,
       offlineGoogleAnalytics: true,
       swDest: "../../service-worker.js",
