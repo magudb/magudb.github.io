@@ -77,23 +77,24 @@ export async function bootstrap_dom(input_element, button_element, action) {
 
     if (parsed.query) {
         var results = await action(parsed.query);
+        console.log(results);
         input.value = parsed.query;
         inputNav.value = parsed.query;
-        cleanResults(results_container)
-            .then(_ => { results_container.innerHTML = results; })
-            .catch(_ => console.log(_));
+        await cleanResults(results_container);
+        results_container.innerHTML = results;      
 
     }
-    if (!button) {
-        return;
+    if (button) {
+        button.addEventListener("click",async (event) => {
+            event.preventDefault();
+            var results =await action(input.value);
+            console.log(results);
+            await cleanResults(results_container);
+            results_container.innerHTML = results;
+              
+        })
     }
 
-    button.addEventListener("click",async (event) => {
-        event.preventDefault();
-        var results =await action(input.value)
-        cleanResults(results_container)
-            .then(_ => { results_container.innerHTML = results; })
-            .catch(_ => console.log(_));
-    })
+    
 
 }

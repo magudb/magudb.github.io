@@ -17,7 +17,7 @@ let addClass = /**
 */
 function (el, className) {
    if (el.classList) {
-       el.classList.add(className.split(" "));
+      className.split(" ").forEach(name => {el.classList.add(name);});       
    } else {
        el.className += " " + className;
    }
@@ -30,7 +30,7 @@ let removeClass = /**
 */
 function (el, className) {
    if (el.classList) {
-       el.classList.remove(className.split(" "));
+      className.split(" ").forEach(name => {el.classList.remove(name);});     
    } else {
        el.className = el.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " ");
    }
