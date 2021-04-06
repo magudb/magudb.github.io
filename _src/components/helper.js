@@ -211,7 +211,7 @@ Element.prototype.animate = function (className) {
    return new Promise(function (resolve, reject) {
        try {
            var eventName = whichTransitionEvent();
-           self.addClass(className);
+           self.addClass(`${className}`);
            self.addEventListener(eventName, function () {
                resolve(self);
            }, false);
