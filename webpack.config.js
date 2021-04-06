@@ -1,6 +1,7 @@
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const path = require('path');
 module.exports = {
+  mode: "production",
   entry: './_src/app.js',
   output: {
     path: path.resolve(__dirname, "assets/js/"),

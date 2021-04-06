@@ -14,9 +14,11 @@ let searchTemplate = (model) => {
       </article>`;
 };
 
-export async function For(value) {
-    let response =await fetch("/search.json");
+const search = async (value) => {
+    let response = await fetch("/search.json");
+    
     let result = await response.json();
+    console.log(result)
     let index = new Fuse(result,  {
         tokenize: true,
         threshold: 0.1,
@@ -28,6 +30,7 @@ export async function For(value) {
         ]
     });
     let results = index.search(value);
+    console.log(results)
     if (results.length < 1) {
         return `<article class="post-item">       
         <div class="article-title">Could not find anything with <em>${value}</em></div>
@@ -56,7 +59,9 @@ let cleanResults = (container) => {
 
 }
 
-export async function bootstrap_dom(input_element, button_element, action) {
+export const search;
+
+export async function bootstrap_dom(input_element, button_element) {
     let results_container = document.querySelector("#search-results");
     if (!results_container) {
         return;
@@ -76,7 +81,7 @@ export async function bootstrap_dom(input_element, button_element, action) {
     }
 
     if (parsed.query) {
-        var results = await action(parsed.query);
+        var results = await search(parsed.query);
         console.log(results);
         input.value = parsed.query;
         inputNav.value = parsed.query;
@@ -87,14 +92,12 @@ export async function bootstrap_dom(input_element, button_element, action) {
     if (button) {
         button.addEventListener("click",async (event) => {
             event.preventDefault();
-            var results =await action(input.value);
+            var results =await search(input.value);
             console.log(results);
             await cleanResults(results_container);
             results_container.innerHTML = results;
               
         })
-    }
-
-    
+    }   
 
 }

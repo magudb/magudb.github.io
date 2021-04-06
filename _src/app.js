@@ -1,7 +1,7 @@
 import * as search from "./components/search.js"
 console.log("Udbjorg V1.0.4");
 (async ()=>{
-    await search.bootstrap_dom("#search-box", "#search-button", search.For);
+    await search.bootstrap_dom("#search-box", "#search-button");
 })()
 
 
@@ -9,9 +9,8 @@ console.log("Udbjorg V1.0.4");
 if (window.errorpage) {
     let path = decodeURI(location.pathname);
     let spilt = path.split("/");
-    let query = spilt[spilt.length-1];
-    console.log(query, index)
-    search.For(query, index)
+    let query = spilt[spilt.length-1];    
+    search.search(query)
         .then(results => {
             console.log(results)
         })
