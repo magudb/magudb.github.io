@@ -17,10 +17,14 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [A Checklist For First-time Engineering Managers - The Pragmatic Engineer](https://blog.pragmaticengineer.com/checklist-for-first-time-managers/){:target="_blank"}
 - [Culture And Leadership: The Seven Domains Of Transformation - It Revolution](https://itrevolution.com/culture-and-leadership-the-seven-domains-of-transformation/){:target="_blank"}
 - [Nurturing Design In Your Software Engineering Culture - By Nick Tune | Technology Strategy Ideas And Insights | Mar, 2021 | Medium](https://medium.com/nick-tune-tech-strategy-blog/nurturing-design-in-your-software-engineering-culture-3f960d321af){:target="_blank"}
+- [6 Immutable Skills For Effective Leadership - By Anthony Boyd | Mar, 2021 | By Anthony Boyd](https://byanthonyboyd.com/6-immutable-skills-for-effective-leadership-52de21ba1bcd){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
+- [A Reference Guide For Fintech & Small-data Engineering - By Jack Danger | Dangerous Engineering | Medium](https://medium.com/dangerous-engineering/a-reference-guide-for-fintech-small-data-engineering-bd65b9796d90){:target="_blank"}
 ## DevOps<a name="devops"></a>
+
+- [Running Atlantis At Lyft. By: Nish Krishnan And Sarvar Muminov - By Nish Krishnan | Mar, 2021 | Lyft Engineering](https://eng.lyft.com/running-atlantis-at-lyft-b95c7fa51db1){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
