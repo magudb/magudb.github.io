@@ -24,8 +24,8 @@ keywords: "Links, IT, Microservices, development, architecture, May, Organic"
 - [Making The Case To Decision Makers: The Presentation Format To Follow](https://www.mynameisjehad.com/making-the-case-to-decision-makers-the-presentation-format-to-follow/){:target="_blank"}
 - [A Checklist For First-time Engineering Managers - The Pragmatic Engineer](https://blog.pragmaticengineer.com/checklist-for-first-time-managers/){:target="_blank"}
 - [Culture And Leadership: The Seven Domains Of Transformation - It Revolution](https://itrevolution.com/culture-and-leadership-the-seven-domains-of-transformation/){:target="_blank"}
-- [Nurturing Design In Your Software Engineering Culture - By Nick Tune | Technology Strategy Ideas And Insights | Mar, 2021 | Medium](https://medium.com/nick-tune-tech-strategy-blog/nurturing-design-in-your-software-engineering-culture-3f960d321af){:target="_blank"}
-- [6 Immutable Skills For Effective Leadership - By Anthony Boyd | Mar, 2021 | By Anthony Boyd](https://byanthonyboyd.com/6-immutable-skills-for-effective-leadership-52de21ba1bcd){:target="_blank"}
+- [Nurturing Design In Your Software Engineering Culture - By Nick Tune - Technology Strategy Ideas And Insights - Mar, 2021 - Medium](https://medium.com/nick-tune-tech-strategy-blog/nurturing-design-in-your-software-engineering-culture-3f960d321af){:target="_blank"}
+- [6 Immutable Skills For Effective Leadership - By Anthony Boyd - Mar, 2021 - By Anthony Boyd](https://byanthonyboyd.com/6-immutable-skills-for-effective-leadership-52de21ba1bcd){:target="_blank"}
 - [21+ Questions Every Manager Should Ask Their Employees](https://blog.trello.com/questions-every-manager-should-ask){:target="_blank"}
 - [Every Leader Needs To Navigate These 7 Tensions](https://hbr.org/2020/02/every-leader-needs-to-navigate-these-7-tensions){:target="_blank"}
 - [A Reading List For New Engineering Managers - Jacob Kaplan-moss](https://jacobian.org/2018/may/2/engmanager-reading-list/){:target="_blank"}
@@ -33,14 +33,14 @@ keywords: "Links, IT, Microservices, development, architecture, May, Organic"
 ## Architecture, Development & Software development practices <a name="development"></a>
 
 - [A Tool To Spy On Your Dns Queries: Dnspeep](https://jvns.ca/blog/2021/03/31/dnspeep-tool/){:target="_blank"}
-- [A Reference Guide For Fintech & Small-data Engineering - By Jack Danger | Dangerous Engineering | Medium](https://medium.com/dangerous-engineering/a-reference-guide-for-fintech-small-data-engineering-bd65b9796d90){:target="_blank"}
+- [A Reference Guide For Fintech & Small-data Engineering - By Jack Danger - Dangerous Engineering - Medium](https://medium.com/dangerous-engineering/a-reference-guide-for-fintech-small-data-engineering-bd65b9796d90){:target="_blank"}
 - [Content-aware Image Resizing In Javascript - Trekhleb](https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/){:target="_blank"}
 - [Amortizing Software Rewrites: An Evolutionary Approach - Thoughtworks](https://www.thoughtworks.com/insights/blog/amortizing-software-rewrites-evolutionary-approach){:target="_blank"}
 - [New Javascript Features Ecmascript 2021 (With Examples)](https://brayanarrieta.hashnode.dev/new-javascript-features-ecmascript-2021-with-examples){:target="_blank"}
 ## DevOps<a name="devops"></a>
 
 - [Mazen160/tfquery: Tfquery: Run Sql Queries On Your Terraform Infrastructure. Query Resources And Analyze Its Configuration Using A Sql-powered Framework.](https://github.com/mazen160/tfquery){:target="_blank"}
-- [Running Atlantis At Lyft. By: Nish Krishnan And Sarvar Muminov - By Nish Krishnan | Mar, 2021 | Lyft Engineering](https://eng.lyft.com/running-atlantis-at-lyft-b95c7fa51db1){:target="_blank"}
+- [Running Atlantis At Lyft. By: Nish Krishnan And Sarvar Muminov - By Nish Krishnan - Mar, 2021 - Lyft Engineering](https://eng.lyft.com/running-atlantis-at-lyft-b95c7fa51db1){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
