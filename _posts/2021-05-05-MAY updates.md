@@ -5,6 +5,7 @@ description: "Yet another fine collection of organic links"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, May, Organic"
+redirect_from: "2012/05/MAY-updates/"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
