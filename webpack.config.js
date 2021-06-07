@@ -17,7 +17,15 @@ module.exports = {
       cleanupOutdatedCaches: true,
       offlineGoogleAnalytics: true,
       swDest: "../../service-worker.js",
-      runtimeCaching: [{
+      runtimeCaching: [
+        {
+          // Match any request that ends with .png, .jpg, .jpeg or .svg.
+          urlPattern: /.*/,
+          method: "GET",
+          // Apply a cache-first strategy.
+          handler: 'StaleWhileRevalidate'       
+        },
+        {
         // Match any request that ends with .png, .jpg, .jpeg or .svg.
         urlPattern: /\.(?:css)$/,
         // Apply a cache-first strategy.
@@ -30,13 +38,7 @@ module.exports = {
         // Apply a cache-first strategy.
         handler: 'CacheFirst'  
       },
-      {
-        // Match any request that ends with .png, .jpg, .jpeg or .svg.
-        urlPattern: /.*/,
-        method: "GET",
-        // Apply a cache-first strategy.
-        handler: 'StaleWhileRevalidate'       
-      }],
+     ],
       modifyURLPrefix: {
         '': '/assets/js/'
       },
