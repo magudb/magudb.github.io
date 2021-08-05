@@ -16,5 +16,5 @@ I'm a developer by heart, an executive masters in IT-Management BA in Social sci
 ## Contact me:
 * [LinkedIn]({{ site.author.linkedin }})
 * Private E-mail - [magnus@udbjorg.net](mailto:magnus@udbjorg.net)
-* Work E-mail - 
+* Work E-mail - [magnus@twentythree.com](mailto:magnus@twentythree.com)
 
