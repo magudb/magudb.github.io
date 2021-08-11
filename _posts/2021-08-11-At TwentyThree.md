@@ -5,6 +5,7 @@ description: "Links, TwentyThree version!"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
+redirect_from: /2021/08/At-TwentyThree
 ---
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
@@ -14,9 +15,9 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Playbook To Bust Bureaucracy - It Revolution](https://itrevolution.com/playbook-to-bust-bureaucracy/){:target="_blank"}
 - [Can GitHub Copilot Crack a Facebook Coding Interview?](https://medium.com/@giacaglia/can-github-copilot-crack-a-facebook-coding-interview-eea172994e06){:target="_blank"}
 - [Sustainable Web Design, An Excerpt – A List Apart](https://alistapart.com/article/sustainable-web-design-excerpt/){:target="_blank"}
-- [Strategic Domain-driven Design Kata: Delivericious - By Nick Tune | Strategy, Architecture, Continuous Delivery, And Ddd | Jul, 2021 | Medium](https://medium.com/nick-tune-tech-strategy-blog/strategic-domain-driven-design-kata-delivericious-b114ca77163){:target="_blank"}
+- [Strategic Domain-driven Design Kata: Delivericious - By Nick Tune - Strategy, Architecture, Continuous Delivery, And Ddd - Jul, 2021 - Medium](https://medium.com/nick-tune-tech-strategy-blog/strategic-domain-driven-design-kata-delivericious-b114ca77163){:target="_blank"}
 - [How We’re Making Dropbox Data Centers 100% Carbon Neutral - Dropbox](https://dropbox.tech/infrastructure/making-dropbox-data-centers-carbon-neutral){:target="_blank"}
-- [How To Use Liberating Structures For A Retrospective - By Voltage Control | Voltage Control | Aug, 2021 | Medium](https://medium.com/voltage-control/how-to-use-liberating-structures-for-a-retrospective-20ff9f883e3c){:target="_blank"}
+- [How To Use Liberating Structures For A Retrospective - By Voltage Control - Voltage Control - Aug, 2021 - Medium](https://medium.com/voltage-control/how-to-use-liberating-structures-for-a-retrospective-20ff9f883e3c){:target="_blank"}
 - [Patterns Of Legacy Displacement](https://martinfowler.com/articles/patterns-legacy-displacement/){:target="_blank"}
 - [Simple Systems Have Less Downtime - Greg Kogan (DOH!)](https://www.gkogan.co/blog/simple-systems/){:target="_blank"}
 
@@ -25,13 +26,13 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Fostering A Culture Of Belonging In The Hybrid Workplace](https://hbr.org/2021/08/fostering-a-culture-of-belonging-in-the-hybrid-workplace){:target="_blank"}
 - [How Can The Inverse Conway Manoeuvre Help Drive Organisational Change? - Cto Craft](https://ctocraft.com/blog/how-can-the-inverse-conway-manoeuvre-help-drive-organisational-change/){:target="_blank"}
 - [Writing Our 3-year Technical Vision - Engineering Blog](https://www.eventbrite.com/engineering/writing-our-3-year-technical-vision/){:target="_blank"}
-- [Design In The Physical And Digital Worlds — A Brief History - By Andrew Robinson | Aug, 2021 | Ux Collective](https://uxdesign.cc/design-in-the-physical-and-digital-worlds-a-brief-history-144867a4e457){:target="_blank"}
-- [How To Design An Amazing Strategy Offsite - By Dave Bailey | Jul, 2021 | The Founder Coach](https://medium.dave-bailey.com/how-to-design-an-effective-strategy-offsite-6a390b5f5fc2){:target="_blank"}
-- [10 Mistakes To Avoid As A Software Development Manager - By Elye | Aug, 2021 | Better Programming](https://betterprogramming.pub/10-mistakes-to-avoid-as-a-software-development-manager-84bdf645ed7c){:target="_blank"}
+- [Design In The Physical And Digital Worlds — A Brief History - By Andrew Robinson - Aug, 2021 - Ux Collective](https://uxdesign.cc/design-in-the-physical-and-digital-worlds-a-brief-history-144867a4e457){:target="_blank"}
+- [How To Design An Amazing Strategy Offsite - By Dave Bailey - Jul, 2021 - The Founder Coach](https://medium.dave-bailey.com/how-to-design-an-effective-strategy-offsite-6a390b5f5fc2){:target="_blank"}
+- [10 Mistakes To Avoid As A Software Development Manager - By Elye - Aug, 2021 - Better Programming](https://betterprogramming.pub/10-mistakes-to-avoid-as-a-software-development-manager-84bdf645ed7c){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
-- [Failover Plans, Outage Playbooks And Resilience Gaps - By The Nyt Open Team | Jul, 2021 | Nyt Open](https://open.nytimes.com/failover-plans-outage-playbooks-and-resilience-gaps-35047aed6213){:target="_blank"}
+- [Failover Plans, Outage Playbooks And Resilience Gaps - By The Nyt Open Team - Jul, 2021 - Nyt Open](https://open.nytimes.com/failover-plans-outage-playbooks-and-resilience-gaps-35047aed6213){:target="_blank"}
 - [Uber’s Fulfillment Platform: Ground-up Re-architecture To Accelerate Uber’s Go/get Strategy - Uber Engineering Blog](https://eng.uber.com/fulfillment-platform-rearchitecture/){:target="_blank"}
 - [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html){:target="_blank"}
 - [Heuristics For Effective Software Development: A Continuously Evolving List.* - Allen Holub](https://holub.com/heuristics-for-effective-software-development-a-continuously-evolving-list/){:target="_blank"}
