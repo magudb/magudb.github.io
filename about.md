@@ -8,7 +8,7 @@ I'm a developer by heart, an executive masters in IT-Management BA in Social sci
 
 ## Data:
 
-* 1 Girlfriend - [Line Langballe](http://www.linelangballe.dk)
+* 1 Wife - [Line Langballe](http://www.linelangballe.dk)
 * 2 Child - Frej, an awesome dude and Liv a briliant little girl.
 * ~20 years living in Copenhagen
 * ~19 years experience working in IT 
