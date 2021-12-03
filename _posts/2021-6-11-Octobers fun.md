@@ -6,7 +6,7 @@ comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
-<!-- markdownlint-disable MD033 MD020 MD025--> GvNGCnikWcMUdDQFM86a#j$!Fd5RHLQ5#lZrWRRGm2tUtyeko!
+<!-- markdownlint-disable MD033 MD020 MD025--> 
 # My favorites<a name="favorites"></a>
 
 - [Product, Domain, And Team Architecture Overview Template - By Nick Tune - Strategy, Architecture, Continuous Delivery, And Ddd - Oct, 2021 - Medium](https://medium.com/nick-tune-tech-strategy-blog/product-domain-and-team-architecture-overview-template-b06550faa061){:target="_blank"}
