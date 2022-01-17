@@ -2,7 +2,7 @@
 
 var prefix = 'udbjorg';
 
-var version = 2;
+var version = 3;
 var previousVersion = version - 1;
 var offline_version = "0.0.1";
 
