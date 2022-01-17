@@ -2,9 +2,9 @@
 
 var prefix = 'udbjorg';
 
-var version = 3;
+var version = 4;
 var previousVersion = version - 1;
-var offline_version = "0.0.1";
+var offline_version = "1.0.0";
 
 var CACHE_NAME = `${prefix}-v${version}`;
 var PREVIOUS_CACHE_NAME = `${prefix}-v${previousVersion}`;
@@ -25,7 +25,9 @@ self.addEventListener('fetch', function(event) {
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.match(event.request).then(function(response) {
         var fetchPromise = fetch(event.request).then(function(networkResponse) {
-          cache.put(event.request, networkResponse.clone());
+        if(networkResponse.status>400){
+            cache.put(event.request, networkResponse.clone());
+        }
           return networkResponse;
         })
         return response || fetchPromise;

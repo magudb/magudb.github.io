@@ -3,6 +3,7 @@ console.log("Udbjorg V1.0.5");
 (async ()=>{
     await search.bootstrap_dom("#search-box", "#search-button");
 })()
+
 // @ts-ignore
 if (window.errorpage) {
     let path = decodeURI(location.pathname);
