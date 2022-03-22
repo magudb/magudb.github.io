@@ -14,7 +14,7 @@ twitter_username: "magnusudbjorg"
 comments: false
 
 # Build settings
-permalink   : /:year/:month/:title/
+permalink   : /:year/:month/:title
 markdown    : kramdown
 highlighter : rouge
 
