@@ -82,7 +82,7 @@ redirect_from: /2022/02/Not-spring-yet
 - [Securing Github Organizations. If Your Security Team Is Concerned… - By Alex Smolen - Jan, 2022 - Medium](https://alsmola.medium.com/securing-github-organizations-9c33c850638){:target="_blank"}
 - [Sergiomarotco/network-segmentation-cheat-sheet: Best Practices For Segmentation Of The Corporate Network Of Any Company](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet){:target="_blank"}
 - [Datadog/stratus-red-team: Granular, Actionable Adversary Emulation For The Cloud](https://github.com/DataDog/stratus-red-team){:target="_blank"}
-- [Cron Monitoring — Exploring Open Source Softwares - By Mrigank Anand | Mar, 2022 | Medium](https://medium.com/@mrigank.anand52/cron-monitoring-how-did-we-achieve-it-89cde4db1dc4){:target="_blank"}
+- [Cron Monitoring — Exploring Open Source Softwares - By Mrigank Anand  Mar, 2022  Medium](https://medium.com/@mrigank.anand52/cron-monitoring-how-did-we-achieve-it-89cde4db1dc4){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 

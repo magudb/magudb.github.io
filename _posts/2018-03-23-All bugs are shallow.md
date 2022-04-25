@@ -59,7 +59,7 @@ redirect_from: "/2018/All-bugs-are-shallow/"
 * [Kamranahmedse/driver.js: A Light-weight, No-dependency, Vanilla Javascript Engine To Drive The User's Focus Across The Page](https://github.com/kamranahmedse/driver.js){:target="_blank"}
 * [Gka/chroma.js: Javascript Library For All Kinds Of Color Manipulations](https://github.com/gka/chroma.js){:target="_blank"}
 * [Ankane/s3tk: A Security Toolkit For Amazon S3](https://github.com/ankane/s3tk?__s=gxk6t76rsjnpsfziqg2g){:target="_blank"}
-* [Isithelo/fraternate: Fraternate Is A Standalone Copy Of The Github Organization And User Interaction Framework. Built With Mongo Db - Node.js® | Express.js | Handlebars.js | Bootstrap. Supports Braintree , Paypal And Payfast. Basic Nodejs E-commerce Solution.](https://github.com/Isithelo/Fraternate){:target="_blank"}
+* [Isithelo/fraternate: Fraternate Is A Standalone Copy Of The Github Organization And User Interaction Framework. Built With Mongo Db - Node.js®  Express.js  Handlebars.js  Bootstrap. Supports Braintree , Paypal And Payfast. Basic Nodejs E-commerce Solution.](https://github.com/Isithelo/Fraternate){:target="_blank"}
 * [Flatcar Linux - Linux For Containers](https://www.flatcar-linux.org/){:target="_blank"}
 * [Justeat/awswatchman: Because Unmonitored Infrastructure Will Bite You](https://github.com/justeat/AwsWatchman){:target="_blank"}
 * [Flatbuffers: Main Page](https://google.github.io/flatbuffers/){:target="_blank"}

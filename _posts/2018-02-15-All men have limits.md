@@ -55,7 +55,7 @@ redirect_from: "/2018/All-men-have-limits/"
 * [Saturnframework/saturn: Opinionated, Web Development Framework For F# Which Implements The Server-side, Functional Mvc Pattern](https://github.com/SaturnFramework/Saturn){:target="_blank"}
 * [Jedisct1/dnscrypt-proxy: A Flexible Dns Proxy, With Support For Encrypted Dns Protocols.](https://github.com/jedisct1/dnscrypt-proxy){:target="_blank"}
 * [Opencensus](http://opencensus.io/){:target="_blank"}
-* [16 Linux Server Monitoring Commands You Should Know - Hpe | Hpe™](https://www.hpe.com/us/en/insights/articles/16-linux-server-monitoring-commands-you-really-need-to-know-1703.html){:target="_blank"}
+* [16 Linux Server Monitoring Commands You Should Know - Hpe  Hpe™](https://www.hpe.com/us/en/insights/articles/16-linux-server-monitoring-commands-you-really-need-to-know-1703.html){:target="_blank"}
 * [Automerge/automerge: A Json-like Data Structure That Can Be Modified Concurrently By Different Users, And Merged Again Automatically.](https://github.com/automerge/automerge){:target="_blank"}
 * [Netzkern/butler: 🤵 Welcome To Butler, Your Personal Assistent To Scaffold New Projects. Shipped With Binaries For Mac, Win And Linux.](https://github.com/netzkern/butler){:target="_blank"}
 * [Elastic Apm Ga Released - Elastic](https://www.elastic.co/blog/elastic-apm-ga-released?__s=6izvcszagfpuqzzmdi2h){:target="_blank"}

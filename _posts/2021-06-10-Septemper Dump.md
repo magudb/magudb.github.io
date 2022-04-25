@@ -25,7 +25,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
-- [Engineering Teams Are Just Networks - By Marianne Bellotti | Sep, 2021 | Medium](https://bellmar.medium.com/engineering-teams-are-just-networks-1fc16058879a){:target="_blank"}
+- [Engineering Teams Are Just Networks - By Marianne Bellotti  Sep, 2021  Medium](https://bellmar.medium.com/engineering-teams-are-just-networks-1fc16058879a){:target="_blank"}
 - [10 Things Your Corporate Culture Needs To Get Right](https://sloanreview.mit.edu/article/10-things-your-corporate-culture-needs-to-get-right/){:target="_blank"}
 - [Okrs Are Networks, Not Hierarchies - By Chris Butler - Agile Insider - Sep, 2021 - Medium](https://medium.com/agileinsider/okrs-are-networks-not-hierarchies-594a9fb48715){:target="_blank"}
 - [A Simple Way To Make Leadership Team Meetings Easier - By Dave Bailey - Jul, 2021 - The Founder Coach](https://medium.dave-bailey.com/a-simple-way-to-make-leadership-team-meetings-easier-a131bf3ccff7){:target="_blank"}

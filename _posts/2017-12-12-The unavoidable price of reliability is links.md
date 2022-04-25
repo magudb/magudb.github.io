@@ -37,7 +37,7 @@ redirect_from: "/2017/The-unavoidable-price-of-reliability-is-links/"
 * [A Meritocracy Is A Trailing Indicator – Rands In Repose](http://randsinrepose.com/archives/meritocracy-trailing-indicator/?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
 * [10 Principles Of Organizational Culture](https://www.strategy-business.com/feature/10-Principles-of-Organizational-Culture?__s=wakwmyepmhismx8ehtnp){:target="_blank"}
 ## Architecture, Development & Software development practices <a name="development"></a> ##
-* [Blog - Documenting Architecture Decisions | Relevance](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions){:target="_blank"}
+* [Blog - Documenting Architecture Decisions  Relevance](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions){:target="_blank"}
 * [How Teams Get Microservices Wrong From The Start – Freecodecamp](https://medium.freecodecamp.org/how-teams-get-microservices-wrong-from-the-start-51777c99c059){:target="_blank"}
 * [Microservice Architecture: All The Best Practices You Need To Know - Coding Sans](http://codingsans.com/blog/microservice-architecture-best-practices){:target="_blank"}
 ## Frontend matters <a name="web"></a> ##
