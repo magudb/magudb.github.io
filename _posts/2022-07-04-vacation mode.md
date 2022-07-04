@@ -6,6 +6,7 @@ comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
+
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
@@ -56,7 +57,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [For Ctos, The Total Cost Of Ownership Sits At The Heart Of Strategy - Part 1 - Cto Craft](https://ctocraft.com/blog/for-ctos-the-total-cost-of-ownership-sits-at-heart-of-strategy/){:target="_blank"}
 - [How To Optimize For Fast Flow Using Alignment And Autonomy: The Journey Of A Large Bureaucracy](https://www.infoq.com/articles/fast-flow-alignment-autonomy-bureaucracy/){:target="_blank"}
 - [The 7 Roles Of A Cto - By Oded Blayer - Oded’s Newsletter](https://oded.substack.com/p/the-7-roles-of-a-cto){:target="_blank"}
-- [How To Improve The Impact Of Your Coaching Questions - By Bola Owoade | Management Matters | Jun, 2022 | Medium](https://medium.com/management-matters/how-to-improve-the-impact-of-your-coaching-questions-83bce43576fa){:target="_blank"}
+- [How To Improve The Impact Of Your Coaching Questions - By Bola Owoade - Management Matters - Jun, 2022 - Medium](https://medium.com/management-matters/how-to-improve-the-impact-of-your-coaching-questions-83bce43576fa){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
