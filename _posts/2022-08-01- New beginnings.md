@@ -10,7 +10,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # Joining Cbit, Klikbook and Volour
 
-Sadly I'm leaving TwentyThree to join three companies, this will be an exciting journey to join three product and build the booking product for the future. A big thanks to Thomas and Steffen to bringme in on the start of an interesting journey for TwentyThree and also a big thanks to Morten Ebbesen and Martin Wager for bringing me in on the new fantastic journey for Cbit, Klikbook and Volour.
+Sadly I'm leaving TwentyThree to join three companies, this will be an exciting journey to join three product and build the booking product for the future. A big thanks to Thomas and Steffen to bringme in on the start of an interesting journey for TwentyThree and also a big thanks to Morten Ebbesen and Martin Wagner for bringing me in on the new fantastic journey for Cbit, Klikbook and Volour.
 
 ## My favorites<a name="favorites"></a>
 
