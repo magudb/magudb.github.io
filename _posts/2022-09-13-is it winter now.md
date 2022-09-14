@@ -14,7 +14,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [How To Do Code Reviews Like A Human (Part One) · Mtlynch.io](https://mtlynch.io/human-code-reviews-1/){:target="_blank"}
 - [Dall·e 2 Prompt Engineering Guide - Google Docs](https://docs.google.com/document/d/11WlzjBT0xRpQhP9tFMtxzd0q6ANIdHPUBkMV-YB043U/edit?pli=1#heading=h.iddx5smvg85u){:target="_blank"}
 - [Delivery Lead Time In Practice](https://isthisit.nz/posts/2022/delivery-lead-time-in-practice/){:target="_blank"}
-- [What To Ask During A Vp Of Engineering Interview - By Karim Fanous | Geek Culture | Aug, 2022 | Medium](https://medium.com/geekculture/what-to-ask-during-a-vp-of-engineering-interview-67b7c98babb2){:target="_blank"}
+- [What To Ask During A Vp Of Engineering Interview - By Karim Fanous - Geek Culture - Aug, 2022 - Medium](https://medium.com/geekculture/what-to-ask-during-a-vp-of-engineering-interview-67b7c98babb2){:target="_blank"}
 - [Technical Evaluation Of A Startup - Ian Langworth](https://blog.langworth.com/tech-eval){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
@@ -26,7 +26,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Great Engineering Cultures Are Built On Social Learning Communities - Stack Overflow Blog](https://stackoverflow.blog/2022/08/04/great-engineering-cultures-are-built-on-social-learning-communities/){:target="_blank"}
 - [Developer Productivity Engineering](https://medium.com/wise-engineering/platform-engineering-kpis-6a3215f0ee14){:target="_blank"}
 - [On Being A Staff Engineer](https://mhlakhani.com/blog/2022/08/on-being-a-staff-engineer/){:target="_blank"}
-- [Designing A High-performing Technology Organization - By Elvis | Medium](https://the-elvis.medium.com/designing-a-technology-organization-c2d4e34f1e75){:target="_blank"}
+- [Designing A High-performing Technology Organization - By Elvis - Medium](https://the-elvis.medium.com/designing-a-technology-organization-c2d4e34f1e75){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
@@ -34,7 +34,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Addyosmani.com - Tip - Use Fetchpriority=high To Load Your Lcp Hero Image Sooner](https://addyosmani.com/blog/fetch-priority/){:target="_blank"}
 - [How And Why We Removed Jquery From Gov.uk - Inside Gov.uk](https://insidegovuk.blog.gov.uk/2022/08/11/how-and-why-we-removed-jquery-from-gov-uk/){:target="_blank"}
 - [Grex - Generate Regular Expressions From Test Cases](https://pemistahl.github.io/grex-js/){:target="_blank"}
-- [Tensorflow With Gpu Support On Apple Silicon Mac With Homebrew And Without Conda / Miniforge - By Søren L Kristiansen | Aug, 2022 | Medium](https://medium.com/@sorenlind/tensorflow-with-gpu-support-on-apple-silicon-mac-with-homebrew-and-without-conda-miniforge-915b2f15425b){:target="_blank"}
+- [Tensorflow With Gpu Support On Apple Silicon Mac With Homebrew And Without Conda / Miniforge - By Søren L Kristiansen - Aug, 2022 - Medium](https://medium.com/@sorenlind/tensorflow-with-gpu-support-on-apple-silicon-mac-with-homebrew-and-without-conda-miniforge-915b2f15425b){:target="_blank"}
 - [Gdpr For Developers By Example - Blether](https://blog.blether.chat/2022/08/03/gdpr-for-developers-by-example/){:target="_blank"}
 - [Your Code Doesn't Have To Be A Mess ‐ Daniel Sieger](https://www.danielsieger.com/blog/2022/07/25/your-code-doesnt-have-to-be-a-mess.html){:target="_blank"}
 - [Microsoft/ai-for-beginners: 12 Weeks, 24 Lessons, Ai For All!](https://github.com/microsoft/AI-For-Beginners){:target="_blank"}
