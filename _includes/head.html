@@ -24,7 +24,7 @@
     site.url }} {% else %} {{ site.cover | prepend: site.baseurl | prepend: site.url }} {% endif %} {% endcapture %} {% capture
     page_image %}{{ page_image | strip | rstrip | lstrip | escape | strip_newlines }}{% endcapture %}
 
-    <a rel="me" href="https://mastodon.social/@Magudb">Mastodon</a>
+    
 
     <!-- Social: Facebook / Open Graph -->
     {% if page.id %}
@@ -118,5 +118,6 @@
                 webVitals.getLCP(sendToGoogleAnalytics);
             });
         </script>
-<script src="https://cdn.jsdelivr.net/npm/prerender_all@1.0.0/prerender.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/prerender_all@1.0.0/prerender.min.js"></script>
+        <a rel="me" href="https://mastodon.social/@Magudb">Mastodon</a>
 </head>

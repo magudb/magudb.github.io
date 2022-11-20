@@ -17,7 +17,7 @@ TiNgueRmitYpEDneNDe
 - [How To Build Software Like An Sre — Willett Dot Io](https://www.willett.io/posts/precepts/){:target="_blank"}
 - [The Unix Pipe Card Game](https://punkx.org/unix-pipe-game/){:target="_blank"}
 - [Things Your Manager Might Not Know](https://jvns.ca/blog/things-your-manager-might-not-know/){:target="_blank"}
-- [Carlo: Carbon-aware Load Balancing - By Daniel Fratte | Oct, 2022 | Medium](https://medium.com/@drfratte/carlo-carbon-aware-load-balancing-f02982999b75){:target="_blank"}
+- [Carlo: Carbon-aware Load Balancing - By Daniel Fratte - Oct, 2022 - Medium](https://medium.com/@drfratte/carlo-carbon-aware-load-balancing-f02982999b75){:target="_blank"}
 - [Addyosmani.com - Managing Complex Change](https://addyosmani.com/blog/managing-complex-change/){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
@@ -29,12 +29,12 @@ TiNgueRmitYpEDneNDe
 - [Common Tech Jobs Described As Cabals Of Mesoamerican Wizards](https://etiennefd.substack.com/p/common-tech-jobs-described-as-cabals){:target="_blank"}
 - [How To Get Your Leadership Team To Actually Be A Team.](https://www.mattmunson.me/leadership-teams/){:target="_blank"}
 - [What Is Product-led Growth? Strategies, Principles, And Examples - Logrocket Blog](https://blog.logrocket.com/product-management/what-is-product-led-growth-strategies-principles-examples/){:target="_blank"}
-- [How To Be A Truly Great Head Of Product: Strategy - By Alex Allan | Sep, 2022 | Product Coalition](https://productcoalition.com/how-to-be-a-truly-great-head-of-product-strategy-8f6caf8f8761){:target="_blank"}
-- [What A Healthy Team Looks Like. The Concept Of “Healthy Teams” Is… - By Hà Phan | Medium](https://hpdailyrant.medium.com/what-a-healthy-team-looks-like-637e63e30edb){:target="_blank"}
+- [How To Be A Truly Great Head Of Product: Strategy - By Alex Allan - Sep, 2022 - Product Coalition](https://productcoalition.com/how-to-be-a-truly-great-head-of-product-strategy-8f6caf8f8761){:target="_blank"}
+- [What A Healthy Team Looks Like. The Concept Of “Healthy Teams” Is… - By Hà Phan - Medium](https://hpdailyrant.medium.com/what-a-healthy-team-looks-like-637e63e30edb){:target="_blank"}
 - [3 Takeaways From Ceo Brad Hoover’s Saastr Talk - Grammarly Business](https://www.grammarly.com/business/learn/saastr-takeaways/){:target="_blank"}
 - [Inside Hotjar’s Bootstrapped Plg Strategy](https://kylepoyar.substack.com/p/inside-hotjars-bootstrapped-plg-strategy?publication_id=311430&post_id=81251670&isFreemail=true){:target="_blank"}
 - [The Iterative-hypothesis Customer Development Method - A Smart Bear: Longform](https://longform.asmartbear.com/docs/customer-development/){:target="_blank"}
-- [The Engineering Manager’s Tools. What Is In A Manager’s Toolbox? - By Francisco Trindade | Oct, 2022 | Medium](https://franciscomt.medium.com/the-engineering-manager-tools-9bc0d738294d){:target="_blank"}
+- [The Engineering Manager’s Tools. What Is In A Manager’s Toolbox? - By Francisco Trindade - Oct, 2022 - Medium](https://franciscomt.medium.com/the-engineering-manager-tools-9bc0d738294d){:target="_blank"}
 - [Framing vs Shaping](https://world.hey.com/rjs/20-framing-2f64ddca){:target="_blank"}
 - [Tension: Why Product Development Requires Balancing Conflicting Goals – Help Your Organization Focus On Successful Outcomes](https://www.jpattonassociates.com/tension/){:target="_blank"}
 
@@ -43,7 +43,7 @@ TiNgueRmitYpEDneNDe
 - [Software Delivery Process](https://www.goeleven.com/guides/software-delivery-process/?utm_medium){:target="_blank"}
 - [Tech Vision At Bol.com - Bol.com - Techlab](https://techlab.bol.com/en/blog/tech-vision-at-bol-com){:target="_blank"}
 - [12 Factor App Revisited](https://architecturenotes.co/12-factor-app-revisited/){:target="_blank"}
-- [Last Responsible Moment & Technical Debt: Avoid Bad Software Architecture Decisions - By Lovepreet Singh | Clean Architecture | Oct, 2022 | Medium](https://medium.com/clean-architecture/last-responsible-moment-technical-debt-avoid-bad-software-architecture-decisions-e63b3e4f7566){:target="_blank"} 
+- [Last Responsible Moment & Technical Debt: Avoid Bad Software Architecture Decisions - By Lovepreet Singh - Clean Architecture - Oct, 2022 - Medium](https://medium.com/clean-architecture/last-responsible-moment-technical-debt-avoid-bad-software-architecture-decisions-e63b3e4f7566){:target="_blank"} 
 - [Https://github.com/madebyollin/maple-diffusion](https://lspace.swyx.io/p/open-source-ai){:target="_blank"}
 - [What Are The Benefits Of A Microservices Architecture? - Gitlab](https://about.gitlab.com/blog/2022/09/29/what-are-the-benefits-of-a-microservices-architecture/){:target="_blank"}
 - [Files Are Fraught With Peril](https://danluu.com/deconstruct-files/){:target="_blank"}
@@ -56,7 +56,7 @@ TiNgueRmitYpEDneNDe
 - [Startup Engineering Hiring Anti-patterns](https://blog.southparkcommons.com/startup-engineering-hiring-anti-patterns/){:target="_blank"}
 - [Four Cornerstones Of Cpu Performance. - Easyperf](https://easyperf.net/blog/2022/10/17/Four-Cornerstones-of-CPU-Performance?utm_medium){:target="_blank"}
 - [How To Build A Strong Team Vision - Let's Grow Leaders](https://letsgrowleaders.com/2012/12/11/how-to-build-a-strong-team-vision/){:target="_blank"}
-- [Understanding Antifragility And Black Swans, And How They Impact Your R&d Organization - By Guy Grinapell | Appsflyer Engineering | Oct, 2022 | Medium](https://medium.com/appsflyerengineering/understanding-antifragility-and-black-swans-and-how-they-relate-to-your-r-d-organization-f5ac4c2c6c27){:target="_blank"}
+- [Understanding Antifragility And Black Swans, And How They Impact Your R&d Organization - By Guy Grinapell - Appsflyer Engineering - Oct, 2022 - Medium](https://medium.com/appsflyerengineering/understanding-antifragility-and-black-swans-and-how-they-relate-to-your-r-d-organization-f5ac4c2c6c27){:target="_blank"}
 
 ## DevOps<a name="devops"></a>
 
@@ -67,8 +67,8 @@ TiNgueRmitYpEDneNDe
 - [Understanding Role-based Access Control In Kubernetes - Container Journal](https://containerjournal.com/features/understanding-role-based-access-control-in-kubernetes/?_hsmi=229732841&_hsenc=p2ANqtz--W_0WSUb616X8tarBHFyMDcoWmXOpLW2UNrMTlQr7CZfCqhWG2YWWqhVBYKjjTgMVkWx-c2fImr1nnKbs8MFNBdJdz74MoeEYzb6TmUShSmD6cROQ){:target="_blank"}
 - [How Observability-driven Development Creates Elite Performers - Stack Overflow Blog](https://stackoverflow.blog/2022/10/12/how-observability-driven-development-creates-elite-performers/){:target="_blank"}
 - [Measuring Cpu Usage Of Ebpf Programs With Inspektor Gadget - Inspektor Gadget](https://www.inspektor-gadget.io//blog/2022/10/measuring-cpu-usage-of-ebpf-programs-with-inspektor-gadget/){:target="_blank"}
-- [Avoid Observability Meltdown Using Metrics, Events, Logs And Traces - By Siddharth Sharma | Oct, 2022 | Medium](https://medium.com/@sid_sharma/avoid-observability-meltdown-using-metrics-events-logs-and-traces-d4d5209a2479){:target="_blank"}
-- [Monitor It! A Short Introduction To Prometheus - By Klimov Peter | Oct, 2022 | Devops.dev](https://blog.devops.dev/monitor-it-a-short-introduction-to-prometheus-3f24e54fbfc7){:target="_blank"}
+- [Avoid Observability Meltdown Using Metrics, Events, Logs And Traces - By Siddharth Sharma - Oct, 2022 - Medium](https://medium.com/@sid_sharma/avoid-observability-meltdown-using-metrics-events-logs-and-traces-d4d5209a2479){:target="_blank"}
+- [Monitor It! A Short Introduction To Prometheus - By Klimov Peter - Oct, 2022 - Devops.dev](https://blog.devops.dev/monitor-it-a-short-introduction-to-prometheus-3f24e54fbfc7){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 

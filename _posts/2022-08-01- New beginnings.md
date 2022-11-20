@@ -19,13 +19,13 @@ Sadly I'm leaving TwentyThree to join three companies, this will be an exciting 
 - [Domain-driven Design Crew](https://github.com/ddd-crew){:target="_blank"}
 - [Gdpr For Developers By Example - Blether](https://blog.blether.chat/2022/08/03/gdpr-for-developers-by-example/){:target="_blank"}
 - [Women’s Leadership Organizations Are Filling The Power Gap - Chief Learning Officer - Clo Media](https://www.chieflearningofficer.com/2022/06/20/womens-leadership-organizations-are-filling-the-power-gap/){:target="_blank"}
-- [“Sharing Interesting Stuff”: A Simple Yet Powerful Management Tool - By Florian Fesseler | Shipup Blog | Jun, 2022 | Medium](https://medium.com/shipup-blog/sharing-interesting-stuff-a-simple-yet-powerful-management-tool-771d3c2b39b7){:target="_blank"}
+- [“Sharing Interesting Stuff”: A Simple Yet Powerful Management Tool - By Florian Fesseler - Shipup Blog - Jun, 2022 - Medium](https://medium.com/shipup-blog/sharing-interesting-stuff-a-simple-yet-powerful-management-tool-771d3c2b39b7){:target="_blank"}
 - [Event Recap: Save Time & Money With Discovery Sprints](https://thoughtbot.com/blog/event-recap-save-time-money-with-discovery-sprints){:target="_blank"}
 - [These Teams Organize Around A Mission And Are Optimized For Rapid Execution And Product Innovation.](https://newsletter.pragmaticengineer.com/p/the-platform-and-program-split-at){:target="_blank"}
 - [Functional Programming Is Finally Going Mainstream](https://github.com/readme/featured/functional-programming){:target="_blank"}
 - [Why Dry Is The Most Over-rated Programming Principle - Thoughts On Software](https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/){:target="_blank"}
-- [Product & Tech — Better Together! - By Andrea Stubbe | Aug, 2022 | Commercetools Tech](https://techblog.commercetools.com/product-tech-better-together-7d8ced10d83f){:target="_blank"}
-- [The Ladder Of Intervention. How To Change The World By Changing The… - By Daniel Stillman | Medium](https://daniel-stillman.medium.com/the-ladder-of-intervention-d345969fdd00){:target="_blank"}
+- [Product & Tech — Better Together! - By Andrea Stubbe - Aug, 2022 - Commercetools Tech](https://techblog.commercetools.com/product-tech-better-together-7d8ced10d83f){:target="_blank"}
+- [The Ladder Of Intervention. How To Change The World By Changing The… - By Daniel Stillman - Medium](https://daniel-stillman.medium.com/the-ladder-of-intervention-d345969fdd00){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
@@ -45,7 +45,7 @@ Sadly I'm leaving TwentyThree to join three companies, this will be an exciting 
 
 - [Functional Programming 101](https://github.com/readme/guides/functional-programming-basics){:target="_blank"}
 - [A Blended Diagramming Style - Kalele](https://kalele.io/a-blended-diagramming-style/){:target="_blank"}
-- [Scaling Our Frontend Architecture With Our Team's Growth - By Nicola Molinari | Jul, 2022 | Commercetools Tech](https://techblog.commercetools.com/scaling-our-frontend-architecture-with-our-teams-growth-9ecd36abcece){:target="_blank"}
+- [Scaling Our Frontend Architecture With Our Team's Growth - By Nicola Molinari - Jul, 2022 - Commercetools Tech](https://techblog.commercetools.com/scaling-our-frontend-architecture-with-our-teams-growth-9ecd36abcece){:target="_blank"}
 - [Complete Guide To Securing Internal Saas Admin Tools](https://www.lastweekasavciso.com/p/securing-saas-app-internal-admin-tools){:target="_blank"}
 - [Understanding The Law Of Demeter](https://blog.testdouble.com/posts/2022-06-15-law-of-demeter/){:target="_blank"}
 - [Using Gpt-3 To Explain How Code Works](https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/){:target="_blank"}
