@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "release": "node release/release.js"
   },
   "dependencies": {
     "fuse.js": "^2.5.0",

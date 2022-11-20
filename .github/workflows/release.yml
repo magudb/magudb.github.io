@@ -28,6 +28,5 @@ jobs:
         id: image
         run: |
             npm install
-            npm run build
-            node release/release.js ${{ steps.changed-files.outputs.all_changed_files }} ${{ steps.get_release.outputs.body }}
+            npm run release -- '${{ steps.changed-files.outputs.all_changed_files }}' '${{ steps.get_release.outputs.body }}'
 
