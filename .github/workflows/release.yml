@@ -1,0 +1,28 @@
+name: 🚀 RELEASE
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  Announce:
+    name: 🚀 Announcing posts to the world
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v34
+      - name: Build
+        id: image
+        run: |
+            npm install
+            npm run build
+            node release/release.js ${{ steps.changed-files.outputs.all_changed_files }};
+
