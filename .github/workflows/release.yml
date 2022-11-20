@@ -19,10 +19,14 @@ jobs:
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v34
+      - uses: yashanand1910/standard-release-notes@v1.2.1
+        id: get_release_notes
+        with:
+          version: ${{ github.ref }} # Required
       - name: Build
         id: image
         run: |
             npm install
             npm run build
-            node release/release.js ${{ steps.changed-files.outputs.all_changed_files }};
+            node release/release.js ${{ steps.changed-files.outputs.all_changed_files }} ${{ steps.get_release_notes.outputs.release_notes }}
 
