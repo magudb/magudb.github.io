@@ -11,6 +11,7 @@ google_analytics: UA-70467704-1
 repo: https://github.com/magudb/magudb.github.io
 disqus_shortname: "magudb"
 twitter_username: "magnusudbjorg"
+mastodon_username: "https://mastodon.social/@Magudb"
 comments: false
 
 # Build settings
