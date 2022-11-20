@@ -5,7 +5,7 @@
   "dependencies": {
     "fuse.js": "^2.5.0",
     "mark.js": "^8.11.1",
-    "moment": "^2.29.2",
+    "moment": "^2.29.4",
     "query-string": "^4.2.3",
     "webpack": "^5.30.0",
     "whatwg-fetch": "^3.3.1",
