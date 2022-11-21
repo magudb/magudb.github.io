@@ -8,7 +8,6 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
-
 # My favorites<a name="favorites"></a>
 
 - [When Life Gives You Lemons, Write Better Error Messages](https://scribe.rip/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f){:target="_blank"}
