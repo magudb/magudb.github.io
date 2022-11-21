@@ -8,7 +8,7 @@ const blogFiles = files.filter((file)=>{
 
 console.log(blogFiles);
 
-if(blogFiles.length <1){
+if(blogFiles.length <= 0){
     console.log("no need to update")
     return
 }
