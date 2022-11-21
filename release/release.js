@@ -29,11 +29,11 @@ const doAnnouncement = async (files, text, token)=>{
     const dateString = filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g)[0];
     
     const date = new Date(dateString);
-    const link = `https://udbjorg.net/${date.getFullYear()}/${date.getMonth()}/${encodeURI(title.slice(1))}`
+    const link = `https://udbjorg.net/${date.getFullYear()}/${date.getMonth()}/${title.replace(/ /g, "-")}`
    
     
-    console.log("Preparing update to Mastodon", link, text);
-    mastodon.post(`${text} read more here - ${link}`, (err, status) => {
+    console.log("Preparing update to Mastodon");
+    mastodon.post(`${title}\n${text} \n read more here - '${link}'`, (err, status) => {
         if (err || status.error) {
           throw err ||status.error;
         } else {
