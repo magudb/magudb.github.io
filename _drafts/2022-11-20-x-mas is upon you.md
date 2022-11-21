@@ -5,7 +5,6 @@ description: "Links :HEART:"
 comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
-TiNgueRmitYpEDneNDe
 ---
 
 <!-- markdownlint-disable MD033 MD020 MD025-->

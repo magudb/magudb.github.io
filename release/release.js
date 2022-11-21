@@ -1,11 +1,12 @@
 const path =  require("path")
 const files = process.argv[2].split("");
 const blogFiles = files.filter((file)=>{
-    return file.split("-").length > 3
+    const filename = path.basename(file, ".md")
+    return filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g).length > 0
 })
-const text = process.argv[3]
 
-console.log(blogFiles, text);
+
+console.log(blogFiles);
 
 if(blogFiles.length <1){
     console.log("no need to update")
@@ -17,5 +18,6 @@ const dateString = filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g)[0];
 
 const date = new Date(dateString);
 const link = `https://udbjorg.net/${date.getFullYear()}/${date.getMonth()}/${title}`
+const text = process.argv[3];
 
-console.log("Preparing update to Mastodon", link)
+console.log("Preparing update to Mastodon", link, text)
