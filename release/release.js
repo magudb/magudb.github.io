@@ -1,7 +1,6 @@
 const path =  require("path");
 const Mastodon = require('mastodon-lite');
 
-
 const doAnnouncement = async (files, text, token)=>{
     const config = {
         access_token: token,
@@ -10,7 +9,7 @@ const doAnnouncement = async (files, text, token)=>{
         api: '/api/v1',
         rejectUnauthorized: false
       };
-      const mastodon = new Mastodon(app.config);
+      const mastodon = new Mastodon(config);
   
     const blogFiles = files.filter((file)=>{
         const filename = path.basename(file, ".md")

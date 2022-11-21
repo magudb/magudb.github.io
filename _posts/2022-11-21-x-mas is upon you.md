@@ -6,7 +6,6 @@ comments: false
 category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
-
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
