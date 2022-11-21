@@ -34,7 +34,7 @@ const doAnnouncement = async (files, text, token)=>{
    
     
     console.log("Preparing update to Mastodon", link, text);
-    app.mastodon.post(`${text} read more here - ${link}`, (err, status) => {
+    mastodon.post(`${text} read more here - ${link}`, (err, status) => {
         if (err || status.error) {
           throw err ||status.error;
         } else {
