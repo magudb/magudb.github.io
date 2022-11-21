@@ -27,5 +27,5 @@ jobs:
       - name: List all changed files
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            npm run release -- $file '${{ steps.get_release.outputs.body }}'
+            npm run release -- '"$file"' '${{ steps.get_release.outputs.body }}'
           done
