@@ -1,5 +1,5 @@
 const path =  require("path")
-const files = process.argv[2].split("");
+const files = process.argv[2].split(" ");
 const blogFiles = files.filter((file)=>{
     const filename = path.basename(file, ".md")
     const match = filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g);
