@@ -24,9 +24,8 @@ jobs:
         uses: bruceadams/get-release@v1.3.2
         env:
           GITHUB_TOKEN: ${{ github.token }}
-      - name: Build
-        id: image
+      - name: List all changed files
         run: |
-            npm install
-            npm run release -- '${{ steps.changed-files.outputs.all_changed_files }}' '${{ steps.get_release.outputs.body }}'
-
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            npm run release -- $file '${{ steps.get_release.outputs.body }}'
+          done

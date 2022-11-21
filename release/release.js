@@ -1,21 +1,18 @@
+const { match } = require("assert");
 const path =  require("path")
-const files = process.argv[2].split(" ");
-const blogFiles = files.filter((file)=>{
-    const filename = path.basename(file, ".md")
-    const match = filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g);
-    console.log(filename, match)
-    return match;
-})
+const file = process.argv[2];
+const blogFileMatch = file.match(/(\d\d\d\d\-\d\d\-\d\d)/g);
 
-console.log(blogFiles);
+console.log(blogFileMatch);
 
-if(blogFiles.length <= 0){
-    console.log("no need to update")
+if(!blogFileMatch && path.extname(file) !== '.md'){
+    console.log("Not a blog post, won't annouce to the world...")
     return
 }
-const filename = path.basename(blogFiles[0], ".md")
+
+const filename = path.basename(file, ".md")
 const title = filename.replace(/(\d\d\d\d\-\d\d\-\d\d)/g, "")
-const dateString = filename.match(/(\d\d\d\d\-\d\d\-\d\d)/g)[0];
+const dateString = blogFileMatch[0];
 
 const date = new Date(dateString);
 const link = `https://udbjorg.net/${date.getFullYear()}/${date.getMonth()}/${title}`
