@@ -1,9 +1,3 @@
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
 /*!***************************************************
 * mark.js v8.11.1
 * https://markjs.io/

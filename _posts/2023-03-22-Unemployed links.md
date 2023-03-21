@@ -7,10 +7,22 @@ category: "Links"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 
+## Hi all,
+
+_I'm seeking new IT opportunities after saying goodbye to my role as VP of Engineering at CBIT + Klikbook. With an Executive Master's in IT Management and a Bachelor's in Computer Science and Social Science, I bring a unique perspective to both technical and human aspects of the industry. My experience includes building and leading skilled engineering teams to drive growth and success.
+
+If you're aware of any opportunities aligning with my background, please reach out. I'm happy to answer any questions or discuss potential roles._
+
+Best,
+Magnus
+
+My CV - <a href="{{ "/assets/Magnus Langballe Udbjørg - CV.pdf" | prepend: site.baseurl | prepend: site.url }}">
+
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
 - [The Lone Developer Problem](https://evanhahn.com/the-lone-developer-problem/?utm_medium){:target="_blank"}
+- [Prompt Engineering - Lil'log](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/){:target="_blank"}
 - [The Ultimate Guide To Software Architecture Documentation](https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/){:target="_blank"}
 - [The Camera Shy Hoodie — Mac Pierce](https://www.macpierce.com/the-camera-shy-hoodie?utm_medium){:target="_blank"}
 - [I Built An Ai That Answers Questions Based On My User Research Data - By Irina Nik | Feb, 2023 | Ux Collective](https://uxdesign.cc/i-built-an-ai-that-answers-questions-based-on-my-user-research-data-7207b052e21c){:target="_blank"}
@@ -24,6 +36,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
+- [Numbers To Know For Managing (Software Teams)](https://blog.staysaasy.com/p/numbers-to-know-for-managing-software?publication_id=1461103&post_id=109696302&isFreemail=true){:target="_blank"}
 - [Why Churn Is A Saas Killer - The Saas Cfo](https://www.thesaascfo.com/why-churn-is-a-saas-killer/){:target="_blank"}
 - [Getting More From Your Team Health Checks - Spotify Engineering : Spotify Engineering](https://engineering.atspotify.com/2023/03/getting-more-from-your-team-health-checks/){:target="_blank"}
 - [4 Questions You Should Ask When Prioritising Engineering Work - Cto Craft](https://ctocraft.com/blog/4-questions-you-should-ask-when-prioritising-engineering-work/){:target="_blank"}
@@ -58,6 +71,7 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 - [Securing Gitops Pipelines](https://engineering.grab.com/securing-gitops-pipeline){:target="_blank"}
 - [Health Checking - By Srinivas - Eightnoteight](https://blog.eightnoteight.dev/p/health-checking){:target="_blank"}
 - [Oxy Is Cloudflare's Rust-based Next Generation Proxy Framework](https://blog.cloudflare.com/introducing-oxy/){:target="_blank"}
+- [A Simple Guide To Continuous Deployment - Architect.io](https://www.architect.io/blog/2023-03-09/a-simple-guide-to-continuous-deployment/){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
