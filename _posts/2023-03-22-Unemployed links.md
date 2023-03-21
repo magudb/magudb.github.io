@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Links"
+title: "Unemployed but still links"
 description: "Links, ALOT!"
 comments: false
 category: "Links"
-keywords: "Links, IT, Microservices, development, architecture, love"
+keywords: "Links, IT, Microservices, development, architecture, love, jobs, job"
 ---
 
 ## Hi all,
@@ -16,7 +16,7 @@ If you're aware of any opportunities aligning with my background, please reach o
 Best,
 Magnus
 
-My CV - <a href="{{ "/assets/Magnus Langballe Udbjørg - CV.pdf" | prepend: site.baseurl | prepend: site.url }}">
+<a href="{{ "/assets/Magnus Langballe Udbjørg - CV.pdf" | prepend: site.baseurl | prepend: site.url }}">My CV</a>
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
