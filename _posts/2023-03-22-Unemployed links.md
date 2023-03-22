@@ -24,7 +24,7 @@ keywords: "Links, IT, Microservices, development, architecture, love, jobs, job"
 - [Prompt Engineering - Lil'log](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/){:target="_blank"}
 - [The Ultimate Guide To Software Architecture Documentation](https://www.workingsoftware.dev/software-architecture-documentation-the-ultimate-guide/){:target="_blank"}
 - [The Camera Shy Hoodie — Mac Pierce](https://www.macpierce.com/the-camera-shy-hoodie?utm_medium){:target="_blank"}
-- [I Built An Ai That Answers Questions Based On My User Research Data - By Irina Nik | Feb, 2023 | Ux Collective](https://uxdesign.cc/i-built-an-ai-that-answers-questions-based-on-my-user-research-data-7207b052e21c){:target="_blank"}
+- [I Built An Ai That Answers Questions Based On My User Research Data - By Irina Nik - Feb, 2023 - Ux Collective](https://uxdesign.cc/i-built-an-ai-that-answers-questions-based-on-my-user-research-data-7207b052e21c){:target="_blank"}
 - [10x Your Feedback Game: Choose Kindness Over Niceness – Codekraft](https://abdulapopoola.com/2023/02/06/10x-your-feedback-game-choose-kindness-over-niceness/){:target="_blank"}
 - [Scribble Diffusion](https://scribblediffusion.com/){:target="_blank"}
 - [Leading With Compassion Has Research-backed Benefits](https://hbr.org/2023/02/leading-with-compassion-has-research-backed-benefits){:target="_blank"}
@@ -39,18 +39,18 @@ keywords: "Links, IT, Microservices, development, architecture, love, jobs, job"
 - [Why Churn Is A Saas Killer - The Saas Cfo](https://www.thesaascfo.com/why-churn-is-a-saas-killer/){:target="_blank"}
 - [Getting More From Your Team Health Checks - Spotify Engineering : Spotify Engineering](https://engineering.atspotify.com/2023/03/getting-more-from-your-team-health-checks/){:target="_blank"}
 - [4 Questions You Should Ask When Prioritising Engineering Work - Cto Craft](https://ctocraft.com/blog/4-questions-you-should-ask-when-prioritising-engineering-work/){:target="_blank"}
-- [Engineering Leadership Tactics: Mind The Input - By Francisco Trindade | Jan, 2023 | Better Programming](https://betterprogramming.pub/engineering-leadership-tactics-mind-the-input-17069b7bf53d){:target="_blank"}
+- [Engineering Leadership Tactics: Mind The Input - By Francisco Trindade - Jan, 2023 - Better Programming](https://betterprogramming.pub/engineering-leadership-tactics-mind-the-input-17069b7bf53d){:target="_blank"}
 - [Creating Great Psychologically Safe Teams With Sandy Mamoli](https://www.infoq.com/news/2023/01/great-psychologically-safe-teams/){:target="_blank"}
-- [Leading With Confidence: How Engineering Managers Can Avoid Technical Decay - By Amin Rashidbeigi | Jan, 2023 | Better Programming](https://betterprogramming.pub/leading-with-confidence-how-engineering-managers-can-avoid-technical-decay-17653d115938){:target="_blank"}
+- [Leading With Confidence: How Engineering Managers Can Avoid Technical Decay - By Amin Rashidbeigi - Jan, 2023 - Better Programming](https://betterprogramming.pub/leading-with-confidence-how-engineering-managers-can-avoid-technical-decay-17653d115938){:target="_blank"}
 - [How To Build Continuous Discovery Habits On Your Product Team - Logrocket Blog](https://blog.logrocket.com/product-management/continuous-discovery-habits-product-team/){:target="_blank"}
 - [Use "Buy A Feature" To Prioritize Work That Really Matters](https://spin.atomicobject.com/2023/03/03/buy-a-feature/){:target="_blank"}
 - [The "Curse Of Knowledge" - Laurie Brown Communications](https://lauriebrown.com/blog/communication-skills-blog/the-curse-of-knowledge/){:target="_blank"}
 - [How To Build A High-performing Software Team](https://softwareleads.substack.com/p/how-to-build-a-high-performing-software?utm_medium){:target="_blank"}
 - [3 Rhetorical Techniques To Increase Your Impact](https://hbr.org/2023/03/3-rhetorical-techniques-to-increase-your-impact){:target="_blank"}
 - [The Onboarding Iceberg - Appcues Blog](https://www.appcues.com/blog/the-onboarding-iceberg){:target="_blank"}
-- [Leading With Confidence: How Engineering Managers Can Avoid Technical Decay - By Amin Rashidbeigi | Jan, 2023 | Better Programming](https://betterprogramming.pub/leading-with-confidence-how-engineering-managers-can-avoid-technical-decay-17653d115938){:target="_blank"}
+- [Leading With Confidence: How Engineering Managers Can Avoid Technical Decay - By Amin Rashidbeigi - Jan, 2023 - Better Programming](https://betterprogramming.pub/leading-with-confidence-how-engineering-managers-can-avoid-technical-decay-17653d115938){:target="_blank"}
 - [Meetings For An Effective Eng Organization. - Irrational Exuberance](https://lethain.com/eng-org-meetings/){:target="_blank"}
-- [Healing Dysfunction In Cross-functional Product Teams - By Emmanuela Rogdaki | Sap Design | Medium](https://medium.com/sap-design/healing-dysfunction-in-cross-functional-product-teams-3d98cebd509e){:target="_blank"}
+- [Healing Dysfunction In Cross-functional Product Teams - By Emmanuela Rogdaki - Sap Design - Medium](https://medium.com/sap-design/healing-dysfunction-in-cross-functional-product-teams-3d98cebd509e){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
