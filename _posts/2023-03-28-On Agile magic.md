@@ -38,7 +38,7 @@ By embracing the values of the Agile Manifesto, teams can foster a collaborative
 
 ## Disclaimer
 
-I would only care about setting up fancy agile processes if your team is around 4 people, including you; make work visible using a kanban board and deliver value in small chunks. 
+I would only care about setting up fancy agile processes if your team is around 4 people, including you. start with, make work visible using a kanban board and deliver value in small chunks.
 
 ## Potential benefits of Agile Methodologies
 
