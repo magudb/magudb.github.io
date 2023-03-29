@@ -14,6 +14,7 @@ Agile methodologies can benefit startups by fostering collaboration, adaptabilit
 
 As you embark on our journey to explore Agile methodologies and their benefits, we must begin by understanding the foundational principles that drive Agile practices. These principles are encapsulated in the "Manifesto for Agile Software Development," created in 2001 by a group of software developers seeking to improve how software projects are managed and delivered. The Agile Manifesto offers a clear and concise articulation of the core values and priorities that underpin Agile methodologies, emphasising the importance of people, collaboration, and adaptability in achieving successful outcomes.
 
+
 <p style="text-align:center">
 We are uncovering better ways of developing<br/>
 software by doing it and helping others do it.
