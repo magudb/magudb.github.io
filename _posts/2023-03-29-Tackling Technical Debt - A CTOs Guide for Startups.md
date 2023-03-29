@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Tackling Technical Debt - A CTOs Guide for Startup"
-description: ""
+title: "Tackling Technical Debt - A CTO's Guide for Startups"
+description: "Discover strategies for managing and mitigating technical debt in startups from a CTO's perspective. Learn about the importance of the term 'technical debt', its implications for startups, and practical approaches to prioritize and address it for long-term success."
 comments: false
 category: "things"
-keywords: ""
+keywords: "technical debt, CTO, startups, refactoring, codebase, communication, collaboration, software development, debt reduction, coding standards, continuous learning, resilience, engineering performance, prioritizing technical debt, business value, maintainability"
 ---
+
+![Totoro working with Technical Debt](https://udbjorg.net/assets/images/sad-totoro.jpg)
 
 ## TL; DR
 
@@ -92,5 +94,7 @@ Knowing which debts to address and where to focus your efforts is crucial to eff
 2. Effort: Consider the work required to address each technical debt item and weigh it against the potential value gained. Aim to tackle high-value, low-effort things first.
 3. Dependencies: Address technical debt in foundational or shared components of your codebase, as improvements in these areas can have a broader impact on the overall system.
 4. Risk: Consider the risks of addressing each technical debt item, such as introducing new issues or disrupting ongoing work. Prioritise low-risk, high-value items.
+
+![Totoro working with Technical Debt after reading this blog post](https://udbjorg.net/assets/images/totoro-happy.jpg)
 
 You can effectively prioritise and address technical debt by viewing your codebase as a crime scene or heatmap and focusing on the most valuable areas. Balancing business value, resilience, and engineering performance will help ensure that your efforts to tackle technical debt contribute to the overall success of your startup.
