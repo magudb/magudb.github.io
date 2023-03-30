@@ -22,6 +22,7 @@ Technical debt can significantly hinder a startup's progress and agility. This b
 By proactively addressing technical debt and balancing business value, resilience, and engineering performance, startups can maintain their agility and continue to iterate and adapt to ever-evolving market conditions.
 
 ![Totoro working with Technical Debt](https://udbjorg.net/assets/images/sad-totoro.jpg)
+
 ## Introduction
 
 Technical debt is a common challenge that startups face as they strive to innovate and scale in a competitive market. Unfortunately, this invisible burden can hinder a company's progress and stifle its ability to adapt and grow. In this blog post, we will explore the concept of technical debt, its implications for startups, and practical strategies to manage and mitigate it, all from a CTO's perspective. By understanding and addressing technical debt, startups can maintain a strong focus on product development and stay agile in the face of ever-evolving market conditions.
