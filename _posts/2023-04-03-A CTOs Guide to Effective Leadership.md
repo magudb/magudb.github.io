@@ -8,15 +8,15 @@ category: "things"
 keywords: "CTO, leadership, empowering teams, tech industry, effective management, trust, psychological safety, one-on-one meetings, skip-level meetings, conflict resolution, shared vision, goal setting, Agile, adapting to change, diversity and inclusion, team performance, DORA metrics, SPACE metrics"
 ---
 
-## Introduction {#introduction}
+## Introduction
 
 The role of a CTO encompasses not only technical expertise but also effective leadership and people management. This article covers key strategies for building trust, empowering teams, fostering innovation, and driving growth within your organisation. We will explore topics such as establishing a shared vision, adapting to change, managing uncertainty, and measuring team performance.
 
-## TL;DR {#tl-dr}
+## TL;DR
 
  As a CTO, successful leadership involves building trust, empowering your team, and driving growth. This article provides actionable insights on key topics such as fostering psychological safety, goal-setting, conflict resolution, and measuring team performance. By implementing these strategies, you can create a high-performing team that contributes to your organisation's success.
 
-## Empowerment, Trust, and Empowered Teams {#empowerment-trust-and-empowered-teams}
+## Empowerment, Trust, and Empowered Teams
 
 Trust and psychological safety are the cornerstones of building great teams and fostering a culture of empowerment. By placing trust in your team members and creating an environment where they can openly express their ideas, concerns, and mistakes without fear of negative consequences, you enable them to take ownership of their work and confidently make decisions. In addition, when individuals feel trusted and psychologically safe, they are more likely to be engaged, take the initiative, and contribute to the team's success.
 
@@ -26,7 +26,7 @@ Cultivating a blameless culture is an essential part of fostering psychological 
 
 Empowered teams are built on a foundation of trust and psychological safety, where each member feels a sense of ownership and responsibility for the team's success. By fostering an environment that encourages autonomy, collaboration, and continuous learning, you create a space where team members can grow and thrive, ultimately driving innovation and growth for your organisation.
 
-### The CTO's Role {#the-cto's-role}
+### The CTO's Role
 
 As a CTO, building trust and enabling empowerment within your team is vital to fostering a high-performing and innovative work environment. Here are several strategies to build trust and empower your team:
 
@@ -43,15 +43,15 @@ By implementing these strategies as a CTO, you can build trust, enable empowerme
 
 ![Ash doing 1-1](https://udbjorg.net/assets/images/1-1.png)
 
-## The Importance of One-on-One Meetings: {#the-importance-of-one-on-one-meetings}
+## The Importance of One-on-One Meetings
 
 One-on-one meetings are essential for CTOs to build relationships with their direct reports, provide feedback, and discuss career development. These meetings should be held regularly, at least once a month, to ensure open lines of communication and maintain a pulse on the team's well-being. In addition, oIn addition, one-on-one meetings provide a safe space for employees to voice concerns, discuss challenges, and share ideas, which can help foster innovation and growth.
 
-### Skip-Level Meetings: Connecting with Your Team's Extended Network {#skip-level-meetings-connecting-with-your-team's-extended-network}
+### Skip-Level Meetings: Connecting with Your Team's Extended Network
 
 In addition to one-on-one meetings, CTOs should also consider implementing skip-level meetings. These meetings involve meeting with the direct reports of your direct reports, effectively "skipping" a level of management. By conducting skip-level meetings, CTOs can gain a broader perspective on team dynamics, identify potential issues, and uncover hidden talent within the organisation. Skip-level meetings can also help CTOs stay connected with their team's extended network, ensuring they are informed about the work being done at various levels of the organisation.
 
-### Structuring Meetings for Success {#structuring-meetings-for-success}
+### Structuring Meetings for Success
 
 To optimise the value of one-on-one and skip-level meetings, CTOs should establish a clear structure and agenda. This can include setting expectations for the meeting, allocating time for updates on projects and performance, discussing professional development, and addressing any concerns or questions. In addition, encouraging open and honest communication during these meetings can help build trust and facilitate sharing of new ideas, which can contribute to the organisation's future growth.
 
@@ -63,7 +63,7 @@ One-on-One Meetings
 4. **Focus on professional developmen**t: Use one-on-one meetings to discuss your team member's career goals, identify growth opportunities, and provide resources and support to help them achieve their objectives. Create a tailored development plan for each individual to ensure they feel valued and motivated.
 5. **Review action items and follow up**: At the end of each meeting, review the key takeaways and agree on any action items. Ensure that both parties are committed to following up on these items and discussing progress in the subsequent meeting. Review and Follow up will demonstrate accountability and ensure continuous improvement.
 
-## Conflict Resolution and Mediation for CTOs {#conflict-resolution-and-mediation-for-ctos}
+## Conflict Resolution and Mediation for CTOs
 
 As a CTO, addressing conflicts within your team is essential to effective people leadership. Conflicts, if left unresolved, can lead to decreased productivity, diminished morale, and increased employee turnover. To effectively resolve conflicts, consider employing strategies such as active listening, focusing on interests rather than positions, and finding common ground. You demonstrate empathy and facilitate better understanding by actively listening to each party's concerns and perspectives. Encourage team members to identify their underlying interests instead of digging into their positions, enabling a more collaborative problem-solving approach. Finally, seek common ground and shared objectives, allowing your team to work towards a mutually beneficial resolution. By mastering conflict resolution and mediation, you can foster a harmonious and collaborative work environment, ultimately contributing to your team's success and the overall growth of your organisation.
 
@@ -81,7 +81,7 @@ When mediating and resolving conflicts as a CTO, consider taking the following s
 
 Following these steps, a CTO can effectively mediate and resolve conflicts within their team, fostering a more harmonious and productive work environment.
 
-## Establishing a Shared Vision and Goals for Your Team {#establishing-a-shared-vision-and-goals-for-your-team}
+## Establishing a Shared Vision and Goals for Your Team
 
 As a CTO, aligning your team around a shared vision and clear goals is crucial for driving success and ensuring everyone is working towards the same objectives. Creating a compelling vision inspires and motivates your team, providing a sense of purpose and direction. Setting clear and well-defined goals for your team helps to break down the vision into actionable steps, enabling your team to monitor progress and celebrate achievements.
 
@@ -95,7 +95,7 @@ A Simple Guide to Setting Goals for Your Team:
 6. Provide resources and support: Equip your team with the necessary resources, tools, and support to achieve their goals. Encourage continuous learning and development, and offer guidance and coaching when needed.
 7. Please review and adjust: Regularly check your team's progress towards their goals and adjust as needed. Foster a culture of continuous improvement and adaptability, recognising that goals may need to evolve as circumstances change.
 
-## Goal Setting and Agile: {#goal-setting-and-agile}
+## Goal Setting and Agile
 
 Goal setting and Agile methodologies can work together effectively, as Agile emphasises iterative progress, collaboration, and adaptability. In an Agile environment, goals should be flexible and responsive to change.
 
@@ -108,9 +108,9 @@ Consider incorporating the following elements into your goal-setting process:
 
 By establishing a shared vision, setting clear and well-defined goals, and incorporating Agile principles, you can effectively align your team's efforts and drive success in your organisation.
 
-## Adapting to Change and Managing Uncertainty {#adapting-to-change-and-managing-uncertainty}
+## Adapting to Change and Managing Uncertainty
 
-In the fast-paced tech industry, CTOs must lead their teams through change and uncertainty. Developing a resilient and agile team requires implementing strategies that enable team members to adapt and thrive in challenging circumstances. 
+In the fast-paced tech industry, CTOs must lead their teams through change and uncertainty. Developing a resilient and agile team requires implementing strategies that enable team members to adapt and thrive in challenging circumstances.
 
 Here are some key strategies for managing change and uncertainty:
 
@@ -125,10 +125,9 @@ Here are some key strategies for managing change and uncertainty:
 
 Implementing these strategies can help your team adapt to change and manage uncertainty more effectively. As a CTO, your ability to lead your team through turbulent times will be critical to your organisation's success and continued growth.
 
+![A picture of Ash doing an interview](https://udbjorg.net/assets/images/interview.png)
 
-![Ash doing an interview](https://udbjorg.net/assets/images/interview.png)
-
-## Building a Diverse and Inclusive Team {#building-a-diverse-and-inclusive-team}
+## Building a Diverse and Inclusive Team
 
 Creating an inclusive job ad is just the beginning of building a diverse and inclusive team. A diverse team has numerous benefits, including increased creativity, innovation, and better decision-making.
 
@@ -145,11 +144,11 @@ To promote diversity and inclusion within your team, consider implementing the f
 
 By implementing these strategies and going beyond the job ad, you can create a more diverse and inclusive team, unlocking the benefits that come with a variety of perspectives and experiences.
 
-## Measuring and Evaluating Team Performance {#measuring-and-evaluating-team-performance}
+## Measuring and Evaluating Team Performance
 
 ![Ash looking at metrics](https://udbjorg.net/assets/images/metrics.png)
 
-As a CTO, assessing your team's performance is essential to drive improvements and foster growth. By measuring various metrics and conducting regular performance reviews, you can identify areas for development, celebrate successes, and ensure your team remains aligned with the organisation's goals. 
+As a CTO, assessing your team's performance is essential to drive improvements and foster growth. By measuring various metrics and conducting regular performance reviews, you can identify areas for development, celebrate successes, and ensure your team remains aligned with the organisation's goals.
 
 Here are some key aspects to consider when measuring and evaluating team performance:
 
@@ -164,6 +163,6 @@ Here are some key aspects to consider when measuring and evaluating team perform
 
 By measuring and evaluating team performance using these metrics and strategies, you can effectively drive improvements, foster growth, and create a high-performing team that contributes to the success of your organisation.
 
-## Summary, {#summary}
+## Summary
 
 This comprehensive guide for CTOs, highlights the importance of trust, empowerment, and effective leadership in driving growth and innovation. Key topics include building trust and psychological safety, one-on-one and skip-level meetings, conflict resolution, setting goals, adapting to change, promoting diversity and inclusion, and measuring team performance. By implementing the strategies outlined in this article, CTOs can cultivate a high-performing and empowered team that contributes to the success of their organisation.
