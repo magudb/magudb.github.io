@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Links"
+title: "Coffee meeting Links"
 description: "Links, ALOT!"
 comments: false
 category: "Links"
@@ -25,10 +25,13 @@ keywords: "Links, IT, Microservices, development, architecture, love"
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
+- [(298) The Most Beloved Burger For Developers - Youtube](https://www.youtube.com/watch?v=7swoLEqABhQ){:target="_blank"}
 - [The Four Domains Of Wasm - Fermyon • Experience The Next Wave Of Cloud Computing.](https://www.fermyon.com/blog/four-domains-wasm){:target="_blank"}
 
 ## DevOps<a name="devops"></a>
 
+
 ## Tools and things from Github <a name="tools"></a>
 
 - [Andrew Nalband On Twitter: "The World’s Most Popular Book On Habit Change: Atomic Habits I've Spent The Past 100 Days Summarizing And Visualizing The Best Ideas In The Book. Here's What I Learned: Https://t.co/q2gtyoxjwp" / Twitter](https://twitter.com/nalband/status/1631338158976638976){:target="_blank"}
+- [K8sgpt-ai/k8sgpt: Giving Kubernetes Sre Superpowers To Everyone](https://github.com/k8sgpt-ai/k8sgpt){:target="_blank"}
