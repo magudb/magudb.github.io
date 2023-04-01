@@ -41,7 +41,7 @@ As a CTO, building trust and enabling empowerment within your team is vital to f
 
 By implementing these strategies as a CTO, you can build trust, enable empowerment, and foster an environment where your team members feel valued, motivated, and inspired to contribute to the organisation's growth and innovation.
 
-![Ash doing 1-1](https://udbjorg.net/assets/images/1-1.png)
+![Ash doing 1-1](https://udbjorg.net/assets/images/1-1.jpg)
 
 ## The Importance of One-on-One Meetings
 
@@ -125,7 +125,7 @@ Here are some key strategies for managing change and uncertainty:
 
 Implementing these strategies can help your team adapt to change and manage uncertainty more effectively. As a CTO, your ability to lead your team through turbulent times will be critical to your organisation's success and continued growth.
 
-![A picture of Ash doing an interview](https://udbjorg.net/assets/images/interview.png)
+![A picture of Ash doing an interview](https://udbjorg.net/assets/images/interview.jpg)
 
 ## Building a Diverse and Inclusive Team
 
@@ -146,7 +146,7 @@ By implementing these strategies and going beyond the job ad, you can create a m
 
 ## Measuring and Evaluating Team Performance
 
-![Ash looking at metrics](https://udbjorg.net/assets/images/metrics.png)
+![Ash looking at metrics](https://udbjorg.net/assets/images/metrics.jpg)
 
 As a CTO, assessing your team's performance is essential to drive improvements and foster growth. By measuring various metrics and conducting regular performance reviews, you can identify areas for development, celebrate successes, and ensure your team remains aligned with the organisation's goals.
 
