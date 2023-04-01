@@ -7,7 +7,6 @@ RUN apt-get update \
     python-pygments \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/
-
 RUN gem install bundler -v 2.3.26
 
 VOLUME /src
