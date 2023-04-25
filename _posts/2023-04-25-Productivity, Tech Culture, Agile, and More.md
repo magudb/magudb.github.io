@@ -23,14 +23,14 @@ keywords: "IT Management,VP of Engineering,Agile Leadership,Tech Culture,Enginee
 - [Inside Look: Measuring Developer Productivity And Happiness At Linkedin - Linkedin Engineering](https://engineering.linkedin.com/blog/2023/inside-look--measuring-developer-productivity-and-happiness-at-l?utm_medium){:target="_blank"}
 - [Fast-forwarding Decision Making - The Engineering Manager](https://www.theengineeringmanager.com/growth/fast-forwarding-decision-making/){:target="_blank"}
 - [(352) The Ultimate Guide To Okrs - Christina Wodtke (Stanford) - Youtube](https://www.youtube.com/watch?v=kvkL18Ue0dE){:target="_blank"}
-- [How Adaptive Strategy Happens. Spoiler: Less Planning, More Steering. - By Rodney Evans | The Ready | Mar, 2023 | Medium](https://medium.com/the-ready/how-adaptive-strategy-happens-f62674445634){:target="_blank"}
+- [How Adaptive Strategy Happens. Spoiler: Less Planning, More Steering. - By Rodney Evans - The Ready - Mar, 2023 - Medium](https://medium.com/the-ready/how-adaptive-strategy-happens-f62674445634){:target="_blank"}
 - [The Cost Of Architectural Complexity - Linkedin](https://www.linkedin.com/pulse/cost-architectural-complexity-abi-noda/){:target="_blank"}
 - [4 Cognitive Biases That Impacts Productivity - Techtello](https://www.techtello.com/productivity-cognitive-biases/?utm_source&#x3D;pocket_saves){:target="_blank"}
 - [Tbm 203: Fixing Messy Problems - By John Cutler](https://cutlefish.substack.com/p/tbm-203-fixing-messy-problems){:target="_blank"}
 - [Research And Development (R&d) And The Product Lifecycle - Logrocket Blog](https://blog.logrocket.com/product-management/research-and-development-rd-product-lifecycle/#research-and-development-rd-vs-product-development){:target="_blank"}
-- [The Burnout Blueprint. You Know The Feeling: Everything Is A… - By Colin Jonov | Apr, 2023 | Medium](https://medium.com/@colin.jonov10/the-burnout-blueprint-7776927a0ac8){:target="_blank"}
-- [5 Red Flags Of Burnout And How To Overcome Them - By Better Every Day ✨🌈☀️ | Apr, 2023 | Medium](https://medium.com/@thepicturespeaksofficial/5-red-flags-of-burnout-and-how-to-overcome-them-80ab34e25382){:target="_blank"}
-- [Improve Onboarding In Teams Through The Magic Of Storytelling - By Amin Rashidbeigi | Mar, 2023 | Better Programming](https://betterprogramming.pub/improve-onboarding-in-teams-through-the-magic-of-storytelling-31b7fc479483){:target="_blank"}
+- [The Burnout Blueprint. You Know The Feeling: Everything Is A… - By Colin Jonov - Apr, 2023 - Medium](https://medium.com/@colin.jonov10/the-burnout-blueprint-7776927a0ac8){:target="_blank"}
+- [5 Red Flags Of Burnout And How To Overcome Them - By Better Every Day ✨🌈☀️ - Apr, 2023 - Medium](https://medium.com/@thepicturespeaksofficial/5-red-flags-of-burnout-and-how-to-overcome-them-80ab34e25382){:target="_blank"}
+- [Improve Onboarding In Teams Through The Magic Of Storytelling - By Amin Rashidbeigi - Mar, 2023 - Better Programming](https://betterprogramming.pub/improve-onboarding-in-teams-through-the-magic-of-storytelling-31b7fc479483){:target="_blank"}
 - [How To Rebuild Tech Culture For Those Who Survived The Layoffs](https://www.infoq.com/articles/rebuild-tech-culture-layoffs/){:target="_blank"}
 - [Raytha - The First 30 Days As A Cto Or Vp Of Engineering For Saas: What You Need To Know](https://raytha.com/blog/The-First-30-Days-as-a-CTO-or-VP-of-Engineering-What-You-Need-to-Know?utm_source&#x3D;pocket_saves){:target="_blank"}
 
@@ -38,9 +38,9 @@ keywords: "IT Management,VP of Engineering,Agile Leadership,Tech Culture,Enginee
 
 - [Fast-forwarding Decision Making - The Engineering Manager](https://www.theengineeringmanager.com/growth/fast-forwarding-decision-making/){:target="_blank"}
 - [The Power Of Empathy In Software Development Leadership](https://www.codertoleader.com/the-power-of-empathy-in-software-development-leadership/?utm_medium){:target="_blank"}
-- [How To Run Exceptional One-on-ones - By Dave Bailey | Dave Bailey](https://medium.dave-bailey.com/how-to-run-exceptional-one-on-ones-7cf9f22fce6e){:target="_blank"}
+- [How To Run Exceptional One-on-ones - By Dave Bailey - Dave Bailey](https://medium.dave-bailey.com/how-to-run-exceptional-one-on-ones-7cf9f22fce6e){:target="_blank"}
 - [The Link Between Company And Engineering Culture And The Importance Of Both - Cto Craft](https://ctocraft.com/blog/link-between-company-and-engineering-culture-and-the-importance-of-both/){:target="_blank"}
-- [My Typical Tactics For Influencing Leaders At Different Levels - By Jason Yip | Jan, 2023 | Medium](https://jchyip.medium.com/my-typical-tactics-for-influencing-leaders-at-different-levels-88166dcb3e5d){:target="_blank"}
+- [My Typical Tactics For Influencing Leaders At Different Levels - By Jason Yip - Jan, 2023 - Medium](https://jchyip.medium.com/my-typical-tactics-for-influencing-leaders-at-different-levels-88166dcb3e5d){:target="_blank"}
 - [Want An Unfair Advantage In Your Tech Career? Consume Content Meant For Other Roles](https://matthewgrohman.substack.com/p/want-an-unfair-advantage-in-your?utm_source&#x3D;pocket_saves){:target="_blank"}
 - [How Product Strategy Fails In The Real World — What To Avoid When Building Highly-technical Products - First Round Review](https://review.firstround.com/how-product-strategy-fails-in-the-real-world-what-to-avoid-when-building-highly-technical-products){:target="_blank"}
 - [Plg Vs. Microsoft - Kyle Poyar’s Growth Unhinged](https://kylepoyar.substack.com/p/plg-vs-microsoft?publication_id=311430&post_id=109663530&isFreemail=true){:target="_blank"}
@@ -57,7 +57,7 @@ keywords: "IT Management,VP of Engineering,Agile Leadership,Tech Culture,Enginee
 - [Programmer Interrupted: The Real Cost Of Interruption And Context Switching](https://contextkeeper.io/blog/the-real-cost-of-an-interruption-and-context-switching/){:target="_blank"}
 - [Junior To Senior: An Action Plan For Engineering Career Success](https://github.com/readme/guides/engineering-career-success?utm_medium){:target="_blank"}
 - [Clean Frontend Architecture With Sveltekit: Preface](https://nikoheikkila.fi/blog/clean-frontend-architecture-with-sveltekit/?ck_subscriber_id=1747563971){:target="_blank"}
-- [In-depth: The Costs And Benefits Of Pair Programming - By Christiaan Verwijs | The Liberators | Mar, 2023 | Medium](https://medium.com/the-liberators/in-depth-the-costs-and-benefits-of-pair-programming-b4b54b27c6ff){:target="_blank"}
+- [In-depth: The Costs And Benefits Of Pair Programming - By Christiaan Verwijs - The Liberators - Mar, 2023 - Medium](https://medium.com/the-liberators/in-depth-the-costs-and-benefits-of-pair-programming-b4b54b27c6ff){:target="_blank"}
 - [Matt Kaye - Unit Testing Analytics Code](https://matthewrkaye.com/posts/series/doing-data-science/2023-04-03-unit-testing/unit-testing.html){:target="_blank"}
 - [How To Enable Opentelemetry Traces In React Applications - Red Hat Developer](https://developers.redhat.com/articles/2023/03/22/how-enable-opentelemetry-traces-react-applications){:target="_blank"}
 - [Tracking Software Architecture Decisions - Dzone](https://dzone.com/articles/tracking-software-architecture-decisions){:target="_blank"}
