@@ -29,6 +29,7 @@ keywords: "IT Management,VP of Engineering,Agile Leadership,Tech Culture,Enginee
 
 ## DevOps<a name="devops"></a>
 
+- [Who Builds It And Who Runs It? Sre Team Topologies - Stack Overflow Blog](https://stackoverflow.blog/2023/03/20/who-builds-it-and-who-runs-it-sre-team-topologies/){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
