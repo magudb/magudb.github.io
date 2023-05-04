@@ -4,7 +4,7 @@ title: "Peacetime and Wartime Leadership in the Technology Industry: A CTO's Per
 description: "Learn how CTOs can adapt their leadership styles by understanding the concepts of Peacetime and Wartime CTOs, inspired by Ben Horowitz and Andrew S. Grove. Discover the responsibilities and strategies for navigating growth and crisis in the technology industry."
 comments: false
 image: https://udbjorg.net/assets/images/peacetime.png
-category: "management"
+category: "Management"
 keywords: "Peacetime CTO,Wartime CTO,Technology Leadership,Engineering Management,Ben Horowitz,Andrew S. Grove,Adaptability,Crisis Management,Innovation
 ,High Output Management"
 ---

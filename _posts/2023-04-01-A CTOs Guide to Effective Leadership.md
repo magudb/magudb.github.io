@@ -4,7 +4,7 @@ title: "Empowering Teams and Driving Success: A CTO's Guide to Effective Leaders
 description: "Uncover key strategies and insights for CTOs to build empowered teams, drive success, and effectively navigate the challenges of tech leadership in our comprehensive guide."
 comments: false
 image: https://udbjorg.net/assets/images/metrics.png
-category: "management"
+category: "Management"
 keywords: "CTO, leadership, empowering teams, tech industry, effective management, trust, psychological safety, one-on-one meetings, skip-level meetings, conflict resolution, shared vision, goal setting, Agile, adapting to change, diversity and inclusion, team performance, DORA metrics, SPACE metrics"
 ---
 

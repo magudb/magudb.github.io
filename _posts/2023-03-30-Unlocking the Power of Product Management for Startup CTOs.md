@@ -4,7 +4,7 @@ title: "Unlocking the Power of Product Management for Startup CTOs"
 description: "Discover the power of product management for startup CTOs and learn how to create successful products by aligning strategies, fostering collaboration, and building high-trust teams. Unlock your startup's potential with these essential tips."
 comments: false
 image: https://udbjorg.net/assets/images/Memorable design.png
-category: "management"
+category: "Management"
 keywords: "product management,startup CTO,product strategy,product roadmap,user-centred design,CTO-product manager alliance,aligning strategies,agile methodologies,high-trust teams,empowered teams,business objectives,team topologies,cross-functional collaboration,engineering strategy"
 ---
 

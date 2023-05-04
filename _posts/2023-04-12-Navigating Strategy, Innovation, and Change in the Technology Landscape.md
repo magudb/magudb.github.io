@@ -4,7 +4,7 @@ title: "Navigating Strategy, Innovation, and Change in the Technology Landscape"
 description: " Discover how to excel as a CTO by embracing agile strategy-making, driving innovation, and leading change in a rapidly evolving technology landscape with this comprehensive guide"
 comments: false
 image: https://udbjorg.net/assets/images/mindmao.png
-category: "management"
+category: "Management"
 keywords: "CTO, strategy-making, agile, innovation, technology landscape, change management, continuous learning, cross-functional teams, diversity and inclusion, double-loop learning, exploration and exploitation, organizational agility, strategic planning"
 ---
 ## TL;DR

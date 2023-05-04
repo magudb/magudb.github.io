@@ -4,7 +4,7 @@ title: "Embracing Microservices: Balancing Trade-offs, Benefits, Costs, and Orga
 description: "Explore the factors to consider when adopting microservices, such as trade-offs, benefits, costs, and organizational aspects, and learn how to effectively implement this architectural style."
 comments: false
 image: https://udbjorg.net/assets/images/microservices.png
-category: "management"
+category: "Management"
 keywords: "microservices, trade-offs, benefits, costs, organizational factors, implementation, architectural style, software development, practical elements, cultural aspects"
 ---
 
