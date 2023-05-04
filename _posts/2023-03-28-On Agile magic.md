@@ -3,7 +3,7 @@ layout: post
 title: "Agile for Startups: Turbocharge Your Company's Succes."
 description: "Discover the power of Agile methodologies and unlock your startup's full potential. This comprehensive guide explores the fundamentals of Agile, offers practical tips for customizing Agile practices, and provides actionable insights for overcoming common challenges. Learn how to harness DORA and SPACE metrics to optimize your Agile implementation and set your technical team on the path to success."
 comments: false
-category: "things"
+category: "management"
 keywords: " Agile methodologies, startup success, technical team, Agile Manifesto, DORA metrics, SPACE metrics, Agile implementation, Agile customization, Agile challenges, Agile transformation"
 ---
 ## TL;DR

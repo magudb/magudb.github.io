@@ -20,17 +20,49 @@ keywords: "IT Management,VP of Engineering,Agile Leadership,Tech Culture,Enginee
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
+- [90% Of My Skills Are Now Worth $0 - By Kent Beck](https://tidyfirst.substack.com/p/90-of-my-skills-are-now-worth-0){:target="_blank"}
+- [Startup Playbook](https://playbook.samaltman.com/?utm_medium){:target="_blank"}
+- [Some Mistakes I Made As A New Manager - Benkuhn.net](https://www.benkuhn.net/newmgr/?utm_medium){:target="_blank"}
+- [The Leadership Trail - Hiking Our Way To Become Better Leaders](https://carlosvilhena.com/the-leadership-trail-hiking-our-way-to-become-better-leaders/){:target="_blank"}
+- [How To Run A Pre-mortem. Mitigate Against Risks That Matter With… - By Anthony Murphy | Apr, 2023 | Product Coalition](https://productcoalition.com/how-to-run-a-pre-mortem-4b4a3004c5cb){:target="_blank"}
+- [Purpose And Profit](https://blog.actuaries.org.uk/purpose-profit/){:target="_blank"}
+- [Here Are 5 Proven Practices To Boost Psychological… - Corporate Rebels](https://www.corporate-rebels.com/blog/practices-to-boost-psychological-safety){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
+- [Software Engineering Onboarding: Defining The Rules Of Fun - By Andrew Winnicki | Geek Culture | Apr, 2023 | Medium](https://medium.com/geekculture/software-engineering-onboarding-defining-the-rules-of-fun-a67cc92fab62){:target="_blank"}
+- ["Can't Code! Not Inclined To Hire?" - Why Engineering Managers Don't Need To Be Great Coders](https://www.scarletink.com/why-engineering-managers-dont-need-to-code/){:target="_blank"}
+- [Some Mistakes I Made As A New Manager - Benkuhn.net](https://www.benkuhn.net/newmgr/?utm_medium){:target="_blank"}
+- [Ecosystem Success Metrics - Square Corner Blog](https://developer.squareup.com/blog/ecosystem-success-metrics/){:target="_blank"}
+- [A Fresh Perspective On Forecasting In Software Development - By Philip Rogers | A Path Less Taken | Apr, 2023 | Medium](https://medium.com/agile-outside-the-box/a-fresh-perspective-on-forecasting-in-software-development-7c521c275146){:target="_blank"}
+- [Team Accountability: Great Teams Hold One Another Accountable (You Can Too)](https://letsgrowleaders.com/2023/04/17/team-accountability/){:target="_blank"}
+- [How To Be A Better Manager Of Managers (Let's Talk About Accountability)](https://letsgrowleaders.com/2023/04/21/better-manager-of-managers/){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
+- [Phind: Ai Search Engine](https://www.phind.com/){:target="_blank"}
+- [On-time Delivery - By Abi Noda - Abi's Newsletter](https://newsletter.abinoda.com/p/on-time-delivery){:target="_blank"}
+- [Lessons Learned From A Failed Microservice Architecture - Bits And Pieces](https://blog.bitsrc.io/lessons-learned-from-a-failed-micro-service-architecture-e76269d5ada7){:target="_blank"}
+- [How To Troubleshoot Memory Leaks In Go With Grafana Pyroscope - Grafana Labs](https://grafana.com/blog/2023/04/19/how-to-troubleshoot-memory-leaks-in-go-with-grafana-pyroscope/){:target="_blank"}
+- [Technology Lifecycle - Slack Engineering](https://slack.engineering/technology-lifecycle/?utm_medium){:target="_blank"}
+- [Oxy: Fish/bumblebee/splicer Subsystems To Improve Reliability](https://blog.cloudflare.com/oxy-fish-bumblebee-splicer-subsystems-to-improve-reliability/){:target="_blank"}
+- [Why Is Oauth Still Hard In 2023? - Nango Blog](https://www.nango.dev/blog/why-is-oauth-still-hard?utm_medium){:target="_blank"}
+- [Understanding Database Types - By Alex Xu](https://blog.bytebytego.com/p/understanding-database-types?utm_medium){:target="_blank"}
+- [The Inner Workings Of Distributed Databases - Questdb](https://questdb.io/blog/inner-workings-distributed-databases/?utm_medium){:target="_blank"}
+- [Postgres Superpowers In Practice - Event-driven.io](https://event-driven.io/en/postgres_superpowers/?utm_medium){:target="_blank"}
 
 ## DevOps<a name="devops"></a>
 
+- [Which Devops Patterns To Implement In Your Team / Company? - Version Lambda](https://versionlambda.com/how-to-make-the-most-out-of-devops-in-your-development-team-company/){:target="_blank"}
+- [The Silent Platform Revolution: How Ebpf Is Fundamentally Transforming Cloud-native Platforms](https://www.infoq.com/articles/ebpf-cloud-native-platforms/){:target="_blank"}
+- [Kubecon Eu + Cloudnativecon 2023 Summary - Ambassador Labs](https://blog.getambassador.io/kubecon-eu-cloudnativecon-2023-summary-devex-debugging-and-doubling-down-on-community-82abee5853b3){:target="_blank"}
 - [Who Builds It And Who Runs It? Sre Team Topologies - Stack Overflow Blog](https://stackoverflow.blog/2023/03/20/who-builds-it-and-who-runs-it-sre-team-topologies/){:target="_blank"}
+- [Spotify Backstage - How Spotify Measures The Value Of Backstage](https://backstage.spotify.com/blog/how-spotify-measures-backstage-roi/){:target="_blank"}
+- [Site Reliability Engineering 101 – Srepath For Site Reliability Engineers](https://www.srepath.com/site-reliability-engineering-101/){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
-
+- [Captain - Rwx](https://www.rwx.com/captain){:target="_blank"}
+- [Web-infra-dev/modern.js: Modern.js Is A Web Engineering System, Including A Web Framework, A Npm Package Solution And A Documentation Site Solution.](https://github.com/web-infra-dev/modern.js?ck_subscriber_id=1747563971){:target="_blank"}
+- [Hashicorp-forge/hermes: A Document Management System](https://github.com/hashicorp-forge/hermes){:target="_blank"}
+- [Textualize/frogmouth: A Markdown Browser For Your Terminal](https://github.com/Textualize/frogmouth){:target="_blank"}

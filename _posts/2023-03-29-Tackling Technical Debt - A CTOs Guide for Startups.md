@@ -4,7 +4,7 @@ title: "Tackling Technical Debt - A CTO's Guide for Startups"
 description: "Discover strategies for managing and mitigating technical debt in startups from a CTO's perspective. Learn about the importance of the term 'technical debt', its implications for startups, and practical approaches to prioritize and address it for long-term success."
 comments: false
 image: https://udbjorg.net/assets/images/totoro and the robots.jpg
-category: "things"
+category: "management"
 keywords: "technical debt, CTO, startups, refactoring, codebase, communication, collaboration, software development, debt reduction, coding standards, continuous learning, resilience, engineering performance, prioritizing technical debt, business value, maintainability"
 ---
 ## TL; DR

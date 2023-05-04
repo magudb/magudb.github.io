@@ -3,7 +3,7 @@ layout: post
 title: "On Hiring: A Guide for Startup CTOs"
 description: "Discover how startup CTOs can create transparent hiring processes to build trust-based technical teams. Explore strategies for crafting inclusive job ads, engaging pitches, and effective recruitment flows to attract top talent and drive success."
 comments: false
-category: "things"
+category: "management"
 keywords: "trust-based technical teams,startup CTO,transparent hiring process,job ad,pitch, recruitment flow,diversity and inclusion,team involvement"
 ---
 # Hiring: A Guide for Startup CTOs
