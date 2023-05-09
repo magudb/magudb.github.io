@@ -47,7 +47,7 @@ With this context in mind, let's delve into the characteristics and responsibili
 In periods of growth, stability, and relative calm, a CTO embodies the role of the Peacetime CTO. During these times, the primary focus is on innovation, long-term strategy, team development, and fostering a positive organisational culture. Peacetime conditions allow the CTO to concentrate on expanding their team, nurturing talent, and exploring new technologies and opportunities.
 
 
-### Conditions for Peacetime
+### Conditions for Peacetime 
 
 The following conditions usually indicate that an organisation is in a state of peacetime:
 
