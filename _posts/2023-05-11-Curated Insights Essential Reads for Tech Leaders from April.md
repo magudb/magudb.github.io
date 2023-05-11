@@ -27,7 +27,7 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 - [Startup Playbook](https://playbook.samaltman.com/?utm_medium){:target="_blank"}
 - [Some Mistakes I Made As A New Manager - Benkuhn.net](https://www.benkuhn.net/newmgr/?utm_medium){:target="_blank"}
 - [The Leadership Trail - Hiking Our Way To Become Better Leaders](https://carlosvilhena.com/the-leadership-trail-hiking-our-way-to-become-better-leaders/){:target="_blank"}
-- [How To Run A Pre-mortem. Mitigate Against Risks That Matter With… - By Anthony Murphy | Apr, 2023 | Product Coalition](https://productcoalition.com/how-to-run-a-pre-mortem-4b4a3004c5cb){:target="_blank"}
+- [How To Run A Pre-mortem. Mitigate Against Risks That Matter With… - By Anthony Murphy - Apr, 2023 - Product Coalition](https://productcoalition.com/how-to-run-a-pre-mortem-4b4a3004c5cb){:target="_blank"}
 - [Purpose And Profit](https://blog.actuaries.org.uk/purpose-profit/){:target="_blank"}
 - [Here Are 5 Proven Practices To Boost Psychological… - Corporate Rebels](https://www.corporate-rebels.com/blog/practices-to-boost-psychological-safety){:target="_blank"}
 - [Figma Cheat Sheet - For Developers Using Inspect Mode](https://figma-cheat-sheet.christianreich.art/){:target="_blank"}
@@ -38,13 +38,13 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 - [Who Builds It And Who Runs It? Sre Team Topologies - Stack Overflow Blog](https://stackoverflow.blog/2023/03/20/who-builds-it-and-who-runs-it-sre-team-topologies/){:target="_blank"}
 - [The Leadership Trail - Hiking Our Way To Become Better Leaders](https://carlosvilhena.com/the-leadership-trail-hiking-our-way-to-become-better-leaders/){:target="_blank"}
 - [How Do I Lead My Team Without Strategic Direction From The Top?](https://hbr.org/podcast/2023/04/how-do-i-lead-my-team-without-strategic-direction-from-the-top){:target="_blank"}
-- [Avoiding The Rewrite Trap. A Common Challenge For Engineering… - By Camille Fournier | Apr, 2023 | Medium](https://skamille.medium.com/avoiding-the-rewrite-trap-b1283b8dd39e){:target="_blank"}
+- [Avoiding The Rewrite Trap. A Common Challenge For Engineering… - By Camille Fournier - Apr, 2023 - Medium](https://skamille.medium.com/avoiding-the-rewrite-trap-b1283b8dd39e){:target="_blank"}
 - [4 Types Of Employee Complaints — And How To Respond](https://hbr.org/2023/05/4-types-of-employee-complaints-and-how-to-respond){:target="_blank"}
-- [Software Engineering Onboarding: Defining The Rules Of Fun - By Andrew Winnicki | Geek Culture | Apr, 2023 | Medium](https://medium.com/geekculture/software-engineering-onboarding-defining-the-rules-of-fun-a67cc92fab62){:target="_blank"}
+- [Software Engineering Onboarding: Defining The Rules Of Fun - By Andrew Winnicki - Geek Culture - Apr, 2023 - Medium](https://medium.com/geekculture/software-engineering-onboarding-defining-the-rules-of-fun-a67cc92fab62){:target="_blank"}
 - ["Can't Code! Not Inclined To Hire?" - Why Engineering Managers Don't Need To Be Great Coders](https://www.scarletink.com/why-engineering-managers-dont-need-to-code/){:target="_blank"}
 - [Some Mistakes I Made As A New Manager - Benkuhn.net](https://www.benkuhn.net/newmgr/?utm_medium){:target="_blank"}
 - [Ecosystem Success Metrics - Square Corner Blog](https://developer.squareup.com/blog/ecosystem-success-metrics/){:target="_blank"}
-- [A Fresh Perspective On Forecasting In Software Development - By Philip Rogers | A Path Less Taken | Apr, 2023 | Medium](https://medium.com/agile-outside-the-box/a-fresh-perspective-on-forecasting-in-software-development-7c521c275146){:target="_blank"}
+- [A Fresh Perspective On Forecasting In Software Development - By Philip Rogers - A Path Less Taken - Apr, 2023 - Medium](https://medium.com/agile-outside-the-box/a-fresh-perspective-on-forecasting-in-software-development-7c521c275146){:target="_blank"}
 - [Team Accountability: Great Teams Hold One Another Accountable (You Can Too)](https://letsgrowleaders.com/2023/04/17/team-accountability/){:target="_blank"}
 - [How To Be A Better Manager Of Managers (Let's Talk About Accountability)](https://letsgrowleaders.com/2023/04/21/better-manager-of-managers/){:target="_blank"}
 - [Three Ways To Gain Visibility Into Indirectly Managed Teams](https://softwareleads.substack.com/p/three-ways-to-gain-visibility-into){:target="_blank"}
@@ -54,7 +54,7 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 
 - [System Design - Blueprint](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25d7ba1c-b55d-4307-baee-03f05c376f4b_3888x4096.jpeg){:target="_blank"}
 - [Agility And Architecture: Balancing Minimum Viable Product And Minimum Viable Architecture](https://www.infoq.com/articles/agility-architecture/){:target="_blank"}
-- [Avoiding The Rewrite Trap. A Common Challenge For Engineering… - By Camille Fournier | Apr, 2023 | Medium](https://skamille.medium.com/avoiding-the-rewrite-trap-b1283b8dd39e){:target="_blank"}
+- [Avoiding The Rewrite Trap. A Common Challenge For Engineering… - By Camille Fournier - Apr, 2023 - Medium](https://skamille.medium.com/avoiding-the-rewrite-trap-b1283b8dd39e){:target="_blank"}
 - [Supercharging Your Grpc Workflow - Bob](https://bob.build/blog/supercharge-grpc-workflows){:target="_blank"}
 - [Phind: Ai Search Engine](https://www.phind.com/){:target="_blank"}
 - [On-time Delivery - By Abi Noda - Abi's Newsletter](https://newsletter.abinoda.com/p/on-time-delivery){:target="_blank"}
@@ -66,7 +66,7 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 - [Understanding Database Types - By Alex Xu](https://blog.bytebytego.com/p/understanding-database-types?utm_medium){:target="_blank"}
 - [The Inner Workings Of Distributed Databases - Questdb](https://questdb.io/blog/inner-workings-distributed-databases/?utm_medium){:target="_blank"}
 - [Postgres Superpowers In Practice - Event-driven.io](https://event-driven.io/en/postgres_superpowers/?utm_medium){:target="_blank"}
-- [A Fresh Perspective On Forecasting In Software Development - By Philip Rogers | A Path Less Taken | Apr, 2023 | Medium](https://medium.com/agile-outside-the-box/a-fresh-perspective-on-forecasting-in-software-development-7c521c275146){:target="_blank"}
+- [A Fresh Perspective On Forecasting In Software Development - By Philip Rogers - A Path Less Taken - Apr, 2023 - Medium](https://medium.com/agile-outside-the-box/a-fresh-perspective-on-forecasting-in-software-development-7c521c275146){:target="_blank"}
 
 ## DevOps<a name="devops"></a>
 
