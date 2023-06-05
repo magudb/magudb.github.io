@@ -3,15 +3,18 @@ layout: page
 title: About
 permalink: /about/
 ---
-# Who am I ?
-I'm a developer by heart and a leader, an Executive Master in IT-Management, BA in Social science and Computer science. Almost every aspect of IT is exciting and something we can use to bring good to the world. Always try to share everything I find interesting; this is my way of staying on top of the ever-changing world of technology.
+# Meet Magnus Udbjørg.
 
-## Data:
+Driven by a profound love for technology, I am a devoted developer and leader with an Executive Master's degree in IT-Management and a BA in Social Science and Computer Science. I find every facet of IT exhilarating, viewing it as a versatile tool that can benefit our world significantly.
+With a constant thirst for knowledge, I endeavour to share everything that sparks my curiosity. This continuous pursuit of learning allows me to stay abreast of the dynamic landscape of technology.
 
-* 1 Wife - Line Langballe
-* 2 Child - Frej, an awesome dude and Liv a briliant little girl.
-* ~19 years experience working in IT
+Presently, I am the CTO at [TestaViva](https://www.testaviva.dk). TestaViva is an exceptional Legal-tech company transforming how individuals manage their legal documents throughout their lives. It's a role that allows me to contribute to and witness the evolution of the legal-tech landscape firsthand.
+## Personal Snapshot:
 
-## Contact me:
-* [LinkedIn]({{ site.author.linkedin }})
-* Private E-mail - [magnus@udbjorg.net](mailto:magnus@udbjorg.net)
+- Devoted husband to Line Langballe
+- Proud father of two – Frej, an incredible young man, and Liv, a wonderfully bright little girl.
+- Nearly two decades of rich experience in the IT industry
+# Connect with Me:
+[LinkedIn]({{ site.author.linkedin }})
+Private E-mail - magnus@udbjorg.net
+Company E-mail - mlu@testaviva.dk
