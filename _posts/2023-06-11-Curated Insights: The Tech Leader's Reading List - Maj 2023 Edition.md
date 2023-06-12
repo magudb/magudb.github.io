@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Curated Insights: Essential Reads for Tech Leaders from April"
-description: "Dive into my handpicked selection of resources designed to empower tech leaders. Spanning topics from leadership and software development to DevOps and user experience, this collection offers invaluable insights from experts in the field. Whether you're a startup founder, a seasoned manager, or an aspiring tech leader, these articles will equip you with the knowledge you need to excel in today's rapidly evolving tech landscape."
+title: "Curated Insights: The Tech Leader's Reading List: Maj 2023 Edition"
+description: "My latest blog post brings together a treasure trove of resources for tech leaders in May 2023. Ranging from CEO concerns and gig economy dynamics to the future of AI and effective backlog management, these articles offer a deep dive into the most critical aspects of tech leadership today. Plus, discover valuable insights on Agile, product development, and DevOps, along with a rundown of some of the most exciting tools on Github right now"
 comments: false
 category: "Links"
-keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Deep Learning, Startup, Engineering Management, Architecture, System Design, Database Management, Cloud-native Platforms, Team Management, Employee Engagement, Tech Tools."
+keywords: "Leadership, Agile, Product Development, Engineering Management, Software Architecture, CEO Metrics, Gig Economy, AI, Technical Backlog, Developer Productivity, Inclusive Scheduling, Engineering Levels, Remote Team Management, Database Selection, DevOps, API Design, GraphQL, OpenTelemetry, Microservices, Software Development Tools"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
+- Metrics your CEO cares about - [Intro](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7054466615173611520-w8YN/){:target="_blank"}, [Ceo's Concern #1: Transparency.](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7057337610834198529-TD42/){:target="_blank"}, [Ceo's Concern #2: Predictability](https://www.linkedin.com/posts/miri-curiel_ceos-concern-2-predictability-continuing-activity-7060976570638680064-XvYl/){:target="_blank"}, [Ceo's Concern #3: R&d Seems Disconnected From The Business Pains](https://www.linkedin.com/posts/miri-curiel_startupstruggles-engineeringleadership-engineeringmetrics-activity-7069306673554759680-a2iQ/){:target="_blank"} & [Ceo's Concern #4: The Ceo Feels That The Engineering Team Does Not Work Hard Enough](https://www.linkedin.com/posts/miri-curiel_ceos-concern-4-the-ceo-feels-that-the-activity-7071848212046749696-zqPC/){:target="_blank"}
 - [Research Reveals Majority Of Gig Economy Workers Are Earning Below Minimum Wage](https://www.bristol.ac.uk/news/2023/may/gig-economy-worker-research.html?utm_medium){:target="_blank"}
 - [Zakirullin/cognitive-load: 🧠 Cognitive Load Developer's Handbook](https://github.com/zakirullin/cognitive-load?utm_medium){:target="_blank"}
 - [An Example Of Llm Prompting For Programming](https://martinfowler.com/articles/2023-chatgpt-xu-hao.html){:target="_blank"}
@@ -30,6 +31,7 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
+- [10 Ideas From The Best Book On Engineering Management - By Syed Mohsin - Better Programming](https://betterprogramming.pub/10-ideas-from-the-best-book-on-engineering-management-c3caa706f77c){:target="_blank"}
 - [A Practical Guide To Executive Presence - Stay Saasy](https://blog.staysaasy.com/p/a-practical-guide-to-executive-presence){:target="_blank"}
 - [The Dark Side Of The Leadership. - By Elena Verna](https://elenaverna.substack.com/p/the-dark-side-of-the-leadership){:target="_blank"}
 - [Key Practice: Aligned, Autonomous Cross-disciplinary Teams. - By Jason Yip - Apr, 2023 - Medium](https://jchyip.medium.com/key-practice-aligned-autonomous-cross-disciplinary-teams-d73c1cddc352){:target="_blank"}
@@ -53,7 +55,7 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 - [How To Manage Your Technical Backlog - By Darío Rodríguez - Apr, 2023 - Level Up Coding](https://levelup.gitconnected.com/how-to-manage-your-technical-backlog-868415f8eea9){:target="_blank"}
 - [An Example Of Llm Prompting For Programming](https://martinfowler.com/articles/2023-chatgpt-xu-hao.html){:target="_blank"}
 - [Rules Of Thumb For Software Development Estimations](https://vadimkravcenko.com/shorts/project-estimates/?utm_medium){:target="_blank"}
-- ["Listen, Learn Then Lead" - By Margarida Afonso | Management Matters](https://medium.com/management-matters/listen-learn-then-lead-e1dbf67f4e4f){:target="_blank"}
+- ["Listen, Learn Then Lead" - By Margarida Afonso - Management Matters](https://medium.com/management-matters/listen-learn-then-lead-e1dbf67f4e4f){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
@@ -112,3 +114,5 @@ keywords: "Leadership, Agile, Software Development, DevOps, User Experience, Dee
 - [What Is Hiber3d Development Kit (Hdk)? - Hdk Docs](https://developer.hiber3d.com/docs){:target="_blank"}
 - [Schemaspy/schemaspy: Database Documentation Built Easy](https://github.com/schemaspy/schemaspy){:target="_blank"}
 - [Evanw/polywasm](https://github.com/evanw/polywasm){:target="_blank"}
+- [What Is Hiber3d Development Kit (Hdk)? - Hdk Docs](https://developer.hiber3d.com/docs){:target="_blank"}
+- [Alan2207/bulletproof-react: 🛡️ ⚛️ A Simple, Scalable, And Powerful Architecture For Building Production Ready React Applications.](https://github.com/alan2207/bulletproof-react){:target="_blank"}
