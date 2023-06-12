@@ -3,7 +3,7 @@ layout: post
 title: "Let your watchword be order and your beacon beauty."
 description: "Let your watchword be order and your beacon beauty."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Let-your-watchword-be-order-and-your-beacon-beauty/"
 ---

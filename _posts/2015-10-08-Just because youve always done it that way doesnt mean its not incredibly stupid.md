@@ -3,7 +3,7 @@ layout: post
 title: "Just because you've always done it that way doesn't mean it's not incredibly stupid."
 description: "Just because you've always done it that way doesn't mean it's not incredibly stupid."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Just-because-youve-always-done-it-that-way-doesnt-mean-its-not-incredibly-stupid/"
 ---

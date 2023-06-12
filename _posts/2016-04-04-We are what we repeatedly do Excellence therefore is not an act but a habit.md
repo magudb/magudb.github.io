@@ -3,7 +3,7 @@ layout: post
 title: "We are what we repeatedly do. Excellence, therefore, is not an act, but a habit."
 description: "We are what we repeatedly do. Excellence, therefore, is not an act, but a habit."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/We-are-what-we-repeatedly-do-Excellence-therefore-is-not-an-act-but-a-habit/"
 ---

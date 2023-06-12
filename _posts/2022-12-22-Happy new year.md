@@ -3,7 +3,7 @@ layout: post
 title: "Links"
 description: "NEW YEAR!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 

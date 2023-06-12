@@ -3,7 +3,7 @@ layout: post
 title: "A confident client will see your confidence as strength, not arrogance."
 description: "A confident client will see your confidence as strength, not arrogance."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/A-confident-client-will-see-your-confidence-as-strength-not-arrogance/"
 ---

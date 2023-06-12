@@ -3,7 +3,7 @@ layout: post
 title: "Design works best when it gets out of the user's way."
 description: "Design works best when it gets out of the user's way."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Design-works-best-when-it-gets-out-of-the-users-way/"
 ---

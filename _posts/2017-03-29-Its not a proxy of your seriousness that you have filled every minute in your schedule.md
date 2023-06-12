@@ -3,7 +3,7 @@ layout: post
 title: "Its not a proxy of your seriousness that you have filled every minute in your schedule"
 description: "It's not a proxy of your seriousness that you have filled every minute in your schedule - B. Gates"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Its-not-a-proxy-of-your-seriousness-that-you-have-filled-every-minute-in-your-schedule/"
 ---

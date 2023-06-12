@@ -3,7 +3,7 @@ layout: post
 title: "When you do things right, people won’t be sure you’ve done anything at all."
 description: "When you do things right, people won’t be sure you’ve done anything at all."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/When-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/"
 ---

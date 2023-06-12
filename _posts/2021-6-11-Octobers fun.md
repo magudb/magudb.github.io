@@ -3,7 +3,7 @@ layout: post
 title: "October fun"
 description: "Links, FUN!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025--> 

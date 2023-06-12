@@ -3,7 +3,7 @@ layout: post
 title: "If we have trouble using something then it’s probably because that thing is badly designed, rather than us being stupid."
 description: "If we have trouble using something then it’s probably because that thing is badly designed, rather than us being stupid."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/If-we-have-trouble-using-something-then-its-probably-because-that-thing-is-badly-designed-rather-than-us-being-stupid/"
 ---

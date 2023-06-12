@@ -3,7 +3,7 @@ layout: post
 title: "Links is a great combination between artistry and engineering."
 description: "Software is a great combination between artistry and engineering."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Software-is-a-great-combination-between-artistry-and-engineering/"
 ---

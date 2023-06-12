@@ -3,7 +3,7 @@ layout: post
 title: "September mayhem!!!"
 description: "Links from September"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love, event-driven"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->

@@ -3,7 +3,7 @@ layout: post
 title: "The details are not the details. They make the design."
 description: "The details are not the details. They make the design."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/The-details-are-not-the-details-They-make-the-design/"
 ---

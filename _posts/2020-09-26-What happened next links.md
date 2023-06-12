@@ -3,7 +3,7 @@ layout: post
 title: "What happened next links?"
 description: "Links, ALOT!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 redirect_from: "2020/What-happened-next-links"
 ---

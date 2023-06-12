@@ -3,7 +3,7 @@ layout: post
 title: "Stop looking at yourself as a designer, and start thinking of yourself as a deliverer of ideas."
 description: "Stop looking at yourself as a designer, and start thinking of yourself as a deliverer of ideas."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Stop-looking-at-yourself-as-a-designer-and-start-thinking-of-yourself-as-a-deliverer-of-ideas/"
 ---

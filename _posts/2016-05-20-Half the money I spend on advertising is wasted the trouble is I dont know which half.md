@@ -3,7 +3,7 @@ layout: post
 title: "Half the money I spend on advertising is wasted; the trouble is I don't know which half."
 description: "Half the money I spend on advertising is wasted; the trouble is I don't know which half."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Half-the-money-I-spend-on-advertising-is-wasted-the-trouble-is-I-dont-know-which-half/"
 ---

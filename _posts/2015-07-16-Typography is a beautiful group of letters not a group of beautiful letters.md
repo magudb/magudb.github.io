@@ -3,7 +3,7 @@ layout: post
 title: "Typography is a beautiful group of letters, not a group of beautiful letters."
 description: "Typography is a beautiful group of letters, not a group of beautiful letters."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Typography-is-a-beautiful-group-of-letters-not-a-group-of-beautiful-letters/"
 ---

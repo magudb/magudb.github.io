@@ -3,7 +3,7 @@ layout: post
 title: "x-mas is upon you <3"
 description: "Links :HEART:"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 

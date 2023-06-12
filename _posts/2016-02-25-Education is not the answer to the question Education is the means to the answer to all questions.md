@@ -3,7 +3,7 @@ layout: post
 title: "Education is not the answer to the question. Education is the means to the answer to all questions."
 description: "Education is not the answer to the question. Education is the means to the answer to all questions."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Education-is-not-the-answer-to-the-question-Education-is-the-means-to-the-answer-to-all-questions/"
 ---

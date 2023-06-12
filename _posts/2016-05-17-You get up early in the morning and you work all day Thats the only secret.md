@@ -3,7 +3,7 @@ layout: post
 title: "You get up early in the morning and you work all day. That’s the only secret."
 description: "You get up early in the morning and you work all day. That’s the only secret."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/You-get-up-early-in-the-morning-and-you-work-all-day-Thats-the-only-secret/"
 ---

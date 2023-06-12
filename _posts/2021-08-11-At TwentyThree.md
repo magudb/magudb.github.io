@@ -3,7 +3,7 @@ layout: post
 title: "August - I Joined TwentyThree :heart:"
 description: "Links, TwentyThree version!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 redirect_from: /2021/08/At-TwentyThree
 ---

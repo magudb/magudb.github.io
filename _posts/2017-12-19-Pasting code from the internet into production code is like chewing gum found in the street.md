@@ -3,7 +3,7 @@ layout: post
 title: "Pasting code from the internet into production code is like chewing gum found in the street"
 description: "Pasting code from the internet into production code is like chewing gum found in the street. - Mike Johnson"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Pasting-code-from-the-internet-into-production-code-is-like-chewing-gum-found-in-the-street/"
 ---

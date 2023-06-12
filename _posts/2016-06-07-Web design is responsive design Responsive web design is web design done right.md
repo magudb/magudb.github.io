@@ -3,7 +3,7 @@ layout: post
 title: "Web design is responsive design. Responsive web design is web design, done right."
 description: "Web design is responsive design. Responsive web design is web design, done right."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Web-design-is-responsive-design-Responsive-web-design-is-web-design-done-right/"
 ---

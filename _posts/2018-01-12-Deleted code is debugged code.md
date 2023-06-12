@@ -3,7 +3,7 @@ layout: post
 title: "Deleted code is debugged code."
 description: "“Deleted code is debugged code.” – Jeff Sickel"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2018/Deleted-code-is-debugged-code/"
 ---

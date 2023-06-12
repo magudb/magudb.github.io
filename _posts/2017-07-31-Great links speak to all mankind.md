@@ -3,7 +3,7 @@ layout: post
 title: "Great links speak only to the thoughtful mind, but great actions speak to all mankind"
 description: "Great thoughts speak only to the thoughtful mind, but great actions speak to all mankind."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Great-links-speak-to-all-mankind/"
 ---

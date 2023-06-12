@@ -3,7 +3,7 @@ layout: post
 title: "September dump"
 description: "Links just for your reading pleasure!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->

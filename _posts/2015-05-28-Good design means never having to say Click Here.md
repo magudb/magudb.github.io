@@ -3,7 +3,7 @@ layout: post
 title: "Good design means never having to say 'Click Here.'"
 description: "Good design means never having to say 'Click Here.'"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Good-design-means-never-having-to-say-Click-Here/"
 ---

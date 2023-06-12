@@ -3,7 +3,7 @@ layout: post
 title: "You never finish a program, you just stop working on it."
 description: "You never finish a program, you just stop working on it."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/You-never-finish-a-link-you-just-stop-working-on-it/"
 ---

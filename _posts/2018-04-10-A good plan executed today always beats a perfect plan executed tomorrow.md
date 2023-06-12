@@ -3,7 +3,7 @@ layout: post
 title: "A good link clicked today always beats a perfect link clicked tomorrow..."
 description: "“A good plan executed today always beats a perfect plan executed tomorrow.” – George Patton"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2018/A-good-plan-executed-today-always-beats-a-perfect-plan-executed-tomorrow/"
 ---

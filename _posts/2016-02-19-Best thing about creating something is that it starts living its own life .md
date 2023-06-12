@@ -3,7 +3,7 @@ layout: post
 title: "Best thing about creating something is that it starts living it's own life. "
 description: "Best thing about creating something is that it starts living it's own life. "
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Best-thing-about-creating-something-is-that-it-starts-living-its-own-life-/"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "If design becomes your life, you can be sure a lot of people will be making their living thanks to your designs."
 description: "If design becomes your life, you can be sure a lot of people will be making their living thanks to your designs."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/If-design-becomes-your-life-you-can-be-sure-a-lot-of-people-will-be-making-their-living-thanks-to-your-designs/"
 ---

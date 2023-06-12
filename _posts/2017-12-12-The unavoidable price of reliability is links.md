@@ -3,7 +3,7 @@ layout: post
 title: "The unavoidable price of reliability is links"
 description: "“The unavoidable price of reliability is simplicity.” – C. A. R. Hoare"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/The-unavoidable-price-of-reliability-is-links/"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Passion, dedication, and silly lists of what designers need are what designers need."
 description: "Passion, dedication, and silly lists of what designers need are what designers need."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Passion-dedication-and-silly-lists-of-what-designers-need-are-what-designers-need/"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Complaining is silly. Act or forget."
 description: "Complaining is silly. Act or forget."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Complaining-is-silly-Act-or-forget/"
 ---

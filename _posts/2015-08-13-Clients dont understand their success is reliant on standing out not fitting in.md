@@ -3,7 +3,7 @@ layout: post
 title: "Clients don't understand their success is reliant on standing out, not fitting in."
 description: "Clients don't understand their success is reliant on standing out, not fitting in."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Clients-dont-understand-their-success-is-reliant-on-standing-out-not-fitting-in/"
 ---

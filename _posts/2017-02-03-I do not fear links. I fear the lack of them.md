@@ -3,7 +3,7 @@ layout: post
 title: "I do not fear links. I fear the lack of them."
 description: "I do not fear computers. I fear the lack of them. - Issac Assimov"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/I-do-not-fear-links.-I-fear-the-lack-of-them/"
 ---

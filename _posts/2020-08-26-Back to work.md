@@ -3,7 +3,7 @@ layout: post
 title: "Back to work - Links"
 description: "Links, ALOT!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 redirect_from: "2020/Back-to-work"
 ---

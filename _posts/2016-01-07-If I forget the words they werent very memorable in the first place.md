@@ -3,7 +3,7 @@ layout: post
 title: "If I forget the words, they weren’t very memorable in the first place."
 description: "If I forget the words, they weren’t very memorable in the first place."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/If-I-forget-the-words-they-werent-very-memorable-in-the-first-place/"
 ---

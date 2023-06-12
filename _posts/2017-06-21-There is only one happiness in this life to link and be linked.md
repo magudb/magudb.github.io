@@ -3,7 +3,7 @@ layout: post
 title: "There is only one happiness in this life, to link and be linked."
 description: ""
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/There-is-only-one-happiness-in-this-life-to-link-and-be-linked/"
 ---

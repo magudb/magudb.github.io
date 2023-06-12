@@ -3,7 +3,7 @@ layout: post
 title: "It is better to be roughly linked than precisely wrong"
 description: "It is better to be roughly right than precisely wrong"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2010/It-is-better-to-be-roughly-right-than-precisely-wrong/"
 ---

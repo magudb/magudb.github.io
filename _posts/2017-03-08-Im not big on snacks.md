@@ -3,7 +3,7 @@ layout: post
 title: "I'm not big on snacks, but I if do, I like a few M&M's."
 description: "I'm not big on snacks, but I if do, I like a few M&M's. - Grandmaster Flash"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Im-not-big-on-snacks/"
 ---

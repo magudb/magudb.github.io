@@ -3,7 +3,7 @@ layout: post
 title: "I have found the best people to work with are gay men. They never have to'run it past their wives.'"
 description: "I have found the best people to work with are gay men. They never have to'run it past their wives.'"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/I-have-found-the-best-people-to-work-with-are-gay-men-They-never-have-to-run-it-past-their-wives/"
 ---

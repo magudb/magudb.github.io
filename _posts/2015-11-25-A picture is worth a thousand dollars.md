@@ -3,7 +3,7 @@ layout: post
 title: "A picture is worth a thousand dollars."
 description: "A picture is worth a thousand dollars."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/A-picture-is-worth-a-thousand-dollars/"
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Difficult links often bring out the best in people."
 description: "Difficult times often bring out the best in people. Bernie Sanders"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Difficult-links-often-bring-out-the-best-in-people/"
 ---

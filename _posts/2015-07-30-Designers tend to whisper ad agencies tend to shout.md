@@ -3,7 +3,7 @@ layout: post
 title: "Designers tend to whisper, ad agencies tend to shout."
 description: "Designers tend to whisper, ad agencies tend to shout."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Designers-tend-to-whisper-ad-agencies-tend-to-shout/"
 ---

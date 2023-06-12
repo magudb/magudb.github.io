@@ -3,7 +3,7 @@ layout: post
 title: "Be curious. Read widely. Try new things. I think a lot of what people call intelligence boils down to curiosity. "
 description: "Be curious. Read widely. Try new things. I think a lot of what people call intelligence boils down to curiosity. "
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Be-curious-Read-widely-Try-new-things-I-think-a-lot-of-what-people-call-intelligence-boils-down-to-curiosity-/"
 ---

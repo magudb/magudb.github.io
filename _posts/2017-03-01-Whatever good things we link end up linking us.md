@@ -3,7 +3,7 @@ layout: post
 title: "Whatever good things we link end up linking us."
 description: "Whatever good things we build end up building us."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Whatever-good-things-we-link-end-up-linking-us/"
 ---

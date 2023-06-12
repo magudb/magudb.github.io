@@ -3,7 +3,7 @@ layout: post
 title: "22-07-2018 - links extravaganza"
 description: "Links just links."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2018/links-extravaganza/"
 ---

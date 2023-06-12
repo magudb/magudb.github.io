@@ -3,7 +3,7 @@ layout: post
 title: "Make it link, make it right, make it fast."
 description: "Make it work, make it right, make it fast. - Kent Beck"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Make-it-link-make-it-right-make-it-fast/"
 ---

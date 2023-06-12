@@ -3,7 +3,7 @@ layout: post
 title: "Links are like underwear — nobody really wants to look at them."
 description: "Operating systems are like underwear — nobody really wants to look at them."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "2017/Operating-systems-are-like-underwear-—-nobody-really-wants-to-look-at-them"
 ---

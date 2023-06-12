@@ -3,7 +3,7 @@ layout: post
 title: "To say a grid is limiting is to say that language is limiting, or typography is limiting."
 description: "To say a grid is limiting is to say that language is limiting, or typography is limiting."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/10/06/feel-free-lack-link-articulate-unfreedom/"
 ---

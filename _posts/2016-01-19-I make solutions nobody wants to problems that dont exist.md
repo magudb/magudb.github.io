@@ -3,7 +3,7 @@ layout: post
 title: "I make solutions nobody wants to problems that don't exist."
 description: "I make solutions nobody wants to problems that don't exist."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/I-make-solutions-nobody-wants-to-problems-that-dont-exist/"
 ---

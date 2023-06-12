@@ -3,7 +3,7 @@ layout: post
 title: "Luck is the residue of design."
 description: "Luck is the residue of design."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Luck-is-the-residue-of-design/"
 ---

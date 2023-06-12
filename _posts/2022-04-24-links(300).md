@@ -3,7 +3,7 @@ layout: post
 title: "Links"
 description: "Links, ALOT!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->

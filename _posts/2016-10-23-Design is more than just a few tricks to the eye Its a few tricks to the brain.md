@@ -3,7 +3,7 @@ layout: post
 title: "Design is more than just a few tricks to the eye. It's a few tricks to the brain."
 description: "Design is more than just a few tricks to the eye. It's a few tricks to the brain."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/10/23/diffusion-essentially-social-process-people-talking-people-spread-link/"
 ---

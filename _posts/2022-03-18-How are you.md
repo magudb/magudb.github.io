@@ -3,7 +3,7 @@ layout: post
 title: "How are you? Spring is coming!"
 description: "Links, ALOT!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 redirect_from: /2022/03/How-are-you
 ---

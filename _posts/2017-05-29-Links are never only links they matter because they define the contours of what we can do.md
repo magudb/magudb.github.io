@@ -3,7 +3,7 @@ layout: post
 title: "Links are never 'only links'; they matter because they define the contours of what we can do."
 description: ""
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Links-are-never-only-links-they-matter-because-they-define-the-contours-of-what-we-can-do/"
 ---

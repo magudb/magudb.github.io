@@ -3,7 +3,7 @@ layout: post
 title: "Almost X-mas links"
 description: "Links, X-mas!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 ---
 

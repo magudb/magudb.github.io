@@ -3,7 +3,7 @@ layout: post
 title: "A lot of the things about design that tend to get designers really interested aren't that important."
 description: "A lot of the things about design that tend to get designers really interested aren't that important."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/A-lot-of-the-things-about-design-that-tend-to-get-designers-really-interested-arent-that-important/"
 ---

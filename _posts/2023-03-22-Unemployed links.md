@@ -3,19 +3,10 @@ layout: post
 title: "Unemployed but still links"
 description: "Links, ALOT!"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love, jobs, job"
 ---
 
-*Hi all,*
-
-*I'm seeking new IT opportunities after saying goodbye to my role as VP of Engineering at CBIT + Klikbook. With an Executive Master's in IT Management and a Bachelor's in Computer Science and Social Science, I bring a unique perspective to both technical and human aspects of the industry. My experience includes building and leading skilled engineering teams to drive growth and success.*
-
-*If you're aware of any opportunities aligning with my background, please reach out. I'm happy to answer any questions or discuss potential roles.*
-
-*Best, Magnus*
-
-## [MY CV](https://udbjorg.net/assets/Magnus Langballe Udbjørg - CV.pdf)
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>

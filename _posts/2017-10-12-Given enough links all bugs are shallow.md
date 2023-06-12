@@ -3,7 +3,7 @@ layout: post
 title: "Given enough links, all bugs are shallow."
 description: "Given enough eyeballs, all bugs are shallow."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2017/Given-enough-links-all-bugs-are-shallow/"
 ---

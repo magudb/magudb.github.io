@@ -3,7 +3,7 @@ layout: post
 title: "2019-04-28 - Just links..."
 description: "2019-04-28 - Just links.."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2019/just-links/"
 ---

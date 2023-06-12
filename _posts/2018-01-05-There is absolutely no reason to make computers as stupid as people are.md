@@ -3,7 +3,7 @@ layout: post
 title: "There is absolutely no reason to make computers as stupid as people are."
 description: "“There is absolutely no reason to make computers as stupid as people are.” – Nigel Jacob"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2018/There-is-absolutely-no-reason-to-make-computers-as-stupid-as-people-are/"
 ---

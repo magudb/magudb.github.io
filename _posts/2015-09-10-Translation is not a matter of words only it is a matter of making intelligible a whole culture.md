@@ -3,7 +3,7 @@ layout: post
 title: "Translation is not a matter of words only: it is a matter of making intelligible a whole culture."
 description: "Translation is not a matter of words only: it is a matter of making intelligible a whole culture."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Translation-is-not-a-matter-of-words-only-it-is-a-matter-of-making-intelligible-a-whole-culture/"
 ---

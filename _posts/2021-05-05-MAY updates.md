@@ -3,7 +3,7 @@ layout: post
 title: "Links - May Edition"
 description: "Yet another fine collection of organic links"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, May, Organic"
 redirect_from: "2012/05/MAY-updates/"
 ---

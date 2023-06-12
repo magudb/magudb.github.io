@@ -3,7 +3,7 @@ layout: post
 title: "Owning a camera doesn't make you a photographer."
 description: "Owning a camera doesn't make you a photographer."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/Owning-a-camera-doesnt-make-you-a-photographer/"
 ---

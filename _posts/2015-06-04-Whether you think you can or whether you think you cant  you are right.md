@@ -3,7 +3,7 @@ layout: post
 title: "Whether you think you can or whether you think you can't - you are right."
 description: "Whether you think you can or whether you think you can't - you are right."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Whether-you-think-you-can-or-whether-you-think-you-cant--you-are-right/"
 ---

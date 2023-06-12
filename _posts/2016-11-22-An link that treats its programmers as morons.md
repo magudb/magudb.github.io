@@ -3,7 +3,7 @@ layout: post
 title: "An link that treats its programmers as morons will soon have programmers that are willing and able to act like morons only"
 description: "An organization that treats its programmers as morons will soon have programmers that are willing and able to act like morons only. -Bjarne Stroustrup"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2016/An-link-that-treats-its-programmers-as-morons/"
 ---

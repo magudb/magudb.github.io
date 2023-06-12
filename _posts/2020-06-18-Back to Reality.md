@@ -3,7 +3,7 @@ layout: post
 title: "Back to reality, back to life."
 description: "Links and #BlackLivesMatter"
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
 redirect_from: "/2020/Back-to-Reality/"
 ---

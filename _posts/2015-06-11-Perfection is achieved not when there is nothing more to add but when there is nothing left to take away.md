@@ -3,7 +3,7 @@ layout: post
 title: "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
 description: "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
 comments: false
-category: "Links"
+category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
 redirect_from: "/2015/Perfection-is-achieved-not-when-there-is-nothing-more-to-add-but-when-there-is-nothing-left-to-take-away/"
 ---
