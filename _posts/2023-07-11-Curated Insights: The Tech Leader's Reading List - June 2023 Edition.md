@@ -16,7 +16,7 @@ keywords: "Engineering Management, Codebase Complexity, Privacy Enhancing Techno
 - [Atlas: An Interactive Guide To Europe’s Technical Talent - Sequoia Atlas](https://atlas.sequoiacap.com/?specialty=All&github=true&view=map){:target="_blank"}
 - [The Evolution Of Evolutionary Architecture With Rebecca Parsons](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/){:target="_blank"}
 - [Insights Into Stress Anxiety And Depression For Team Leaders](https://peopledevelopmentmagazine.com/2023/06/02/stress-anxiety-and-depression/){:target="_blank"}
-- [Better Software Engineering Teams — Structures, Roles, Responsibilities And Comparison With Common Approaches. - By Andrew Winnicki | Geek Culture | Medium](https://medium.com/geekculture/better-software-engineering-teams-structures-roles-responsibilities-and-comparison-with-common-fb5c3161c13d){:target="_blank"}
+- [Better Software Engineering Teams — Structures, Roles, Responsibilities And Comparison With Common Approaches. - By Andrew Winnicki - Geek Culture - Medium](https://medium.com/geekculture/better-software-engineering-teams-structures-roles-responsibilities-and-comparison-with-common-fb5c3161c13d){:target="_blank"}
 - [Building Personal And Organizational Prestige - Irrational Exuberance](https://lethain.com/building-prestige/){:target="_blank"}
 - [10x Developer Success - By Bhavesh Mehta - 10xmanager](https://10xmanager.substack.com/p/10x-developer-success?ref=techmanagerweekly.com){:target="_blank"}
 - [Linking Modular Architecture To Development Teams](https://martinfowler.com/articles/linking-modular-arch.html){:target="_blank"}
