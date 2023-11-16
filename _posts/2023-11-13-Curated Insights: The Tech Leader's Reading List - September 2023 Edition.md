@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Must-Reads for Tech Enthusiasts: My Favorite Insights from September2023"
+title: "Must-Reads for Tech Enthusiasts: My Favorite Insights from September 2023"
 description: "Dive deep into a curated list of my top reads for September 2023. Ranging from enhancing developer productivity and effective mentorship to the intricacies of event-driven architecture and DevOps trends, this compilation is a treasure trove of knowledge for tech enthusiasts and professionals alike."
 comments: false
 category: "Curated Insights"
