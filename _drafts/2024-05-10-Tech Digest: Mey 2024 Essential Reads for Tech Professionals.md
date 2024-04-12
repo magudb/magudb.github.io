@@ -11,13 +11,12 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 # My favorites<a name="favorites"></a>
 
 
-
 ## Agile, Leadership and Product<a name="agile"></a>
-
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
+- [Don't Let Perfectionism Stall Your Software Development Project](https://spin.atomicobject.com/perfectionism-software-development/){:target="_blank"}
 
 ## DevOps<a name="devops"></a>
 

@@ -14,20 +14,20 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 - [🦑 The 14 Pains Of Building Your Own Billing System - Arnon Shimoni](https://arnon.dk/the-14-pains-of-billing/){:target="_blank"}
 - [Retries – An Interactive Study Of Common Retry Methods – Encore Blog](https://encore.dev/blog/retries){:target="_blank"}
 - [Feature Engineering A-z - Preface](https://feaz-book.com/){:target="_blank"}
-- [The Cynefin Framework: Navigating Complexity In Ux - By Daniel Ruston | Mar, 2024 | Ux Collective](https://uxdesign.cc/the-cynefin-framework-navigating-complexity-in-ux-2bcda69d5cfd){:target="_blank"}
+- [The Cynefin Framework: Navigating Complexity In Ux - By Daniel Ruston - Mar, 2024 - Ux Collective](https://uxdesign.cc/the-cynefin-framework-navigating-complexity-in-ux-2bcda69d5cfd){:target="_blank"}
 - [Building Engineering](https://werd.io/2024/building-engineering?ref=techmanagerweekly.com){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 
-- [Your First Year As A Cto: A Comprehensive Guide - By Johan Steyn | Feb, 2024 | Medium](https://medium.com/@jsteyn/your-first-year-as-a-cto-a-comprehensive-guide-99a441715aaf){:target="_blank"}
+- [Your First Year As A Cto: A Comprehensive Guide - By Johan Steyn - Feb, 2024 - Medium](https://medium.com/@jsteyn/your-first-year-as-a-cto-a-comprehensive-guide-99a441715aaf){:target="_blank"}
 - [Tbm 274: How Capable Leaders Navigate Uncertainty And Ambiguity](https://cutlefish.substack.com/p/tbm-274-how-capable-leaders-navigate?ref=techmanagerweekly.com){:target="_blank"}
 - [How To Boss Without Being Bossy – Holy Ghost Stories](https://www.jeffwofford.com/?p=2089&ref=techmanagerweekly.com){:target="_blank"}
 - [5 Steps (And 9 Experiments) For A Successful… - Corporate Rebels](https://www.corporate-rebels.com/blog/5-steps-and-9-experiments-to-transform-into-a-self-managing-organization?ref=techmanagerweekly.com){:target="_blank"}
-- [Engineering Culture At Snyk: The Values That Support And Drive Our Teams - By Snyk | Medium](https://medium.com/@snyksec/engineering-culture-at-snyk-the-values-that-support-and-drive-our-teams-6bef4d6ef3e0){:target="_blank"}
-- [Manager Of Managers — Outcomes Over Output - By Nitin Dhar | Total Engineering Management | Feb, 2024 | Medium](https://medium.com/one-to-n/manager-of-managers-outcomes-over-output-09b15331ed59){:target="_blank"}
-- [The Evolution Of Engineering Leadership: From Startup To Scale-up - By Sascha Perkowski | Feb, 2024 | Medium](https://medium.com/@sascha_perkowski/the-evolution-of-engineering-leadership-from-startup-to-scale-up-401e4fd2c60b){:target="_blank"}
+- [Engineering Culture At Snyk: The Values That Support And Drive Our Teams - By Snyk - Medium](https://medium.com/@snyksec/engineering-culture-at-snyk-the-values-that-support-and-drive-our-teams-6bef4d6ef3e0){:target="_blank"}
+- [Manager Of Managers — Outcomes Over Output - By Nitin Dhar - Total Engineering Management - Feb, 2024 - Medium](https://medium.com/one-to-n/manager-of-managers-outcomes-over-output-09b15331ed59){:target="_blank"}
+- [The Evolution Of Engineering Leadership: From Startup To Scale-up - By Sascha Perkowski - Feb, 2024 - Medium](https://medium.com/@sascha_perkowski/the-evolution-of-engineering-leadership-from-startup-to-scale-up-401e4fd2c60b){:target="_blank"}
 - [Design Engineering - By David Hoang - Proof Of Concept](https://www.proofofconcept.pub/p/design-engineering){:target="_blank"}
-- [Strategy & Artificial Intelligence - By Roger Martin | Mar, 2024 | Medium](https://rogermartin.medium.com/strategy-artificial-intelligence-6f719015b8fc){:target="_blank"}
+- [Strategy & Artificial Intelligence - By Roger Martin - Mar, 2024 - Medium](https://rogermartin.medium.com/strategy-artificial-intelligence-6f719015b8fc){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
@@ -46,8 +46,8 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 ## DevOps<a name="devops"></a>
 
 - [Kubernetes-native Testing Framework - Testkube](https://testkube.io/){:target="_blank"}
-- [How To Build An Alerting System With Prometheus And Alertmanager - By Jarek Orzel | Jan, 2024 | Devops.dev](https://blog.devops.dev/how-to-build-an-alerting-system-with-prometheus-and-alertmanager-cd75a28c2b74){:target="_blank"}
-- [A Checklist To Choose A Monitoring System - By Prathamesh Sonpatki | Feb, 2024 | Medium](https://prathamesh2.medium.com/a-checklist-to-choose-a-monitoring-system-a600481b6af4){:target="_blank"}
+- [How To Build An Alerting System With Prometheus And Alertmanager - By Jarek Orzel - Jan, 2024 - Devops.dev](https://blog.devops.dev/how-to-build-an-alerting-system-with-prometheus-and-alertmanager-cd75a28c2b74){:target="_blank"}
+- [A Checklist To Choose A Monitoring System - By Prathamesh Sonpatki - Feb, 2024 - Medium](https://prathamesh2.medium.com/a-checklist-to-choose-a-monitoring-system-a600481b6af4){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 
