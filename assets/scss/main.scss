@@ -1,4 +1,21 @@
 
+// CSS Custom Properties for Modern Theming
+:root {
+  --color-primary: #{$primary-color};
+  --color-action: #{$action-color};
+  --color-background: #{$base-background-color};
+  --color-text: #{$base-font-color};
+  --color-heading: #{$heading-color};
+  --color-muted: #{$muted-text-color};
+  --color-border: #{$base-border-color};
+  --font-sans: #{$base-font-family};
+  --font-mono: #{$monospace-font-family};
+  --spacing-base: #{$base-spacing};
+  --spacing-small: #{$small-spacing};
+  --spacing-large: #{$large-spacing};
+  --radius: #{$base-border-radius};
+}
+
 @import "bourbon/bourbon";
 
 @import "variables";

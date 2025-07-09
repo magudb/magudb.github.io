@@ -13,39 +13,44 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-size: $base-font-size;
   line-height: $heading-line-height;
-  margin: $small-spacing 0 $small-spacing 0;
-  font-weight: 300;
+  margin: 0 0 $base-spacing 0;
+  font-weight: 600;
+  color: $heading-color;
 }
 
 h1 {
-  font-size: rem(30);
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: rem(26);
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: rem(24);
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: rem(20);
+  font-size: 1.25rem;
 }
 
-h5,
+h5 {
+  font-size: 1.125rem;
+}
+
 h6 {
-  font-size: rem(16);
+  font-size: 1rem;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $base-spacing;
 
   &.lead {
-    font-size: rem(22);
-    font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.7;
   }
 }
 
@@ -57,7 +62,7 @@ a {
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: $accent-blue-dark;
   }
 }
 
@@ -76,37 +81,42 @@ picture {
 }
 
 blockquote {
-  padding: 0 0 0 $base-spacing;
+  padding: $base-spacing;
   margin: $base-spacing 0;
-  color: $medium-gray-color;
+  color: $muted-text-color;
   line-height: 1.8;
-  border-left: $small-spacing solid $light-gray-color;
+  border-left: 4px solid $action-color;
+  background-color: $secondary-background-color;
+  border-radius: $base-border-radius;
+  font-style: italic;
 }
 
 code {
-  background: none;
-  border-radius: 0;
-  border: none;
-  font-family: $base-font-family;
-  font-size: 0.9em;
+  font-family: $monospace-font-family;
+  font-size: 0.875em;
   margin: 0;
-  padding: 0 5px;
-  background-color: lighten($light-gray-color, 13%);
+  padding: 0.125rem 0.375rem;
+  background-color: $code-background-color;
+  border-radius: $base-border-radius;
+  color: $dark-gray-color;
 }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: $base-font-family;
-  font-size: 0.85em;
-  margin: 0;
-  padding: 5px 10px !important;
+  font-family: $monospace-font-family;
+  font-size: 0.875rem;
+  margin: $base-spacing 0;
+  padding: $base-spacing;
   overflow: auto;
-  max-height: 60em;
+  background-color: $code-background-color;
+  border-radius: $base-border-radius;
   white-space: pre;
+  line-height: 1.6;
 
   code {
-    line-height: 1.75em;
-    padding: 0 !important;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
   }
 }
 

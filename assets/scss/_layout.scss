@@ -32,17 +32,17 @@ body {
 }
 
 hr {
-  border-top: none;
-  border-bottom: 2px solid lighten($light-gray-color, 7%);
+  border: none;
+  border-bottom: 1px solid $base-border-color;
   width: 100%;
-  margin: $small-spacing 0;
+  margin: $large-spacing 0;
 }
 
 .container {
   padding: $base-spacing;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1024px;
+  max-width: 48rem;
   font-weight: normal;
 }
 
@@ -55,30 +55,46 @@ hr {
 }
 
 .link {
-  color: $blue-color;
-  padding-bottom: .05em;
-  border-bottom: 2px solid transparent;
-
-  @include transition(border 300ms linear);
+  color: $action-color;
+  text-decoration: none;
+  position: relative;
+  transition: color $base-duration $base-timing;
 
   &:hover,
-  &:focus,
-  &:active {
-    border-bottom: 2px solid $blue-color;
+  &:focus {
+    color: $accent-blue-dark;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: $action-color;
+    transition: width $base-duration $base-timing;
+  }
+
+  &:hover:after,
+  &:focus:after {
+    width: 100%;
   }
 }
 
 .site-header {
-  border-bottom: 1px solid lighten($light-gray-color, 5%);
-  margin-bottom: $small-spacing;
-  min-height: 80px;
+  border-bottom: 1px solid $base-border-color;
+  margin-bottom: $large-spacing;
+  padding: $base-spacing 0;
 }
 
 .intro {
+  margin-bottom: $large-spacing;
+  
   .author-name {
     display: inline-block;
-    padding: 0 .2em;
-    background: lighten($light-gray-color, 15%)
+    font-weight: 600;
+    color: $heading-color;
   }
 
   a {
@@ -92,15 +108,17 @@ hr {
 
 .logo {
   float: left;
-  margin: 0 0 1em 0;
+  margin: 0;
   cursor: pointer;
-  letter-spacing: 0.8px;
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: $heading-color;
+  text-decoration: none;
+  transition: opacity $base-duration $base-timing;
 
-  span {
-    font-weight: 700;
+  &:hover {
+    opacity: 0.8;
   }
 }
 
@@ -113,16 +131,19 @@ hr {
   margin: 0;
   position: relative;
   padding: 0;
-  pointer-events: all;
-  cursor: pointer;
 
   li {
     display: inline-block;
-    padding: 0 .6em;
+    padding: 0 1rem;
+
+    &:last-child {
+      padding-right: 0;
+    }
   }
 
   a {
     @extend .link;
+    font-weight: 500;
   }
 }
 
@@ -131,7 +152,12 @@ hr {
 }
 
 .category-title {
-  margin: 1em 0 0.5em 0;
+  margin: $large-spacing 0 $base-spacing 0;
+  font-size: $small-font-size;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $muted-text-color;
+  font-weight: 600;
 
   &:first-child {
     margin-top: 0;
@@ -139,36 +165,42 @@ hr {
 }
 
 .post-item {
-  margin-bottom: 0.2em;
-  display: block;
+  margin-bottom: $base-spacing;
+  padding: $base-spacing;
+  background: $secondary-background-color;
+  border-radius: $base-border-radius;
+  transition: all $base-duration $base-timing;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $hover-box-shadow;
+  }
 
   a {
-    color: $action-color;
-    font-weight: bold;
+    color: $heading-color;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
   }
 
   .article-title {
-    display: inline-block;
-    width: 85%;
-    border-bottom: 1px dashed lighten($light-gray-color, 10%);
+    margin-bottom: 0.5rem;
+    font-size: $large-font-size;
   }
 
   .date-label {
-    border: 1px solid lighten($light-gray-color, 10%);
-    padding: 0 0.2em;
-    margin-left: 1em;
-    margin-top: 2px;
+    color: $muted-text-color;
+    font-size: $small-font-size;
+    font-weight: normal;
     @extend .pull-right;
   }
-
 }
 
 .post-meta {
-  color: $medium-gray-color;
-  text-transform: uppercase;
+  color: $muted-text-color;
   display: inline-block;
-  letter-spacing: 1px;
-  font-size: rem(14);
+  font-size: $small-font-size;
+  margin-bottom: $base-spacing;
 }
 
 .post-link,
@@ -197,20 +229,22 @@ hr {
 }
 
 .share {
-  border-top: 0.2em solid lighten($light-gray-color, 13%);
-  padding-top: $base-spacing;
-  margin-top: $base-spacing;
+  border-top: 1px solid $base-border-color;
+  padding-top: $large-spacing;
+  margin-top: $large-spacing;
 
   p {
     margin: 0;
-    font-size: rem(14);
-    color: $medium-gray-color;
+    font-size: $small-font-size;
+    color: $muted-text-color;
   }
 }
 
 .disqus {
-  background-color: lighten($light-gray-color, 16%);
-  padding: $base-spacing 0;
+  background-color: $secondary-background-color;
+  padding: $large-spacing;
+  border-radius: $base-border-radius;
+  margin-top: $large-spacing;
 
   hr {
     margin: $base-spacing 0;
@@ -219,8 +253,9 @@ hr {
 
 .site-footer {
   @extend .clearfix;
-
-  padding: $base-spacing 0;
+  padding: $large-spacing 0;
+  margin-top: $large-spacing;
+  border-top: 1px solid $base-border-color;
 
   a {
     @extend .link;
@@ -228,8 +263,9 @@ hr {
 
   small {
     display: block;
-    font-size: rem(12);
-    color: darken($medium-gray-color, 10%);
+    font-size: $small-font-size;
+    color: $muted-text-color;
+    line-height: 1.8;
   }
 
   .block {
@@ -256,38 +292,46 @@ hr {
 }
 
 .divider {
-  border-top: 0.2em solid lighten($light-gray-color, 13%);
-  margin-bottom: $base-spacing * 2;
-  margin-top: $base-spacing * 2;
+  border-top: 1px solid $base-border-color;
+  margin-bottom: $large-spacing;
+  margin-top: $large-spacing;
 }
 
-// This applies from 0px to 600px
-@media (max-width: 600px) {
-  .date-label {
-    float: left !important;
-    border: 0 !important;
-    margin-left: -2px !important;
-    margin-top: 2px;
-    margin-right: 1em;
+// Mobile responsive styles
+@media (max-width: 768px) {
+  .container {
+    padding: $base-spacing $small-spacing;
+  }
+
+  .navbar {
+    float: none;
+    margin-top: $small-spacing;
+    
+    li {
+      padding: 0 0.5rem;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+    }
   }
 
   .post-item {
-    border: 1px solid lighten($light-gray-color, 10%);
-    padding: 0 0.5em;
-    background: lighten($light-gray-color, 15%);
-  }
-
-  .article-title {
-    border-bottom: none !important;
-  }
-
-  .post-link {
-    &:hover,
-    &:focus,
-    &:active {
-      border-bottom: 2px solid transparent;
-      color: $blue-color;
+    padding: $small-spacing;
+    
+    .date-label {
+      float: none;
+      display: block;
+      margin-top: 0.25rem;
     }
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
