@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Winter 2025 Tech Digest: Explore Leading Insights on Development, Leadership, and Ops"
+title: "Summer 2025 Tech Digest: Explore Leading Insights on Development, Leadership, and Ops"
 description: "Stay ahead with this curated collection of impactful articles and resources on software development, insightful leadership practices, and cutting-edge operational strategies. Explore these handpicked reads to optimize your tech skills and knowledge."
 comments: false
 category: "Curated Insights"
@@ -10,6 +10,7 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
+- [Machine Learning Visualized](https://ml-visualized.com/#){:target="_blank"}
 - [How To Write Error Messages That Actually Help Users Rather Than Frustrate Them - Piccalilli](https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them/){:target="_blank"}
 - [5 Learnings When Building And Scaling A Service-based Tech Company](https://newsletter.eng-leadership.com/p/5-learnings-when-building-and-scaling?publication_id=1115815&post_id=154577146&isFreemail=true&r=4p7qvl&triedRedirect=true){:target="_blank"}
 - [Using Systems Modeling To Refine Strategy. - Irrational Exuberance](https://lethain.com/strategy-systems-modeling/?_bhlid=bb00826a989474764013f086d4f1e5525eb17544){:target="_blank"}
