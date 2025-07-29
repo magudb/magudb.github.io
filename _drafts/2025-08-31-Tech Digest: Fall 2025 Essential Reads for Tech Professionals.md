@@ -20,7 +20,8 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 - [(My) three core values to set up an organization for success – @hansdeleenheer](https://hansdeleenheer.com/my-three-core-values-to-set-up-an-organization-for-success/){:target="_blank"}
 - [The right way to make AI part of your tech strategy - LeadDev](https://leaddev.com/technical-direction/right-way-make-ai-part-your-tech-strategy?utm_source=ActiveCampaign&utm_medium=email&utm_content=AI%20%E2%89%A0%20productivity&utm_campaign=Originals%3A%20%20Issue%20247%20%2812%20June%202025%29){:target="_blank"}
 - [AI adoption in security: Top use cases and mistakes to avoid | Elastic Blog](https://www.elastic.co/blog/ai-adoption-security){:target="_blank"}
-[Raaee: The Ultimate Tracking Framework For Your Product Features - By Diegovz - Jun, 2025 - Ux Collective](https://uxdesign.cc/raaee-the-ultimate-tracking-framework-for-your-product-features-fe2f291cad5d){:target="_blank"}
+- [Underused Techniques for Effective Emails · Refactoring English](https://refactoringenglish.com/chapters/techniques-for-writing-emails/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2098){:target="_blank"}
+- [Raaee: The Ultimate Tracking Framework For Your Product Features - By Diegovz - Jun, 2025 - Ux Collective](https://uxdesign.cc/raaee-the-ultimate-tracking-framework-for-your-product-features-fe2f291cad5d){:target="_blank"}
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>

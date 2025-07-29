@@ -1,4 +1,11 @@
 
+@charset "utf-8";
+
+// Import variables first
+@import "variables";
+@import "bourbon/bourbon";
+@import "base/base";
+
 // CSS Custom Properties for Modern Theming
 :root {
   --color-primary: #{$primary-color};
@@ -15,11 +22,6 @@
   --spacing-large: #{$large-spacing};
   --radius: #{$base-border-radius};
 }
-
-@import "bourbon/bourbon";
-
-@import "variables";
-@import "base/base";
 
 @import "layout";
 @import "syntax-highlighting";
