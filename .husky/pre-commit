@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# Build JavaScript assets
+echo "Building JavaScript assets..."
+npm run build
+
+# Generate embeddings if posts have changed
+if git diff --cached --name-only | grep -q "_posts/"; then
+  echo "Posts have changed, regenerating embeddings..."
+  npm run generate-embeddings
+  git add search-with-embeddings.json
+fi
+
+# Add built files to commit
+git add assets/js/app.js
+git add service-worker.js

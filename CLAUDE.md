@@ -58,7 +58,18 @@ This is a Jekyll-based personal blog with the following structure:
    - Compiled to compressed CSS
 
 ### Key Features
-- Client-side search using Fuse.js
+- **AI-Powered Vector Search**:
+  - Semantic search using vector embeddings (when available)
+  - Hybrid search combining vector similarity and keyword matching
+  - Automatic fallback to Fuse.js keyword search
+  - Powered by Xenova/all-MiniLM-L6-v2 transformer model
+  - Works completely offline in the browser
+  - Generate embeddings with: `npm run generate-embeddings`
+- **Enhanced Client-side Search**:
+  - Live search with debouncing (triggers after 2 characters)
+  - Search result highlighting and relevance scoring
+  - Search suggestions for failed searches
+  - URL parameter support for shareable searches
 - Service worker for offline support
 - Disqus comments integration
 - Google Analytics tracking
@@ -66,7 +77,13 @@ This is a Jekyll-based personal blog with the following structure:
 
 ### Deployment
 - Hosted on GitHub Pages (CNAME: udbjorg.net)
-- Main branch deploys automatically
+- Main branch deploys automatically via GitHub Actions
+- **Build Process**:
+  1. `npm run build` - Builds JavaScript assets
+  2. `npm run generate-embeddings` - Generates vector embeddings for AI search
+  3. `bundle exec jekyll build` - Builds Jekyll site
+- **Pre-commit Hook**: Automatically builds assets and generates embeddings when posts change
+- **GitHub Actions**: Runs full build pipeline on push to master/main
 
 ### Important Configuration
 - `_config.yml`: Main Jekyll configuration

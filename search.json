@@ -4,12 +4,15 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "title": "{{ post.title | xml_escape }}", 
-      "category": "{{ post.category }}",    
-      "url": "{{ post.url | xml_escape }}",  
-      "date": "{{ post.date | date: '%b %-d, %Y' }}",  
-      "body": "{{ post.content | strip_html | strip_newlines | replace: ',', ''| replace: '', ''| replace: '&', ''| replace: ';', ''| replace: '.', ''|  replace: '—', ''| replace: '‘', ''| replace: '!', ''| replace: '’', ''| replace: '…', ''| replace: '-', ''| replace: ':', ''| replace: '–', ''| replace: '@', ''| replace: '•', ''| replace: '?', ''| replace: '(', ''| replace: ')', ''| replace: '·', ''| replace: '+', ''| replace: '=', ''| replace: '/', '' | replace: '“', ''| replace: '”', '' | replace: '   ', '' | replace: 'amp', '' | replace: ' ', ' '| replace: ' ', ' '| replace: '	', ' ' | xml_escape }}"
+      "title": {{ post.title | jsonify }}, 
+      "category": {{ post.category | default: 'uncategorized' | jsonify }},
+      "tags": {{ post.tags | jsonify }},
+      "url": {{ post.url | jsonify }},  
+      "date": {{ post.date | date: '%b %-d, %Y' | jsonify }},
+      "timestamp": {{ post.date | date: '%s' | jsonify }},
+      "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncate: 300 | jsonify }},
+      "body": {{ post.content | strip_html | strip_newlines | truncate: 1000 | jsonify }},
+      "author": {{ post.author | default: site.author.name | jsonify }}
     }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
+  {% endfor %}
 ]
- 
