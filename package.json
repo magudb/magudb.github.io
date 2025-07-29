@@ -14,7 +14,7 @@
     "moment": "^2.29.4",
     "query-string": "^8.1.0",
     "rxdb": "^16.16.0",
-    "webpack": "^5.76.2",
+    "webpack": "^5.101.0",
     "whatwg-fetch": "^ 3.6.2",
     "workbox-webpack-plugin": "^6.5.4"
   },
