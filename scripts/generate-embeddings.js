@@ -1,7 +1,9 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { pipeline } = require('@huggingface/transformers');
-const { marked } = require('marked');
+const MarkdownIt = require('markdown-it');
+const md = new MarkdownIt();
+
 // Initialize the embedding pipeline
 let pipelineSingleton = null;
 async function getPipeline() {
@@ -26,7 +28,7 @@ async function generateEmbedding(text) {
 // Convert markdown to plain text
 function markdownToPlainText(markdown) {
     // Convert markdown to HTML
-    const html = marked(markdown);
+    const html = md.render(markdown);
     
     // Strip HTML tags and decode entities
     const plainText = html

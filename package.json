@@ -3,14 +3,14 @@
     "build": "webpack",
     "release": "node release/release.js",
     "generate-embeddings": "node scripts/generate-embeddings.js",
-    "build:all": "npm run build && npm run generate-embeddings",
+    "build:all": "npm run build && npm run generate-embeddings"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.7.0",
     "@xenova/transformers": "^2.17.2",
     "fuse.js": "^6.6.2",
     "mark.js": "^8.11.1",
-    "marked": "^16.1.1",
+    "markdown-it": "^14.1.0",
     "moment": "^2.29.4",
     "query-string": "^8.1.0",
     "rxdb": "^16.16.0",
