@@ -10,7 +10,7 @@ layout: null
       "url": {{ post.url | jsonify }},  
       "date": {{ post.date | date: '%b %-d, %Y' | jsonify }},
       "timestamp": {{ post.date | date: '%s' | jsonify }},
-      "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncate: 300 | jsonify }},
+      "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncate: 500 | jsonify }},
       "body": {{ post.content | strip_html | strip_newlines | truncate: 1000 | jsonify }},
       "author": {{ post.author | default: site.author.name | jsonify }}
     }{% unless forloop.last %},{% endunless %}

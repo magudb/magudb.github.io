@@ -1,6 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { pipeline } = require('@huggingface/transformers');
+const { marked } = require('marked');
 // Initialize the embedding pipeline
 let pipelineSingleton = null;
 async function getPipeline() {
@@ -20,6 +21,27 @@ async function generateEmbedding(text) {
         normalize: true
     });
     return Array.from(output.data);
+}
+
+// Convert markdown to plain text
+function markdownToPlainText(markdown) {
+    // Convert markdown to HTML
+    const html = marked(markdown);
+    
+    // Strip HTML tags and decode entities
+    const plainText = html
+        .replace(/<[^>]*>/g, '') // Remove HTML tags
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&quot;/g, '"')
+        .replace(/&apos;/g, "'")
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))
+        .replace(/\s+/g, ' ') // Normalize whitespace
+        .trim();
+    
+    return plainText;
 }
 
 // Read all markdown files from _posts directory
@@ -45,8 +67,9 @@ async function getAllPosts() {
                 const tags = frontMatter.match(/tags:\s*\[(.+?)\]/)?.[1]?.split(',').map(t => t.trim().replace(/["']/g, '')) || [];
                 const date = frontMatter.match(/date:\s*["']?(.+?)["']?\s*$/m)?.[1] || '';
                 
-                // Extract excerpt
-                const excerpt = bodyContent.split('\n\n')[0].replace(/[#*_`]/g, '').substring(0, 300);
+                // Extract excerpt - convert to plain text and take first 500 chars
+                const plainTextBody = markdownToPlainText(bodyContent);
+                const excerpt = plainTextBody.substring(0, 500);
                 
                 // Create URL from filename
                 const dateMatch = file.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
@@ -61,8 +84,8 @@ async function getAllPosts() {
                     url,
                     date,
                     excerpt,
-                    body: bodyContent,
-                    content: `${title} ${excerpt} ${bodyContent}` // Combined content for embedding
+                    body: plainTextBody, // Also use plain text for body
+                    content: `${title} ${plainTextBody}` // Combined content for embedding
                 });
             }
         }
