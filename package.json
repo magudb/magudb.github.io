@@ -4,7 +4,6 @@
     "release": "node release/release.js",
     "generate-embeddings": "node scripts/generate-embeddings.js",
     "build:all": "npm run build && npm run generate-embeddings",
-    "prepare": "husky"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.7.0",
