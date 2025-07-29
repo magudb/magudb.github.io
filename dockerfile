@@ -1,19 +1,31 @@
-FROM ruby:2.4
-ENV JEKYLL_ENV=production
+FROM ruby:3.1-alpine
 
-RUN apt-get update \
-  && apt-get install -y \
+# Install dependencies
+RUN apk add --no-cache \
+    build-base \
+    gcc \
+    cmake \
+    git \
     nodejs \
-    python-pygments \
-  && apt-get clean \
-  && rm -rf /var/lib/apt/lists/
-RUN gem install bundler -v 2.3.26
+    npm
 
-VOLUME /src
+# Set working directory
+WORKDIR /srv/jekyll
+
+# Copy Gemfile first for better caching
+COPY Gemfile* ./
+
+# Install bundler matching Gemfile.lock version
+RUN gem install bundler:1.17.3 && \
+    bundle config set --local path 'vendor/bundle' && \
+    bundle install
+
+# Copy the rest of the site
+COPY . .
+
+# Expose port
 EXPOSE 4000
-COPY . /src
+EXPOSE 35729
 
-WORKDIR /src
-RUN  bundle install
-RUN bundle update
-ENTRYPOINT ["jekyll"]
+# Default command for development
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--force_polling"]
