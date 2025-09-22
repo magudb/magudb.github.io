@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
+title:  Meet Magnus Udbjørg
 permalink: /about/
 ---
-
-# Meet Magnus Udbjørg
-
 I build useful software and help teams do their best work. I’ve spent almost two decades in tech, picked up an Executive Master’s in IT Management along the way, and I’m still curious every day.
 
 Right now I’m CTO at [TestaViva](https://www.testaviva.dk), where we’re making it easy for people to manage their legal security — without the legal headache. My job is to keep the product reliable, the roadmap clear, and the team empowered.
