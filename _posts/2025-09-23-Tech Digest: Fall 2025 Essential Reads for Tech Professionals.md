@@ -10,32 +10,44 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 
-- [How To Deal With A Toxic Top-performer - By Dave Bailey | Jun, 2025 | Medium](https://foundercoach.medium.com/how-to-deal-with-a-toxic-top-performer-b535f3268fc1){:target="_blank"}
+- [How To Deal With A Toxic Top-performer - By Dave Bailey - Jun, 2025 - Medium](https://foundercoach.medium.com/how-to-deal-with-a-toxic-top-performer-b535f3268fc1){:target="_blank"}
 - [How AI Is Redefining Managerial Roles](https://hbr.org/2025/07/how-ai-is-redefining-managerial-roles){:target="_blank"}
 - [Pragmatic approaches to agentic coding for engineering leaders](https://testdouble.com/insights/pragmatic-approaches-to-agentic-coding-for-engineering-leaders){:target="_blank"}
-- [Developers | 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/developers/){:target="_blank"}
-- [How to Disagree and Commit like Switzerland – code.dblock.org | tech blog](https://code.dblock.org/2025/08/03/how-to-disagree-and-commit-like-switzerland.html){:target="_blank"}
+- [Developers - 2025 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2025/developers/){:target="_blank"}
+- [How to Disagree and Commit like Switzerland – code.dblock.org - tech blog](https://code.dblock.org/2025/08/03/how-to-disagree-and-commit-like-switzerland.html){:target="_blank"}
 - [The Hater's Guide To The AI Bubble](https://www.wheresyoured.at/the-haters-gui/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20313&utm_medium=email){:target="_blank"}
 - [microsoft/mcp-for-beginners: This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.](https://github.com/microsoft/mcp-for-beginners){:target="_blank"}
 - [rasbt/LLMs-from-scratch: Implement a ChatGPT-like LLM in PyTorch from scratch, step by step](https://github.com/rasbt/LLMs-from-scratch){:target="_blank"}
 - [Software engineering with LLMs in 2025: reality check](https://newsletter.pragmaticengineer.com/p/software-engineering-with-llms-in-2025?utm_source=tldrnewsletter){:target="_blank"}
+- [GitHub’s internal playbook for building an AI-powered workforce - GitHub Resources](https://resources.github.com/enterprise/ai-powered-workforce-playbook/){:target="_blank"}
+- [Teams That Prioritize Either Learning or Performance Perform Better](https://hbr.org/2025/09/teams-that-prioritize-either-learning-or-performance-perform-better){:target="_blank"}
+- [Social and Organizational Heuristics](https://fffej.substack.com/p/social-and-organizational-heurstics?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20318&utm_medium=email){:target="_blank"}
+- [Hosting a WebSite on a Disposable Vape :: BogdanTheGeek's Blog](https://bogdanthegeek.github.io/blog/projects/vapeserver/?utm_source=changelog-news){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a> 
 
-- [The Staff Meeting Ritual • in|retrospect](https://allenc.com/2025/04/the-staff-meeting-ritual/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20298&utm_medium=email){:target="_blank"}
+- [The Staff Meeting Ritual • in-retrospect](https://allenc.com/2025/04/the-staff-meeting-ritual/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20298&utm_medium=email){:target="_blank"}
 - [(My) three core values to set up an organization for success – @hansdeleenheer](https://hansdeleenheer.com/my-three-core-values-to-set-up-an-organization-for-success/){:target="_blank"}
 - [The right way to make AI part of your tech strategy - LeadDev](https://leaddev.com/technical-direction/right-way-make-ai-part-your-tech-strategy?utm_source=ActiveCampaign&utm_medium=email&utm_content=AI%20%E2%89%A0%20productivity&utm_campaign=Originals%3A%20%20Issue%20247%20%2812%20June%202025%29){:target="_blank"}
-- [AI adoption in security: Top use cases and mistakes to avoid | Elastic Blog](https://www.elastic.co/blog/ai-adoption-security){:target="_blank"}
+- [AI adoption in security: Top use cases and mistakes to avoid - Elastic Blog](https://www.elastic.co/blog/ai-adoption-security){:target="_blank"}
 - [Underused Techniques for Effective Emails · Refactoring English](https://refactoringenglish.com/chapters/techniques-for-writing-emails/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2098){:target="_blank"}
 - [Raaee: The Ultimate Tracking Framework For Your Product Features - By Diegovz - Jun, 2025 - Ux Collective](https://uxdesign.cc/raaee-the-ultimate-tracking-framework-for-your-product-features-fe2f291cad5d){:target="_blank"}
 - [How to rebuild trust after layoffs - LeadDev](https://leaddev.com/leadership/how-rebuild-trust-after-layoffs?utm_source=ActiveCampaign&utm_medium=email&utm_content=Hype%20driven%20development&utm_campaign=Originals%3A%20%20Issue%20253%20%2824%20July%202025%29%20%20%20%28Copy%29){:target="_blank"}
 - [Leadership co-processing with LLMs - The Engineering Manager](https://www.theengineeringmanager.com/growth/leadership-co-processing-with-llms/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20312&utm_medium=email){:target="_blank"}
-- [Leading your engineers towards an AI-assisted future | Pete Hodgson](https://blog.thepete.net/blog/2025/06/26/leading-your-engineers-towards-an-ai-assisted-future/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2102){:target="_blank"}
+- [Leading your engineers towards an AI-assisted future - Pete Hodgson](https://blog.thepete.net/blog/2025/06/26/leading-your-engineers-towards-an-ai-assisted-future/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2102){:target="_blank"}
 - [The Reformist CTO’s Guide to Impact Intelligence](https://martinfowler.com/articles/impact-intel.html){:target="_blank"}
-- [The five dimensions of AI adoption | Thoughtworks](https://www.thoughtworks.com/insights/blog/generative-ai/five-dimensions-of-AI-adoption){:target="_blank"}
-- [A comprehensive guide to Systems Thinking | by Zeeshan Khalid | Aug, 2025 | UX Collective](https://uxdesign.cc/a-comprehensive-guide-to-systems-thinking-f5ddf618afc3){:target="_blank"}
+- [The five dimensions of AI adoption - Thoughtworks](https://www.thoughtworks.com/insights/blog/generative-ai/five-dimensions-of-AI-adoption){:target="_blank"}
+- [A comprehensive guide to Systems Thinking - by Zeeshan Khalid - Aug, 2025 - UX Collective](https://uxdesign.cc/a-comprehensive-guide-to-systems-thinking-f5ddf618afc3){:target="_blank"}
 - [Essential reading for product builders—part 1](https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart){:target="_blank"}
 - [Essential reading for product builders—part 2](https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-1ac){:target="_blank"}
+- [5 Essential Things Every Leader Should Evaluate After a Reorganization](https://daydreamsinruby.com/blog/2025-08-27-theres-been-a-reorg/){:target="_blank"}
+- [From Ticked Off to Tactical: What to Say Next When You're Frustrated at Work](https://letsgrowleaders.com/2025/09/03/what-to-say-next-when-frustrated-at-work/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20317&utm_medium=email){:target="_blank"}
+- [The Four Styles of Confidence on a Team - Adam Smith](https://adamsmith.cc/the-four-styles-of-confidence-on-a-team/?utm_source=tldrnewsletter){:target="_blank"}
+- [AI-Assisted Development: A Three-Act Play](https://betweentheprompts.com/three-act-play/?utm_source=tldrnewsletter){:target="_blank"}
+- [5 Essential Things Every Leader Should Evaluate After a Reorganization](https://daydreamsinruby.com/blog/2025-08-27-theres-been-a-reorg/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20318&utm_medium=email){:target="_blank"}
+- [Build Places, Not Products](https://every.to/source-code/build-places-not-products){:target="_blank"}
+- [What Companies with Successful AI Pilots Do Differently](https://hbr.org/2025/09/what-companies-with-successful-ai-pilots-do-differently){:target="_blank"}
+
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 
@@ -49,10 +61,14 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 - [LLM Embeddings Explained: A Visual and Intuitive Guide - a Hugging Face Space by hesamation](https://huggingface.co/spaces/hesamation/primer-llm-embedding?section=what_are_embeddings?){:target="_blank"}
 - [(4052) Effective agent design patterns in production — Laurie Voss, LlamaIndex - YouTube](https://www.youtube.com/watch?v=72XxWkd8Jrk){:target="_blank"}
 - [Writing a good design document](https://grantslatton.com/how-to-design-document?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2099){:target="_blank"}
-- [Unlocking Web Workers with React: A Step-by-Step Guide | Rahul's Blog](https://www.rahuljuliato.com/posts/react-workers?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2105){:target="_blank"}
-- [How I use generative AI for research in 2025 | by Tania Ostanina | Jul, 2025 | UX Collective](https://uxdesign.cc/an-ai-for-ux-v2-0-how-i-used-ai-for-research-in-2025-d4a0d652714b){:target="_blank"}
-- [Traps to Developers | qouteall notes](https://qouteall.fun/qouteall-blog/2025/Traps%20to%20Developers?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2111){:target="_blank"}
-- [Ollama vs. vLLM: A deep dive into performance benchmarking | Red Hat Developer](https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking#the_benchmarking_setup){:target="_blank"}
+- [Unlocking Web Workers with React: A Step-by-Step Guide - Rahul's Blog](https://www.rahuljuliato.com/posts/react-workers?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2105){:target="_blank"}
+- [How I use generative AI for research in 2025 - by Tania Ostanina - Jul, 2025 - UX Collective](https://uxdesign.cc/an-ai-for-ux-v2-0-how-i-used-ai-for-research-in-2025-d4a0d652714b){:target="_blank"}
+- [Traps to Developers - qouteall notes](https://qouteall.fun/qouteall-blog/2025/Traps%20to%20Developers?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2111){:target="_blank"}
+- [Ollama vs. vLLM: A deep dive into performance benchmarking - Red Hat Developer](https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking#the_benchmarking_setup){:target="_blank"}
+- [stackoverflow.ai - AI-powered search and discovery](https://stackoverflow.ai/){:target="_blank"}
+- [Attention Is the New Big-O. A Systems Design Approach to Prompt… - by Alex Chesser - Aug, 2025 - Medium](https://alexchesser.medium.com/attention-is-the-new-big-o-9c68e1ae9b27){:target="_blank"}
+- [Cognitive load is what matters](https://minds.md/zakirullin/cognitive?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2119){:target="_blank"}
+- [Introduction to AT Protocol – mackuba.eu](https://mackuba.eu/2025/08/20/introduction-to-atproto/?utm_source=tldrnewsletter){:target="_blank"}
 - Smart AI integration with the Model Context Protocol [Part 1](https://techcommunity.microsoft.com/blog/appsonazureblog/smart-ai-integration-with-the-model-context-protocol-mcp-part-1/4430385){:target="_blank"}, [Part 2](https://techcommunity.microsoft.com/blog/appsonazureblog/smart-ai-integration-with-the-model-context-protocol-mcp-part-2/4430390){:target="_blank"}, [Part 3](https://techcommunity.microsoft.com/blog/appsonazureblog/smart-ai-integration-with-the-model-context-protocol-mcp-part-3/4430392){:target="_blank"} & [Part 4](https://techcommunity.microsoft.com/blog/appsonazureblog/smart-ai-integration-with-the-model-context-protocol-mcp-part-4/4430394){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
@@ -66,7 +82,7 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 - [HuggingFaceTB/SmolLM3-3B · Hugging Face](https://huggingface.co/HuggingFaceTB/SmolLM3-3B){:target="_blank"}
 - [microsoft/wassette: Wassette: A security-oriented runtime that runs WebAssembly Components via MCP](https://github.com/microsoft/wassette){:target="_blank"}
 - [google/langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.](https://github.com/google/langextract?utm_source=tldrnewsletter){:target="_blank"}
-- [Trino | Distributed SQL query engine for big data](https://trino.io/){:target="_blank"}
+- [Trino - Distributed SQL query engine for big data](https://trino.io/){:target="_blank"}
 - [terrastruct/d2: D2 is a modern diagram scripting language that turns text to diagrams.](https://github.com/terrastruct/d2){:target="_blank"}
 - [Mintplex-Labs/anything-llm: The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.](https://github.com/Mintplex-Labs/anything-llm?tab=readme-ov-file){:target="_blank"}
 - [microsoft/markitdown: Python tool for converting files and office documents to Markdown.](https://github.com/microsoft/markitdown){:target="_blank"}
@@ -88,6 +104,12 @@ keywords: "Software Development, Leadership, DevOps, Microservices, Machine Lear
 - [musistudio/claude-code-router: Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.](https://github.com/musistudio/claude-code-router){:target="_blank"}
 - [analysis-tools-dev/static-analysis: ⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.](https://github.com/analysis-tools-dev/static-analysis?tab=readme-ov-file#python){:target="_blank"}
 - [jprevo/mapstronaut: A full-featured JavaScript object mapper](https://github.com/jprevo/mapstronaut?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2113){:target="_blank"}
-- [Introduction | Effect Documentation](https://effect.website/docs/getting-started/introduction/){:target="_blank"}
-- [Getting started | Watermill | Event-Driven in Go](https://watermill.io/docs/getting-started/){:target="_blank"}
+- [Introduction - Effect Documentation](https://effect.website/docs/getting-started/introduction/){:target="_blank"}
+- [Getting started - Watermill - Event-Driven in Go](https://watermill.io/docs/getting-started/){:target="_blank"}
 - [State Layer - LiftKit Components](https://www.chainlift.io/components/state-layer){:target="_blank"}
+- [Mediabunny](https://mediabunny.dev/){:target="_blank"}
+- [enetx/surf: SURF - Advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass for web automation and scraping.](https://github.com/enetx/surf){:target="_blank"}
+- [trailofbits/anamorpher: image scaling attacks for multi-modal prompt injection](https://github.com/trailofbits/anamorpher/tree/main){:target="_blank"}
+- [Andromeda](https://tryandromeda.dev/){:target="_blank"}
+- [TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management](https://github.com/erans/hyprmon/?tab=readme-ov-file#js-repo-pjax-container){:target="_blank"}
+- [aorumbayev/awesome-omarchy: ⚡A curated list of awesome omarchy resources](https://github.com/aorumbayev/awesome-omarchy?tab=readme-ov-file){:target="_blank"}
