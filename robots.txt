@@ -1,0 +1,10 @@
+# robots.txt for udbjorg.net
+User-agent: *
+Allow: /
+
+# Disallow draft and error pages
+Disallow: /_drafts/
+Disallow: /404.html
+
+# Sitemap location
+Sitemap: https://udbjorg.net/sitemap.xml

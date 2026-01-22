@@ -44,6 +44,13 @@ function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// Escape HTML to prevent XSS
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 // Initialize DocFind
 async function initDocFind() {
     if (docfindSearch) return true;
@@ -97,7 +104,7 @@ const search = async (value) => {
         return {
             html: `<div class="empty-state">
                 <h3>No results found</h3>
-                <p>We couldn't find any posts matching "${value}"</p>
+                <p>We couldn't find any posts matching "${escapeHtml(value)}"</p>
                 <div class="search-suggestions">
                     <h4>Search tips:</h4>
                     <ul>

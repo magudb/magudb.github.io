@@ -7,7 +7,7 @@ const doAnnouncement = async (files, text, token)=>{
         host: 'mastodon.social',
         port: 443,
         api: '/api/v1',
-        rejectUnauthorized: false
+        rejectUnauthorized: true  // Require valid TLS certificates
       };
       const mastodon = new Mastodon(config);
   
