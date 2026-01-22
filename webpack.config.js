@@ -22,10 +22,13 @@ console.log(`Building with version: ${appVersion}`);
 
 module.exports = {
   mode: "production",
-  entry: './_src/app.js',
+  entry: {
+    app: './_src/app.js',
+    search: './_src/search-page.js'
+  },
   output: {
     path: path.resolve(__dirname, "assets/js/"),
-    filename: "app.js"
+    filename: "[name].js"
   },
   plugins: [
     // Inject version at build time
