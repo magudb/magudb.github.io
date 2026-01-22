@@ -427,7 +427,8 @@ hr {
 }
 
 mark {
-  background: rgba($accent, 0.15);
+  background: $highlight;
+  color: $black;
   padding: 0 2px;
 }
 

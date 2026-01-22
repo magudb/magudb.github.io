@@ -28,9 +28,10 @@ $large-spacing: 2rem;
 $base-border-radius: 0;  // Sharp edges, no rounded corners
 
 // =============================================================================
-// MONOCHROMATIC PALETTE - Black, white, one accent
+// COLOR PALETTE - Bold primaries (Bauhaus/De Stijl inspired)
 // =============================================================================
 
+// Base neutrals
 $black: #1a1a1a;
 $dark-gray: #333;
 $medium-gray: #666;
@@ -39,9 +40,22 @@ $border-gray: #ddd;
 $off-white: #f5f5f5;
 $white: #fff;
 
-// Single accent color - used sparingly
-$accent: #0055cc;
-$accent-hover: #003d99;
+// Bold accent colors
+$blue: #0455BF;
+$blue-dark: #033d8c;
+$pink: #F24BB8;
+$pink-dark: #d93da0;
+$yellow: #F2E205;
+$yellow-gold: #F2CB05;
+$red: #F20505;
+
+// Primary accent (links, interactive)
+$accent: $blue;
+$accent-hover: $blue-dark;
+
+// Secondary accents (highlights, decorative)
+$highlight: $yellow;
+$highlight-alt: $pink;
 
 // Semantic mappings
 $base-font-color: $dark-gray;

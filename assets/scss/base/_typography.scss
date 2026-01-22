@@ -226,10 +226,17 @@ dd {
 }
 
 // -----------------------------------------------------------------------------
-// Selection
+// Selection - Bold yellow highlight
 // -----------------------------------------------------------------------------
 
 ::selection {
-  background-color: rgba($accent, 0.2);
+  background-color: $highlight;
   color: $black;
+}
+
+// Search/mark highlights
+mark {
+  background-color: $highlight;
+  color: $black;
+  padding: 0 2px;
 }
