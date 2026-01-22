@@ -34,8 +34,7 @@ assets/js/*.wasm
 
 # DocFind generated files (built during CI)
 docfind-documents.json
-assets/js/docfind.js
-assets/js/docfind_bg.wasm
+assets/js/docfind/
 search-with-embeddings.json
 
 # IDE and editors

@@ -49,8 +49,8 @@ async function initDocFind() {
     if (docfindSearch) return true;
 
     try {
-        // Dynamic import of DocFind module
-        const docfind = await import('/assets/js/docfind.js');
+        // Dynamic import of DocFind module (webpackIgnore prevents bundling)
+        const docfind = await import(/* webpackIgnore: true */ '/assets/js/docfind/docfind.js');
         docfindSearch = docfind.default || docfind.search || docfind;
         searchReady = true;
         console.log('DocFind search initialized');
