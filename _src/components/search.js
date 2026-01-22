@@ -8,11 +8,10 @@ let searchReady = false;
 
 // Search template matching theme styles
 let searchTemplate = (model, searchValue) => {
-    const metadata = model.metadata || model;
     const highlightedTitle = highlightText(model.title, searchValue);
-    const highlightedExcerpt = highlightText(metadata.excerpt || '', searchValue);
-    const url = metadata.url || model.id;
-    const date = metadata.date || '';
+    const highlightedExcerpt = highlightText(model.excerpt || '', searchValue);
+    const url = model.href || '';
+    const date = model.date || '';
     const score = model.score != null ? Math.round(model.score * 100) : null;
 
     return `<article class="post-item search-result" onclick="window.location.href='${url}?searched=${encodeURIComponent(searchValue)}'">

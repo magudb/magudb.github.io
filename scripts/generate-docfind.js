@@ -39,45 +39,36 @@ async function getAllPosts() {
 
                 // Extract metadata
                 const title = frontMatter.match(/title:\s*["']?(.+?)["']?\s*$/m)?.[1] || file;
-                const category = frontMatter.match(/category:\s*["']?(.+?)["']?\s*$/m)?.[1] || 'uncategorized';
-                const tags = frontMatter.match(/tags:\s*\[(.+?)\]/)?.[1]?.split(',').map(t => t.trim().replace(/["']/g, '')) || [];
-                const description = frontMatter.match(/description:\s*["']?(.+?)["']?\s*$/m)?.[1] || '';
+                const category = frontMatter.match(/category:\s*["']?(.+?)["']?\s*$/m)?.[1] || 'Blog';
 
                 // Extract date from filename
                 const dateMatch = file.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
                 const date = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : '';
 
                 // Create URL from filename
-                const url = dateMatch ?
+                const href = dateMatch ?
                     `/${dateMatch[1]}/${dateMatch[2]}/${dateMatch[4].replace(/\s+/g, '-')}` :
                     `/${file.replace('.md', '')}`;
 
                 // Convert body to plain text
                 const plainTextBody = markdownToPlainText(bodyContent);
-                const excerpt = plainTextBody.substring(0, 300);
 
+                // DocFind required format: title, category, href, body
                 posts.push({
-                    // DocFind required fields
-                    id: url,
                     title: title,
+                    category: category,
+                    href: href,
                     body: plainTextBody,
-
-                    // Metadata for display (DocFind passes these through)
-                    metadata: {
-                        url: url,
-                        date: date,
-                        category: category,
-                        tags: tags,
-                        excerpt: excerpt,
-                        description: description
-                    }
+                    // Extra fields for search result display (DocFind passes these through)
+                    date: date,
+                    excerpt: plainTextBody.substring(0, 300)
                 });
             }
         }
     }
 
     // Sort by date descending
-    posts.sort((a, b) => b.metadata.date.localeCompare(a.metadata.date));
+    posts.sort((a, b) => b.date.localeCompare(a.date));
 
     return posts;
 }
