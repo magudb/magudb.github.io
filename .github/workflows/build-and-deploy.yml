@@ -130,7 +130,13 @@ jobs:
         run: npm install mastodon-lite
 
       - name: Announce on Mastodon
-        if: steps.check_posts.outputs.has_new_posts == 'true' && secrets.MASTODON_ACCESS_TOKEN != ''
+        if: steps.check_posts.outputs.has_new_posts == 'true'
+        env:
+          MASTODON_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: |
-          node release/release.js "${{ steps.check_posts.outputs.new_posts }}" "New on the blog!" "${{ secrets.MASTODON_ACCESS_TOKEN }}"
+          if [ -n "$MASTODON_TOKEN" ]; then
+            node release/release.js "${{ steps.check_posts.outputs.new_posts }}" "New on the blog!" "$MASTODON_TOKEN"
+          else
+            echo "MASTODON_ACCESS_TOKEN not configured, skipping announcement"
+          fi
         continue-on-error: true
