@@ -3,6 +3,15 @@ const path = require('path');
 const MarkdownIt = require('markdown-it');
 const md = new MarkdownIt();
 
+// Slugify to match Jekyll's URL generation (preserves case and apostrophes)
+function slugify(text) {
+    return text
+        .replace(/:/g, '')              // Remove colons
+        .replace(/\s+/g, '-')           // Replace spaces with hyphens
+        .replace(/-+/g, '-')            // Collapse multiple hyphens
+        .replace(/^-|-$/g, '');         // Trim hyphens from ends
+}
+
 // Convert markdown to plain text
 function markdownToPlainText(markdown) {
     const html = md.render(markdown);
@@ -45,10 +54,10 @@ async function getAllPosts() {
                 const dateMatch = file.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)\.md$/);
                 const date = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : '';
 
-                // Create URL from filename
+                // Create URL from filename (matching Jekyll's permalink: /:year/:month/:title)
                 const href = dateMatch ?
-                    `/${dateMatch[1]}/${dateMatch[2]}/${dateMatch[4].replace(/\s+/g, '-')}` :
-                    `/${file.replace('.md', '')}`;
+                    `/${dateMatch[1]}/${dateMatch[2]}/${slugify(dateMatch[4])}` :
+                    `/${slugify(file.replace('.md', ''))}`;
 
                 // Convert body to plain text
                 const plainTextBody = markdownToPlainText(bodyContent);
