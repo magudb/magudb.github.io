@@ -1,5 +1,9 @@
 import * as search from "./components/search.js"
-console.log("Udbjorg V1.0.5");
+
+// Version injected by webpack at build time
+// eslint-disable-next-line no-undef
+console.log(`Udbjorg ${__APP_VERSION__}`);
+
 (async ()=>{
     await search.bootstrap_dom("#search-box", "#search-button");
 })()

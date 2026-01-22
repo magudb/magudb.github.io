@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 const path = require('path');
 const pkg = require('./package.json');
@@ -14,7 +15,10 @@ const commitSha = process.env.COMMIT_SHA
 
 const cacheVersion = `${buildVersion}+${commitSha}`;
 
-console.log(`Building with cache version: ${cacheVersion}`);
+// Full version string for app display
+const appVersion = `${buildVersion} (${commitSha})`;
+
+console.log(`Building with version: ${appVersion}`);
 
 module.exports = {
   mode: "production",
@@ -24,6 +28,10 @@ module.exports = {
     filename: "app.js"
   },
   plugins: [
+    // Inject version at build time
+    new webpack.DefinePlugin({
+      __APP_VERSION__: JSON.stringify(appVersion),
+    }),
     new WorkboxPlugin.GenerateSW({
       // Use build version as cache identifier for automatic cache busting
       cacheId: `udbjorg-net-v${cacheVersion}`,
