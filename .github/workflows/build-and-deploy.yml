@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -34,24 +34,33 @@ jobs:
         with:
           node-version: '22'
           cache: 'npm'
-          
+
       - name: Install Node dependencies
         run: npm ci
-        
+
       - name: Build JavaScript assets
         run: npm run build
         env:
           BUILD_VERSION: ${{ github.run_number }}
           COMMIT_SHA: ${{ github.sha }}
-        
-      - name: Generate embeddings
-        run: npm run generate-embeddings
-        
+
+      - name: Generate DocFind documents
+        run: npm run generate-docfind
+
+      - name: Install DocFind CLI
+        run: curl -fsSL https://microsoft.github.io/docfind/install.sh | sh
+
+      - name: Build DocFind search index
+        run: |
+          ~/.docfind/bin/docfind docfind-documents.json assets/js/docfind
+          echo "DocFind search index built successfully"
+          ls -la assets/js/docfind*
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-          
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

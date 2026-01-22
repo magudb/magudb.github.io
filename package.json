@@ -1,7 +1,7 @@
 {
   "name": "udbjorg-net",
   "version": "1.0.0",
-  "description": "Jekyll blog with AI-powered search",
+  "description": "Jekyll blog with DocFind-powered search",
   "private": true,
   "engines": {
     "node": ">=20.0.0"
@@ -9,25 +9,17 @@
   "scripts": {
     "build": "webpack",
     "release": "node release/release.js",
-    "generate-embeddings": "node scripts/generate-embeddings.js",
-    "build:all": "npm run build && npm run generate-embeddings"
+    "generate-docfind": "node scripts/generate-docfind.js",
+    "build:all": "npm run build && npm run generate-docfind"
   },
   "dependencies": {
-    "@huggingface/transformers": "^3.7.0",
-    "@xenova/transformers": "^2.17.2",
-    "fuse.js": "^6.6.2",
     "mark.js": "^8.11.1",
     "markdown-it": "^14.1.0",
-    "moment": "^2.29.4",
     "query-string": "^8.1.0",
-    "rxdb": "^16.16.0",
     "webpack": "^5.101.0",
-    "whatwg-fetch": "^3.6.2",
     "workbox-webpack-plugin": "^6.5.4"
   },
   "devDependencies": {
-    "husky": "^9.1.7",
-    "mastodon-lite": "^0.0.23",
     "webpack-cli": "^5.0.1"
   }
 }

@@ -32,6 +32,12 @@ assets/js/*.mjs
 assets/js/*.mjs.LICENSE.txt
 assets/js/*.wasm
 
+# DocFind generated files (built during CI)
+docfind-documents.json
+assets/js/docfind.js
+assets/js/docfind_bg.wasm
+search-with-embeddings.json
+
 # IDE and editors
 .idea/
 .vscode/

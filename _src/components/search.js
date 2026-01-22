@@ -1,41 +1,42 @@
-import Fuse from "fuse.js";
 import queryString from "query-string";
 import Mark from "mark.js";
-import { hybridSearch, initializeVectorSearch } from "./vectorSearch.js";
-// @ts-ignore
 require('./helper.js');
 
-// State for vector search
-let vectorSearchEnabled = false;
-let searchData = null;
+// DocFind search module - loaded dynamically
+let docfindSearch = null;
+let searchReady = false;
 
 // Search template matching theme styles
 let searchTemplate = (model, searchValue) => {
+    const metadata = model.metadata || model;
     const highlightedTitle = highlightText(model.title, searchValue);
-    const highlightedExcerpt = highlightText(model.excerpt || '', searchValue);
-    
-    return `<article class="post-item search-result" onclick="window.location.href='${model.url}?searched=${encodeURIComponent(searchValue)}'">
-        <span class="date-label">${model.date}</span>
+    const highlightedExcerpt = highlightText(metadata.excerpt || '', searchValue);
+    const url = metadata.url || model.id;
+    const date = metadata.date || '';
+    const score = model.score != null ? Math.round(model.score * 100) : null;
+
+    return `<article class="post-item search-result" onclick="window.location.href='${url}?searched=${encodeURIComponent(searchValue)}'">
+        <span class="date-label">${date}</span>
         <div class="article-title">
-            <a class="post-link" href="${model.url}?searched=${encodeURIComponent(searchValue)}">${highlightedTitle}</a>
+            <a class="post-link" href="${url}?searched=${encodeURIComponent(searchValue)}">${highlightedTitle}</a>
         </div>
         ${highlightedExcerpt ? `<div class="post-excerpt">${highlightedExcerpt}</div>` : ''}
-        ${model.similarity ? `<div class="search-relevance">Relevance: ${Math.round(model.similarity * 100)}%</div>` : ''}
+        ${score != null ? `<div class="search-relevance">Relevance: ${score}%</div>` : ''}
     </article>`;
 };
 
 // Highlight search terms in text
 function highlightText(text, searchValue) {
     if (!searchValue || !text) return text;
-    
+
     const searchTerms = searchValue.toLowerCase().split(/\s+/).filter(term => term.length > 0);
     let highlightedText = text;
-    
+
     searchTerms.forEach(term => {
         const regex = new RegExp(`(${escapeRegExp(term)})`, 'gi');
         highlightedText = highlightedText.replace(regex, '<mark>$1</mark>');
     });
-    
+
     return highlightedText;
 }
 
@@ -44,84 +45,56 @@ function escapeRegExp(string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-// Try to load search data with embeddings
-async function loadSearchData() {
+// Initialize DocFind
+async function initDocFind() {
+    if (docfindSearch) return true;
+
     try {
-        // First try to load embeddings version
-        const response = await fetch("/search-with-embeddings.json");
-        if (response.ok) {
-            searchData = await response.json();
-            // Check if embeddings exist
-            if (searchData.length > 0 && searchData[0].embedding) {
-                console.log('Vector search enabled with embeddings');
-                return true;
-            }
-        }
-    } catch (e) {
-        console.log('No embeddings found, falling back to regular search');
+        // Dynamic import of DocFind module
+        const docfind = await import('/assets/js/docfind.js');
+        docfindSearch = docfind.default || docfind.search || docfind;
+        searchReady = true;
+        console.log('DocFind search initialized');
+        return true;
+    } catch (error) {
+        console.error('Failed to load DocFind:', error);
+        return false;
     }
-    
-    // Fallback to regular search.json
-    const response = await fetch("/search.json");
-    searchData = await response.json();
-    return false;
 }
-
-// Fallback Fuse.js search
-const fuseSearch = (data, value) => {
-    const fuse = new Fuse(data, {
-        keys: [
-            { name: "title", weight: 0.4 },
-            { name: "excerpt", weight: 0.3 },
-            { name: "body", weight: 0.2 },
-            { name: "tags", weight: 0.05 },
-            { name: "category", weight: 0.05 }
-        ],
-        includeScore: true,
-        threshold: 0.4,
-        location: 0,
-        distance: 100,
-        minMatchCharLength: 2
-    });
-
-    return fuse.search(value).map(result => ({
-        ...result.item,
-        similarity: 1 - result.score
-    }));
-};
 
 // Main search function
 const search = async (value) => {
-    if (!searchData) {
-        vectorSearchEnabled = await loadSearchData();
-        
-        // Try to initialize vector search if embeddings are available
-        if (vectorSearchEnabled) {
-            const initialized = await initializeVectorSearch();
-            vectorSearchEnabled = initialized;
-        }
+    if (!searchReady) {
+        await initDocFind();
+    }
+
+    if (!docfindSearch) {
+        return {
+            html: `<div class="empty-state">
+                <h3>Search unavailable</h3>
+                <p>Search is currently loading. Please try again in a moment.</p>
+            </div>`,
+            count: 0
+        };
     }
 
     let results;
-    
-    // Use vector search if available, otherwise fallback to Fuse.js
-    if (vectorSearchEnabled) {
-        try {
-            results = await hybridSearch(value, searchData, {
-                topK: 20,
-                threshold: 0.2,
-                vectorWeight: 0.8,
-                keywordWeight: 0.2
-            });
-        } catch (error) {
-            console.error('Vector search failed, falling back to keyword search:', error);
-            results = fuseSearch(searchData, value);
-        }
-    } else {
-        results = fuseSearch(searchData, value);
+
+    try {
+        // DocFind returns results with score and document data
+        results = await docfindSearch(value);
+    } catch (error) {
+        console.error('DocFind search failed:', error);
+        return {
+            html: `<div class="empty-state">
+                <h3>Search error</h3>
+                <p>An error occurred while searching. Please try again.</p>
+            </div>`,
+            count: 0
+        };
     }
 
-    if (results.length < 1) {
+    if (!results || results.length < 1) {
         return {
             html: `<div class="empty-state">
                 <h3>No results found</h3>
@@ -130,7 +103,7 @@ const search = async (value) => {
                     <h4>Search tips:</h4>
                     <ul>
                         <li>Try different keywords</li>
-                        <li>Use related terms</li>
+                        <li>Use fewer or more general terms</li>
                         <li>Check your spelling</li>
                     </ul>
                 </div>
@@ -139,23 +112,17 @@ const search = async (value) => {
         };
     }
 
-    // Sort by relevance score (similarity or finalScore)
-    const sortedResults = results
-        .sort((a, b) => {
-            const scoreA = a.finalScore || a.similarity || 0;
-            const scoreB = b.finalScore || b.similarity || 0;
-            return scoreB - scoreA;
-        })
-        .slice(0, 20);
+    // Take top 20 results
+    const topResults = results.slice(0, 20);
 
-    const html = sortedResults
+    const html = topResults
         .map(result => searchTemplate(result, value))
         .join("");
 
     return {
         html,
-        count: sortedResults.length,
-        vectorSearch: vectorSearchEnabled
+        count: topResults.length,
+        docfindSearch: true
     };
 };
 
@@ -166,7 +133,7 @@ export async function For(value) {
 export async function bootstrap_dom(input_element, button_element) {
     const results_container = document.querySelector("#search-results");
     const search_info = document.querySelector("#search-info");
-    
+
     if (!results_container) {
         return;
     }
@@ -174,11 +141,11 @@ export async function bootstrap_dom(input_element, button_element) {
     const input = document.querySelector(input_element);
     const parsed = queryString.parse(location.search);
 
-    // Preload search data
-    loadSearchData().then(hasEmbeddings => {
-        vectorSearchEnabled = hasEmbeddings;
-        if (hasEmbeddings && search_info) {
-            search_info.innerHTML = '<span style="color: #0066cc; font-size: 0.75rem;">✨ AI-powered search enabled</span>';
+    // Preload DocFind
+    initDocFind().then(ready => {
+        searchReady = ready;
+        if (ready && search_info) {
+            search_info.innerHTML = '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>';
         }
     });
 
@@ -201,23 +168,22 @@ export async function bootstrap_dom(input_element, button_element) {
     if (parsed.query) {
         const results = await search(parsed.query);
         if (input) input.value = parsed.query;
-        
+
         results_container.innerHTML = results.html;
-        
+
         if (search_info && results.count > 0) {
-            const searchType = results.vectorSearch ? 'AI-powered' : 'keyword';
-            search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(${searchType} search)</span>`;
+            search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(fuzzy search)</span>`;
         }
     }
 
     // Search functionality
     const performSearch = async () => {
         const query = input.value.trim();
-        
+
         if (!query) {
             results_container.innerHTML = '<div class="initial-state">Start typing to search</div>';
-            if (search_info) search_info.innerHTML = vectorSearchEnabled ? 
-                '<span style="color: #0066cc; font-size: 0.75rem;">✨ AI-powered search enabled</span>' : '';
+            if (search_info) search_info.innerHTML = searchReady ?
+                '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>' : '';
             window.history.pushState({}, '', window.location.pathname);
             return;
         }
@@ -225,16 +191,15 @@ export async function bootstrap_dom(input_element, button_element) {
         // Show loading state
         results_container.innerHTML = '<div class="search-loading">Searching...</div>';
         if (search_info) search_info.textContent = '';
-        
+
         try {
             const results = await search(query);
             results_container.innerHTML = results.html;
-            
+
             if (search_info && results.count > 0) {
-                const searchType = results.vectorSearch ? 'AI-powered' : 'keyword';
-                search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(${searchType} search)</span>`;
+                search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(fuzzy search)</span>`;
             }
-            
+
             // Update URL
             window.history.pushState({}, '', `${window.location.pathname}?query=${encodeURIComponent(query)}`);
         } catch (error) {
@@ -258,15 +223,15 @@ export async function bootstrap_dom(input_element, button_element) {
         input.addEventListener("input", (event) => {
             clearTimeout(searchTimeout);
             const query = event.target.value.trim();
-            
+
             if (query.length >= 2) {
                 searchTimeout = setTimeout(async () => {
                     await performSearch();
                 }, 300);
             } else if (query.length === 0) {
                 results_container.innerHTML = '<div class="initial-state">Start typing to search</div>';
-                if (search_info) search_info.innerHTML = vectorSearchEnabled ? 
-                    '<span style="color: #0066cc; font-size: 0.75rem;">✨ AI-powered search enabled</span>' : '';
+                if (search_info) search_info.innerHTML = searchReady ?
+                    '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>' : '';
                 window.history.pushState({}, '', window.location.pathname);
             }
         });
