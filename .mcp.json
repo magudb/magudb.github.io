@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "swarmthing": {
+      "args": [
+        "mcp"
+      ],
+      "command": "/usr/local/bin/swarmthing"
+    }
+  }
+}

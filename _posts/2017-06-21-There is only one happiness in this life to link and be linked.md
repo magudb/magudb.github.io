@@ -5,7 +5,7 @@ description: ""
 comments: false
 category: "Curated Insights"
 keywords: "Links, extravaganza, Tech, IT, Microservices, NodeJs, C#, Javascript, Solution architecture"
-redirect_from: "/2017/There-is-only-one-happiness-in-this-life-to-link-and-be-linked/"
+redirect_from: "/2017/06/There-is-only-one-happiness-in-this-life-to-link-and-be-linked/"
 ---
 
 ## Categories ##

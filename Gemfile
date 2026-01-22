@@ -1,16 +1,21 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'html-proofer'
-gem 'github-pages'
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'sass'
-gem 'bourbon'
-gem 'jekyll-redirect-from'
-gem 'kramdown'
-gem 'rdiscount'
+source 'https://rubygems.org'
+
+# GitHub Pages gem includes Jekyll and common plugins
+gem 'github-pages', group: :jekyll_plugins
+
+# Additional plugins
+group :jekyll_plugins do
+  gem 'jekyll-paginate'
+  gem 'jekyll-redirect-from'
+end
+
+# Syntax highlighting
 gem 'rouge'
-gem 'pygments.rb'
-gem 'concurrent-ruby', '1.1.8'
+
+# Sass mixins
+gem 'bourbon'
+
+# Development/testing
+gem 'html-proofer', group: :development

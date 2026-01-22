@@ -26,13 +26,13 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
           bundler-cache: true
-          
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
           cache: 'npm'
           
       - name: Install Node dependencies
@@ -40,6 +40,9 @@ jobs:
         
       - name: Build JavaScript assets
         run: npm run build
+        env:
+          BUILD_VERSION: ${{ github.run_number }}
+          COMMIT_SHA: ${{ github.sha }}
         
       - name: Generate embeddings
         run: npm run generate-embeddings

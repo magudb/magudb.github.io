@@ -1,4 +1,11 @@
 {
+  "name": "udbjorg-net",
+  "version": "1.0.0",
+  "description": "Jekyll blog with AI-powered search",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "webpack",
     "release": "node release/release.js",
@@ -15,7 +22,7 @@
     "query-string": "^8.1.0",
     "rxdb": "^16.16.0",
     "webpack": "^5.101.0",
-    "whatwg-fetch": "^ 3.6.2",
+    "whatwg-fetch": "^3.6.2",
     "workbox-webpack-plugin": "^6.5.4"
   },
   "devDependencies": {

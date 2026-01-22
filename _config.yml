@@ -7,7 +7,6 @@ keywords: "Udbjorg, Links, Great ideas, thoughts, Love"
 url: https://udbjorg.net # site url
 baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-70467704-1
 repo: https://github.com/magudb/magudb.github.io
 disqus_shortname: "magudb"
 twitter_username: "magnusudbjorg"
@@ -57,4 +56,24 @@ navbar:
   - slug : blog
     title: Blog
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "vendor", "scripts"]
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - README.md
+  - Rakefile
+  - changelog.md
+  - scripts
+  - release
+  - _src
+  - .github
+  - .claude
+  - docker-compose.yml
+  - Dockerfile
+  - build.sh
+  - CLAUDE.md
+  - "*.sh"

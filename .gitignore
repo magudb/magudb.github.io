@@ -1,56 +1,89 @@
+# Jekyll build output
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler
 .bundle/
+vendor/
+*.gem
 
-# Windows image file caches
-Thumbs.db
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Build artifacts
+pkg/
+bin/
+dist/
+
+# Generated service worker (built by webpack/workbox)
+service-worker.js
+workbox-*.js
+
+# Generated JS assets (built by webpack)
+assets/js/app.js
+assets/js/app.js.LICENSE.txt
+assets/js/*.mjs
+assets/js/*.mjs.LICENSE.txt
+assets/js/*.wasm
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.metals/
+.bloop/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
-
-# Folder config file
+Thumbs.db
 Desktop.ini
 
-# Recycle Bin used on file shares
+# Windows
 $RECYCLE.BIN/
-
-# Windows Installer files
 *.cab
 *.msi
 *.msm
 *.msp
-
-# Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
+# macOS
 .AppleDouble
 .LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
-.Spotlight-V100
 .TemporaryItems
-.Trashes
 .VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-node_modules/
-pkg/
-bin/
-.metals/
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.claude/

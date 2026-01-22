@@ -1,95 +1,104 @@
-# CLAUDE.md
+# SwarmThing Configuration
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## MCP Server
 
-## Development Commands
+SwarmThing provides an MCP server for Claude Code integration.
 
-### Jekyll (Blog Engine)
+### Setup
 ```bash
-# Install dependencies
-bundle install
-
-# Run development server locally
-bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --incremental
-
-# Build the site
-bundle exec jekyll build
+claude mcp add swarmthing -- swarmthing mcp
 ```
 
-### Docker Alternative
-```bash
-# Run with Docker Compose (recommended for consistent environment)
-docker-compose up
+### Available MCP Tools
 
-# Build Docker image
-docker build -t magudb-blog .
+| Tool | Description |
+|------|-------------|
+| `swarm_init` | Initialize swarm with topology and team preset |
+| `swarm_status` | Get current swarm status |
+| `swarm_shutdown` | Gracefully shutdown the swarm |
+| `agent_spawn` | Spawn a new agent |
+| `agent_list` | List all agents |
+| `agent_status` | Get specific agent status |
+| `agent_terminate` | Terminate an agent |
+| `team_list` | List available team presets |
+| `team_apply` | Apply a team preset |
+| `task_create` | Create and submit a task |
+| `task_status` | Get task status |
+
+## Team Presets
+
+### Software Engineering (recommended for code tasks)
+- **Topology**: hierarchical
+- **Agents**: Coordinator (Tech Lead), Architect, 2x Coder, Reviewer, Tester
+
+### Leadership (strategic decisions)
+- **Topology**: star
+- **Agents**: CEO, CTO, CPO, CSO, CFO
+
+### Product Management (product work)
+- **Topology**: mesh
+- **Agents**: Product Lead, Designer, User Researcher, Data Analyst
+
+## Quick Start
+
+1. Initialize with software engineering team:
+```
+Use MCP tool: swarm_init
+  topology: "hierarchical"
+  team: "software_engineering"
 ```
 
-### Frontend Assets (Webpack)
-```bash
-# Install npm dependencies
-npm install
-
-# Build JavaScript assets
-npm run build
-
-# Release process
-npm run release
+2. Submit a task:
+```
+Use MCP tool: task_create
+  title: "Implement feature X"
+  description: "Details..."
+  priority: "high"
 ```
 
-## High-Level Architecture
+3. Check status:
+```
+Use MCP tool: swarm_status
+```
 
-This is a Jekyll-based personal blog with the following structure:
+## CLI Commands
 
-### Core Components
-1. **Jekyll Static Site Generator**: Handles blog posts, pages, layouts, and content generation
-   - Posts are in `_posts/` directory (Markdown files)
-   - Drafts in `_drafts/`
-   - Layouts and templates in `_layouts/` and `_includes/`
-   - Uses Thinkspace v2 theme as base
+```bash
+# Initialize swarm
+swarmthing swarm init --topology hierarchical --team software_engineering
 
-2. **Frontend JavaScript**: Custom search functionality
-   - Entry point: `_src/app.js`
-   - Search module: `_src/components/search.js` - implements Fuse.js for client-side search
-   - Service worker setup for offline functionality via Workbox
+# Launch TUI
+swarmthing tui
 
-3. **Styling**: Sass/SCSS with Bourbon mixins
-   - Main styles in `assets/scss/`
-   - Compiled to compressed CSS
+# List teams
+swarmthing team list
 
-### Key Features
-- **AI-Powered Vector Search**:
-  - Semantic search using vector embeddings (when available)
-  - Hybrid search combining vector similarity and keyword matching
-  - Automatic fallback to Fuse.js keyword search
-  - Powered by Xenova/all-MiniLM-L6-v2 transformer model
-  - Works completely offline in the browser
-  - Generate embeddings with: `npm run generate-embeddings`
-- **Enhanced Client-side Search**:
-  - Live search with debouncing (triggers after 2 characters)
-  - Search result highlighting and relevance scoring
-  - Search suggestions for failed searches
-  - URL parameter support for shareable searches
-- Service worker for offline support
-- Disqus comments integration
-- Google Analytics tracking
-- Responsive design optimized for technical writing
+# Check status
+swarmthing status
+```
 
-### Deployment
-- Hosted on GitHub Pages (CNAME: udbjorg.net)
-- Main branch deploys automatically via GitHub Actions
-- **Build Process**:
-  1. `npm run build` - Builds JavaScript assets
-  2. `npm run generate-embeddings` - Generates vector embeddings for AI search
-  3. `bundle exec jekyll build` - Builds Jekyll site
-- **Pre-commit Hook**: Automatically builds assets and generates embeddings when posts change
-- **GitHub Actions**: Runs full build pipeline on push to master/main
+## Custom Teams
 
-### Important Configuration
-- `_config.yml`: Main Jekyll configuration
-- `webpack.config.js`: JavaScript bundling and service worker generation
-- Ruby 3.1 Alpine Docker environment with specific bundler version (1.17.3)
+Add YAML files to `.claude/teams/` or `internal/config/teams/`:
 
-## Notes
-- The repository contains Go module cache in `pkg/` which appears to be unrelated to the main blog functionality
-- Git status shows uncommitted changes to Gemfile.lock and a renamed post file
+```yaml
+name: "My Custom Team"
+preset: custom
+topology: mesh
+coordinator: lead
+agents:
+  - id: lead
+    type: coordinator
+    name: "Team Lead"
+    model: opus
+    capabilities:
+      - task_planning
+      - delegation
+  - id: dev1
+    type: coder
+    name: "Developer"
+    model: sonnet
+    capabilities:
+      - code_writing
+      - debugging
+```

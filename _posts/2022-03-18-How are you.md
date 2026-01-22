@@ -5,7 +5,6 @@ description: "Links, ALOT!"
 comments: false
 category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
-redirect_from: /2022/03/How-are-you
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>

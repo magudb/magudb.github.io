@@ -5,7 +5,6 @@ description: "Links, TwentyThree version!"
 comments: false
 category: "Curated Insights"
 keywords: "Links, IT, Microservices, development, architecture, love"
-redirect_from: /2021/08/At-TwentyThree
 ---
 
 <!-- markdownlint-disable MD033 MD020 MD025-->
