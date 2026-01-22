@@ -102,29 +102,45 @@ body {
     }
   }
 
-  // Search input in nav
+  // Search input in nav - matches link style
   form {
     margin: 0;
+    display: flex;
+    align-items: center;
   }
 
   input[type="search"] {
     font-family: $ui-font-family;
     font-size: $small-font-size;
-    padding: 0.375rem 0.75rem;
-    border: 2px solid $black;
-    background: $white;
-    width: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: $black;
+    width: 80px;
     transition: border-color $base-duration $base-timing;
+    -webkit-appearance: none;
+    appearance: none;
 
     &:focus {
       outline: none;
-      border-color: $accent;
+      border-bottom-color: $accent;
     }
 
     &::placeholder {
-      color: $light-gray;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      color: $black;
+      opacity: 1;
+    }
+
+    // Remove Safari search decoration
+    &::-webkit-search-decoration,
+    &::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      appearance: none;
     }
   }
 }
