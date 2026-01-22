@@ -8,6 +8,7 @@ url: https://udbjorg.net # site url
 baseurl: null # apply null if repo name is something like username.github.io
 
 repo: https://github.com/magudb/magudb.github.io
+repository: magudb/magudb.github.io
 disqus_shortname: "magudb"
 twitter_username: "magnusudbjorg"
 mastodon_username: "https://mastodon.social/@Magudb"
@@ -76,4 +77,5 @@ exclude:
   - Dockerfile
   - build.sh
   - CLAUDE.md
+  - docfind-documents.json
   - "*.sh"
