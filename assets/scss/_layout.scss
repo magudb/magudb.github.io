@@ -44,12 +44,13 @@ body {
 .logo {
   float: left;
   margin: 0;
-  font-size: 1.125rem;
-  font-weight: 700;
+  font-family: $brutalist-font-family;
+  font-size: 1.5rem;
+  font-weight: 400;
   color: $black;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
 
   &:hover {
     color: $accent;
@@ -65,6 +66,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: $ui-font-family;
 
   li {
     display: inline-block;
@@ -88,6 +90,7 @@ body {
 
 .intro {
   margin-bottom: $large-spacing;
+  font-family: $ui-font-family;
 
   .author-name {
     font-weight: 600;
@@ -108,15 +111,20 @@ body {
 // Post List - Drudge-style density
 // -----------------------------------------------------------------------------
 
+// Post list uses UI font for scannability
 .post-list {
   line-height: $dense-line-height;
+  font-family: $ui-font-family;
 }
 
 .category-title {
   margin: $large-spacing 0 $small-spacing 0;
   padding-bottom: $small-spacing;
-  font-size: 1rem;
-  font-weight: 700;
+  font-family: $brutalist-font-family;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
   color: $black;
   border-bottom: 1px solid $border-gray;
 
@@ -326,6 +334,7 @@ body {
   padding: $large-spacing 0;
   margin-top: $large-spacing;
   border-top: 2px solid $black;
+  font-family: $ui-font-family;
 
   a {
     color: $medium-gray;

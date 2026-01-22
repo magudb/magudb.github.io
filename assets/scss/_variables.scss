@@ -2,9 +2,13 @@
 // DESIGN DNA: A List Apart elegance + Drudge Report density
 // =============================================================================
 
-// Typography - System fonts for speed, elegant fallbacks
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$heading-font-family: $base-font-family;
+// Typography
+// Headings: Bebas Neue - brutalist, all-caps block letters
+// Body: Charter/Georgia - elegant serif for optimal reading
+$brutalist-font-family: "Bebas Neue", Impact, "Arial Black", sans-serif;
+$heading-font-family: $brutalist-font-family;
+$base-font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+$ui-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $monospace-font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
 
 // Font Sizes - Readable but dense
