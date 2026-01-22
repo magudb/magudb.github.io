@@ -8,8 +8,8 @@
 
 // CSS Custom Properties for Modern Theming
 :root {
-  --color-primary: #{$primary-color};
-  --color-action: #{$action-color};
+  --color-accent: #{$accent};
+  --color-accent-hover: #{$accent-hover};
   --color-background: #{$base-background-color};
   --color-text: #{$base-font-color};
   --color-heading: #{$heading-color};
@@ -20,7 +20,6 @@
   --spacing-base: #{$base-spacing};
   --spacing-small: #{$small-spacing};
   --spacing-large: #{$large-spacing};
-  --radius: #{$base-border-radius};
 }
 
 @import "layout";

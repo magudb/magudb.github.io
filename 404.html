@@ -1,8 +1,55 @@
 ---
-layout: error
-title: 404 - Not found
+layout: default
+title: 404 - Page not found
 permalink: /404.html
 ---
-<h1 style="text-align: center;">Oops, I could not find what you looked for :(</h1>
 
-<div id="error"></div>
+<article class="page container">
+  <div class="error-page">
+    <h1>404</h1>
+    <p class="error-message">Page not found.</p>
+    <p class="error-help">The page you're looking for doesn't exist or has been moved.</p>
+    <p><a href="/">Back to home</a></p>
+  </div>
+</article>
+
+<style>
+.error-page {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.error-page h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.error-page .error-message {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.error-page .error-help {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.error-page a {
+  color: #0055cc;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 85, 204, 0.3);
+}
+
+.error-page a:hover {
+  color: #003d99;
+  text-decoration-color: #003d99;
+}
+</style>
+
+<script>
+  window.errorpage = true;
+</script>
