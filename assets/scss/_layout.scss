@@ -35,51 +35,96 @@ body {
 // Header - Minimal, functional
 // -----------------------------------------------------------------------------
 
+// -----------------------------------------------------------------------------
+// Header - Brutalist, bold
+// -----------------------------------------------------------------------------
+
 .site-header {
-  border-bottom: 2px solid $black;
+  border-bottom: 4px solid $black;
   margin-bottom: $large-spacing;
-  padding: $small-spacing 0;
-}
-
-.logo {
-  float: left;
-  margin: 0;
-  font-family: $brutalist-font-family;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: $black;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-
-  &:hover {
-    color: $accent;
-  }
+  padding: $base-spacing 0;
 }
 
 .nav {
-  min-height: 48px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-.navbar {
-  float: right;
+.logo {
   margin: 0;
-  padding: 0;
-  list-style: none;
-  font-family: $ui-font-family;
-
-  li {
-    display: inline-block;
-    margin-left: $base-spacing;
-  }
+  font-family: $brutalist-font-family;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 
   a {
-    color: $dark-gray;
-    font-weight: 500;
+    color: $black;
     text-decoration: none;
 
     &:hover {
       color: $accent;
+    }
+  }
+
+  span {
+    color: $medium-gray;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: $base-spacing;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: $ui-font-family;
+  font-size: $small-font-size;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    color: $black;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  // Search input in nav
+  form {
+    margin: 0;
+  }
+
+  input[type="search"] {
+    font-family: $ui-font-family;
+    font-size: $small-font-size;
+    padding: 0.375rem 0.75rem;
+    border: 2px solid $black;
+    background: $white;
+    width: 120px;
+    transition: border-color $base-duration $base-timing;
+
+    &:focus {
+      outline: none;
+      border-color: $accent;
+    }
+
+    &::placeholder {
+      color: $light-gray;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
   }
 }
@@ -441,14 +486,15 @@ mark {
     padding: $small-spacing;
   }
 
-  .navbar {
-    float: none;
-    margin-top: $small-spacing;
+  .nav .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $small-spacing;
+  }
 
-    li {
-      margin-left: 0;
-      margin-right: $small-spacing;
-    }
+  .navbar {
+    gap: $small-spacing;
+    flex-wrap: wrap;
   }
 
   .post-title {
