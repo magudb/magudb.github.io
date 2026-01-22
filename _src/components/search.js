@@ -6,22 +6,21 @@ require('./helper.js');
 let docfindSearch = null;
 let searchReady = false;
 
-// Search template matching theme styles
+// Search template - Drudge-style dense table rows
 let searchTemplate = (model, searchValue) => {
-    const highlightedTitle = highlightText(model.title, searchValue);
-    const highlightedExcerpt = highlightText(model.excerpt || '', searchValue);
+    const highlightedTitle = highlightText(escapeHtml(model.title), searchValue);
     const url = model.href || '';
     const date = model.date || '';
-    const score = model.score != null ? Math.round(model.score * 100) : null;
 
-    return `<article class="post-item search-result" onclick="window.location.href='${url}?searched=${encodeURIComponent(searchValue)}'">
-        <span class="date-label">${date}</span>
-        <div class="article-title">
-            <a class="post-link" href="${url}?searched=${encodeURIComponent(searchValue)}">${highlightedTitle}</a>
-        </div>
-        ${highlightedExcerpt ? `<div class="post-excerpt">${highlightedExcerpt}</div>` : ''}
-        ${score != null ? `<div class="search-relevance">Relevance: ${score}%</div>` : ''}
-    </article>`;
+    return `<div class="table">
+        <article class="row">
+            <div class="title article-title">
+                <a class="post-link" href="${url}?searched=${encodeURIComponent(searchValue)}">${highlightedTitle}</a>
+            </div>
+            <div class="dots"></div>
+            <div class="value date-label">${date}</div>
+        </article>
+    </div>`;
 };
 
 // Highlight search terms in text
@@ -76,10 +75,7 @@ const search = async (value) => {
 
     if (!docfindSearch) {
         return {
-            html: `<div class="empty-state">
-                <h3>Search unavailable</h3>
-                <p>Search is currently loading. Please try again in a moment.</p>
-            </div>`,
+            html: `<p class="search-message">Search loading...</p>`,
             count: 0
         };
     }
@@ -92,34 +88,20 @@ const search = async (value) => {
     } catch (error) {
         console.error('DocFind search failed:', error);
         return {
-            html: `<div class="empty-state">
-                <h3>Search error</h3>
-                <p>An error occurred while searching. Please try again.</p>
-            </div>`,
+            html: `<p class="search-message">Search error. Please try again.</p>`,
             count: 0
         };
     }
 
     if (!results || results.length < 1) {
         return {
-            html: `<div class="empty-state">
-                <h3>No results found</h3>
-                <p>We couldn't find any posts matching "${escapeHtml(value)}"</p>
-                <div class="search-suggestions">
-                    <h4>Search tips:</h4>
-                    <ul>
-                        <li>Try different keywords</li>
-                        <li>Use fewer or more general terms</li>
-                        <li>Check your spelling</li>
-                    </ul>
-                </div>
-            </div>`,
+            html: `<p class="search-message">No results for "${escapeHtml(value)}"</p>`,
             count: 0
         };
     }
 
-    // Take top 20 results
-    const topResults = results.slice(0, 20);
+    // Take top 30 results for dense display
+    const topResults = results.slice(0, 30);
 
     const html = topResults
         .map(result => searchTemplate(result, value))
@@ -127,8 +109,7 @@ const search = async (value) => {
 
     return {
         html,
-        count: topResults.length,
-        docfindSearch: true
+        count: topResults.length
     };
 };
 
@@ -150,9 +131,6 @@ export async function bootstrap_dom(input_element, button_element) {
     // Preload DocFind
     initDocFind().then(ready => {
         searchReady = ready;
-        if (ready && search_info) {
-            search_info.innerHTML = '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>';
-        }
     });
 
     // Handle highlighting on post pages
@@ -178,7 +156,7 @@ export async function bootstrap_dom(input_element, button_element) {
         results_container.innerHTML = results.html;
 
         if (search_info && results.count > 0) {
-            search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(fuzzy search)</span>`;
+            search_info.textContent = `${results.count} results`;
         }
     }
 
@@ -187,30 +165,29 @@ export async function bootstrap_dom(input_element, button_element) {
         const query = input.value.trim();
 
         if (!query) {
-            results_container.innerHTML = '<div class="initial-state">Start typing to search</div>';
-            if (search_info) search_info.innerHTML = searchReady ?
-                '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>' : '';
+            results_container.innerHTML = '<p class="search-message">Type to search</p>';
+            if (search_info) search_info.textContent = '';
             window.history.pushState({}, '', window.location.pathname);
             return;
         }
 
         // Show loading state
-        results_container.innerHTML = '<div class="search-loading">Searching...</div>';
+        results_container.innerHTML = '<p class="search-message">Searching...</p>';
         if (search_info) search_info.textContent = '';
 
         try {
             const results = await search(query);
             results_container.innerHTML = results.html;
 
-            if (search_info && results.count > 0) {
-                search_info.innerHTML = `<span>${results.count} ${results.count === 1 ? 'result' : 'results'} found</span> <span style="color: #0066cc; font-size: 0.75rem;">(fuzzy search)</span>`;
+            if (search_info) {
+                search_info.textContent = results.count > 0 ? `${results.count} results` : '';
             }
 
             // Update URL
             window.history.pushState({}, '', `${window.location.pathname}?query=${encodeURIComponent(query)}`);
         } catch (error) {
             console.error('Search error:', error);
-            results_container.innerHTML = '<p class="search-error">Search failed. Please try again.</p>';
+            results_container.innerHTML = '<p class="search-message">Search failed</p>';
         }
     };
 
@@ -235,23 +212,10 @@ export async function bootstrap_dom(input_element, button_element) {
                     await performSearch();
                 }, 300);
             } else if (query.length === 0) {
-                results_container.innerHTML = '<div class="initial-state">Start typing to search</div>';
-                if (search_info) search_info.innerHTML = searchReady ?
-                    '<span style="color: #0066cc; font-size: 0.75rem;">🔍 Fast fuzzy search enabled</span>' : '';
+                results_container.innerHTML = '<p class="search-message">Type to search</p>';
+                if (search_info) search_info.textContent = '';
                 window.history.pushState({}, '', window.location.pathname);
             }
         });
     }
 }
-
-// Add minimal styles for relevance score
-const style = document.createElement('style');
-style.textContent = `
-.search-relevance {
-    font-size: 0.75rem;
-    color: #0066cc;
-    margin-top: 0.25rem;
-    opacity: 0.7;
-}
-`;
-document.head.appendChild(style);

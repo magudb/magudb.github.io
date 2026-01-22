@@ -6,37 +6,37 @@ permalink: /search/
 
 <div class="search-wrapper">
   <form class="search-form">
-    <input type="text" id="search-box" name="query" class="search-input" placeholder="Search posts..." autofocus>
+    <input type="text" id="search-box" name="query" class="search-input" placeholder="Search..." autofocus>
   </form>
 
   <div class="search-info" id="search-info"></div>
 
   <section class="post-list">
-    <div id="search-results"></div>
+    <div id="search-results">
+      <p class="search-message">Type to search</p>
+    </div>
   </section>
 </div>
 
 <style>
-/* Design DNA: Minimal, functional, no fluff */
+/* Search - minimal, functional */
 .search-wrapper {
   max-width: 100%;
 }
 
 .search-form {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .search-input {
   width: 100%;
   padding: 0.5rem 0;
-  font-size: 1.25rem;
-  font-weight: normal;
-  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  font-family: inherit;
   border: none;
   border-bottom: 2px solid #1a1a1a;
   background: transparent;
   color: #1a1a1a;
-  transition: border-color 150ms ease-out;
 }
 
 .search-input:focus {
@@ -46,154 +46,22 @@ permalink: /search/
 
 .search-input::placeholder {
   color: #999;
-  font-weight: normal;
 }
 
 .search-info {
   font-size: 0.875rem;
   color: #666;
   margin-bottom: 1rem;
-  min-height: 1.25rem;
 }
 
-/* Search results - flat, dense */
-.search-result.post-item {
-  margin-bottom: 0;
-  padding: 0.625rem 0;
-  background: transparent;
-  border-bottom: 1px solid #ddd;
-  cursor: pointer;
-}
-
-.search-result.post-item:hover {
-  background: #f5f5f5;
-}
-
-.search-result.post-item:last-child {
-  border-bottom: none;
-}
-
-.search-result .date-label {
+.search-message {
   color: #999;
-  font-size: 0.875rem;
-  font-weight: normal;
-  float: right;
-}
-
-.search-result .article-title {
-  margin-bottom: 0.25rem;
-  font-size: 1rem;
-}
-
-.search-result .post-link {
-  color: #333;
-  font-weight: 500;
-  text-decoration: none;
-  display: block;
-  transition: color 150ms ease-out;
-}
-
-.search-result:hover .post-link {
-  color: #0055cc;
-}
-
-.post-excerpt {
-  color: #666;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-top: 0.25rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.post-excerpt mark {
-  background-color: rgba(0, 85, 204, 0.15);
-  padding: 0 2px;
-}
-
-/* Loading state */
-.search-loading {
-  text-align: center;
-  padding: 2rem 0;
-  color: #666;
-}
-
-/* Empty state - minimal */
-.empty-state {
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.empty-state h3 {
-  color: #1a1a1a;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.empty-state p {
-  color: #666;
-  margin-bottom: 1.5rem;
-}
-
-.search-suggestions {
-  text-align: left;
-  max-width: 20rem;
-  margin: 0 auto;
-  padding: 1rem;
-  background: #f5f5f5;
-  border-left: 3px solid #1a1a1a;
-}
-
-.search-suggestions h4 {
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 0.5rem;
-}
-
-.search-suggestions ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.search-suggestions li {
-  padding: 0.125rem 0;
-  font-size: 0.875rem;
-  color: #666;
-}
-
-.search-suggestions li::before {
-  content: "\2022";
-  margin-right: 0.5rem;
-  color: #999;
-}
-
-/* Error state */
-.search-error {
-  text-align: center;
-  padding: 2rem 0;
-  color: #c00;
-}
-
-/* Initial state */
-.initial-state {
-  text-align: center;
-  padding: 2rem 0;
-  color: #666;
   font-style: italic;
 }
 
-/* Responsive */
-@media (max-width: 640px) {
-  .search-input {
-    font-size: 1rem;
-  }
-
-  .search-result.post-item {
-    padding: 0.5rem 0;
-  }
+/* Highlight in search results */
+#search-results mark {
+  background-color: rgba(0, 85, 204, 0.15);
+  padding: 0 2px;
 }
 </style>
