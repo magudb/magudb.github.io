@@ -1,6 +1,5 @@
 import queryString from "query-string";
 import Mark from "mark.js";
-require('./helper.js');
 
 // DocFind search module - loaded dynamically
 let docfindSearch = null;
@@ -9,8 +8,11 @@ let searchReady = false;
 // Search template - Drudge-style dense table rows
 let searchTemplate = (model, searchValue) => {
     const highlightedTitle = highlightText(escapeHtml(model.title), searchValue);
-    const url = model.href || '';
-    const date = model.date || '';
+    const url = sanitizeUrl(model.href);
+    const date = escapeHtml(model.date || '');
+
+    // Skip results with invalid URLs
+    if (!url) return '';
 
     return `<div class="table">
         <article class="row">
@@ -48,6 +50,18 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+}
+
+// Sanitize URL to prevent javascript: and data: protocol attacks
+function sanitizeUrl(url) {
+    if (!url || typeof url !== 'string') return '';
+    const trimmed = url.trim();
+    // Allow relative URLs (starting with /) and http(s) URLs only
+    if (trimmed.startsWith('/') || trimmed.startsWith('http://') || trimmed.startsWith('https://')) {
+        return trimmed;
+    }
+    // Block potentially dangerous protocols
+    return '';
 }
 
 // Initialize DocFind
