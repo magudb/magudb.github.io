@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Winter 2026 Tech Links: Architecture, Engineering Leadership, and Go Tooling"
-description: "A curated collection of articles on software architecture decisions, engineering team leadership, DevOps practices, and notable Go tools. Includes resources on AI coding agents, OWASP 2025, and progressive rollouts."
+title: "Agentic Coding, Security, and Engineering Leadership: Winter 2026 Links"
+description: "Curated links on AI coding agents, multi-agent swarms, LLM workflows, code review practices, engineering management, and security. Features insights on the 80% problem in agentic coding, vibe coding evolution, and AI-assisted development at scale."
 comments: false
 category: "Curated Insights"
-keywords: "Software Architecture, Engineering Leadership, Go Tools, DevOps, Kubernetes, AI Agents, OWASP 2025, Progressive Rollouts, Code Review, Team Management, API Design, Container Security"
+keywords: "AI Coding Agents, Agentic Development, Multi-Agent Swarms, LLM Workflows, Code Review, Engineering Leadership, Security, Privacy, Prompt Engineering, Claude Flow, Vibe Coding, System Design, DevOps"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
