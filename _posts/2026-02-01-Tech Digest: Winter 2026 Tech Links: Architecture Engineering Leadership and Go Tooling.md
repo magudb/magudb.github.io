@@ -8,47 +8,57 @@ keywords: "Software Architecture, Engineering Leadership, Go Tools, DevOps, Kube
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
-- [How To Review Code | Matthias Endler](https://endler.dev/2025/how-to-review-code/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2183){:target="_blank"}
+- [How To Review Code - Matthias Endler](https://endler.dev/2025/how-to-review-code/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2183){:target="_blank"}
 - [The Prompt Engineering Playbook for Programmers](https://addyo.substack.com/p/the-prompt-engineering-playbook-for?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2183){:target="_blank"}
-- [Mistakes You Apparently Just Have to Make Yourself | by Dan McKinley | Medium](https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-yourself-cc2dd2bfc25c){:target="_blank"}
+- [Mistakes You Apparently Just Have to Make Yourself - by Dan McKinley - Medium](https://medium.com/@mcfunley/mistakes-you-apparently-just-have-to-make-yourself-cc2dd2bfc25c){:target="_blank"}
 - [ML Systems Textbook](https://mlsysbook.ai/){:target="_blank"}
 - [Bose open-sources its SoundTouch home theater smart speakers ahead of end-of-life - Ars Technica](https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20335&utm_medium=email){:target="_blank"}
-- [Vibe Coding is so “Last Month…” — My First Agent Swarm Experience with claude-flow | by adrian cockcroft | Medium](https://adrianco.medium.com/vibe-coding-is-so-last-month-my-first-agent-swarm-experience-with-claude-flow-414b0bd6f2f2){:target="_blank"}
+- [Vibe Coding is so “Last Month…” — My First Agent Swarm Experience with claude-flow - by adrian cockcroft - Medium](https://adrianco.medium.com/vibe-coding-is-so-last-month-my-first-agent-swarm-experience-with-claude-flow-414b0bd6f2f2){:target="_blank"}
 - [8 Million Users' AI Conversations Sold for Profit by "Privacy" Extensions](https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2182){:target="_blank"}
 - [My LLM coding workflow going into 2026](https://addyo.substack.com/p/my-llm-coding-workflow-going-into?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20335&utm_medium=email){:target="_blank"}
 - [Web dependencies are broken. Can we fix them?](https://lea.verou.me/blog/2026/web-deps/){:target="_blank"}
 - [Security Is a Developer Experience Problem, Rooted in Our Foundations](https://www.docker.com/blog/security-is-a-developer-experience-problem-rooted-in-our-foundations/){:target="_blank"}
+- [Clawdbot — Personal AI Assistant](https://clawd.bot/){:target="_blank"}
+- [Gas Town’s Agent Patterns, Design Bottlenecks, and Vibecoding at Scale](https://maggieappleton.com/gastown/?utm_source=tldrnewsletter){:target="_blank"}
+- [AI-Assisted Development at Block - Block Engineering Blog](https://engineering.block.xyz/blog/ai-assisted-development-at-block){:target="_blank"}
+- [The 80% Problem in Agentic Coding - by Addy Osmani](https://addyo.substack.com/p/the-80-problem-in-agentic-coding?utm_source=tldrnewsletter){:target="_blank"}
 
 
 ## Agile, Leadership and Product<a name="agile"></a> 
-- [Useful engineering management artifacts | Bjorg](https://bjorg.bjornroche.com/management/engineering-management-artifacts/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20331&utm_medium=email){:target="_blank"}
+- [Useful engineering management artifacts - Bjorg](https://bjorg.bjornroche.com/management/engineering-management-artifacts/?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20331&utm_medium=email){:target="_blank"}
 - [All brains on deck: 10 best practices for knowledge-sharing](https://www.atlassian.com/blog/teamwork/best-practices-for-knowledge-sharing){:target="_blank"}
-- [The Compensation Commandments | Stay SaaSy](https://staysaasy.com/management/2025/12/15/compensation-commandments.html){:target="_blank"}
+- [The Compensation Commandments - Stay SaaSy](https://staysaasy.com/management/2025/12/15/compensation-commandments.html){:target="_blank"}
 - [The way I run standup meetings](https://marcgg.com/blog/2024/11/20/standup/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2194){:target="_blank"}
+- [Claude Code, but for Management - by Lee Bryant](https://academy.shiftbase.info/p/claude-code-but-for-management?utm_source=brevo&utm_campaign=Level%20Up%20-%20Issue%20337&utm_medium=email){:target="_blank"}
+- [Management as AI superpower - by Ethan Mollick](https://www.oneusefulthing.org/p/management-as-ai-superpower?r=i5f7&utm_medium=ios&shareImageVariant=overlay&triedRedirect=true){:target="_blank"}
+- [How to Measure Engineering ROI: A Practical Guide for SaaS CTOs](https://www.ctologic.pro/p/how-to-measure-engineering-roi?hide_intro_popup=true&utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2201){:target="_blank"}
+- [Heroic Modes & Strategy. What I Learned from David Kantor - by Roger Martin - Jan, 2026 - Medium](https://rogermartin.medium.com/heroic-modes-strategy-9406762908d2){:target="_blank"}
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
-- [How I Reverse Engineered a Billion-Dollar Legal AI Tool and Found 100k+ Confidential Files | Alex Schapiro](https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2174){:target="_blank"}
+- [How I Reverse Engineered a Billion-Dollar Legal AI Tool and Found 100k+ Confidential Files - Alex Schapiro](https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2174){:target="_blank"}
 - [Gin is a very bad software library](https://eblog.fly.dev/ginbad.html){:target="_blank"}
-- [A modern guide to SQL JOINs | Database Design Book](https://kb.databasedesignbook.com/posts/sql-joins/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2176){:target="_blank"}
+- [A modern guide to SQL JOINs - Database Design Book](https://kb.databasedesignbook.com/posts/sql-joins/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2176){:target="_blank"}
 - [apple/ml-clara](https://github.com/apple/ml-clara){:target="_blank"}
 - [React Scan](https://react-scan.com/){:target="_blank"}
-- [Memory Allocation in Go | Melatoni](https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html){:target="_blank"}
+- [Memory Allocation in Go - Melatoni](https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html){:target="_blank"}
 - [Modern Node.js Patterns for 2025](https://kashw1n.com/blog/nodejs-2025/){:target="_blank"}
 - [No nonsense guide to Go projects layout](https://laurentsv.com/blog/2024/10/19/no-nonsense-go-package-layout.html){:target="_blank"}
-- [Go 1.24's `go tool` is one of the best additions to the ecosystem in years · Jamie Tanna | Software Engineer](https://www.jvt.me/posts/2025/01/27/go-tools-124/){:target="_blank"}
+- [Go 1.24's `go tool` is one of the best additions to the ecosystem in years · Jamie Tanna - Software Engineer](https://www.jvt.me/posts/2025/01/27/go-tools-124/){:target="_blank"}
 - [Everything I know about good system design](https://www.seangoedecke.com/good-system-design/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2183){:target="_blank"}
-- [Top Python libraries of 2025 | Tryolabs](https://tryolabs.com/blog/top-python-libraries-2025?utm_campaign=Data_Elixir&utm_source=Data_Elixir_554){:target="_blank"}
+- [Top Python libraries of 2025 - Tryolabs](https://tryolabs.com/blog/top-python-libraries-2025?utm_campaign=Data_Elixir&utm_source=Data_Elixir_554){:target="_blank"}
 - [A Developer's Guide to Internationalization and Localization](https://playfulprogramming.com/posts/building-for-the-world-developers-guide-to-i18n-and-l10n?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2191){:target="_blank"}
 - [A data model for Git (and other docs updates)](https://jvns.ca/blog/2026/01/08/a-data-model-for-git/){:target="_blank"}
 - [21 Cybersecurity Terms Every Software Engineer Must Know](https://newsletter.systemdesign.one/p/cybersecurity-fundamentals?utm_source=post-email-title&publication_id=1511845&post_id=184047748&utm_campaign=email-post-title&isFreemail=true&r=6hw27r&triedRedirect=true&utm_medium=email){:target="_blank"}
 - [Introduction to the Architecture Decision Canvas: Making better architecture decisions together](https://www.workingsoftware.dev/introducing-the-software-architecture-decision-canvas/){:target="_blank"}
 - [Agent-native Architectures: How to Build Apps After Code Ends](https://every.to/guides/agent-native?source=post_button&utm_source=tldrnewsletter){:target="_blank"}
 - [AI Systems Engineering Patterns](https://blog.alexewerlof.com/p/ai-systems-engineering-patterns?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2187){:target="_blank"}
+- [How to Write High-Performance Code - ByteByteGo Newsletter](https://blog.bytebytego.com/p/how-to-write-high-performance-code?utm_source=post-email-title&publication_id=817132&post_id=186012871&utm_campaign=email-post-title&isFreemail=true&r=1kb8np&triedRedirect=true&utm_medium=email){:target="_blank"}
 
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [10 Best Practices for Managing Terraform Modules at Scale](https://spacelift.io/blog/terraform-modules-at-scale){:target="_blank"}
+- [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql/){:target="_blank"}
 
 
 ## Tools and things from Github <a name="tools"></a>
@@ -70,4 +80,9 @@ keywords: "Software Architecture, Engineering Leadership, Go Tools, DevOps, Kube
 - [A JavaScript library for building parsers, interpreters, compilers, and more.](https://ohmjs.org/){:target="_blank"}
 - [steveyegge/gastown: Gas Town - multi-agent workspace manager](https://github.com/steveyegge/gastown?utm_source=substack&utm_medium=email){:target="_blank"}
 - [agno-agi/agno: Build, run, manage multi-agent systems.](https://github.com/agno-agi/agno){:target="_blank"}
+- [microsoft/docfind: A high-performance document search engine built in Rust with WebAssembly support.](https://github.com/microsoft/docfind){:target="_blank"}
+- [Introducing LibPDF: The PDF Library TypeScript Deserves](https://documenso.com/blog/introducing-libpdf-the-pdf-library-typescript-deserves){:target="_blank"}
+- [projectdiscovery/katana at main](https://github.com/projectdiscovery/katana/tree/main){:target="_blank"}
+- [roostorg/osprey: Automate the obvious and investigate the ambiguous. High-performance safety rules engine for real-time event processing at scale.](https://github.com/roostorg/osprey){:target="_blank"}
+- [Semantic Code Search for AI Agents - grepai](https://yoanbernabeu.github.io/grepai/){:target="_blank"}
 
