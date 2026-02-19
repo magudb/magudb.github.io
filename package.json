@@ -17,7 +17,7 @@
     "markdown-it": "^14.1.0",
     "query-string": "^8.1.0",
     "webpack": "^5.101.0",
-    "workbox-webpack-plugin": "^6.5.4"
+    "workbox-webpack-plugin": "^7.4.0"
   },
   "devDependencies": {
     "webpack-cli": "^5.0.1"
