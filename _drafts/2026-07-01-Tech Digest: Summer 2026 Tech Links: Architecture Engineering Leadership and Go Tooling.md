@@ -9,6 +9,8 @@ keywords: ""
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 - [Timeless rules from Rob Pike: measure before optimizing, keep algorithms simple, and let your data structures do the heavy lifting. Still relevant after 40 years.](https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html){:target="_blank"}
+- [Terminal-based Nvidia GPU monitor that gives you a clean, real-time view of your GPU stats without leaving the command line.](https://jaso1024.com/mvidia/){:target="_blank"}
+- [A sharp, unsparing critique of LLMs from someone who grew up dreaming of intelligent machines — and isn't buying the hype. Required reading for anyone forming an opinion.](https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess){:target="_blank"}
 
 
 ## Agile, Leadership and Product<a name="agile"></a>
@@ -24,6 +26,8 @@ keywords: ""
 - [Design sprints aren't just for startups — the more stakeholders, the higher the misalignment risk. De-risk before you write a line of code.](https://thoughtbot.com/blog/how-strategic-product-design-reduces-risk-before-you-write-code){:target="_blank"}
 - [AI amplifies fast thinking — but the slow work of deciding what to build still needs human judgment. A sharp framework for knowing when to hit the brakes.](https://www.theengineeringmanager.com/growth/slow-down-to-speed-up/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2246){:target="_blank"}
 - [Treat your org wiki like a knowledge graph, not a folder dump. Practical framework for documentation that people can actually find and trust.](https://frederickvanbrabant.com/blog/2026-03-07-governance-documentation-as-a-knowledge-network/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2246){:target="_blank"}
+- [Most engineering orgs have no idea what their teams actually cost or generate. This post does the math — and it's uncomfortable reading.](https://www.viktorcessan.com/the-economics-of-software-teams/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2256){:target="_blank"}
+- [Organizations sprint before understanding their own mechanics. This reframes deliberate low-stakes exploration as essential learning infrastructure, not wasted motion.](https://mikefisher.substack.com/p/twitching-before-you-sprint?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2246){:target="_blank"}
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
@@ -37,6 +41,11 @@ keywords: ""
 - [Flip NestJS from code-first to contract-first: generate typed controller interfaces from your OpenAPI spec and let the compiler enforce the contract — not just document it.](https://evilmartians.com/chronicles/openapi-nestjs-type-safe-controllers-from-the-contract){:target="_blank"}
 - [Solid rundown of Go naming conventions — the rules you need to internalize early so your code doesn't stand out for the wrong reasons.](https://www.alexedwards.net/blog/go-naming-conventions){:target="_blank"}
 - [Cuts through the EDA hype: events aren't about scaling, they're about decoupling. Most apps don't need them — knowing why matters more than knowing how.](https://codeopinion.com/is-event-driven-architecture-overkill-for-most-apps/){:target="_blank"}
+- [Before reading a single line of code, run these git commands to instantly surface churn hotspots, bus factor risks, and bug clusters — a diagnostic picture most people miss.](https://piechowski.io/post/git-commands-before-reading-code/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2254){:target="_blank"}
+- [113 hard-won lessons from scaling a Django monolith to 1M LOC. Packed with specific, actionable insights on DB performance, background jobs, and codebase organization.](https://www.semicolonandsons.com/articles/scaling-a-monolith-to-1m-loc-113-pragmatic-lessons-from-tech-lead-to-cto?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2254){:target="_blank"}
+- [Clear breakdown of SCD Type 2 — how to track historical changes in dimensional data and load them incrementally without losing context.](https://medium.com/@andras.lendvay_58630/an-analytics-engineers-guide-to-slowly-changing-dimensions-ecfbac98634c){:target="_blank"}
+- [Seven hard-won truths every engineer learns by breaking things in prod — rollback first, test your backups by actually restoring them, and nothing outlasts a temporary fix.](https://newsletter.manager.dev/p/the-unwritten-laws-of-software-engineering?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2254){:target="_blank"}
+- [How a Red Hat team turned Storybook into a full behavioral verification engine using MSW — real routing, real data fetching, just a mocked network. Clever patterns that make tests actually trustworthy.](https://developers.redhat.com/articles/2026/04/29/how-we-turned-storybook-behavioral-verification-engine#the_patterns__with_code_){:target="_blank"}
 
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
@@ -62,6 +71,14 @@ keywords: ""
 - [AI won't kill developer demand, but it will obsolete low-level code literacy the same way high-level languages killed assembly knowledge. The new skill is culinary intuition, not knife work.](https://spin.atomicobject.com/ai-demand-developers/){:target="_blank"}
 - [Stop dumping vague tickets into AI tools. Structure your context first with a repository impact map, get human sign-off, then implement. The quality gap is real.](https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development){:target="_blank"}
 - [Multi-agent framework for statistical package development — isolated Builder, Tester, and Simulator agents that never share specs, so convergence means genuine correctness.](https://github.com/statsclaw){:target="_blank"}
+- [A language built for LLMs to write, not humans — structural references instead of names, mandatory contracts, compiler errors designed as LLM-readable fix instructions.](https://veralang.dev/?utm_source=tldrnewsletter){:target="_blank"}
+- [Hard data on enterprise AI adoption — 29% of Fortune 500 have live deployments. Cuts through the survey noise with actual contract and usage data.](https://www.a16z.news/p/ai-adoption-by-the-numbers?utm_source=tldrnewsletter){:target="_blank"}
+- [Solid deep-dive into inference engineering — what it is, when it matters, and the techniques (quantization, batching, caching) that make LLMs faster at scale.](https://newsletter.pragmaticengineer.com/p/what-is-inference-engineering?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2254){:target="_blank"}
+- [Jupyter notebooks that build ML algorithms from scratch with live visualizations — gradient descent, backprop, k-means. Best way I've seen to actually understand what's happening under the hood.](https://ml-visualized.com/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_569&_bhlid=23378509bd908c898adc8339c551f5f07c243216){:target="_blank"}
+- [Open-source framework for building AI SRE agents that investigate production incidents — includes synthetic failure simulations and scored RCA suites to actually train and evaluate them.](https://github.com/Tracer-Cloud/opensre?utm_source=www.pythonweekly.com&utm_medium=newsletter&utm_campaign=python-weekly-issue-741-april-16-2026&_bhlid=e93dd79458457e22bac437f722e467b446531416){:target="_blank"}
+- [Solid architectural principles for AI-assisted development: contracts over conventions, verification over generation, and never let the same AI write and judge its own code.](https://medium.com/wix-engineering/the-ai-coding-agent-manifesto-c8f61629d677){:target="_blank"}
+- [The model is just one input — the harness is where the real engineering happens. Essential framing for anyone building or evaluating coding agents.](https://addyosmani.com/blog/agent-harness-engineering/){:target="_blank"}
+- [A sharp, unflinching look at how LLMs will make customer service worse, not better — diffusing accountability while making it harder to reach humans who can actually fix things.](https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances){:target="_blank"}
 
 
 ## DevOps, Observability & Security<a name="devops"></a>
@@ -84,3 +101,5 @@ keywords: ""
 - [Rands shares his Claude Code workflow: project-scoped CLAUDE.md files, WORKLOG.md session diaries, and small scripts that cut friction. Practical setup worth stealing.](https://randsinrepose.com/archives/better-faster-and-even-more/?utm_source=substack&utm_medium=email){:target="_blank"}
 - [Drop-in guided tours for React apps. Define steps, ship onboarding — minimal config, fully customizable, accessible out of the box.](https://react-joyride.com/){:target="_blank"}
 - [Package manager for AI skills — write your context modules once, install to Claude Code, Cursor, Gemini CLI, and more with a single command.](https://github.com/RedHatProductSecurity/lola){:target="_blank"}
+- [Teach your AI agent to actually understand Obsidian's syntax and CLI. Drop these skills into your vault and Claude Code or Codex can create proper wikilinks, Bases, and Canvas files.](https://github.com/kepano/obsidian-skills){:target="_blank"}
+- [Someone implemented a full 6502 CPU emulator in pure PostgreSQL — registers, flags, and 64KB of memory as tables, every opcode a stored procedure. Gloriously unhinged.](https://github.com/lasect/pg_6502){:target="_blank"}
