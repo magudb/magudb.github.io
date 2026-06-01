@@ -1,16 +1,17 @@
 ---
 layout: post
 title: "Summer 2026 Tech Links: Architecture, Engineering Leadership, AI Agents, and Go Tooling"
-description: ""
+description: "A curated collection of articles on software architecture, engineering leadership, AI agents and LLMs, DevOps and security, and Go tooling. Covers agentic coding workflows and harness design, engineering management in the AI era, MLOps and inference engineering, software design principles, and open-source developer tools."
 comments: false
 category: "Curated Insights"
-keywords: ""
+keywords: "Software Architecture, Engineering Leadership, AI Agents, LLM, Go Tools, DevOps, Security, Agentic Coding, Harness Design, MLOps, Inference Engineering, Code Review, Team Management, Product Management, Conway's Law"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 - [Timeless rules from Rob Pike: measure before optimizing, keep algorithms simple, and let your data structures do the heavy lifting. Still relevant after 40 years.](https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html){:target="_blank"}
 - [Terminal-based Nvidia GPU monitor that gives you a clean, real-time view of your GPU stats without leaving the command line.](https://jaso1024.com/mvidia/){:target="_blank"}
 - [A sharp, unsparing critique of LLMs from someone who grew up dreaming of intelligent machines — and isn't buying the hype. Required reading for anyone forming an opinion.](https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess){:target="_blank"}
+- [Open-source mini robot from Hugging Face — a physical AI platform for experimenting with embodied intelligence. Robotics just got a lot more accessible.](https://huggingface.co/reachy-mini){:target="_blank"}
 
 
 ## Agile, Leadership and Product<a name="agile"></a>
@@ -28,6 +29,19 @@ keywords: ""
 - [Treat your org wiki like a knowledge graph, not a folder dump. Practical framework for documentation that people can actually find and trust.](https://frederickvanbrabant.com/blog/2026-03-07-governance-documentation-as-a-knowledge-network/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2246){:target="_blank"}
 - [Most engineering orgs have no idea what their teams actually cost or generate. This post does the math — and it's uncomfortable reading.](https://www.viktorcessan.com/the-economics-of-software-teams/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2256){:target="_blank"}
 - [Organizations sprint before understanding their own mechanics. This reframes deliberate low-stakes exploration as essential learning infrastructure, not wasted motion.](https://mikefisher.substack.com/p/twitching-before-you-sprint?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2246){:target="_blank"}
+- [Prevention work is invisible — until it isn't. Classic systems thinking on why process improvements fail and how to make the invisible value of reliability actually stick.](https://cmr.berkeley.edu/2001/08/43-4-nobody-ever-gets-credit-for-fixing-problems-that-never-happened-creating-and-sustaining-process-improvement/){:target="_blank"}
+- [A CTO's Claude Code setup — persistent workspace with personas, integrations, and daily workflows. The composability angle is what makes this worth reading.](https://theengineeringmanager.substack.com/p/my-cto-daily-driver?utm_source=substack&utm_medium=email){:target="_blank"}
+- [Great tutors obsess over mental models, not content. The lesson is diagnosing what's broken in how someone thinks — a frame that transfers directly to code review and mentoring.](https://entropicthoughts.com/understanding-systems?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2267){:target="_blank"}
+- [The ceiling most CTOs hit isn't technical — it's the shift from optimizing for correctness to optimizing for commercial outcomes. Hard-won perspective on becoming a real business leader.](https://kevingoldsmith.substack.com/p/becoming-a-business-leader-not-just?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2272){:target="_blank"}
+- [AI shifts developers from authors to editors — but Agile's core feedback loops matter more than ever. The PR review problem is real: smaller, intentional units of work.](https://miren.dev/blog/agile-in-the-age-of-ai?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2272){:target="_blank"}
+- [Managers spot team wins easily but miss their own. Lara Hogan helps you recognize your impact — because progress you can't see, you can't build on.](https://larahogan.me/blog/recognize-your-management-wins/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2282){:target="_blank"}
+- [AI agents are reshaping marketing org design — same structural questions apply to engineering teams. Worth reading to stay ahead of how agentic AI changes headcount and roles.](https://hbr.org/2026/05/redesigning-your-marketing-organization-for-the-agentic-age){:target="_blank"}
+- [Before pushing OKRs or discovery, fix your delivery pipeline. Outcome thinking is worthless if you can't act on insights fast enough to matter.](https://www.antmurphy.me/newsletter/fix-delivery-first?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2286){:target="_blank"}
+- [Why most B2B companies get stuck in pilot purgatory when scaling value-based solutions — and the capability-building phases that separate scalers from stagnators.](https://sloanreview.mit.edu/article/what-it-takes-to-scale-value-based-industrial-solutions/){:target="_blank"}
+- [Critical chain flips estimation on its head: cut estimates by 50%, pool the saved time as a shared buffer. Counterintuitive, but the case study shows it actually works.](https://newsletter.eng-leadership.com/p/how-to-use-critical-chain-methodology?utm_source=post-email-title&publication_id=1115815&post_id=198998736&utm_campaign=email-post-title&isFreemail=true&r=2hha7p&triedRedirect=true&utm_medium=email){:target="_blank"}
+- [Before pushing OKRs or discovery frameworks, fix your delivery cadence. Insights go stale when you can't ship fast enough to act on them.](https://www.antmurphy.me/newsletter/fix-delivery-first?mkt_tok=MTI4LUpIUi04NzEAAAGhzIXJWCukmJLzLmBES67UthqliDdW7Oy2Otxg_R2UOVSt4YK460RwHRoW_51YvKUHX3enEarveedAb_PN3gyQFcFwDX6Fs6wwBKPCD7OfuCDgsTk){:target="_blank"}
+- [A sobering look at how senior leaders can unknowingly become the bottleneck — mistaking metrics for trust and missing the signals until someone brave enough reads the list.](https://randsinrepose.com/archives/barely-treading-water/){:target="_blank"}
+- [A clear-eyed breakdown of why most teams misuse metrics — and a practical framework for what to actually measure and why it matters.](https://blog.jgefroh.com/p/engineering-metrics-for-beginners?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2287){:target="_blank"}
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
@@ -46,6 +60,13 @@ keywords: ""
 - [Clear breakdown of SCD Type 2 — how to track historical changes in dimensional data and load them incrementally without losing context.](https://medium.com/@andras.lendvay_58630/an-analytics-engineers-guide-to-slowly-changing-dimensions-ecfbac98634c){:target="_blank"}
 - [Seven hard-won truths every engineer learns by breaking things in prod — rollback first, test your backups by actually restoring them, and nothing outlasts a temporary fix.](https://newsletter.manager.dev/p/the-unwritten-laws-of-software-engineering?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2254){:target="_blank"}
 - [How a Red Hat team turned Storybook into a full behavioral verification engine using MSW — real routing, real data fetching, just a mocked network. Clever patterns that make tests actually trustworthy.](https://developers.redhat.com/articles/2026/04/29/how-we-turned-storybook-behavioral-verification-engine#the_patterns__with_code_){:target="_blank"}
+- [A deep dive into Git's internals — packfiles, sparse checkouts, partial clone — written for engineers who need to keep large repos fast.](https://gitperf.com/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2269){:target="_blank"}
+- [Laws you learn the hard way — Brooks, Conway, Goodhart. Worth a refresh to name what's already happening on your team.](https://newsletter.techworld-with-milan.com/p/the-20-software-engineering-laws?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2269){:target="_blank"}
+- [Clever walkthrough of modal dialogs in React Router 7 using nested routes — zero useEffect, clean patterns for loading, errors, and animations.](https://programmingarehard.com/2026/05/06/react-router-dialogs.html/?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2275){:target="_blank"}
+- [Four concrete design smells — rigidity, fragility, immobility — with real examples and fixes. Useful checklist for diagnosing why your codebase fights back.](https://newsletter.optimistengineer.com/p/symptoms-of-bad-software-design?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2274){:target="_blank"}
+- [Stop avoiding pprof. This guide cuts through the confusion — CPU, heap, goroutine profiling explained with practical takeaways so you actually know what to do with the results.](https://blog.jetbrains.com/go/2026/05/20/golang-profiling-guide/){:target="_blank"}
+- [Software design is learned by doing, but Conway's Law is the real boss — your architecture mirrors your org's social structure, not your technical ideals.](https://matklad.github.io/2026/05/12/software-architecture.html?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2279){:target="_blank"}
+- [Wave Function Collapse explained through road-building simulations — a clever algorithm for structured randomness that's genuinely useful for game maps, procedural generation, or anywhere you need constrained randomness.](https://spin.atomicobject.com/wave-function-collapse/){:target="_blank"}
 
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
@@ -79,12 +100,27 @@ keywords: ""
 - [Solid architectural principles for AI-assisted development: contracts over conventions, verification over generation, and never let the same AI write and judge its own code.](https://medium.com/wix-engineering/the-ai-coding-agent-manifesto-c8f61629d677){:target="_blank"}
 - [The model is just one input — the harness is where the real engineering happens. Essential framing for anyone building or evaluating coding agents.](https://addyosmani.com/blog/agent-harness-engineering/){:target="_blank"}
 - [A sharp, unflinching look at how LLMs will make customer service worse, not better — diffusing accountability while making it harder to reach humans who can actually fix things.](https://aphyr.com/posts/415-the-future-of-everything-is-lies-i-guess-annoyances){:target="_blank"}
+- [Chip Huyen's breakdown of the AI engineering stack — three layers, how it differs from ML engineering, and why it's really just software engineering with LLMs thrown in.](https://newsletter.pragmaticengineer.com/p/the-ai-engineering-stack?utm_source=substack&utm_medium=email){:target="_blank"}
+- [DESIGN.md gives coding agents a structured, persistent understanding of your design system — tokens plus rationale — so they stop guessing your colors and spacing.](https://github.com/google-labs-code/design.md){:target="_blank"}
+- [Built a self-audit prompt to score his own AI sessions against 30 habits. Metacognition is the actual moat — discipline separates insight from noise.](https://sloanreview.mit.edu/article/audit-yourself-to-get-more-from-genai/){:target="_blank"}
+- [Treats the LLM as a compiler — English in, software out — then defines the engineering discipline you need to make that pipeline actually reliable. Sharp mental model.](https://www.olympum.com/bruno-method){:target="_blank"}
+- [Microsoft's production-grade multi-agent framework for Python and .NET — graph-based orchestration, checkpointing, human-in-the-loop, and built-in OpenTelemetry. Serious infrastructure for teams moving agents beyond demos.](https://github.com/microsoft/agent-framework){:target="_blank"}
+- [Google's pretrained time-series foundation model — drop it into your forecasting pipeline without training from scratch. 200M params, 16k context, quantile forecasts included.](https://github.com/google-research/timesfm){:target="_blank"}
+- [Practical sensors — linting rules, dependency checks, coupling metrics — that keep AI-generated code from quietly rotting your codebase. Essential reading if agents are touching your repo.](https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules){:target="_blank"}
+- [LinkedIn's tool for fact-checking AI-generated claims against real sources. Useful for anyone building or evaluating LLM pipelines where accuracy actually matters.](https://www.linkedin.com/ai-trainer/crosscheck/restricted-access){:target="_blank"}
+- [Anthropic's engineers explain how they broke through ceilings in autonomous coding using a GAN-inspired planner/generator/evaluator architecture. Practical insights on context management and multi-agent handoffs.](https://www.anthropic.com/engineering/harness-design-long-running-apps?ref=chrisebert.net){:target="_blank"}
+- [Using AI to ship without engaging your brain is a slow skill leak. The posture matters more than the tool — ask conceptual questions, don't just paste and ship.](https://addyosmani.com/blog/dont-outsource-learning/){:target="_blank"}
+- [Survey data from 900+ engineers on AI's real tradeoffs: less tedium, but eroding code quality, unrealistic business expectations, and junior devs struggling most.](https://newsletter.pragmaticengineer.com/p/ai-impact-on-software-engineers-part-2?utm_source=post-email-title&publication_id=458709&post_id=198435184&utm_campaign=email-post-title&isFreemail=true&r=1kb8np&triedRedirect=true&utm_medium=email){:target="_blank"}
 
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Creating a dedicated 'DevOps team' just builds new silos. This covers the anti-patterns that quietly kill DevOps transformations and how to actually fix them.](https://www.red-gate.com/simple-talk/devops/devops-anti-patterns-what-they-are-and-how-to-avoid-them/){:target="_blank"}
 - [Kubernetes-native job queuing that handles quotas, fair sharing, and preemption across tenants — essential if you're running ML training workloads or batch jobs at scale.](https://kueue.sigs.k8s.io/docs/overview/){:target="_blank"}
 - [Your dashboard shows 22% CPU but the app is crawling. Learn to read process states — D-state processes are usually the real culprit.](https://linuxblog.io/linux-process-states-explained/){:target="_blank"}
+- [A Deputy CISO's structured framework for risk reviews — eight focus areas that shift security from reactive firefighting to proactive posture.](https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/){:target="_blank"}
+- [Clear breakdown of blue/green, canary, and other deployment strategies — good reference for picking the right approach when reliability actually matters.](https://newsletter.systemdesigncodex.com/p/top-deployment-strategies?utm_source=post-email-title&publication_id=2148111&post_id=197316626&utm_campaign=email-post-title&isFreemail=true&r=6hw261&triedRedirect=true&utm_medium=email){:target="_blank"}
+- [Pinterest's war story on hunting CPU bottlenecks — zombie processes hiding in plain sight. Solid real-world debugging walkthrough worth stealing for your own incident playbook.](https://medium.com/pinterest-engineering/finding-zombies-in-our-systems-a-real-world-story-of-cpu-bottlenecks-ea4722e552eb){:target="_blank"}
+- [Vibe coding creates real security debt. Prompting AI to 'be secure' isn't enough — you need security context files, guardrails, and default-safe templates before anything ships.](https://martinfowler.com/articles/vibesec-reckoning.html?ref=cote.io){:target="_blank"}
 
 
 ## Tools and things from Github <a name="tools"></a>
@@ -103,3 +139,7 @@ keywords: ""
 - [Package manager for AI skills — write your context modules once, install to Claude Code, Cursor, Gemini CLI, and more with a single command.](https://github.com/RedHatProductSecurity/lola){:target="_blank"}
 - [Teach your AI agent to actually understand Obsidian's syntax and CLI. Drop these skills into your vault and Claude Code or Codex can create proper wikilinks, Bases, and Canvas files.](https://github.com/kepano/obsidian-skills){:target="_blank"}
 - [Someone implemented a full 6502 CPU emulator in pure PostgreSQL — registers, flags, and 64KB of memory as tables, every opcode a stored procedure. Gloriously unhinged.](https://github.com/lasect/pg_6502){:target="_blank"}
+- [TinyGo 0.41 lands ESP32 wireless support — run a web server on your microcontroller in the same language powering your backend. One language, edge to cloud.](https://tinygo.org/blog/2026/tinygo-0-41-the-big-release/){:target="_blank"}
+- [wrk meets grafana. Plow gives you real-time latency histograms and percentiles in the terminal AND a live web UI while your benchmark runs. Zero overhead, straightforward flags.](https://github.com/six-ddc/plow){:target="_blank"}
+- [Dead-simple SSH tunnel manager that lives in your terminal. If you're juggling multiple tunnels across environments, this beats maintaining a mess of alias scripts.](https://alebeck.github.io/boring/){:target="_blank"}
+- [Kubernetes-native way to run isolated, stateful AI agent workloads — fills the gap between Deployments and StatefulSets with stable identity and warm pools.](https://github.com/kubernetes-sigs/agent-sandbox?utm_source=tldrnewsletter){:target="_blank"}
