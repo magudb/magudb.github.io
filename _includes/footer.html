@@ -1,7 +1,8 @@
-<hr>
 <footer class="site-footer">
-	<div class="container">
-		<small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</small>
-		<small class="block"> &copy; <a rel="me" href="https://mastodon.social/@Magudb">Mastodon</a></small>
-	</div>
+  <div class="container">
+    <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</small>
+    <small class="block"><a rel="me" href="https://mastodon.social/@Magudb" target="_blank">Mastodon</a></small>
+    <small class="block"><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">RSS</a></small>
+    <small class="block">Set in Newsreader</small>
+  </div>
 </footer>

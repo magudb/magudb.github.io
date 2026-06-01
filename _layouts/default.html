@@ -5,14 +5,16 @@ layout: compress
 <html>
   {% include head.html %}
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <main class="wrapper">
       {% include header.html %}
-      {{ content }}
+      <div id="main" class="page-fade">
+        {{ content }}
+      </div>
       {% include footer.html %}
-    </main>   
-    <script>    
-       
-    </script>
-    <script src="{{ "/assets/js/app.js" |  prepend: site.baseurl | prepend: site.url }}"></script>
+    </main>
+    <button class="totop" type="button" aria-label="Back to top">↑ Top</button>
+    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{ "/assets/js/site.js" | prepend: site.baseurl | prepend: site.url }}" defer></script>
   </body>
 </html>

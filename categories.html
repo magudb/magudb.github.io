@@ -1,30 +1,21 @@
 ---
 layout: page
-title: Categories
+title: Topics
 permalink: /categories/
 ---
 
-{% comment %}
-Generate all unique categories from posts
-{% endcomment %}
-
+{% comment %} Build unique category list {% endcomment %}
 {% assign rawcats = "" %}
 {% for post in site.posts %}
   {% assign tcats = post.category | join:'|' | append:'|' %}
   {% assign rawcats = rawcats | append:tcats %}
 {% endfor %}
-
 {% assign rawcats = rawcats | split:'|' | sort %}
-
 {% assign cats = "" %}
 {% for cat in rawcats %}
   {% if cat != "" %}
-    {% if cats == "" %}
-      {% assign cats = cat | split:'|' %}
-    {% endif %}
-    {% unless cats contains cat %}
-      {% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-    {% endunless %}
+    {% if cats == "" %}{% assign cats = cat | split:'|' %}{% endif %}
+    {% unless cats contains cat %}{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}{% endunless %}
   {% endif %}
 {% endfor %}
 
@@ -39,7 +30,6 @@ Generate all unique categories from posts
   {% for ct in cats %}
     <section class="category-section">
       <h2 id="{{ ct | slugify }}" class="category-title">{{ ct }}</h2>
-
       <div class="post-list">
         {% assign current_year = "" %}
         {% for post in site.posts %}
@@ -66,7 +56,6 @@ Generate all unique categories from posts
 
   <section class="category-section">
     <h2 id="uncategorized" class="category-title">Uncategorized</h2>
-
     <div class="post-list">
       {% assign has_uncategorized = false %}
       {% for post in site.posts %}
@@ -83,67 +72,7 @@ Generate all unique categories from posts
           </div>
         {% endunless %}
       {% endfor %}
-      {% unless has_uncategorized %}
-        <p class="empty-message">No uncategorized posts.</p>
-      {% endunless %}
+      {% unless has_uncategorized %}<p class="empty-message">No uncategorized posts.</p>{% endunless %}
     </div>
   </section>
 </div>
-
-<style>
-/* Category navigation - dense, scannable */
-.category-nav {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #1a1a1a;
-}
-
-.category-nav a {
-  display: inline-block;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.category-nav a:hover {
-  color: #0455BF;
-}
-
-/* Category sections */
-.category-section {
-  margin-bottom: 2rem;
-}
-
-.category-section .category-title {
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.category-section .category-title:first-child {
-  margin-top: 0;
-}
-
-/* Year headings within categories */
-.year-heading {
-  font-size: 0.875rem;
-  font-weight: 700;
-  color: #666;
-  margin: 1.5rem 0 0.5rem 0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.year-heading:first-child {
-  margin-top: 0.5rem;
-}
-
-.empty-message {
-  color: #999;
-  font-style: italic;
-  font-size: 0.875rem;
-}
-</style>
