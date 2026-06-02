@@ -42,6 +42,7 @@ keywords: "Software Architecture, Engineering Leadership, AI Agents, LLM, Go Too
 - [Before pushing OKRs or discovery frameworks, fix your delivery cadence. Insights go stale when you can't ship fast enough to act on them.](https://www.antmurphy.me/newsletter/fix-delivery-first?mkt_tok=MTI4LUpIUi04NzEAAAGhzIXJWCukmJLzLmBES67UthqliDdW7Oy2Otxg_R2UOVSt4YK460RwHRoW_51YvKUHX3enEarveedAb_PN3gyQFcFwDX6Fs6wwBKPCD7OfuCDgsTk){:target="_blank"}
 - [A sobering look at how senior leaders can unknowingly become the bottleneck — mistaking metrics for trust and missing the signals until someone brave enough reads the list.](https://randsinrepose.com/archives/barely-treading-water/){:target="_blank"}
 - [A clear-eyed breakdown of why most teams misuse metrics — and a practical framework for what to actually measure and why it matters.](https://blog.jgefroh.com/p/engineering-metrics-for-beginners?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2287){:target="_blank"}
+- [A sharp warning: AI won't replace your glue people — it'll just make their absence invisible until the structural damage is done.](https://cutlefish.substack.com/p/tbm-417-before-you-fire-all-your?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2277){:target="_blank"}
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
@@ -111,6 +112,9 @@ keywords: "Software Architecture, Engineering Leadership, AI Agents, LLM, Go Too
 - [Anthropic's engineers explain how they broke through ceilings in autonomous coding using a GAN-inspired planner/generator/evaluator architecture. Practical insights on context management and multi-agent handoffs.](https://www.anthropic.com/engineering/harness-design-long-running-apps?ref=chrisebert.net){:target="_blank"}
 - [Using AI to ship without engaging your brain is a slow skill leak. The posture matters more than the tool — ask conceptual questions, don't just paste and ship.](https://addyosmani.com/blog/dont-outsource-learning/){:target="_blank"}
 - [Survey data from 900+ engineers on AI's real tradeoffs: less tedium, but eroding code quality, unrealistic business expectations, and junior devs struggling most.](https://newsletter.pragmaticengineer.com/p/ai-impact-on-software-engineers-part-2?utm_source=post-email-title&publication_id=458709&post_id=198435184&utm_campaign=email-post-title&isFreemail=true&r=1kb8np&triedRedirect=true&utm_medium=email){:target="_blank"}
+- [If your AI tools double coding speed but don't halve maintenance costs, you're mortgaging your future. A sobering, math-backed reality check every tech lead needs to read.](https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs?utm_source=bonobopress&utm_medium=newsletter&utm_campaign=2277){:target="_blank"}
+- [Have the LLM interview you before it writes anything. One question at a time extracts better context than pages of prompts you write yourself.](https://martinfowler.com/bliki/InterrogatoryLLM.html){:target="_blank"}
+- [Sessions from Netflix, Uber, Dropbox, and others on actually measuring and scaling AI's impact on developer productivity — less hype, more hard-won lessons.](https://dxannual.com/#sessions){:target="_blank"}
 
 
 ## DevOps, Observability & Security<a name="devops"></a>
@@ -143,3 +147,6 @@ keywords: "Software Architecture, Engineering Leadership, AI Agents, LLM, Go Too
 - [wrk meets grafana. Plow gives you real-time latency histograms and percentiles in the terminal AND a live web UI while your benchmark runs. Zero overhead, straightforward flags.](https://github.com/six-ddc/plow){:target="_blank"}
 - [Dead-simple SSH tunnel manager that lives in your terminal. If you're juggling multiple tunnels across environments, this beats maintaining a mess of alias scripts.](https://alebeck.github.io/boring/){:target="_blank"}
 - [Kubernetes-native way to run isolated, stateful AI agent workloads — fills the gap between Deployments and StatefulSets with stable identity and warm pools.](https://github.com/kubernetes-sigs/agent-sandbox?utm_source=tldrnewsletter){:target="_blank"}
+- [Classic open source roguelike with decades of depth. If you've never lost hours to permadeath dungeon runs, this is your entry point.](https://crawl.develz.org/){:target="_blank"}
+- [Free, open-source roguelike with no ads or monetization. The kind of pure indie game you bookmark to play when you need a mental break from shipping.](https://pixeldungeon.watabou.ru/){:target="_blank"}
+- [A polished open-source roguelike that's genuinely hard to put down. Worth knowing as a benchmark for procedural generation and long-term game balance done right.](https://shatteredpixel.com/shatteredpd/){:target="_blank"}
