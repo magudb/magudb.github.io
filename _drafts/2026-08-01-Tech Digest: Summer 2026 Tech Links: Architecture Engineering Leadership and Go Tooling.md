@@ -36,6 +36,7 @@ keywords: ""
 - [Vibe coding's dirty secret: AI defaults to insecure configs. Practical playbook for security context files and guardrails before your citizen-built prototype hits production.](https://martinfowler.com/articles/vibesec-reckoning.html?ref=cote.io){:target="_blank"}
 - [Practical guide to wiring linting, dependency rules, and mutation testing as automated guardrails that catch AI-generated code quality issues before they compound into real maintenance debt.](https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules){:target="_blank"}
 - [Solid mental model for what actually replaces SaaS in an AI-native world — seven concrete layers from context retrieval to observability that separate demos from production systems.](https://tomtunguz.com/harnessing-ai/){:target="_blank"}
+- [Microsoft launches seven in-house MAI models — reasoning, coding, voice, transcription, image — all trained without distillation. Worth knowing as they're landing on OpenRouter and GitHub Copilot.](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/){:target="_blank"}
 
 
 
