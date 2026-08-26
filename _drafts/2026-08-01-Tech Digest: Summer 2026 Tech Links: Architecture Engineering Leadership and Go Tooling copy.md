@@ -16,6 +16,7 @@ keywords: ""
 - [Skip the ChatGPT-for-contracts trap: purpose-built legal AI beats public models on security and clause accuracy. Worth a skim before your legal team picks a tool.](https://ironcladapp.com/journal/legal-ai/ai-for-legal){:target="_blank"}
 - [Behavioral interview questions beat 'tell me about yourself' every time—here's a free, open-source bank of 200+ to steal for your next hiring loop.](https://blog.kindel.com/2026/08/18/interviews-are-better-with-behavioral-questions/){:target="_blank"}
 - [Annual engagement surveys are dead — pulse checks tied to real moments and managers trained to listen beat once-a-year scores every time.](https://www.surveymonkey.com/curiosity/how-to-rebuild-employee-engagement-strategy/?ut_source=rss){:target="_blank"}
+- [ThoughtWorks' latest read on where European software engineering is headed — worth a skim if you're setting team strategy for the next few years.](https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future_of_software_engineering_europe_2026.pdf?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20365){:target="_blank"}
 
 
 
