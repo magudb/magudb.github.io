@@ -27,6 +27,7 @@ keywords: ""
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [A deep dive into pushing React Server Components further than the usual demo — URL-driven pagination, streaming search, and server-rendered previews without client-side fetching.](https://aurorascharff.no/posts/experimenting-with-rsc-for-performance-and-ux-in-nextjs/){:target="_blank"}
+- [A methodical, code-first walkthrough of concurrency models for network servers — great primer before you pick threads, async, or event loops for your next service.](https://eli.thegreenplace.net/2017/concurrent-servers-part-1-introduction/){:target="_blank"}
 
 
 
