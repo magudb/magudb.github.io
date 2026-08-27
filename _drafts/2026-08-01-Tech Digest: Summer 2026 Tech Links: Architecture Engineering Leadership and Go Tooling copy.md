@@ -21,10 +21,12 @@ keywords: ""
 - [The real trick with vague asks: stop hunting for solutions and spend your energy nailing the problem definition first — clarity beats speed.](https://alifeengineered.substack.com/p/the-art-of-dealing-with-ambiguity-89d?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20366){:target="_blank"}
 - [Great reframe for staff+ engineers: stop scheduling 'strategic thinking' time and start absorbing the problems people complain about daily — the good ones surface themselves.](https://lalitm.com/post/find-problems-staff-engineer/?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20366){:target="_blank"}
 - [Sobering read if you're eyeing the exec track: middle management often trains the wrong muscles, and too much time there can actually hurt your shot at it.](https://lethain.com/middle-management-roles-were-also-a-trap/?utm_source=substack&utm_medium=email){:target="_blank"}
+- [Retention isn't about counteroffers — this breaks down the real barriers that keep your best people from walking, before they're already out the door.](https://sloanreview.mit.edu/article/what-gets-your-best-employees-to-stay/){:target="_blank"}
 
 
 
 ## Architecture, Development & Software development practices <a name="development"></a>
+- [A deep dive into pushing React Server Components further than the usual demo — URL-driven pagination, streaming search, and server-rendered previews without client-side fetching.](https://aurorascharff.no/posts/experimenting-with-rsc-for-performance-and-ux-in-nextjs/){:target="_blank"}
 
 
 
@@ -38,3 +40,4 @@ keywords: ""
 
 
 ## Tools and things from Github <a name="tools"></a>
+- [A deep dive into building a VS Code bookmark extension the right way — tracking points over line numbers, cached tag snapshots, and other lessons for anyone building editor extensions.](https://www.madskristensen.net/blog/building-bookmark-studio-bookmarks-that-belong-to-the-codebase/){:target="_blank"}
