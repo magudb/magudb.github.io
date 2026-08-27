@@ -17,6 +17,10 @@ keywords: ""
 - [Behavioral interview questions beat 'tell me about yourself' every time—here's a free, open-source bank of 200+ to steal for your next hiring loop.](https://blog.kindel.com/2026/08/18/interviews-are-better-with-behavioral-questions/){:target="_blank"}
 - [Annual engagement surveys are dead — pulse checks tied to real moments and managers trained to listen beat once-a-year scores every time.](https://www.surveymonkey.com/curiosity/how-to-rebuild-employee-engagement-strategy/?ut_source=rss){:target="_blank"}
 - [ThoughtWorks' latest read on where European software engineering is headed — worth a skim if you're setting team strategy for the next few years.](https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future_of_software_engineering_europe_2026.pdf?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20365){:target="_blank"}
+- [Cagan points to Benedict Evans' take on why most people won't vibe-code their own tools — a sharp reframe of what product managers actually contribute in the AI era.](https://www.svpg.com/a-fresh-definition-of-the-product-role/){:target="_blank"}
+- [The real trick with vague asks: stop hunting for solutions and spend your energy nailing the problem definition first — clarity beats speed.](https://alifeengineered.substack.com/p/the-art-of-dealing-with-ambiguity-89d?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20366){:target="_blank"}
+- [Great reframe for staff+ engineers: stop scheduling 'strategic thinking' time and start absorbing the problems people complain about daily — the good ones surface themselves.](https://lalitm.com/post/find-problems-staff-engineer/?utm_source=brevo&utm_medium=email&utm_campaign=Level%20Up%20-%20Issue%20366){:target="_blank"}
+- [Sobering read if you're eyeing the exec track: middle management often trains the wrong muscles, and too much time there can actually hurt your shot at it.](https://lethain.com/middle-management-roles-were-also-a-trap/?utm_source=substack&utm_medium=email){:target="_blank"}
 
 
 
@@ -26,6 +30,7 @@ keywords: ""
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Zalando's 2.5-year playbook for scaling LLM adoption: LiteLLM proxy for multi-provider access, cost tracking hooks, and a CLI born from a hackathon.](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html){:target="_blank"}
+- [AI ideation tools don't fix bad brainstorming, they amplify it. Worth reading before you assume more AI will make your team more innovative.](https://hbr.org/2026/08/research-the-innovation-problems-ai-cant-solve){:target="_blank"}
 
 
 
