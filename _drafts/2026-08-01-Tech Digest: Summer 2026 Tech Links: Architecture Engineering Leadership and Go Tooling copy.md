@@ -25,6 +25,7 @@ keywords: ""
 
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
+- [Zalando's 2.5-year playbook for scaling LLM adoption: LiteLLM proxy for multi-provider access, cost tracking hooks, and a CLI born from a hackathon.](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html){:target="_blank"}
 
 
 
