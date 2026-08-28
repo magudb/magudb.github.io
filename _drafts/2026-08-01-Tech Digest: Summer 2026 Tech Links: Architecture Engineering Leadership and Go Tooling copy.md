@@ -42,3 +42,4 @@ keywords: ""
 
 ## Tools and things from Github <a name="tools"></a>
 - [A deep dive into building a VS Code bookmark extension the right way — tracking points over line numbers, cached tag snapshots, and other lessons for anyone building editor extensions.](https://www.madskristensen.net/blog/building-bookmark-studio-bookmarks-that-belong-to-the-codebase/){:target="_blank"}
+- [A CLI that scans your RAM, CPU, and GPU, then tells you which of hundreds of local LLMs will actually run well — no more guess-and-crash downloads.](https://github.com/AlexsJones/llmfit){:target="_blank"}
