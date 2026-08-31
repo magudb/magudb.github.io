@@ -34,6 +34,7 @@ keywords: ""
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Zalando's 2.5-year playbook for scaling LLM adoption: LiteLLM proxy for multi-provider access, cost tracking hooks, and a CLI born from a hackathon.](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html){:target="_blank"}
 - [AI ideation tools don't fix bad brainstorming, they amplify it. Worth reading before you assume more AI will make your team more innovative.](https://hbr.org/2026/08/research-the-innovation-problems-ai-cant-solve){:target="_blank"}
+- [A genuinely different take on RAG: skip the vector DB and let an LLM reason over a document's actual structure like a human flipping to the right section. Worth a look if similarity search keeps missing what you need.](https://github.com/VectifyAI/PageIndex){:target="_blank"}
 
 
 
