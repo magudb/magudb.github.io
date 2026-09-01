@@ -1,0 +1,38 @@
+# Without this file Dependabot opened one PR per package, which is how a
+# backlog of 14 build-tooling bumps accumulated. Group them instead.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    groups:
+      # Nothing in package.json ships to the browser except the two small
+      # webpack bundles, so build tooling can move in one reviewable PR.
+      build-tooling:
+        patterns: ["*"]
+        update-types: [minor, patch]
+      major-updates:
+        patterns: ["*"]
+        update-types: [major]
+
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    groups:
+      # These are all transitive under the github-pages gem, which pins the
+      # Jekyll stack; they are only ever useful together.
+      jekyll-stack:
+        patterns: ["*"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
+    groups:
+      actions:
+        patterns: ["*"]
