@@ -2,19 +2,19 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <main class="wrapper">
+    <div class="wrapper">
       {% include header.html %}
       <div id="main" class="page-fade">
         {{ content }}
       </div>
       {% include footer.html %}
-    </main>
-    <button class="totop" type="button" aria-label="Back to top">↑ Top</button>
-    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-    <script src="{{ "/assets/js/site.js" | prepend: site.baseurl | prepend: site.url }}" defer></script>
+    </div>
+    <button class="totop" type="button" aria-label="Back to top">&uarr; Top</button>
+    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}" defer></script>
+    <script src="{{ "/assets/js/site.js" | prepend: site.baseurl }}" defer></script>
   </body>
 </html>

@@ -1,21 +1,27 @@
 ---
-layout: page
+layout: default
 title: Search
 permalink: /search/
+foot_rule: true
+description: "Search every entry on udbjorg.net."
 ---
+<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}" defer></script>
 
-<script src="/assets/js/search.js" defer></script>
-
-<div class="search-wrapper">
-  <form class="search-form">
-    <input type="text" id="search-box" name="query" class="search-input" placeholder="Search the archive…" autofocus>
-  </form>
-
-  <div class="search-info" id="search-info"></div>
-
-  <section class="post-list">
-    <div id="search-results">
-      <p class="search-message">Type to search</p>
+<section class="shell shell--grow">
+  <div class="band page-band search-wrapper">
+    <div class="band__rail search__rail">
+      <span class="eyebrow">Search</span>
+      <p class="search__blurb">{{ site.posts.size }} entries, {{ site.posts.first.date | date: "%Y" }} back to {{ site.posts.last.date | date: "%Y" }}. Titles and full text.</p>
     </div>
-  </section>
-</div>
+    <div class="band__main search__main">
+      <form class="search-form" role="search">
+        <label class="skip-link" for="search-box">Search the archive</label>
+        <input type="text" id="search-box" name="query" class="search-input" placeholder="Search the archive…" autofocus autocomplete="off">
+      </form>
+      <div class="search-info" id="search-info"></div>
+      <div id="search-results">
+        <p class="search-message">Type to search</p>
+      </div>
+    </div>
+  </div>
+</section>

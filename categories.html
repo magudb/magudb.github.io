@@ -1,78 +1,43 @@
 ---
-layout: page
+layout: default
 title: Topics
 permalink: /categories/
+description: "Everything on udbjorg.net, grouped by topic."
 ---
-
-{% comment %} Build unique category list {% endcomment %}
-{% assign rawcats = "" %}
-{% for post in site.posts %}
-  {% assign tcats = post.category | join:'|' | append:'|' %}
-  {% assign rawcats = rawcats | append:tcats %}
-{% endfor %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-  {% if cat != "" %}
-    {% if cats == "" %}{% assign cats = cat | split:'|' %}{% endif %}
-    {% unless cats contains cat %}{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}{% endunless %}
-  {% endif %}
-{% endfor %}
-
-<nav class="category-nav">
-  {% for ct in cats %}
-    <a href="#{{ ct | slugify }}">{{ ct }}</a>
-  {% endfor %}
-  <a href="#uncategorized">Uncategorized</a>
-</nav>
-
-<div class="category-sections">
-  {% for ct in cats %}
-    <section class="category-section">
-      <h2 id="{{ ct | slugify }}" class="category-title">{{ ct }}</h2>
-      <div class="post-list">
-        {% assign current_year = "" %}
-        {% for post in site.posts %}
-          {% if post.category contains ct %}
-            {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
-            {% if post_year != current_year %}
-              {% assign current_year = post_year %}
-              <h3 class="year-heading">{{ current_year }}</h3>
-            {% endif %}
-            <div class="table">
-              <article class="row">
-                <div class="title article-title">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </div>
-                <div class="dots"></div>
-                <div class="value date-label">{{ post.date | date: "%b %d" }}</div>
-              </article>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </section>
-  {% endfor %}
-
-  <section class="category-section">
-    <h2 id="uncategorized" class="category-title">Uncategorized</h2>
-    <div class="post-list">
-      {% assign has_uncategorized = false %}
-      {% for post in site.posts %}
-        {% unless post.category %}
-          {% assign has_uncategorized = true %}
-          <div class="table">
-            <article class="row">
-              <div class="title article-title">
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </div>
-              <div class="dots"></div>
-              <div class="value date-label">{{ post.date | date: "%b %d, %Y" }}</div>
-            </article>
-          </div>
-        {% endunless %}
-      {% endfor %}
-      {% unless has_uncategorized %}<p class="empty-message">No uncategorized posts.</p>{% endunless %}
+{%- assign cats = site.categories | sort -%}
+<section class="shell">
+  <div class="band band--rule topics">
+    <div class="band__rail topics__rail">
+      <span class="vmark vmark--flat vmark--xl">{{ site.posts.size }}</span>
+      <h1 class="topics__title">Topics</h1>
     </div>
-  </section>
-</div>
+    <div class="band__main topics__main">
+      {%- for cat in cats %}
+      <a class="topics__jump" href="#{{ cat[0] | slugify }}">
+        <span>{{ cat[0] }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="topics__jump-n">{{ cat[1].size }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+
+  {%- for cat in cats %}
+  <div class="band band--rule band--sm">
+    <div class="band__rail topic__rail" id="{{ cat[0] | slugify }}">
+      <h2 class="topic__name">{{ cat[0] }}</h2>
+      <span class="topic__count">{{ cat[1].size }} {% if cat[1].size == 1 %}entry{% else %}entries{% endif %}</span>
+    </div>
+    <div class="band__main topic__list">
+      {%- for post in cat[1] %}
+      <a class="leader leader--sm" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="leader__no">{{ post.date | date: "%Y" }}</span>
+        <span class="leader__title">{{ post.title }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="leader__date">{{ post.date | date: "%b %d" }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

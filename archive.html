@@ -1,0 +1,27 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+description: "Every entry on udbjorg.net, grouped by year."
+---
+<section class="shell">
+  {%- assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+  {%- for year in years %}
+  <div class="band band--rule band--sm">
+    <div class="band__rail archive__rail">
+      <h2 class="archive__year" id="y{{ year.name }}">{{ year.name }}</h2>
+      <span class="archive__count">{{ year.items.size }} {% if year.items.size == 1 %}entry{% else %}entries{% endif %}</span>
+    </div>
+    <div class="band__main archive__list">
+      {%- for post in year.items %}
+      <a class="leader leader--sm" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="leader__no">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <span class="leader__title">{{ post.title }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="leader__date">{{ post.date | date: "%b %d" }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

@@ -2,70 +2,65 @@
 layout: default
 ---
 {%- comment -%}
-  Auto-detect: "Curated Insights" (and any post with links:true) → annotated link index.
-  Everything else → prose. No per-post front-matter changes required.
+  "Curated Insights" (and any post with links:true) render as an annotated link
+  index; everything else renders as prose. No per-post front matter needed.
 {%- endcomment -%}
 {%- assign is_links = false -%}
 {%- if page.links == true -%}{%- assign is_links = true -%}{%- endif -%}
-{%- if page.category and page.category contains "Curated" -%}{%- assign is_links = true -%}{%- endif -%}
-{%- if page.categories contains "Curated Insights" -%}{%- assign is_links = true -%}{%- endif -%}
+{%- if page.category contains "Curated" -%}{%- assign is_links = true -%}{%- endif -%}
+{%- assign words = content | number_of_words | divided_by: 200 | plus: 1 -%}
 
 <div class="progress" aria-hidden="true"><div class="progress__fill"></div></div>
 
-<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header measure">
-    <div class="article__kicker">
-      {%- assign cat = page.category | default: page.categories.first -%}
-      {%- if cat -%}
-        <a class="eyebrow" href="{{ "/categories/" | prepend: site.baseurl | prepend: site.url }}#{{ cat | slugify }}">{{ cat }}</a>
-      {%- else -%}
-        <span class="eyebrow">Writing</span>
-      {%- endif -%}
-      <span class="line"></span>
+<article class="shell post{% if is_links %} post--links{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="band band--rule">
+    <div class="band__rail post__rail">
+      <span class="vmark vmark--lg">{{ page.date | date: "%b %d" }}</span>
+      <div class="post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <span>{{ words }} min read{% if is_links %}{% assign linkcount = content | split: "<li" | size | minus: 1 %}{% if linkcount > 0 %} &middot; {{ linkcount }} links{% endif %}{% endif %}</span>
+        {%- if page.category %}
+        <a href="{{ "/categories/" | prepend: site.baseurl }}#{{ page.category | slugify }}" itemprop="articleSection">{{ page.category }}</a>
+        {%- endif %}
+      </div>
     </div>
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    {%- if page.subtitle or page.description -%}
-      <p class="post-sub">{{ page.subtitle | default: page.description }}</p>
-    {%- endif -%}
-    <div class="post-meta-row">
-      <time class="meta-chip" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      <span class="meta-chip">·</span>
-      <span class="meta-chip">{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
-      {%- if is_links -%}
-        {%- assign linkcount = content | split: "<li" | size | minus: 1 -%}
-        {%- if linkcount > 0 -%}<span class="meta-chip">·</span><span class="meta-chip">{{ linkcount }} links</span>{%- endif -%}
-      {%- endif -%}
+    <div class="band__main post__main">
+      <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
+      {%- if page.subtitle or page.description %}
+      <p class="post__sub">{{ page.subtitle | default: page.description }}</p>
+      {%- endif %}
     </div>
   </header>
 
-  <div class="post-content measure has-dropcap {% if is_links %}post--links{% else %}post--prose{% endif %}" itemprop="articleBody">
+  {%- if is_links %}
+  <div class="linkdex" itemprop="articleBody">
     {{ content }}
-    {% include post-share.html %}
   </div>
-
-  <footer class="post-foot measure">
-    {%- if page.tags.size > 0 -%}
-    <div class="post-tags">
-      {%- for tag in page.tags -%}
-        <a href="{{ "/categories/" | prepend: site.baseurl | prepend: site.url }}#tag-{{ tag | slugify }}">{{ tag }}</a>
-      {%- endfor -%}
+  {%- else %}
+  <div class="band">
+    <div class="band__rail band__rail--empty" aria-hidden="true"></div>
+    <div class="post__body prose prose--article" itemprop="articleBody">
+      {{ content }}
     </div>
-    {%- endif -%}
-    <nav class="post-nav" aria-label="More posts">
-      {%- if page.next -%}
-      <a class="post-nav__prev" href="{{ page.next.url | prepend: site.baseurl }}">
-        <div class="post-nav__dir">← Newer</div>
-        <div class="post-nav__t">{{ page.next.title }}</div>
-      </a>
-      {%- else -%}<span></span>{%- endif -%}
-      {%- if page.previous -%}
-      <a class="post-nav__next" href="{{ page.previous.url | prepend: site.baseurl }}">
-        <div class="post-nav__dir">Older →</div>
-        <div class="post-nav__t">{{ page.previous.title }}</div>
-      </a>
-      {%- endif -%}
-    </nav>
-  </footer>
+  </div>
+  {%- endif %}
+
+  <nav class="band band--strong pager" aria-label="More posts">
+    {%- if page.next %}
+    <a class="pager__prev" href="{{ page.next.url | prepend: site.baseurl }}">
+      <span class="pager__dir">&larr; Newer</span>
+      <span class="pager__title">{{ page.next.title }}</span>
+    </a>
+    {%- else %}
+    <span class="pager__blank" aria-hidden="true"></span>
+    {%- endif %}
+    {%- if page.previous %}
+    <a class="pager__next" href="{{ page.previous.url | prepend: site.baseurl }}">
+      <span class="pager__dir">Older &rarr;</span>
+      <span class="pager__title">{{ page.previous.title }}</span>
+    </a>
+    {%- endif %}
+  </nav>
 </article>
 
 {% include comments.html %}
