@@ -6,6 +6,21 @@ description: "Every entry on udbjorg.net, grouped by year."
 ---
 <section class="shell">
   {%- assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+  <div class="band band--rule topics">
+    <div class="band__rail topics__rail">
+      <span class="vmark vmark--flat vmark--xl">{{ site.posts.size }}</span>
+      <h1 class="topics__title">Archive</h1>
+    </div>
+    <div class="band__main topics__main">
+      {%- for year in years %}
+      <a class="topics__jump" href="#y{{ year.name }}">
+        <span>{{ year.name }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="topics__jump-n">{{ year.items.size }}</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
   {%- for year in years %}
   <div class="band band--rule band--sm">
     <div class="band__rail archive__rail">

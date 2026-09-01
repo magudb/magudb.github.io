@@ -18,7 +18,7 @@ layout: default
       <span class="vmark vmark--lg">{{ page.date | date: "%b %d" }}</span>
       <div class="post__meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-        <span>{{ words }} min read{% if is_links %}{% assign linkcount = content | split: "<li" | size | minus: 1 %}{% if linkcount > 0 %} &middot; {{ linkcount }} links{% endif %}{% endif %}</span>
+        <span>{{ words }} min read{% if is_links %}{% assign linkcount = content | split: "<li>" | size | minus: 1 %}{% if linkcount > 0 %}<span class="post__links"> &middot; {{ linkcount }} links</span>{% endif %}{% endif %}</span>
         {%- if page.category %}
         <a href="{{ "/categories/" | prepend: site.baseurl }}#{{ page.category | slugify }}" itemprop="articleSection">{{ page.category }}</a>
         {%- endif %}
@@ -26,8 +26,9 @@ layout: default
     </div>
     <div class="band__main post__main">
       <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
-      {%- if page.subtitle or page.description %}
-      <p class="post__sub">{{ page.subtitle | default: page.description }}</p>
+      {%- assign sub = page.subtitle | default: page.description | strip %}
+      {%- if sub != "" %}
+      <p class="post__sub">{{ sub }}</p>
       {%- endif %}
     </div>
   </header>

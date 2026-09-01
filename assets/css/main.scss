@@ -12,7 +12,7 @@
   /* light (default) */
   --bg:   #f6f5f1;
   --fg:   #141413;
-  --mute: #7d7a74;
+  --mute: #6d6a64;   /* design says #7d7a74; darkened to clear WCAG AA (3.92:1 -> 4.94:1) */
   --line: #d9d6cf;
   --soft: #efede8;
 
@@ -143,7 +143,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   font-weight: 400; line-height: 1; color: var(--acc);
   writing-mode: vertical-rl; letter-spacing: -.02em;
   font-variant-numeric: tabular-nums;
-  align-self: flex-start;
 }
 .vmark--xl { font-size: clamp(44px, calc(30.5px + 3.46vw), 72px); }
 .vmark--lg { font-size: clamp(28px, calc(18.4px + 2.47vw), 48px); }
@@ -167,8 +166,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   font-variant-numeric: tabular-nums;
 }
 .leader__title {
-  flex: 0 1 auto;
+  flex: 0 1 auto; min-width: 0;
   font-size: 18px; line-height: 1.35; text-wrap: pretty;
+  overflow-wrap: anywhere;
 }
 .leader__fill {
   flex: 1; min-width: 24px;
@@ -200,6 +200,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .masthead__links { display: flex; justify-content: flex-end; gap: 28px; align-items: baseline; }
+/* The longest context string is the site description; below ~1000px the centre
+   cell can no longer hold it, so drop it rather than show an ellipsis. */
+@media (max-width: 1000px) { .masthead__ctx { visibility: hidden; } }
 .masthead__links a.is-current { font-weight: 600; }
 
 .theme-toggle {
@@ -253,7 +256,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .recent__rail { gap: 12px; justify-content: flex-start; }
 .recent__blurb { font-size: 15px; line-height: 1.55; color: var(--mute); }
 .recent__more { font-size: 14px; font-weight: 600; margin-top: 8px; align-self: flex-start; }
-.recent__list { padding-bottom: 0; }
+.band--sm > .band__main.recent__list { padding-bottom: 0; }
 
 /* ============================================================
    ARCHIVE
@@ -328,18 +331,21 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   display: flex; flex-direction: column; gap: 26px;
 }
 .prose > * { margin: 0; }
+.prose { overflow-wrap: break-word; }
 
 .prose h1, .prose h2 {
   font-size: 24px; font-weight: 600; line-height: 1.2; letter-spacing: -.015em;
   margin-top: 36px;
   scroll-margin-top: 24px;
 }
-/* article headings carry the section mark; page headings do not */
+/* Article headings carry the section mark; page headings do not.
+   The mark is absolutely positioned rather than a flex item: display:flex would
+   promote every inline child (<code>, <em>, a link) into its own gapped box. */
 .prose--article h1, .prose--article h2 {
-  display: flex; gap: 16px; align-items: baseline;
+  position: relative; padding-left: 28px;
 }
 .prose--article h1::before, .prose--article h2::before {
-  content: "\00A7"; flex: none;
+  content: "\00A7" / ""; position: absolute; left: 0; top: .15em;
   font-size: 12px; font-weight: 400; color: var(--acc);
 }
 .prose h3 {
@@ -505,7 +511,31 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   scroll-margin-top: 24px;
 }
 
-/* link list → right column */
+/* The section body: one grid cell holding everything under the heading.
+   site.js builds it; the bare .linkdex > ul rules below are the no-JS fallback. */
+.linkdex__body {
+  grid-column: 2;
+  padding: 26px 0 var(--band-sm) var(--gut);
+  border-bottom: 1px solid var(--line);
+  display: flex; flex-direction: column;
+}
+.linkdex__body > ul,
+.linkdex__body > ol {
+  margin: 0; padding: 0; list-style: none;
+  display: flex; flex-direction: column;
+}
+.linkdex__body > p { margin: 0 0 16px; }
+.linkdex__body > h3 {
+  margin: 0 0 10px;
+  font-size: 15px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--mute); scroll-margin-top: 24px;
+}
+.linkdex__body > h3 ~ h3 { margin-top: 20px; }
+.linkdex__body > img,
+.linkdex__body > p > img { display: block; border: 1px solid var(--line); margin: 8px 0; }
+.linkdex__body--fav { padding-top: var(--band-sm); justify-content: center; }
+
+/* link list → right column (no-JS fallback) */
 .linkdex > ul,
 .linkdex > ol {
   grid-column: 2;
@@ -528,6 +558,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .link-item__text {
   font-size: 17px; line-height: 1.45; text-wrap: pretty;
   border: 0;
+  overflow-wrap: anywhere;
 }
 .link-item__note { font-size: 15px; line-height: 1.5; color: var(--mute); }
 .link-item__note a { border-bottom: 1px solid var(--acc); }
@@ -539,7 +570,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
 /* the favourites band */
 .linkdex__fav-head .linkdex__no { font-size: 12px; }
-.linkdex > ul.linkdex__fav { justify-content: center; }
+.linkdex > ul.linkdex__fav { justify-content: center; padding-top: var(--band-sm); }
+.linkdex__body--toc { font-size: 15px; }
 .linkdex__fav li { gap: 10px; padding: 20px 0; }
 .linkdex__fav li:first-child { padding-top: 0; }
 .linkdex__fav .link-item__text {
@@ -601,7 +633,14 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
   color: var(--mute); margin-bottom: 16px;
 }
 .search-message { color: var(--mute); font-size: 15px; }
-mark, .search-highlight { background: var(--acc); color: var(--bg); padding: 0 .1em; }
+mark, .search-highlight {
+  background: color-mix(in srgb, var(--acc) 28%, var(--bg));
+  color: var(--fg);
+  padding: 0 .1em;
+}
+@supports not (background: color-mix(in srgb, #000, #fff)) {
+  mark, .search-highlight { background: var(--soft); color: var(--fg); }
+}
 
 /* search.js injects the legacy row markup
    (.table > .row > .title.article-title > a.post-link, .dots, .value.date-label).
@@ -647,9 +686,10 @@ mark, .search-highlight { background: var(--acc); color: var(--bg); padding: 0 .
   background: var(--bg); color: var(--mute);
   border: 1px solid var(--line); padding: 8px 12px; cursor: pointer;
   opacity: 0; transform: translateY(8px); pointer-events: none;
-  transition: opacity .3s ease, transform .3s ease, color .2s ease, border-color .2s ease;
+  visibility: hidden;
+  transition: opacity .3s ease, transform .3s ease, color .2s ease, border-color .2s ease, visibility .3s;
 }
-.totop.show { opacity: 1; transform: none; pointer-events: auto; }
+.totop.show { opacity: 1; transform: none; pointer-events: auto; visibility: visible; }
 .totop:hover { color: var(--fg); border-color: var(--fg); }
 
 /* ============================================================
@@ -663,6 +703,10 @@ mark, .search-highlight { background: var(--acc); color: var(--bg); padding: 0 .
    ============================================================ */
 @media (max-width: 900px) {
   body { font-size: 16px; }
+
+  /* the rails become flex rows here, so the mark must shrink-wrap again
+     rather than stretch along the cross axis */
+  .vmark { align-self: flex-start; }
 
   .band { display: block; }
   .band__rail {
@@ -679,11 +723,11 @@ mark, .search-highlight { background: var(--acc); color: var(--bg); padding: 0 .
     display: flex; flex-direction: row;
     align-items: flex-end; justify-content: space-between;
     gap: 20px; min-height: 0;
-    padding: 40px 0 0;
+    padding: 40px 0;
   }
   .hero > .band__rail { flex: none; padding: 0; border: 0; }
   .hero > .band__main {
-    flex: 0 1 auto; padding: 0 0 40px;
+    flex: 0 1 auto; padding: 0;
     align-items: flex-end; text-align: right;
   }
   .hero__title { max-width: 240px; }
@@ -719,6 +763,9 @@ mark, .search-highlight { background: var(--acc); color: var(--bg); padding: 0 .
   .linkdex__count { margin-left: auto; white-space: nowrap; }
   .linkdex > h3:not(.linkdex__head) { padding: 24px 0 0; }
   .linkdex > ul, .linkdex > ol { padding: 0; border-bottom: 0; }
+  .linkdex > ul.linkdex__fav { padding-top: 0; }
+  .linkdex__body { padding: 0; border-bottom: 0; }
+  .linkdex__body--fav { padding-top: 0; }
   .linkdex > *:not(h1):not(h2):not(h3):not(ul):not(ol):not(p) { padding: 24px 0; }
   .linkdex__fav .link-item__text { font-size: 20px; line-height: 1.3; }
 

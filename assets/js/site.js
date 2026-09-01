@@ -35,7 +35,10 @@
   /* ---- back to top ---- */
   var totop = document.querySelector(".totop");
   if (totop) {
-    totop.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+    totop.addEventListener("click", function () {
+      var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: calm ? "auto" : "smooth" });
+    });
     var onScrollTop = function () { totop.classList.toggle("show", window.scrollY > 800); };
     window.addEventListener("scroll", onScrollTop, { passive: true });
     onScrollTop();
@@ -79,15 +82,15 @@
      section's link count its own, and stops the favourites band from swallowing
      the rest of the post in the 2015 roundups where the whole hierarchy is
      shifted down a level. Returns { lists, others, links }. */
-  function sectionOf(head) {
+  function sectionOf(head, heads) {
     var lists = [], others = [], links = 0;
     var el = head.nextElementSibling;
     while (el) {
-      if (/^H[1-6]$/.test(el.tagName)) break;
+      if (heads.indexOf(el) !== -1) break;
       if (el.tagName === "UL" || el.tagName === "OL") {
         lists.push(el);
         links += el.children.length;
-      } else {
+      } else if (!/^H[1-6]$/.test(el.tagName)) {
         others.push(el);
       }
       el = el.nextElementSibling;
@@ -124,6 +127,7 @@
     if (no) {
       var n = document.createElement("span");
       n.className = "linkdex__no";
+      n.setAttribute("aria-hidden", "true");
       n.textContent = no;
       sticky.appendChild(n);
     }
@@ -160,8 +164,12 @@
     li.dataset.dressed = "1";
 
     a.classList.add("link-item__text");
-    a.setAttribute("target", "_blank");
-    a.setAttribute("rel", "noopener noreferrer");
+    var href = a.getAttribute("href") || "";
+    var isFragment = href.charAt(0) === "#";
+    if (!isFragment) {
+      a.setAttribute("target", "_blank");
+      a.setAttribute("rel", "noopener noreferrer");
+    }
 
     /* Everything after the leading link becomes a muted note, so the title
        stays the title and the commentary reads as commentary. */
@@ -187,7 +195,7 @@
       }
     }
 
-    if (li.querySelector(".link-item__src")) return;
+    if (isFragment || li.querySelector(".link-item__src")) return;
     var host = hostOf(a.href);
     if (!host) return;
     var src = document.createElement("span");
@@ -195,6 +203,7 @@
     src.textContent = host + " ";
     var ext = document.createElement("span");
     ext.className = "ext";
+    ext.setAttribute("aria-hidden", "true");
     ext.textContent = "↗";
     src.appendChild(ext);
     li.appendChild(src);
@@ -208,7 +217,7 @@
       var label = textOf(head).toLowerCase();
       var isFav = isFavLabel(label);
       var isToc = isTocLabel(label);
-      var sec = sectionOf(head);
+      var sec = sectionOf(head, heads);
       head.classList.add("linkdex__head");
 
       /* A heading with nothing under it is an empty rubric — drop it and any
@@ -225,6 +234,23 @@
         Array.prototype.forEach.call(list.children, dressItem);
       });
 
+      /* Collect everything the section owns into one element, so the band is
+         exactly two grid cells — head and body — the way the design draws it.
+         Left flat, a section containing an h3, an image or a stray paragraph
+         would auto-place into extra rows with an empty rail, breaking the
+         horizontal rules and the sticky heading. */
+      var body = document.createElement("div");
+      body.className = "linkdex__body";
+      if (isFav) body.classList.add("linkdex__body--fav");
+      if (isToc) body.classList.add("linkdex__body--toc");
+      var el = head.nextElementSibling;
+      while (el && heads.indexOf(el) === -1) {
+        var next = el.nextElementSibling;
+        body.appendChild(el);
+        el = next;
+      }
+      if (body.firstChild) head.insertAdjacentElement("afterend", body);
+
       if (isFav) {
         head.classList.add("linkdex__fav-head");
         dressHeading(head, "★", "");
@@ -240,5 +266,42 @@
 
     /* Link lists outside any heading still deserve the item treatment. */
     Array.prototype.forEach.call(root.querySelectorAll("li"), dressItem);
+
+    /* The legacy "Categories" table of contents links to section anchors. Some of
+       those anchors never existed, and dropping empty sections retires more, so
+       prune the entries that now lead nowhere rather than leave dead links. */
+    var toc = root.querySelector(".linkdex__toc");
+    if (toc) {
+      Array.prototype.forEach.call(toc.querySelectorAll('a[href^="#"]'), function (a) {
+        var id = decodeURIComponent((a.getAttribute("href") || "").slice(1));
+        if (!id) return;
+        var target = null;
+        try {
+          target = root.querySelector('[id="' + CSS.escape(id) + '"], a[name="' + CSS.escape(id) + '"]');
+        } catch (err) { return; }
+        if (target && !target.closest("[hidden]")) return;
+        var item = a.closest("li");
+        if (item) item.remove();
+      });
+      if (!toc.querySelector("li")) {
+        var tocHead = toc.previousElementSibling;
+        if (tocHead && tocHead.classList.contains("linkdex__toc-head")) tocHead.setAttribute("hidden", "");
+        toc.setAttribute("hidden", "");
+      }
+    }
+
+    /* The header count comes from Liquid counting every <li>, which also counts
+       table-of-contents entries. Now that the real per-section totals are known,
+       correct it. */
+    var meta = document.querySelector(".post__links");
+    if (meta) {
+      var total = 0;
+      heads.forEach(function (head) {
+        if (head.hasAttribute("hidden")) return;
+        if (head.classList.contains("linkdex__toc-head")) return;
+        total += sectionOf(head, heads).links;
+      });
+      if (total > 0) meta.textContent = " \u00B7 " + total + (total === 1 ? " link" : " links");
+    }
   });
 })();

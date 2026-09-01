@@ -48,14 +48,17 @@ module.exports = {
       // Output location
       swDest: "../../service-worker.js",
 
+      // Retire caches left behind by earlier, version-named builds.
+      importScripts: ['/sw-cleanup.js'],
+
       // Runtime caching strategies (order matters - more specific patterns first)
       runtimeCaching: [
         {
           // Images - cache first since they rarely change
-          urlPattern: /\.(?:png|jpg|jpeg|svg|gif|webp|ico)$/,
+          urlPattern: /\.(?:png|jpg|jpeg|svg|gif|webp|ico)(\?.*)?$/,
           handler: 'CacheFirst',
           options: {
-            cacheName: `images-v${cacheVersion}`,
+            cacheName: 'images',
             expiration: {
               maxEntries: 100,
               maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
@@ -64,10 +67,16 @@ module.exports = {
         },
         {
           // CSS and JS - stale while revalidate for quick loads with updates
-          urlPattern: /\.(?:css|js)$/,
+          urlPattern: /\.(?:css|js)(\?.*)?$/,
           handler: 'StaleWhileRevalidate',
           options: {
-            cacheName: `static-v${cacheVersion}`,
+            cacheName: 'static',
+            expiration: {
+              // Asset URLs carry a ?v= build stamp, so each deploy writes new
+              // entries; cap them so superseded versions are evicted.
+              maxEntries: 40,
+              maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+            },
           },
         },
         {
@@ -75,16 +84,16 @@ module.exports = {
           urlPattern: /\.(?:html)$|\/[^.]*$/,
           handler: 'NetworkFirst',
           options: {
-            cacheName: `pages-v${cacheVersion}`,
+            cacheName: 'pages',
             networkTimeoutSeconds: 3,
           },
         },
         {
           // Fonts - cache first, rarely change
-          urlPattern: /\.(?:woff|woff2|ttf|eot)$/,
+          urlPattern: /\.(?:woff|woff2|ttf|eot)(\?.*)?$/,
           handler: 'CacheFirst',
           options: {
-            cacheName: `fonts-v${cacheVersion}`,
+            cacheName: 'fonts',
             expiration: {
               maxEntries: 20,
               maxAgeSeconds: 365 * 24 * 60 * 60, // 1 year

@@ -8,13 +8,18 @@ layout: compress
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper">
       {% include header.html %}
-      <div id="main" class="page-fade">
+      <main id="main" class="page-fade">
         {{ content }}
-      </div>
+      </main>
       {% include footer.html %}
     </div>
     <button class="totop" type="button" aria-label="Back to top">&uarr; Top</button>
-    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}" defer></script>
-    <script src="{{ "/assets/js/site.js" | prepend: site.baseurl }}" defer></script>
+    {%- comment -%}
+      ?v= is the build stamp. It changes every deploy, so a new release can never
+      be answered from a stale service-worker, browser or CDN cache.
+    {%- endcomment -%}
+    {%- assign v = site.time | date: '%s' %}
+    <script src="{{ "/assets/js/app.js" | prepend: site.baseurl }}?v={{ v }}" defer></script>
+    <script src="{{ "/assets/js/site.js" | prepend: site.baseurl }}?v={{ v }}" defer></script>
   </body>
 </html>

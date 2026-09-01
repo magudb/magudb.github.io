@@ -5,12 +5,12 @@ permalink: /search/
 foot_rule: true
 description: "Search every entry on udbjorg.net."
 ---
-<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}" defer></script>
+<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}" defer></script>
 
 <section class="shell shell--grow">
   <div class="band page-band search-wrapper">
     <div class="band__rail search__rail">
-      <span class="eyebrow">Search</span>
+      <h1 class="eyebrow">Search</h1>
       <p class="search__blurb">{{ site.posts.size }} entries, {{ site.posts.first.date | date: "%Y" }} back to {{ site.posts.last.date | date: "%Y" }}. Titles and full text.</p>
     </div>
     <div class="band__main search__main">
@@ -18,8 +18,8 @@ description: "Search every entry on udbjorg.net."
         <label class="skip-link" for="search-box">Search the archive</label>
         <input type="text" id="search-box" name="query" class="search-input" placeholder="Search the archive…" autofocus autocomplete="off">
       </form>
-      <div class="search-info" id="search-info"></div>
-      <div id="search-results">
+      <div class="search-info" id="search-info" role="status" aria-live="polite"></div>
+      <div id="search-results" aria-live="polite">
         <p class="search-message">Type to search</p>
       </div>
     </div>
