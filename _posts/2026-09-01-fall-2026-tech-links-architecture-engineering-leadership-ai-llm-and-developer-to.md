@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Fall 2026 Tech Links: Architecture, Engineering Leadership, AI Agents, and Go Tooling"
-description: ""
+title: "Fall 2026 Tech Links: Architecture, Engineering Leadership, AI/LLM, and Developer Tools"
+description: "A curated batch on engineering leadership and hiring, software architecture and concurrency, the latest in AI and LLM tooling, and a few developer tools worth adding to your kit."
 comments: false
 category: "Curated Insights"
-keywords: ""
+keywords: "engineering leadership, software architecture, concurrency, AI and LLM, developer tools, product management"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
