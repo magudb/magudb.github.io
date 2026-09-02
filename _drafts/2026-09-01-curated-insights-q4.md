@@ -23,3 +23,6 @@ keywords: ""
 ## Tools and things from Github <a name="tools"></a>
 - [An agent skill that turns a codebase description into self-contained, interactive architecture diagrams—useful for grounding PR reviews with real before/after topology diffs.](https://github.com/tt-a1i/archify){:target="_blank"}
 - [A local-first agent workspace that logs every model message, tool call, and permission decision as an append-only record — worth a look if you care about auditable AI workflows.](https://github.com/apache/maka){:target="_blank"}
+- [Swap port numbers for stable .localhost URLs in local dev — small DX win, especially handy for keeping agent and human workflows sane across multiple running apps.](https://github.com/vercel-labs/portless){:target="_blank"}
+- [A local-first CRM for founders running a fundraising round—investor scoring with sources shown, pipeline tracking, and outreach, all in one SQLite file you own.](https://github.com/lalalune/outreachr){:target="_blank"}
+- [A dbt package that unifies ad spend, clicks, and impressions across a dozen platforms into one reporting model—handy if you're tired of stitching marketing dashboards by hand.](https://github.com/fivetran/dbt_ad_reporting){:target="_blank"}
