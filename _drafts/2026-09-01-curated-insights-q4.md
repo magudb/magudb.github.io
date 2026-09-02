@@ -20,3 +20,4 @@ keywords: ""
 ## DevOps, Observability & Security<a name="devops"></a>
 
 ## Tools and things from Github <a name="tools"></a>
+- [An agent skill that turns a codebase description into self-contained, interactive architecture diagrams—useful for grounding PR reviews with real before/after topology diffs.](https://github.com/tt-a1i/archify){:target="_blank"}
