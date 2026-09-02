@@ -16,7 +16,7 @@
     "mark.js": "^8.11.1",
     "markdown-it": "^14.1.0",
     "query-string": "^8.1.0",
-    "webpack": "^5.101.0",
+    "webpack": "^5.110.1",
     "workbox-webpack-plugin": "^6.5.4"
   },
   "devDependencies": {
