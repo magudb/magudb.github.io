@@ -15,6 +15,7 @@ keywords: ""
 ## Architecture, Development & Software development practices <a name="development"></a>
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
+- [Layer streaming trains an 8B model on a 4GB laptop GPU by paging frozen layers off VRAM — clever trick, though verify their bit-exactness claims before betting production on it.](https://github.com/MakazhanAlpamys/Soup){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
