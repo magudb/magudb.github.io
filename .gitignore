@@ -92,3 +92,4 @@ tmp/
 temp/
 *.tmp
 .claude/
+.playwright-mcp/

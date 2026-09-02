@@ -1,55 +1,22 @@
 ---
 layout: default
-title: 404 - Page not found
+title: Page not found
 permalink: /404.html
+foot_rule: true
 ---
-
-<article class="page container">
-  <div class="error-page">
-    <h1>404</h1>
-    <p class="error-message">Page not found.</p>
-    <p class="error-help">The page you're looking for doesn't exist or has been moved.</p>
-    <p><a href="/">Back to home</a></p>
+<section class="shell shell--grow">
+  <div class="band page-band">
+    <div class="band__rail error__rail">
+      <span class="vmark vmark--xl">404</span>
+      <span class="eyebrow">Not found</span>
+    </div>
+    <div class="band__main error__main">
+      <h1 class="error__title">This page doesn't exist.</h1>
+      <p class="error__text">The link may be broken, or the entry may have moved. The archive and the search box will both know where it went.</p>
+      <a class="error__back" href="{{ "/archive/" | prepend: site.baseurl }}">Archive &rarr;</a>
+      <a class="error__back" href="{{ "/" | prepend: site.baseurl }}">Back to the index &rarr;</a>
+    </div>
   </div>
-</article>
+</section>
 
-<style>
-.error-page {
-  text-align: center;
-  padding: 4rem 0;
-}
-
-.error-page h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 0.5rem;
-  line-height: 1;
-}
-
-.error-page .error-message {
-  font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-
-.error-page .error-help {
-  color: #666;
-  margin-bottom: 2rem;
-}
-
-.error-page a {
-  color: #0455BF;
-  text-decoration: underline;
-  text-decoration-color: rgba(4, 85, 191, 0.3);
-}
-
-.error-page a:hover {
-  color: #033d8c;
-  text-decoration-color: #033d8c;
-}
-</style>
-
-<script>
-  window.errorpage = true;
-</script>
+<script>window.errorpage = true;</script>

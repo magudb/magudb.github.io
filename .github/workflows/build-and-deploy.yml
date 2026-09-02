@@ -13,8 +13,10 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  # Production deploys share one queue and must not cancel each other; PR runs
+  # get their own group per branch and may cancel superseded runs.
+  group: ${{ github.event_name == 'push' && 'pages' || format('pr-{0}', github.ref) }}
+  cancel-in-progress: ${{ github.event_name != 'push' }}
 
 jobs:
   build:
@@ -73,6 +75,10 @@ jobs:
           path: ./_site
 
   deploy:
+    # Pages can only be deployed from the default branch, so this job fails on
+    # every pull_request run. The Cloudflare step below and the announce job
+    # already carry this guard; the job itself was missing it.
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -85,7 +91,6 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Purge Cloudflare Cache
-        if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
         run: |
           curl -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
             -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \

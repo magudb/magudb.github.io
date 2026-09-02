@@ -1,6 +1,840 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Udbjorg.net — "Tatami" direction. Self-contained; compiles to main.css.
+# 5fr/7fr banded grid, persistent vertical rule, Instrument Sans, warm paper palette.
 ---
 
-@charset "utf-8";
-@import "../scss/main";
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root {
+  --sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* light (default) */
+  --bg:   #f6f5f1;
+  --fg:   #141413;
+  --mute: #6d6a64;   /* design says #7d7a74; darkened to clear WCAG AA (3.92:1 -> 4.94:1) */
+  --line: #d9d6cf;
+  --soft: #efede8;
+
+  /* accent — oklch(0.6 0.09 30), a muted terracotta */
+  --acc: #b06b60;
+
+  /* rhythm */
+  --gut: clamp(24px, calc(8.6px + 3.95vw), 56px);   /* inner gutter / page padding */
+  --pad-top: clamp(20px, calc(14.2px + 1.48vw), 32px);
+  --band: clamp(32px, calc(22.4px + 2.47vw), 48px); /* tall band padding */
+  --band-sm: clamp(28px, calc(22.2px + 1.48vw), 40px);
+  --maxw: 1200px;
+  --rail: 5fr;
+  --main: 7fr;
+  --rail-pct: 41.6667%;                        /* 5 / 12 — for pseudo-element rules */
+}
+
+@supports (color: oklch(0.6 0.09 30)) {
+  :root { --acc: oklch(0.6 0.09 30); }
+}
+
+[data-theme="dark"] {
+  --bg:   #0e0e10;
+  --fg:   #e9e7e2;
+  --mute: #88857f;
+  --line: #27272b;
+  --soft: #16161a;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; transition: opacity .18s ease; }
+a:hover { opacity: .6; }
+a:focus-visible,
+button:focus-visible,
+input:focus-visible { outline: 2px solid var(--acc); outline-offset: 3px; }
+
+h1, h2, h3, h4 { margin: 0; font-weight: 400; text-wrap: pretty; }
+p { margin: 0; }
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
+::selection { background: var(--acc); color: var(--bg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  html { scroll-behavior: auto; }
+}
+.theme-switching * { transition: none !important; }
+
+/* ============================================================
+   SHELL
+   ============================================================ */
+.wrapper { min-height: 100vh; display: flex; flex-direction: column; }
+
+.shell {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: var(--gut);
+}
+
+#main { display: flex; flex-direction: column; flex: 1; }
+#main > * { flex: none; }
+
+.skip-link {
+  position: absolute; left: -9999px; top: 0; z-index: 100;
+  background: var(--fg); color: var(--bg);
+  padding: .6rem 1rem; font-size: 13px;
+}
+.skip-link:focus { left: 0; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.page-fade { animation: rise .4s cubic-bezier(.2,.7,.2,1); }
+
+/* ============================================================
+   BAND — the repeating 5fr/7fr unit with its vertical rule
+   ============================================================ */
+.band { display: grid; grid-template-columns: var(--rail) var(--main); }
+.band--rule   { border-bottom: 1px solid var(--line); }
+.band--strong { border-top: 1px solid var(--fg); }
+
+.band__rail {
+  padding: var(--band) var(--gut) var(--band) 0;
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column;
+  min-width: 0;
+}
+.band__main {
+  padding: var(--band) 0 var(--band) var(--gut);
+  display: flex; flex-direction: column;
+  min-width: 0;
+}
+.band--sm > .band__rail { padding-block: var(--band-sm); }
+.band--sm > .band__main { padding-block: var(--band-sm); }
+
+/* a rail that carries only the rule (post body) */
+.band__rail--empty { padding: 0; }
+
+/* ============================================================
+   TYPE HELPERS
+   ============================================================ */
+.eyebrow {
+  font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--mute); line-height: 1.4;
+}
+
+/* the big vertical accent marker */
+.vmark {
+  font-weight: 400; line-height: 1; color: var(--acc);
+  writing-mode: vertical-rl; letter-spacing: -.02em;
+  font-variant-numeric: tabular-nums;
+}
+.vmark--xl { font-size: clamp(44px, calc(30.5px + 3.46vw), 72px); }
+.vmark--lg { font-size: clamp(28px, calc(18.4px + 2.47vw), 48px); }
+/* horizontal variant (Topics count) */
+.vmark--flat {
+  writing-mode: horizontal-tb;
+  font-size: clamp(44px, calc(30.5px + 3.46vw), 72px);
+}
+
+/* ============================================================
+   DOT-LEADER ROW — home, archive, topics
+   ============================================================ */
+.leader {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 18px 0;
+  border-bottom: 1px dotted var(--line);
+}
+.leader__no {
+  flex: none; width: 40px;
+  font-size: 12px; color: var(--acc);
+  font-variant-numeric: tabular-nums;
+}
+.leader__title {
+  flex: 0 1 auto; min-width: 0;
+  font-size: 18px; line-height: 1.35; text-wrap: pretty;
+  overflow-wrap: anywhere;
+}
+.leader__fill {
+  flex: 1; min-width: 24px;
+  border-bottom: 1px dotted var(--mute);
+  transform: translateY(-5px);
+}
+.leader__date {
+  flex: none;
+  font-size: 13px; color: var(--mute);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.leader--sm .leader__title { font-size: 16px; line-height: 1.4; }
+.leader--sm { padding: 14px 0; }
+
+/* ============================================================
+   MASTHEAD
+   ============================================================ */
+.masthead { padding-top: var(--pad-top); }
+.masthead__inner {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  align-items: baseline; gap: 16px;
+  font-size: 13px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--fg);
+}
+.masthead__mark { font-weight: 600; letter-spacing: -.01em; font-size: 15px; }
+.masthead__ctx {
+  color: var(--mute); text-align: center;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.masthead__links { display: flex; justify-content: flex-end; gap: 28px; align-items: baseline; }
+/* The longest context string is the site description; below ~1000px the centre
+   cell can no longer hold it, so drop it rather than show an ellipsis. */
+@media (max-width: 1000px) { .masthead__ctx { visibility: hidden; } }
+.masthead__links a.is-current { font-weight: 600; }
+
+.theme-toggle {
+  font: inherit; color: var(--mute);
+  background: none; border: 0; padding: 0;
+  cursor: pointer; transition: opacity .18s ease;
+}
+.theme-toggle:hover { opacity: .6; }
+.theme-toggle .t-dark { display: none; }
+[data-theme="dark"] .theme-toggle .t-dark { display: inline; }
+[data-theme="dark"] .theme-toggle .t-light { display: none; }
+
+/* mobile menu */
+.masthead__menu { display: none; }
+.masthead__drawer { display: none; }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.site-foot { margin-top: auto; }
+.site-foot__inner {
+  padding-top: 56px; padding-bottom: 56px;
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  font-size: 12px; color: var(--mute);
+}
+.site-foot__set { text-align: center; }
+.site-foot__links { display: flex; justify-content: flex-end; gap: 24px; }
+.site-foot--ruled .site-foot__inner { border-top: 1px solid var(--line); }
+
+/* ============================================================
+   HOME
+   ============================================================ */
+.hero__rail { justify-content: space-between; gap: 48px; }
+.hero__main {
+  justify-content: flex-end; align-items: flex-end;
+  text-align: right; gap: 20px;
+}
+.hero__title {
+  font-size: clamp(24px, calc(16.3px + 1.98vw), 40px);
+  line-height: 1.15; letter-spacing: -.02em;
+  max-width: 560px;
+}
+.hero__title em { font-style: normal; color: var(--mute); }
+.hero__lede {
+  font-size: clamp(14px, calc(12.6px + .37vw), 17px);
+  line-height: 1.55; color: var(--mute); max-width: 440px;
+}
+.hero { min-height: 380px; }
+
+.recent__rail { gap: 12px; justify-content: flex-start; }
+.recent__blurb { font-size: 15px; line-height: 1.55; color: var(--mute); }
+.recent__more { font-size: 14px; font-weight: 600; margin-top: 8px; align-self: flex-start; }
+.band--sm > .band__main.recent__list { padding-bottom: 0; }
+
+/* ============================================================
+   ARCHIVE
+   ============================================================ */
+.archive__rail { gap: 8px; }
+.archive__year {
+  font-size: 28px; font-weight: 400; letter-spacing: -.015em; line-height: 1.1;
+  color: var(--acc); font-variant-numeric: tabular-nums;
+}
+.archive__count { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); }
+.archive__list .leader:last-child { border-bottom: 0; }
+
+/* ============================================================
+   TOPICS
+   ============================================================ */
+.topics__rail { gap: 16px; justify-content: flex-start; }
+.topics__title { font-size: clamp(28px, calc(21.3px + 1.73vw), 40px); letter-spacing: -.02em; line-height: 1; }
+.topics__main { justify-content: flex-end; }
+.topics__jump {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 12px 0; border-bottom: 1px dotted var(--line); font-size: 17px;
+}
+.topics__jump:last-child { border-bottom: 0; }
+.topics__jump-n { color: var(--acc); font-variant-numeric: tabular-nums; font-size: 13px; }
+
+.topic__name { font-size: 28px; font-weight: 400; letter-spacing: -.015em; line-height: 1.1; }
+.topic__count { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); }
+.topic__rail { gap: 8px; scroll-margin-top: 24px; }
+.topic__list .leader:last-child { border-bottom: 0; }
+.topic__list .leader__no { color: var(--acc); }
+
+/* ============================================================
+   PAGE (about / generic)
+   ============================================================ */
+.page__rail { justify-content: space-between; gap: 48px; }
+.page__contact { display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
+.page__main { max-width: 700px; gap: 26px; font-size: 18px; line-height: 1.7; }
+.page__main .page__title {
+  font-size: clamp(30px, calc(21.3px + 2.22vw), 48px);
+  line-height: 1.05; letter-spacing: -.025em;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+.page-band { flex: 1; }
+
+/* Pages whose single band should stretch to the footer, so the vertical rule
+   runs the full height the way the About artboard draws it. #main > * is
+   flex:none, so this needs to out-specify it. */
+#main > .shell--grow { display: flex; flex-direction: column; flex: 1 0 auto; }
+
+/* ============================================================
+   POST — header
+   ============================================================ */
+.post__rail { justify-content: space-between; gap: 48px; }
+.post__meta { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--mute); }
+.post__main { gap: 24px; }
+.post__title {
+  font-size: clamp(32px, calc(20.4px + 2.96vw), 56px);
+  line-height: 1.05; letter-spacing: -.025em;
+}
+.post--links .post__title { font-size: clamp(30px, calc(19.4px + 2.72vw), 52px); }
+.post__sub { font-size: clamp(15px, calc(13.6px + .37vw), 18px); line-height: 1.5; color: var(--mute); }
+
+/* body band: rail is just the rule */
+.post__body { padding: 56px 0 0 var(--gut); max-width: 700px; }
+
+/* ============================================================
+   POST — prose
+   ============================================================ */
+.prose {
+  font-size: 18px; line-height: 1.7;
+  display: flex; flex-direction: column; gap: 26px;
+}
+.prose > * { margin: 0; }
+.prose { overflow-wrap: break-word; }
+
+.prose h1, .prose h2 {
+  font-size: 24px; font-weight: 600; line-height: 1.2; letter-spacing: -.015em;
+  margin-top: 36px;
+  scroll-margin-top: 24px;
+}
+/* Article headings carry the section mark; page headings do not.
+   The mark is absolutely positioned rather than a flex item: display:flex would
+   promote every inline child (<code>, <em>, a link) into its own gapped box. */
+.prose--article h1, .prose--article h2 {
+  position: relative; padding-left: 28px;
+}
+.prose--article h1::before, .prose--article h2::before {
+  content: "\00A7" / ""; position: absolute; left: 0; top: .15em;
+  font-size: 12px; font-weight: 400; color: var(--acc);
+}
+.prose h3 {
+  font-size: 19px; font-weight: 600; line-height: 1.3; letter-spacing: -.01em;
+  margin-top: 24px; scroll-margin-top: 24px;
+}
+.prose h4, .prose h5, .prose h6 {
+  font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--mute); margin-top: 20px;
+}
+
+.prose a {
+  border-bottom: 1px solid var(--acc);
+  transition: opacity .18s ease, background .18s ease;
+}
+.prose a:hover { opacity: 1; background: var(--soft); }
+
+.prose blockquote {
+  margin: 12px 0 12px calc(-1 * var(--gut));
+  padding: 0;
+  font-size: 24px; font-weight: 400; line-height: 1.35; letter-spacing: -.01em;
+  display: grid; grid-template-columns: var(--gut) 1fr;
+}
+.prose blockquote::before {
+  content: "\201C"; color: var(--acc); font-size: 32px; line-height: 1;
+}
+.prose blockquote > * { grid-column: 2; margin: 0; }
+.prose blockquote > * + * { margin-top: .5em; }
+.prose blockquote cite { display: block; font-size: 14px; color: var(--mute); font-style: normal; }
+
+/* The design draws list items as a 40px/1fr grid, but it hand-writes two spans
+   per item. Markdown emits bare inline content — a link followed by a text run —
+   and a grid (or flex) li would promote every child node to its own cell, so the
+   marker goes in the gutter instead and the content keeps normal inline flow. */
+.prose ul, .prose ol {
+  margin: 0; padding: 0; list-style: none;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.prose li { position: relative; padding-left: 48px; }
+.prose li::before {
+  position: absolute; left: 0; top: 0; width: 40px;
+  font-size: 13px; color: var(--acc);
+  font-variant-numeric: tabular-nums;
+}
+.prose li > ul, .prose li > ol { margin-top: 10px; }
+.prose ol { counter-reset: pli; }
+.prose ol > li { counter-increment: pli; }
+.prose ol > li::before { content: counter(pli, decimal-leading-zero); }
+.prose ul > li::before { content: "\2014"; }
+
+.prose img { display: block; border: 1px solid var(--line); }
+.prose figure { margin: 0; }
+.prose figcaption { margin-top: 10px; font-size: 13px; color: var(--mute); }
+
+.prose hr { margin: 12px 0; }
+
+.prose table {
+  width: 100%; border-collapse: collapse; font-size: 15px;
+  display: block; overflow-x: auto;
+}
+.prose th, .prose td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.prose th { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--mute); font-weight: 500; }
+
+.prose strong { font-weight: 600; }
+
+/* embeds */
+.prose iframe, .prose video, .prose embed, .prose object {
+  display: block; max-width: 100%; border: 1px solid var(--line);
+}
+
+/* ============================================================
+   CODE (rouge, monochrome + accent)
+   ============================================================ */
+.prose code, .linkdex code, .page__main code {
+  font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: .86em;
+}
+.prose :not(pre) > code,
+.page__main :not(pre) > code {
+  background: var(--soft); padding: .12em .38em; color: var(--fg);
+}
+.prose pre, .prose .highlight, .prose .highlighter-rouge {
+  font-size: 14px; line-height: 1.6;
+  background: var(--soft); border: 1px solid var(--line);
+  padding: 18px 20px; overflow-x: auto;
+}
+.prose .highlighter-rouge { padding: 0; border: 0; background: none; }
+.prose .highlighter-rouge .highlight { margin: 0; }
+.prose .highlight pre, .prose pre.highlight { margin: 0; padding: 0; border: 0; background: none; }
+.prose pre code { background: none; padding: 0; font-size: inherit; }
+
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs, .highlight .cd { color: var(--mute); font-style: italic; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .kc { color: var(--acc); font-weight: 600; }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd,
+.highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .dl { color: var(--acc); }
+.highlight .m, .highlight .mi, .highlight .mf, .highlight .mh, .highlight .mo, .highlight .il { color: var(--acc); }
+.highlight .nf, .highlight .nc, .highlight .nn, .highlight .nd { color: var(--fg); font-weight: 600; }
+.highlight .nb, .highlight .bp, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .n { color: var(--fg); }
+.highlight .nt { color: var(--acc); font-weight: 600; }
+.highlight .na, .highlight .nl { color: var(--mute); }
+.highlight .o, .highlight .ow, .highlight .p { color: var(--mute); }
+.highlight .gd { color: var(--mute); background: var(--soft); }
+.highlight .gi { color: var(--fg); background: var(--soft); }
+.highlight .gh, .highlight .gu { color: var(--fg); font-weight: 600; }
+.highlight .err { color: var(--acc); text-decoration: underline; }
+.highlight .gp { color: var(--mute); }
+
+/* ============================================================
+   POST — link index (Curated Insights)
+   Markdown emits a flat h1/h2 + ul sequence; CSS grid re-forms it
+   into 5fr/7fr bands, and ::before draws the continuous rule.
+   ============================================================ */
+.linkdex {
+  position: relative;
+  display: grid; grid-template-columns: var(--rail) var(--main);
+}
+.linkdex::before {
+  content: ""; position: absolute; top: 0; bottom: 0;
+  left: var(--rail-pct); width: 1px; background: var(--line);
+  pointer-events: none;
+}
+
+/* standfirst paragraphs sit in the content column, like the link lists */
+.linkdex > p {
+  grid-column: 2;
+  padding: var(--band-sm) 0 var(--band-sm) var(--gut);
+  color: var(--fg);
+  border-bottom: 1px solid var(--line);
+}
+.linkdex > p:empty { display: none; }
+
+/* section heading → left rail. The heading stretches to the band's full height
+   so its bottom rule meets the list's; the inner wrapper is what sticks.
+   .linkdex__head is added by site.js and is what promotes an h3 to a section in
+   the 2015 posts whose hierarchy is shifted down a level. */
+.linkdex > h1,
+.linkdex > h2,
+.linkdex > .linkdex__head {
+  grid-column: 1;
+  padding: var(--band-sm) var(--gut) var(--band-sm) 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 28px; font-weight: 400; letter-spacing: -.015em; line-height: 1.1;
+  scroll-margin-top: 24px;
+}
+.linkdex__sticky {
+  position: sticky; top: 40px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.linkdex__no {
+  font-size: 12px; color: var(--acc);
+  font-variant-numeric: tabular-nums; letter-spacing: 0;
+}
+.linkdex__count {
+  font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute);
+}
+
+/* an h3 that is NOT acting as a section is a sub-heading in the content column */
+.linkdex > h3:not(.linkdex__head) {
+  grid-column: 2;
+  padding: var(--band-sm) 0 0 var(--gut);
+  font-size: 15px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--mute);
+  scroll-margin-top: 24px;
+}
+
+/* The section body: one grid cell holding everything under the heading.
+   site.js builds it; the bare .linkdex > ul rules below are the no-JS fallback. */
+.linkdex__body {
+  grid-column: 2;
+  padding: 26px 0 var(--band-sm) var(--gut);
+  border-bottom: 1px solid var(--line);
+  display: flex; flex-direction: column;
+}
+.linkdex__body > ul,
+.linkdex__body > ol {
+  margin: 0; padding: 0; list-style: none;
+  display: flex; flex-direction: column;
+}
+.linkdex__body > p { margin: 0 0 16px; }
+.linkdex__body > h3 {
+  margin: 0 0 10px;
+  font-size: 15px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--mute); scroll-margin-top: 24px;
+}
+.linkdex__body > h3 ~ h3 { margin-top: 20px; }
+.linkdex__body > img,
+.linkdex__body > p > img { display: block; border: 1px solid var(--line); margin: 8px 0; }
+.linkdex__body--fav { padding-top: var(--band-sm); justify-content: center; }
+
+/* link list → right column (no-JS fallback) */
+.linkdex > ul,
+.linkdex > ol {
+  grid-column: 2;
+  margin: 0; padding: 26px 0 var(--band-sm) var(--gut);
+  list-style: none;
+  display: flex; flex-direction: column;
+  border-bottom: 1px solid var(--line);
+}
+
+.linkdex li {
+  display: flex; flex-direction: column; gap: 6px;
+  padding: 16px 0;
+  border-bottom: 1px dotted var(--line);
+}
+.linkdex li:last-child { border-bottom: 0; padding-bottom: 0; }
+.linkdex li > ul { margin-top: 12px; padding: 0; border: 0; }
+/* an item that only wraps a nested list is scaffolding, not a row */
+.linkdex li:has(> ul) { padding: 0; border-bottom: 0; }
+
+.link-item__text {
+  font-size: 17px; line-height: 1.45; text-wrap: pretty;
+  border: 0;
+  overflow-wrap: anywhere;
+}
+.link-item__note { font-size: 15px; line-height: 1.5; color: var(--mute); }
+.link-item__note a { border-bottom: 1px solid var(--acc); }
+.link-item__src {
+  width: fit-content;
+  font-size: 12px; color: var(--mute); letter-spacing: .02em;
+}
+.link-item__src .ext { color: var(--acc); }
+
+/* the favourites band */
+.linkdex__fav-head .linkdex__no { font-size: 12px; }
+.linkdex > ul.linkdex__fav { justify-content: center; padding-top: var(--band-sm); }
+.linkdex__body--toc { font-size: 15px; }
+.linkdex__fav li { gap: 10px; padding: 20px 0; }
+.linkdex__fav li:first-child { padding-top: 0; }
+.linkdex__fav .link-item__text {
+  font-size: 28px; line-height: 1.25; letter-spacing: -.015em;
+}
+
+/* the legacy "## Categories ##" table of contents in pre-2018 posts */
+.linkdex > .linkdex__toc-head { font-size: 20px; }
+.linkdex > ul.linkdex__toc { font-size: 15px; }
+.linkdex__toc li { padding: 8px 0; border-bottom: 0; }
+.linkdex__toc .link-item__src { display: none; }
+.linkdex__toc .link-item__text { font-size: 15px; }
+
+/* a section whose list is empty is dropped by site.js; belt and braces */
+.linkdex > .is-empty { display: none; }
+
+/* anything else markdown produced (images, code, blockquotes) sits in the content column */
+.linkdex > *:not(h1):not(h2):not(h3):not(ul):not(ol):not(p) {
+  grid-column: 2;
+  padding: var(--band-sm) 0 var(--band-sm) var(--gut);
+}
+
+/* ============================================================
+   POST — pager
+   ============================================================ */
+.pager { margin-top: 96px; }
+.pager__prev {
+  padding: 28px var(--gut) 28px 0;
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.pager__next {
+  padding: 28px 0 28px var(--gut);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.pager__dir { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); }
+.pager__title { font-size: 16px; line-height: 1.4; }
+.pager__blank { border-right: 1px solid var(--line); }
+
+/* ============================================================
+   SEARCH
+   ============================================================ */
+.search__rail { gap: 12px; justify-content: flex-start; }
+.search__blurb { font-size: 15px; line-height: 1.55; color: var(--mute); }
+.search__main { padding-top: var(--band); }
+.search-form { margin: 0 0 20px; }
+.search-input {
+  width: 100%; padding: 8px 0;
+  font-family: var(--sans);
+  font-size: clamp(22px, calc(16.2px + 1.48vw), 34px);
+  font-weight: 400; letter-spacing: -.02em;
+  color: var(--fg); background: transparent;
+  border: 0; border-bottom: 1px solid var(--fg);
+}
+.search-input::placeholder { color: var(--mute); }
+.search-input:focus { outline: none; border-bottom-color: var(--acc); }
+.search-info {
+  font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--mute); margin-bottom: 16px;
+}
+.search-message { color: var(--mute); font-size: 15px; }
+mark, .search-highlight {
+  background: color-mix(in srgb, var(--acc) 28%, var(--bg));
+  color: var(--fg);
+  padding: 0 .1em;
+}
+@supports not (background: color-mix(in srgb, #000, #fff)) {
+  mark, .search-highlight { background: var(--soft); color: var(--fg); }
+}
+
+/* search.js injects the legacy row markup
+   (.table > .row > .title.article-title > a.post-link, .dots, .value.date-label).
+   Map it onto the leader row here rather than forking the built bundle. */
+#search-results .table { display: block; }
+#search-results .row {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px dotted var(--line);
+}
+#search-results .table:last-child .row { border-bottom: 0; }
+#search-results .article-title { flex: 0 1 auto; min-width: 0; }
+#search-results .post-link { font-size: 18px; line-height: 1.35; text-wrap: pretty; }
+#search-results .dots {
+  flex: 1; min-width: 24px;
+  border-bottom: 1px dotted var(--mute);
+  transform: translateY(-5px);
+}
+#search-results .date-label {
+  flex: none; font-size: 13px; color: var(--mute);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+#search-results .badge-default { display: none; }
+
+/* ============================================================
+   404
+   ============================================================ */
+.error__rail { justify-content: space-between; gap: 48px; }
+.error__main { gap: 20px; max-width: 560px; }
+.error__title { font-size: clamp(32px, calc(20.4px + 2.96vw), 56px); line-height: 1.05; letter-spacing: -.025em; }
+.error__text { color: var(--mute); font-size: 18px; line-height: 1.6; }
+.error__back { font-size: 14px; font-weight: 600; align-self: flex-start; }
+
+/* ============================================================
+   PROGRESS + BACK TO TOP
+   ============================================================ */
+.progress { position: fixed; inset: 0 0 auto 0; height: 2px; z-index: 60; pointer-events: none; }
+.progress__fill { height: 100%; width: 0; background: var(--acc); transition: width .08s linear; }
+
+.totop {
+  position: fixed; right: clamp(16px, 3vw, 32px); bottom: clamp(16px, 3vw, 32px); z-index: 40;
+  font: inherit; font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
+  background: var(--bg); color: var(--mute);
+  border: 1px solid var(--line); padding: 8px 12px; cursor: pointer;
+  opacity: 0; transform: translateY(8px); pointer-events: none;
+  visibility: hidden;
+  transition: opacity .3s ease, transform .3s ease, color .2s ease, border-color .2s ease, visibility .3s;
+}
+.totop.show { opacity: 1; transform: none; pointer-events: auto; visibility: visible; }
+.totop:hover { color: var(--fg); border-color: var(--fg); }
+
+/* ============================================================
+   COMMENTS (disqus, off by default)
+   ============================================================ */
+.disqus { padding-block: var(--band); }
+.disqus h3 { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+
+/* ============================================================
+   RESPONSIVE — below 900px the bands unstack
+   ============================================================ */
+@media (max-width: 900px) {
+  body { font-size: 16px; }
+
+  /* the rails become flex rows here, so the mark must shrink-wrap again
+     rather than stretch along the cross axis */
+  .vmark { align-self: flex-start; }
+
+  .band { display: block; }
+  .band__rail {
+    padding: var(--band-sm) 0 20px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .band__main { padding: 24px 0 var(--band-sm); }
+  .band__rail--empty { display: none; }
+
+  /* home hero: vertical year left, right-aligned copy right — one flex row,
+     and the "Vol." line is not part of the mobile design */
+  .hero {
+    display: flex; flex-direction: row;
+    align-items: flex-end; justify-content: space-between;
+    gap: 20px; min-height: 0;
+    padding: 40px 0;
+  }
+  .hero > .band__rail { flex: none; padding: 0; border: 0; }
+  .hero > .band__main {
+    flex: 0 1 auto; padding: 0;
+    align-items: flex-end; text-align: right;
+  }
+  .hero__title { max-width: 240px; }
+  .hero__lede { max-width: 240px; }
+  .hero__vol { display: none; }
+
+  /* post header: meta left, vertical date right */
+  .post__rail {
+    flex-direction: row-reverse; align-items: flex-start; justify-content: space-between;
+    gap: 24px; border-bottom: 0; padding-bottom: 0;
+  }
+  .post__body { padding: 24px 0 0; max-width: none; }
+
+  .page__rail { flex-direction: row; align-items: flex-start; justify-content: space-between; gap: 24px; }
+  .page__main { padding-top: 24px; font-size: 17px; }
+  .error__rail { flex-direction: row; align-items: flex-start; justify-content: space-between; gap: 24px; }
+
+  .topics__main, .search__main { padding-top: 24px; }
+
+  /* link index unstacks; the rule and stickiness go away */
+  .linkdex { display: block; }
+  .linkdex::before { display: none; }
+  .linkdex > p { padding: 0 0 24px; }
+  .linkdex > h1, .linkdex > h2, .linkdex > .linkdex__head {
+    padding: 28px 0 8px;
+    font-size: 20px;
+    border-bottom: 1px solid var(--fg);
+  }
+  .linkdex__sticky {
+    position: static;
+    flex-direction: row; align-items: baseline; gap: 12px;
+  }
+  .linkdex__count { margin-left: auto; white-space: nowrap; }
+  .linkdex > h3:not(.linkdex__head) { padding: 24px 0 0; }
+  .linkdex > ul, .linkdex > ol { padding: 0; border-bottom: 0; }
+  .linkdex > ul.linkdex__fav { padding-top: 0; }
+  .linkdex__body { padding: 0; border-bottom: 0; }
+  .linkdex__body--fav { padding-top: 0; }
+  .linkdex > *:not(h1):not(h2):not(h3):not(ul):not(ol):not(p) { padding: 24px 0; }
+  .linkdex__fav .link-item__text { font-size: 20px; line-height: 1.3; }
+
+  .prose { font-size: 17px; gap: 22px; }
+  .prose blockquote { margin-left: 0; grid-template-columns: 32px 1fr; font-size: 20px; }
+
+  /* pager stacks */
+  .pager { margin-top: 56px; display: block; }
+  .pager__prev { padding: 24px 0; border-right: 0; border-bottom: 1px dotted var(--line); }
+  .pager__next { padding: 24px 0; }
+  .pager__blank { display: none; }
+
+  /* nav collapses to wordmark + Menu */
+  .masthead__inner { grid-template-columns: 1fr auto; padding-bottom: 16px; }
+  .masthead__ctx { display: none; }
+  .masthead__links { display: none; }
+  .masthead__menu {
+    display: inline-block;
+    font: inherit; font-size: 13px; color: var(--mute);
+    background: none; border: 0; padding: 0; cursor: pointer;
+  }
+  .masthead__drawer {
+    display: none;
+    padding: 20px 0; border-bottom: 1px solid var(--line);
+  }
+  .masthead__drawer.is-open { display: flex; flex-direction: column; gap: 14px; }
+  .masthead__drawer a, .masthead__drawer .theme-toggle {
+    font-size: 16px; color: var(--fg); text-align: left;
+  }
+  .masthead__drawer a.is-current { font-weight: 600; }
+
+  .site-foot__inner {
+    grid-template-columns: 1fr; gap: 8px;
+    padding-top: 40px; padding-bottom: 40px;
+  }
+  .site-foot__set { text-align: left; }
+  .site-foot__links { justify-content: flex-start; gap: 20px; }
+
+  .leader { padding: 16px 0; gap: 8px; flex-wrap: wrap; }
+  .leader__no { width: 32px; }
+  .leader__title { font-size: 16px; flex: 1 1 auto; }
+  .leader__fill { display: none; }
+  .leader__date { width: 100%; padding-left: 40px; font-size: 12px; }
+  .leader--sm .leader__date { padding-left: 40px; }
+
+  .topics__jump { font-size: 16px; }
+  .archive__year, .topic__name { font-size: 24px; }
+
+  #search-results .row { flex-wrap: wrap; gap: 8px; }
+  #search-results .dots { display: none; }
+  #search-results .post-link { font-size: 16px; }
+  #search-results .date-label { width: 100%; font-size: 12px; }
+}
+
+@media (max-width: 420px) {
+  /* About and 404 have no mobile artboard; give their rails room to breathe
+     without flattening the vertical marks the design relies on. */
+  .page__rail, .error__rail { gap: 16px; }
+  .page__contact { font-size: 13px; }
+}
+
+/* ============================================================
+   PRINT
+   ============================================================ */
+@media print {
+  .masthead, .site-foot, .pager, .totop, .progress { display: none; }
+  .band { display: block; }
+  .band__rail { border: 0; }
+  .linkdex { display: block; }
+  .linkdex::before { display: none; }
+  body { background: #fff; color: #000; }
+}

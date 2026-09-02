@@ -1,63 +1,27 @@
 ---
-layout: page
+layout: default
 title: Search
 permalink: /search/
+foot_rule: true
+description: "Search every entry on udbjorg.net."
 ---
+<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}" defer></script>
 
-<script src="/assets/js/search.js" defer></script>
-
-<div class="search-wrapper">
-  <form class="search-form">
-    <input type="text" id="search-box" name="query" class="search-input" placeholder="Search..." autofocus>
-  </form>
-
-  <div class="search-info" id="search-info"></div>
-
-  <section class="post-list">
-    <div id="search-results">
-      <p class="search-message">Type to search</p>
+<section class="shell shell--grow">
+  <div class="band page-band search-wrapper">
+    <div class="band__rail search__rail">
+      <h1 class="eyebrow">Search</h1>
+      <p class="search__blurb">{{ site.posts.size }} entries, {{ site.posts.first.date | date: "%Y" }} back to {{ site.posts.last.date | date: "%Y" }}. Titles and full text.</p>
     </div>
-  </section>
-</div>
-
-<style>
-/* Search - minimal, functional */
-.search-wrapper {
-  max-width: 100%;
-}
-
-.search-form {
-  margin-bottom: 1.5rem;
-}
-
-.search-input {
-  width: 100%;
-  padding: 0.5rem 0;
-  font-size: 1.125rem;
-  font-family: inherit;
-  border: none;
-  border-bottom: 2px solid #1a1a1a;
-  background: transparent;
-  color: #1a1a1a;
-}
-
-.search-input:focus {
-  outline: none;
-  border-bottom-color: #0455BF;
-}
-
-.search-input::placeholder {
-  color: #999;
-}
-
-.search-info {
-  font-size: 0.875rem;
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.search-message {
-  color: #999;
-  font-style: italic;
-}
-</style>
+    <div class="band__main search__main">
+      <form class="search-form" role="search">
+        <label class="skip-link" for="search-box">Search the archive</label>
+        <input type="text" id="search-box" name="query" class="search-input" placeholder="Search the archive…" autofocus autocomplete="off">
+      </form>
+      <div class="search-info" id="search-info" role="status" aria-live="polite"></div>
+      <div id="search-results" aria-live="polite">
+        <p class="search-message">Type to search</p>
+      </div>
+    </div>
+  </div>
+</section>

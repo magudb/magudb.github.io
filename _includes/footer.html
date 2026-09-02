@@ -1,7 +1,13 @@
-<hr>
-<footer class="site-footer">
-	<div class="container">
-		<small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</small>
-		<small class="block"> &copy; <a rel="me" href="https://mastodon.social/@Magudb">Mastodon</a></small>
-	</div>
+<footer class="site-foot{% if page.foot_rule %} site-foot--ruled{% endif %}">
+  <div class="shell">
+    <div class="site-foot__inner">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+      <span class="site-foot__set">Set in Instrument Sans</span>
+      <div class="site-foot__links">
+        <a href="{{ "/search/" | prepend: site.baseurl }}">Search</a>
+        <a rel="me" href="{{ site.author.mastodon | default: site.mastodon_username }}">Mastodon</a>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+      </div>
+    </div>
+  </div>
 </footer>

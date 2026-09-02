@@ -2,6 +2,17 @@
 layout: page
 title: Meet Magnus Udbjørg
 permalink: /about/
+place: Copenhagen
+foot_rule: true
+description: "Magnus Udbjørg is CTO at TestaViva. He builds products and teams, shares what he learns, and believes shipping beats perfection."
+contacts:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/magnusudbjorg
+    external: true
+  - label: magnus@udbjorg.net
+    url: mailto:magnus@udbjorg.net
+  - label: mlu@testaviva.dk
+    url: mailto:mlu@testaviva.dk
 ---
 I build useful software and help teams do their best work. I've spent almost two decades in tech, picked up an Executive Master's in IT Management along the way, and I'm still curious every day.
 
@@ -11,13 +22,7 @@ I like sharing what I learn—code, tools, and the occasional hard-won mistake�
 
 ## A bit more
 
-- Husband to Line.
-- Dad to Frej and Liv.
-- ~20 years in software across product, data, and platforms.
-- Into clean architecture, practical AI, and shipping over showmanship.
-
-## Say hi
-
-- [LinkedIn]({{ site.author.linkedin }})
-- Private: [magnus@udbjorg.net](mailto:magnus@udbjorg.net)
-- Work: [mlu@testaviva.dk](mailto:mlu@testaviva.dk)
+1. Husband to Line.
+2. Dad to Frej and Liv.
+3. ~20 years in software across product, data, and platforms.
+4. Into clean architecture, practical AI, and shipping over showmanship.

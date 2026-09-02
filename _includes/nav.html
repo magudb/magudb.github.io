@@ -1,19 +1,34 @@
-<nav class="nav">
-  <div class="container">
-    <h1 class="logo"><a href="{{ "/ " | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}<span>{{ site.title2 }}</span></a></h1>
-    <ul class="navbar">
-      <li><a href="{{ "/about " | prepend: site.baseurl | prepend: site.url }}">About</a></li>    
-      <li><a href="{{ "/feed.xml " |  prepend: site.baseurl | prepend: site.url }}" target="_blank">
-      RSS</a></li>
-      <li class="nav-search">
-        <form id="search-form" method="get" action="/search">
-          <input type="search" placeholder="" name="query" aria-label="Search">
-          <button type="submit" aria-label="Search">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          </button>
-        </form>
-      </li>
-    </ul>
+{%- comment -%}
+  Masthead: wordmark | contextual centre | links + theme toggle.
+  Centre cell is the site description on the home page, the category on a post,
+  and the page title everywhere else.
+{%- endcomment -%}
+{%- assign ctx = page.title -%}
+{%- if page.url == "/" -%}{%- assign ctx = site.description -%}{%- endif -%}
+{%- if page.layout == "post" and page.category -%}{%- assign ctx = page.category -%}{%- endif -%}
 
+<header class="masthead">
+  <div class="shell">
+    <div class="masthead__inner">
+      <a class="masthead__mark" href="{{ "/" | prepend: site.baseurl }}">Udbjørg</a>
+      <span class="masthead__ctx">{{ ctx }}</span>
+      <div class="masthead__links">
+        <a href="{{ "/" | prepend: site.baseurl }}"{% if page.url == "/" %} class="is-current" aria-current="page"{% endif %}>Index</a>
+        <a href="{{ "/categories/" | prepend: site.baseurl }}"{% if page.url == "/categories/" %} class="is-current" aria-current="page"{% endif %}>Topics</a>
+        <a href="{{ "/about/" | prepend: site.baseurl }}"{% if page.url == "/about/" %} class="is-current" aria-current="page"{% endif %}>About</a>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme"><span class="t-light">Dark</span><span class="t-dark">Light</span></button>
+      </div>
+      <button class="masthead__menu" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">Menu</button>
+    </div>
+    <div class="masthead__drawer" id="site-menu">
+      <a href="{{ "/" | prepend: site.baseurl }}"{% if page.url == "/" %} class="is-current" aria-current="page"{% endif %}>Index</a>
+      <a href="{{ "/categories/" | prepend: site.baseurl }}"{% if page.url == "/categories/" %} class="is-current" aria-current="page"{% endif %}>Topics</a>
+      <a href="{{ "/archive/" | prepend: site.baseurl }}"{% if page.url == "/archive/" %} class="is-current" aria-current="page"{% endif %}>Archive</a>
+      <a href="{{ "/about/" | prepend: site.baseurl }}"{% if page.url == "/about/" %} class="is-current" aria-current="page"{% endif %}>About</a>
+      <a href="{{ "/search/" | prepend: site.baseurl }}">Search</a>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark theme"><span class="t-light">Dark</span><span class="t-dark">Light</span></button>
+    </div>
   </div>
-</nav>
+</header>

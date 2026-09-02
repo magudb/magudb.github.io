@@ -1,16 +1,67 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  "Curated Insights" (and any post with links:true) render as an annotated link
+  index; everything else renders as prose. No per-post front matter needed.
+{%- endcomment -%}
+{%- assign is_links = false -%}
+{%- if page.links == true -%}{%- assign is_links = true -%}{%- endif -%}
+{%- if page.category contains "Curated" -%}{%- assign is_links = true -%}{%- endif -%}
+{%- assign words = content | number_of_words | divided_by: 200 | plus: 1 -%}
 
-<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-    <h1 class="post-title" itemprop="name headline">[{{page.category}}] - {{ page.title }}</h1>
+<div class="progress" aria-hidden="true"><div class="progress__fill"></div></div>
+
+<article class="shell post{% if is_links %} post--links{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="band band--rule">
+    <div class="band__rail post__rail">
+      <span class="vmark vmark--lg">{{ page.date | date: "%b %d" }}</span>
+      <div class="post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <span>{{ words }} min read{% if is_links %}{% assign linkcount = content | split: "<li>" | size | minus: 1 %}{% if linkcount > 0 %}<span class="post__links"> &middot; {{ linkcount }} links</span>{% endif %}{% endif %}</span>
+        {%- if page.category %}
+        <a href="{{ "/categories/" | prepend: site.baseurl }}#{{ page.category | slugify }}" itemprop="articleSection">{{ page.category }}</a>
+        {%- endif %}
+      </div>
+    </div>
+    <div class="band__main post__main">
+      <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
+      {%- assign sub = page.subtitle | default: page.description | strip %}
+      {%- if sub != "" %}
+      <p class="post__sub">{{ sub }}</p>
+      {%- endif %}
+    </div>
   </header>
-  <div class="post-content" itemprop="articleBody">
+
+  {%- if is_links %}
+  <div class="linkdex" itemprop="articleBody">
     {{ content }}
-    {% include post-share.html %}
   </div>
+  {%- else %}
+  <div class="band">
+    <div class="band__rail band__rail--empty" aria-hidden="true"></div>
+    <div class="post__body prose prose--article" itemprop="articleBody">
+      {{ content }}
+    </div>
+  </div>
+  {%- endif %}
+
+  <nav class="band band--strong pager" aria-label="More posts">
+    {%- if page.next %}
+    <a class="pager__prev" href="{{ page.next.url | prepend: site.baseurl }}">
+      <span class="pager__dir">&larr; Newer</span>
+      <span class="pager__title">{{ page.next.title }}</span>
+    </a>
+    {%- else %}
+    <span class="pager__blank" aria-hidden="true"></span>
+    {%- endif %}
+    {%- if page.previous %}
+    <a class="pager__next" href="{{ page.previous.url | prepend: site.baseurl }}">
+      <span class="pager__dir">Older &rarr;</span>
+      <span class="pager__title">{{ page.previous.title }}</span>
+    </a>
+    {%- endif %}
+  </nav>
 </article>
 
 {% include comments.html %}

@@ -2,30 +2,37 @@
 layout: default
 title: Home
 ---
+{%- assign first_year = site.posts.last.date | date: '%Y' | plus: 0 -%}
+{%- assign this_year = site.time | date: '%Y' | plus: 0 -%}
+{%- assign vol = this_year | minus: first_year | plus: 1 -%}
 
-{% include intro.html %}
-
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts limit:30%}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <div class="table">
-       <article class="row">        
-        <div class="title article-title"><span class="badge-default"><a href="/categories#{{post.category | slugify}}">{{post.category}}</a></span>  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-        <div class="dots"></div>
-        <div class="value post-meta date-label">{{ post.date | date: "%b %d" }}</div>
-      </article>
+<section class="shell">
+  <div class="band band--rule hero">
+    <div class="band__rail hero__rail">
+      <span class="vmark vmark--xl">{{ this_year }}</span>
+      <span class="eyebrow hero__vol">Vol. {{ vol }} &middot; {{ this_year }}</span>
     </div>
-      
-    {% endfor %}
+    <div class="band__main hero__main" itemscope itemtype="http://schema.org/Person">
+      <h1 class="hero__title">Hi, I'm <span itemprop="name">{{ site.author.name }}</span>, <em itemprop="jobTitle">{{ site.author.job }}.</em></h1>
+      <p class="hero__lede" itemprop="description">{{ site.author.lede | default: site.author.bio }}</p>
+    </div>
+  </div>
+
+  <div class="band band--sm recent">
+    <div class="band__rail recent__rail">
+      <span class="eyebrow">Recent writing</span>
+      <p class="recent__blurb">Five most recent entries. The full archive of {{ site.posts.size }}, grouped by year, lives on its own page.</p>
+      <a class="recent__more" href="{{ "/archive/" | prepend: site.baseurl }}">Archive &rarr;</a>
+    </div>
+    <div class="band__main recent__list">
+      {%- for post in site.posts limit:5 %}
+      <a class="leader" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="leader__no">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+        <span class="leader__title">{{ post.title }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="leader__date">{{ post.date | date: "%b %d" }}</span>
+      </a>
+      {%- endfor %}
+    </div>
   </div>
 </section>
-
