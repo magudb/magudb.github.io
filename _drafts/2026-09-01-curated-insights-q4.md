@@ -27,3 +27,4 @@ keywords: ""
 - [Swap port numbers for stable .localhost URLs in local dev — small DX win, especially handy for keeping agent and human workflows sane across multiple running apps.](https://github.com/vercel-labs/portless){:target="_blank"}
 - [A local-first CRM for founders running a fundraising round—investor scoring with sources shown, pipeline tracking, and outreach, all in one SQLite file you own.](https://github.com/lalalune/outreachr){:target="_blank"}
 - [A dbt package that unifies ad spend, clicks, and impressions across a dozen platforms into one reporting model—handy if you're tired of stitching marketing dashboards by hand.](https://github.com/fivetran/dbt_ad_reporting){:target="_blank"}
+- [A free, no-watermark alternative to Screen Studio for polished demo videos — auto-zoom, on-device captions, and full commercial use. Now archived, but a community fork carries it forward.](https://github.com/siddharthvaddem/openscreen){:target="_blank"}
