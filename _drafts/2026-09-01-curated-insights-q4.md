@@ -16,6 +16,7 @@ keywords: ""
 - [A sharp take on why decision-making, not coding, is now the bottleneck — and why decision-empowerment beats endless alignment meetings.](https://dpereira.substack.com/p/the-art-of-simplifying-decisions){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
+- [One dev approval plus an AI reviewer beat mandatory double human review — a pragmatic fix worth stealing before PR queues drown your team.](https://spin.atomicobject.com/pr-reviews-teams-focus/){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Layer streaming trains an 8B model on a 4GB laptop GPU by paging frozen layers off VRAM — clever trick, though verify their bit-exactness claims before betting production on it.](https://github.com/MakazhanAlpamys/Soup){:target="_blank"}
@@ -23,6 +24,7 @@ keywords: ""
 - [An open-source stack that turns raw docs into RAG, a ReAct agent with tool/sandbox access, and a self-maintaining wiki with knowledge graphs — worth a look if you're tired of rebuilding retrieval pipelines from scratch.](https://github.com/Tencent/WeKnora){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
+- [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 - [An agent skill that turns a codebase description into self-contained, interactive architecture diagrams—useful for grounding PR reviews with real before/after topology diffs.](https://github.com/tt-a1i/archify){:target="_blank"}
