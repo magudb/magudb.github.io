@@ -3,7 +3,7 @@ layout: post
 title: "On Leading Engineering Teams"
 description: "The practical leadership work behind trust, useful one-to-ones, clear direction, healthy conflict, and meaningful team metrics."
 comments: false
-image: https://udbjorg.net/assets/images/metrics.png
+image: https://udbjorg.net/assets/images/metrics.jpg
 category: "Management"
 keywords: "CTO, engineering leadership, trust, empowered teams, one-to-one meetings, conflict resolution, psychological safety, team performance"
 ---

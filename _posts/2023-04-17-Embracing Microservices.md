@@ -1,92 +1,133 @@
 ---
 layout: post
-title: "Embracing Microservices: Balancing Trade-offs, Benefits, Costs, and Organisational Factorse"
-description: "Explore the factors to consider when adopting microservices, such as trade-offs, benefits, costs, and organizational aspects, and learn how to effectively implement this architectural style."
+title: "Microservices: The Trade-offs Before the Architecture"
+description: "When microservices help, what they cost, and which organisational capabilities should exist before you split the monolith."
 comments: false
 image: https://udbjorg.net/assets/images/microservices.png
 category: "Management"
-keywords: "microservices, trade-offs, benefits, costs, organizational factors, implementation, architectural style, software development, practical elements, cultural aspects"
+keywords: "microservices, monolith, modular architecture, distributed systems, team ownership, DevOps, software architecture"
 ---
 
-![alt_text](/assets/images/microservices.png)
+![Microservices](/assets/images/microservices.png)
 
+Microservices can solve real problems. They can also turn one understandable problem into forty smaller problems connected by a network.
 
-## TL;DR
+That is not an argument against them. It is the trade-off.
 
-This article discusses the key aspects to consider when adopting microservices, including the benefits, costs, and trade-offs. It also explores how organisations can successfully navigate the organisational, cultural, and practical elements for effective microservices implementation.
+I would not choose microservices because the architecture diagram looks modern or because a large technology company uses them. Their company, traffic, teams, and problems are probably not yours.
 
-## Introduction
+## Begin with the problem
 
-The adoption of microservices as an architectural style has been a popular topic in recent years. While microservices offer various technical advantages, organisations must carefully weigh the trade-offs, benefits, costs, and contextual factors before deciding. This article explores the key aspects to consider when deciding whether to adopt microservices and how to successfully navigate organisational, cultural, and practical elements for effective implementation.
+Before choosing an architecture, ask what is currently difficult.
 
-## Understanding Trade-offs and Contextual Factors
+Are teams blocking each other's releases? Does one part of the system need to scale very differently? Are responsibilities impossible to separate? Does a failure in one area regularly take down everything? Is the codebase so coupled that a small change requires half the organisation?
 
-Each organisation's context is unique, and the weight of each factor may vary between systems. Therefore, decisions on microservices adoption should be based on assessing relevant factors within a specific context and the potential long-term impact on the system. Monoliths and microservices are not a simple binary choice, and many systems lie in the blurred boundary area between these architectural styles. Furthermore, some systems may only fit comfortably into one category. Therefore, it's necessary to keep in mind the broader architectural space, exploring options that suit the unique needs of a project rather than being confined to specific categories.
+Microservices may help with some of these. They will not repair unclear ownership, weak engineering practices, or an organisation where every decision still needs central approval.
 
-## Balancing Benefits and Costs of Microservices
+The choice is also not simply monolith or microservices. A modular monolith, a few extracted services, or a monolith with clearer team ownership may give you most of the value without paying the full distributed-systems bill.
 
-Organisations must understand the benefits and costs of microservices to determine if this architectural style aligns with their project goals and resource capabilities.
+## What microservices can give you
 
-Benefits of Microservices:
+### Stronger boundaries
 
-1. Strong Module Boundaries: Microservices promote a modular structure, especially valuable for larger teams, helping maintain separation of concerns and system maintainability.
-2. Independent Deployment: Microservices enable easier deployment due to their simplicity and autonomy, reducing the likelihood of system-wide failures caused by individual service issues.
-3. Technology Diversity: Microservices allow multiple languages, development frameworks, and data-storage technologies, enabling organisations to leverage the best tools for each service.
+A service can create a clear boundary around a business capability and its data. This is valuable when the boundary is real and the team can own it.
 
-Costs of Microservices:
+Splitting a poorly understood domain into services does not create understanding. It distributes the confusion.
 
-1. Distribution: Developing distributed systems can be more challenging due to slow and unreliable remote calls, requiring additional effort to ensure system reliability and communication across services.
-2. Eventual Consistency: Achieving strong consistency in a distributed system is hard, necessitating the management of eventual consistency, complicating data handling, and requiring developers to account for potential inconsistencies.
-3. Operational Complexity: Managing numerous frequently redeployed services demands a mature operations team, increasing the operational overhead and requiring additional resources.
+### Independent delivery
 
-## Addressing Organisational, Cultural, and Practical Aspects
+Teams may be able to build, test, and deploy a service without coordinating a release across the whole product. This can reduce waiting and let different parts of the system change at different speeds.
 
-Adopting microservices requires a shift in mindset, focusing on independent and autonomous teams that take clear ownership of smaller system components. Effective communication channels and a culture of team collaboration are essential to address coordination challenges among downstream services. Monitoring and debugging in a microservices environment also require a solid organisational understanding of the system architecture and sufficient observability, necessitating technical expertise and a culture that values transparency and shared knowledge. A basic DevOps setup encompassing technical and cultural aspects is crucial in the "you build it, you own it" philosophy of microservices. This setup should include a robust delivery pipeline that ensures comprehensive testing and security checks at all levels.
+The word "independent" is doing a lot of work. If every release requires coordinated API changes across six services, you have a distributed monolith with more YAML.
 
+### Independent scaling and reliability choices
 
-## Preparing for More Ways to Fail
+A heavily used capability can scale separately, and critical paths can receive different reliability investments. This can be useful when the system has genuinely different workloads.
 
-Complex systems inevitably fail, and microservices are no exception. Invest in robust monitoring, alerting, and incident response strategies to mitigate the risks. In addition, implementing fault tolerance, redundancy, and graceful degradation mechanisms can help organisations maintain service quality when failures occur.
+Most startup systems do not need this on day one. A larger instance is often a fine architectural strategy for longer than engineers like to admit.
 
-## Managing Competition for Resources
+### Team autonomy
 
-With scarce hardware and engineering resources, organisations must prioritise projects and allocate resources effectively. Establish a centralised decision-making process to evaluate and prioritise microservices based on business value, technical complexity, and risk. Implementing a shared infrastructure can also optimise resource usage and promote standardisation.
+A team that owns a service from development through production can make decisions with less coordination. But the service boundary and the team boundary need to support each other. Shared ownership of every service creates all the operational cost without the autonomy.
 
-## Dispelling Misconceptions about Microservices
+## The bill arrives immediately
 
-To protect the delicate microservices ecosystem, debunk the myths surrounding them. Educate stakeholders about the appropriate use cases for microservices and emphasise that they are not a silver bullet or a free-for-all. Instead, microservices should be considered in the organisation's architectural evolution when scaling becomes challenging.
+Inside a monolith, a function call is fast and usually succeeds or fails with the process. Across services, the network is slow, unavailable, duplicated, delayed, or only slightly broken in ways that are fun to debug.
 
-## Addressing Technical Sprawl and Technical Debt
+You now have to deal with:
 
-Organisations should enforce standardisation and avoid customisation to prevent technical sprawl and debt. First, establish guidelines for choosing languages, infrastructure components, and coding practices, and monitor team compliance. Then, regularly review and update these guidelines to ensure they remain relevant as the organisation evolves.
+* timeouts, retries, and idempotency;
+* partial failures and degraded behaviour;
+* versioned contracts;
+* distributed data and eventual consistency;
+* authentication and authorisation between services;
+* logs, metrics, and traces across boundaries;
+* deployment and rollback of many units; and
+* understanding the total cost of running them.
 
-## Building Trust in Microservices
+None of this is impossible. It is simply work that the monolith did not require.
 
-A lack of trust among microservices can hamper their effectiveness. Promote standardisation and communication among teams to ensure reliable and predictable dependencies. Implement thorough testing and validation processes to increase confidence in the stability and security of the microservices ecosystem.
+## You need an operating model
 
-## Role of Leadership in Driving Cultural and Organisational Changes
+Microservices are as much an organisational choice as a technical one.
 
-Strong leadership drives the cultural and organisational changes required for successful microservices adoption. Top management must demonstrate commitment and vision to ensure a smooth transition and foster a culture of collaboration, adaptability, and continuous learning. Leaders can take the following steps to facilitate this process:
+"You build it, you run it" is useful only when teams have the skills, access, time, and authority to operate what they build. Giving a team an on-call rota without observability or control is not ownership. It is delegation of pain.
 
-1. Set clear expectations and communicate the benefits of microservices adoption to all stakeholders, including developers, architects, operations teams, and business leaders.
-2. Empower teams with the autonomy and resources to make decisions, experiment with new approaches, and iterate on their designs.
-3. Encourage a culture of continuous improvement and learning by celebrating successes, learning from failures, and fostering an environment where team members feel safe to voice their opinions and suggest improvements.
-4. Foster cross-functional collaboration by breaking down organisational silos and creating opportunities for teams to collaborate, share knowledge, and align their efforts towards common goals.
-5. Monitor progress and provide regular feedback, adjusting strategies and processes as needed to ensure a successful microservices implementation.
+Before creating many services, I would want:
 
-## Importance of Training and Education in Microservices Development
+* automated and boring deployments;
+* clear service ownership;
+* useful monitoring, logging, and tracing;
+* a workable incident process;
+* tested backup and recovery;
+* a way to manage secrets and service identity;
+* agreed API and compatibility practices; and
+* enough platform support that every team is not rebuilding the same machinery.
 
-Training and education are crucial in ensuring the success of microservices adoption. Developers, architects, and operations teams must have the necessary skills and knowledge to effectively design, deploy, and manage microservices. Organisations can invest in training and education by:
+If the organisation struggles to deploy one application safely, creating twenty deployable applications is an ambitious treatment.
 
-1. Providing training courses and workshops on microservices design principles, best practices, and relevant technologies, such as containerisation, orchestration, and API management.
-2. Encouraging team members to attend conferences, webinars, and meetups focused on microservices and related topics to stay up-to-date with industry trends and innovations.
-3. Facilitating knowledge sharing and collaboration among team members through regular presentations, code reviews, and discussions to ensure a consistent understanding and approach to microservices development.
-4. Establishing mentoring relationships between experienced microservices practitioners and less experienced team members to accelerate skill development and promote a culture of continuous learning.
-5. Evaluating team members' skillsets periodically and identifying skill gaps to address through targeted training, education, or hiring efforts.
+## Standardise the boring parts
 
-By investing in leadership and training, organisations can facilitate the cultural and organisational changes needed to successfully adopt microservices and ensure that their teams have the necessary skills and knowledge to implement and manage them effectively.
+Microservices allow teams to choose different languages and technologies. That does not mean they should.
 
-## Conclusion
+Technology diversity has a cost in hiring, operations, security, tooling, and the ability to move people between teams. Use a small paved road for the common case: supported languages, deployment patterns, observability, security controls, and service templates.
 
-Organisations should thoroughly understand the trade-offs, contextual factors, and long-term implications of adopting microservices successfully. By considering the unique needs of each project, organisations can make informed decisions on the most suitable architectural styles and prioritise essential aspects of software development. Additionally, addressing organisational, cultural, and practical elements is critical to leverage microservices' benefits and enhancing the overall software development process.
+Teams can leave the road when the benefit justifies the cost. "We wanted to try it" may be enough for an experiment; it is not always enough for a service the company must operate for ten years.
 
+The aim is enabling constraints, not a golden cage. Standardise what removes repeated work and risk. Leave room where local decisions create real value.
+
+## Split along ownership and change
+
+If you decide to extract services, do not start by cutting the database into equal pieces or turning every class into an endpoint.
+
+Look for a capability with:
+
+* a reasonably clear business boundary;
+* data that can have an owner;
+* a different rate of change or scaling need;
+* a team prepared to run it; and
+* limited, understandable dependencies.
+
+Extract one boundary and learn from operating it. The first service will expose gaps in deployment, observability, security, and ownership. Fix those before multiplying them.
+
+Martin Fowler's [Monolith First](https://martinfowler.com/bliki/MonolithFirst.html) advice is still useful: boundaries are difficult to find early, and a monolith makes them cheaper to change while the product is learning.
+
+## Trust and dependencies
+
+Teams need to trust the services they depend on. That comes from clear contracts, compatibility, communication, and actual reliability—not from a slide saying teams are autonomous.
+
+Avoid central approval for every service change, but make expectations visible. Who supports the service? How are breaking changes handled? What reliability does it promise? Where can consumers see incidents and upcoming changes?
+
+Autonomy works when teams can move independently without surprising everybody downstream.
+
+## The leadership decision
+
+The CTO's job is to decide whether the organisation's constraint is actually something microservices address.
+
+Sometimes the answer is yes. A growing company may need stronger boundaries and independent teams. A specific workload may need separate scaling. A critical capability may need isolation.
+
+Sometimes the constraint is a slow test suite, unclear product ownership, manual releases, or too much work in progress. Microservices will carry those problems into a more complicated environment.
+
+Start with the problem. Choose the smallest architectural change that creates useful independence. Build the operating capability before you create the operational burden.
+
+Microservices are not the destination. They are one way of paying for a particular kind of organisational and technical flexibility. Make sure you need what you are buying.
