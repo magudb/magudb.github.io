@@ -32,3 +32,4 @@ keywords: ""
 - [A dbt package that unifies ad spend, clicks, and impressions across a dozen platforms into one reporting model—handy if you're tired of stitching marketing dashboards by hand.](https://github.com/fivetran/dbt_ad_reporting){:target="_blank"}
 - [A free, no-watermark alternative to Screen Studio for polished demo videos — auto-zoom, on-device captions, and full commercial use. Now archived, but a community fork carries it forward.](https://github.com/siddharthvaddem/openscreen){:target="_blank"}
 - [Open-source guidelines that stop AI agents from writing outdated Go — teaches them max(), slices.Contains, cmp.Or, and other idioms your linter shouldn't have to flag.](https://github.com/JetBrains/go-modern-guidelines){:target="_blank"}
+- [Record slick terminal demo GIFs from a simple text script — great for README docs or PR walkthroughs without wrestling with screen recorders.](https://github.com/charmbracelet/vhs){:target="_blank"}
