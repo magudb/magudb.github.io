@@ -1,0 +1,190 @@
+---
+layout: default
+title: Meet Magnus Udbjørg
+permalink: /about/
+place: Copenhagen
+foot_rule: true
+cover: /assets/images/magnus-portrait.jpg
+description: "Magnus Udbjørg is CTO at TestaViva in Copenhagen. Two decades in software, three engineering organisations led, a husband and a dad. What he builds, what he values, and how to say hi."
+keywords: "Magnus Udbjørg, CTO, TestaViva, engineering leadership, Copenhagen, legal tech, about"
+contacts:
+  - label: magnus@udbjorg.net
+    url: mailto:magnus@udbjorg.net
+  - label: mlu@testaviva.dk
+    url: mailto:mlu@testaviva.dk
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/magnusudbjorg
+    external: true
+  - label: GitHub
+    url: https://github.com/magudb
+    external: true
+  - label: Mastodon
+    url: https://mastodon.social/@Magudb
+    external: true
+timeline:
+  - years: "2023 –"
+    role: CTO
+    org: TestaViva
+    url: https://www.testaviva.dk
+    note: legal tech
+  - years: "2022 – 23"
+    role: VP of Engineering
+    org: CBIT · Klikbook
+    note: booking software
+  - years: "2021 – 22"
+    role: VP of Engineering
+    org: TwentyThree
+    note: video platform
+  - years: "2017 – 21"
+    role: VP of Engineering
+    org: Mono Solutions
+    note: sold to Bauer Media
+  - years: "2011 – 17"
+    role: Senior Consultant
+    org: Codehouse (Valtech)
+    note: LEGO, LEGO House, hackathons
+  - years: "2005 – 11"
+    role: Developer
+    org: CRM-Byggefakta
+    note: construction data
+education:
+  - years: "2015 – 17"
+    role: Executive Master in IT Management
+    org: IT University of Copenhagen
+    note: thesis on DevOps
+  - years: "2001 – 04"
+    role: BA in Computer Science and Social Science
+    org: Roskilde University
+    note: both halves of the job
+---
+{%- comment -%}
+  About. Hand-built from the same 5fr/7fr bands as the rest of the site.
+  Rail carries the label (or the vertical place mark and portrait); main
+  carries the content. The last band takes .page-band so the vertical rule
+  runs to the footer. Timeline and contacts are data in the front matter.
+{%- endcomment -%}
+<article class="shell shell--grow about">
+
+  <div class="band band--rule">
+    <div class="band__rail about__hero-rail">
+      <span class="vmark vmark--lg">{{ page.place }}</span>
+      <figure class="about__portrait">
+        <img src="{{ '/assets/images/magnus-portrait.jpg' | prepend: site.baseurl }}" width="544" height="800" alt="Magnus Udbjørg, smiling, in black and white" loading="eager">
+      </figure>
+    </div>
+    <div class="band__main page__main prose about__main">
+      <h1 class="page__title">Meet Magnus Udbjørg</h1>
+      <p class="about__lede">I build useful software, and the teams that build it. I've been at it for two decades, since 2023 as CTO at <a href="https://www.testaviva.dk">TestaViva</a> in Copenhagen.</p>
+      <p>I studied computer science and social science at the same time, which turned out to be the point. Software is a technical problem and a human one, usually at once, and I find both halves equally interesting. Later I added an Executive Master's in IT Management, with a thesis on what DevOps actually means once you take it out of the conference talk and into a real IT department.</p>
+      <p>This site is where I keep what I learn: {{ site.posts.size }} posts since 2015, most of them curated links, some of them longer thoughts on leading engineers. I write things down because that is how I understand them, and I publish them so others can move faster than I did.</p>
+    </div>
+  </div>
+
+  <div class="band band--rule">
+    <div class="band__rail about__rail">
+      <h2 class="eyebrow">Now</h2>
+      <p class="about__blurb">CTO at TestaViva since 2023. Legal documents for the rest of us.</p>
+    </div>
+    <div class="band__main page__main prose about__main">
+      <p>TestaViva makes legal security something ordinary people can actually handle. Wills, prenuptial agreements, powers of attorney, house purchases, company formation, estate administration: the documents that decide what happens to the people and things you care about, and that most of us put off for years because the process feels built for lawyers.</p>
+      <p>We turn that around. You answer plain questions, the platform drafts the document, a jurist is on hand when you need one, and you sign with MitID. Several of Denmark's largest banks partner with us to offer it to their customers.</p>
+      <p>My job is to keep the product reliable, the roadmap honest, and the team in a position to do its best work. Some days that is architecture and product decisions. Some days it is hiring, or a one-to-one at a whiteboard. Now and then it is a pull request of my own, which the team reviews with exactly the scrutiny it deserves.</p>
+      <p>Lately a lot of my attention goes to how engineering teams adopt AI without drowning in workslop. I gave a talk on it at the Engineering Managers Meetup in Copenhagen; <a href="{% link _posts/2026-04-30-ai-doesnt-fix-a-team-it-amplifies-whats-there.md %}">the long version</a> lives here on the blog.</p>
+    </div>
+  </div>
+
+  <div class="band band--rule">
+    <div class="band__rail about__rail">
+      <h2 class="eyebrow">What I value</h2>
+      <p class="about__blurb">In 2018 I wrote a <a href="{% link _posts/2018-02-16-My Manager, README.md %}">manager README</a> so my team would know what to expect from me. The list has changed less than I expected.</p>
+    </div>
+    <div class="band__main page__main prose about__main">
+      <ol class="about__values">
+        <li><strong>Trust first.</strong> Everything good in a team is downstream of people feeling safe to say "I don't know", "I disagree" and "I broke it". I try to build that before anything else, and I judge myself on it.</li>
+        <li><strong>I serve the team, not the other way round.</strong> My job is to set context, clear obstacles and get out of the way. Bright people don't need a boss. They need a clear problem and the room to solve it.</li>
+        <li><strong>Transparency, starting with myself.</strong> Decisions get explained. Mistakes get named, mine first. I have opinions and I hold them loudly, but I would much rather be proven wrong than be right and learn nothing.</li>
+        <li><strong>Shipping over showmanship.</strong> A working thing in a customer's hands beats a perfect thing on a slide. Clean architecture matters because it lets you keep shipping, not because it is pretty.</li>
+        <li><strong>Keep learning, and pass it on.</strong> Curiosity is the only career plan I have ever had. What I learn goes on this site, into a talk, or into a mentoring session, because it is more useful outside my head than in it.</li>
+        <li><strong>Tools amplify what is already there.</strong> That goes for AI, agile, DevOps and every other silver bullet I have watched come and go. Fix the team and its practices, and the tools do a lot. Skip that step, and they do a lot of damage, faster.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="band band--rule">
+    <div class="band__rail about__rail">
+      <h2 class="eyebrow">At home</h2>
+      <p class="about__blurb">Copenhagen. Husband, dad, lifelong tinkerer.</p>
+    </div>
+    <div class="band__main page__main prose about__main">
+      <p>I'm married to Line, and we have two kids, Frej and Liv. They are the reason the laptop closes in the evening, and the best argument I know for building companies where that is normal. Most of what I understand about patience, feedback and explaining things simply, I learned at home rather than at work.</p>
+      <p>When there is time left over, I tinker. New languages, new tools, small side projects, and this site, which has been rebuilt more times than it strictly needed to be.</p>
+    </div>
+  </div>
+
+  <div class="band band--rule">
+    <div class="band__rail about__rail">
+      <h2 class="eyebrow">Before now</h2>
+      <p class="about__blurb">Two decades, six companies, one thesis. Developer first, then consultant, then three engineering organisations to lead before this one.</p>
+    </div>
+    <div class="band__main about__main about__timeline">
+      {%- for t in page.timeline %}
+      <div class="leader leader--sm">
+        <span class="leader__no">{{ t.years }}</span>
+        <span class="leader__title">{{ t.role }}, {% if t.url %}<a href="{{ t.url }}">{{ t.org }}</a>{% else %}{{ t.org }}{% endif %}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="leader__date">{{ t.note }}</span>
+      </div>
+      {%- endfor %}
+      <h3 class="eyebrow about__sub">Education</h3>
+      {%- for e in page.education %}
+      <div class="leader leader--sm">
+        <span class="leader__no">{{ e.years }}</span>
+        <span class="leader__title">{{ e.role }}, {{ e.org }}</span>
+        <span class="leader__fill" aria-hidden="true"></span>
+        <span class="leader__date">{{ e.note }}</span>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <div class="band page-band">
+    <div class="band__rail about__rail">
+      <h2 class="eyebrow">Say hi</h2>
+      <div class="page__contact">
+        {%- for c in page.contacts %}
+        <a href="{{ c.url }}"{% if c.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ c.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    <div class="band__main page__main prose about__main">
+      <p>Email is the surest way to reach me. If you have read something here and think I have got it wrong, that is the message I most want. If you lead engineers in Copenhagen and want to compare notes over coffee, that one is welcome too.</p>
+    </div>
+  </div>
+
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "givenName": "Magnus",
+  "familyName": "Udbjørg",
+  "jobTitle": "Chief Technology Officer",
+  "worksFor": { "@type": "Organization", "name": "TestaViva", "url": "https://www.testaviva.dk" },
+  "url": "{{ '/about/' | prepend: site.baseurl | prepend: site.url }}",
+  "image": "{{ '/assets/images/magnus-portrait.jpg' | prepend: site.baseurl | prepend: site.url }}",
+  "email": "mailto:{{ site.author.email }}",
+  "address": { "@type": "PostalAddress", "addressLocality": "Copenhagen", "addressCountry": "DK" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "IT University of Copenhagen" },
+    { "@type": "CollegeOrUniversity", "name": "Roskilde University" }
+  ],
+  "sameAs": [
+    "{{ site.author.linkedin }}",
+    "{{ site.author.github }}",
+    "{{ site.author.twitter }}",
+    "{{ site.mastodon_username }}"
+  ]
+}
+</script>

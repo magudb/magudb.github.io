@@ -308,6 +308,31 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
 #main > .shell--grow { display: flex; flex-direction: column; flex: 1 0 auto; }
 
 /* ============================================================
+   ABOUT — the page bands, with a portrait beside the place mark in the
+   first rail, a numbered values list, and dot-leader rows for the timeline
+   ============================================================ */
+.about__hero-rail {
+  flex-direction: row; justify-content: space-between; align-items: flex-start;
+  gap: 24px;
+}
+.about__portrait { flex: 0 1 280px; max-width: 280px; margin: 0; }
+.about__portrait img { display: block; width: 100%; border: 1px solid var(--line); }
+.about__lede {
+  font-size: clamp(19px, calc(17.6px + .37vw), 22px);
+  line-height: 1.5; letter-spacing: -.005em;
+}
+.about__rail { gap: 12px; justify-content: flex-start; }
+.about__blurb { font-size: 15px; line-height: 1.55; color: var(--mute); max-width: 340px; }
+.about__blurb a { border-bottom: 1px solid var(--acc); }
+.about__main { max-width: 700px; }
+.about__values { gap: 18px; }
+.about__timeline .leader:first-child { padding-top: 0; }
+.about__timeline .leader__no { width: 72px; }
+.about__timeline .leader__title { font-size: 17px; }
+.about__timeline .leader__date { white-space: normal; text-align: right; max-width: 40%; }
+.about__sub { margin-top: 36px; padding-bottom: 8px; }
+
+/* ============================================================
    POST — header
    ============================================================ */
 .post__rail { justify-content: space-between; gap: 48px; }
@@ -743,6 +768,8 @@ mark, .search-highlight {
 
   .page__rail { flex-direction: row; align-items: flex-start; justify-content: space-between; gap: 24px; }
   .page__main { padding-top: 24px; font-size: 17px; }
+  .about__portrait { max-width: 46%; }
+  .about__timeline .leader__date { padding-left: 84px; max-width: none; text-align: left; }
   .error__rail { flex-direction: row; align-items: flex-start; justify-content: space-between; gap: 24px; }
 
   .topics__main, .search__main { padding-top: 24px; }

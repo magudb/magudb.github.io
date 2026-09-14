@@ -60,7 +60,7 @@ wrapper, source-host chips, and removal of headings that have no links under the
 | `/` | `index.html` | Hero + the five most recent entries |
 | `/archive/` | `archive.html` | Every post, grouped by year |
 | `/categories/` | `categories.html` | Every post, grouped by topic |
-| `/about/` | `about.md` | About page (`layout: page`) |
+| `/about/` | `about.html` | About page — hand-built bands on `layout: default`; timeline and contacts live in its front matter |
 | `/search/` | `search.html` | DocFind full-text search |
 | `/404.html` | `404.html` | Not-found page |
 | `/:year/:month/:title` | `_posts/*.md` | Posts |
