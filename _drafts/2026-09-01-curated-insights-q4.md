@@ -10,6 +10,7 @@ keywords: ""
 # My favorites<a name="favorites"></a>
 - [Bold take on why code review is the wrong place for knowledge-sharing and quality checks — shift pairing and design discussion left instead.](https://martinfowler.com/rachels-ramblings/code-review.html){:target="_blank"}
 - [An open-source CLI agent that autonomously reads papers, writes ML code, and ships models via the Hugging Face ecosystem — worth a spin if you're prototyping ML pipelines.](https://github.com/huggingface/ml-intern){:target="_blank"}
+- [A reminder that psychological safety and trust beat any AI tool—if leadership treats AI as a headcount excuse, you'll tank the culture that actually drives output.](https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 - [A sharp take on why decision-making, not coding, is now the bottleneck — and why decision-empowerment beats endless alignment meetings.](https://dpereira.substack.com/p/the-art-of-simplifying-decisions){:target="_blank"}
