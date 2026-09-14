@@ -1,100 +1,117 @@
 ---
 layout: post
-title: "Navigating the Maze of Technical Debt: A Startup's Survival Guide"
-description: "Explore the crucial concept of technical debt and its impact on startups. Learn practical strategies for managing and mitigating technical debt to maintain agility and growth in the competitive tech landscape. Gain insights from a CTO’s perspective."
+title: "Technical Debt Is a Product Problem"
+description: "A practical way to treat technical debt as shared product work instead of a private engineering backlog."
 comments: false
 image: https://udbjorg.net/assets/images/hero-techdebt.png
 category: "Management"
-keywords: "Technical Debt
-Startup Challenges
-Software Development
-Code Refactoring
-Agile Methodology
-Software Maintenance
-Coding Standards
-Technical Debt Management
-Technical Debt Reduction
-Code Quality
-Startup Growth Strategies
-Software Project Management
-Development Team Efficiency
-Business and Technology
-Technical and Non-Technical Collaboration"
+keywords: "technical debt, product management, startup CTO, software maintenance, product teams, engineering strategy, prioritisation"
 ---
 
-![debts!](https://udbjorg.net/assets/images/hero-techdebt.png)
+![Technical debt](/assets/images/hero-techdebt.png)
 
-# Navigating the Maze of Technical Debt: A Startup's Survival Guide
+I previously wrote about finding and prioritising technical debt from the codebase outwards. I still agree with it, but it misses an important part: technical debt is rarely only a technical problem.
 
-**Update Notice**: This article is an enhanced and updated version of our previous post on navigating technical debt in startups. I have revisited and enriched the content to reflect the latest insights and strategies in managing technical debt. This update includes more in-depth analysis, practical advice, and current examples to ensure you have the most relevant and effective guidance in tackling this critical challenge.
+The bill arrives in the product.
 
-## Introduction
+Customers wait longer for improvements. Support sees the same failures. Product managers quietly avoid ideas that are too difficult to build. Engineers add another workaround because the proper change will not fit into the quarter.
 
-Imagine a startup, like a ship, venturing into the vast ocean of innovation and competition. Now, picture technical debt as the barnacles clinging to its hull - invisible yet capable of slowing down even the most agile vessel. In this blog post, we delve into the world of technical debt, exploring its impact on startups and unveiling strategies to manage and mitigate it, all through the lens of a seasoned CTO.
+If only engineering can see the debt, the organisation cannot make a sensible decision about it.
 
-## The Importance of the Term "Technical Debt"
+## Look for the product cost
 
-### Technical Debt vs Refactoring: Understanding the Difference
+The most useful description of debt is not what is wrong with the code. It is what the condition prevents or makes expensive.
 
-While 'refactoring' is about improving your code's structure, 'technical debt' encompasses the broader consequences of postponed maintenance. It's like choosing between fixing a leaky roof now or dealing with a flooded house later.
+Compare these two versions:
 
-#### Why the Term "Technical Debt" Matters
+> The permissions module needs refactoring.
 
-- **Improved Communication**: This term resonates with business stakeholders, making them more likely to allocate resources to mitigate these 'debts.'
-- **Bridging the Gap**: It fosters collaboration between tech and non-tech team members, streamlining decisions on resource allocation.
-- **Long-term Perspective**: Emphasizing a forward-looking approach encourages considering future impacts on the codebase’s maintainability.
+> Adding a new customer role takes several weeks, touches three systems, and regularly creates access bugs.
 
-## Understanding Technical Debt
+The second version connects the technical condition to delivery time, customer risk, and a product capability. Now there is a decision to make.
 
-Technical debt is the accumulated cost of quick fixes and workarounds in software development. It's inevitable, but its forms - be it code complexity or outdated tech - can cripple a startup's agility and growth.
+I usually look for costs in four places:
 
-### Implications for Startups
+* **Product**: useful changes are delayed, reduced, or avoided.
+* **Customers**: reliability, performance, or usability suffers.
+* **Engineering**: changes require more coordination, testing, or specialist knowledge.
+* **Business**: growth, compliance, cost, or strategic options are constrained.
 
-- **Slower Product Development**: Prioritizing new features over debt reduction can slow development.
-- **Reduced Agility**: A high level of debt makes pivoting to market demands challenging.
-- **Lower Quality and Increased Costs**: Ignored debt leads to software issues and drains resources, which could be used for growth.
-- **Compromised Resilience**: Stability takes a hit, potentially affecting customer trust and startup reputation.
+The labels are less important than the shared view. Some people will call a confusing workflow "product debt" rather than technical debt. Fine. The company still has to decide what to do with the cost.
 
-## Strategies to Manage and Mitigate Technical Debt
+## Debt is often a system problem
 
-### Prioritize Debt Reduction
+Code gets the blame because it is easy to point at. The cause may be elsewhere.
 
-Acknowledge and schedule regular technical debt reduction into your development cycles. This should be a planned, not reactive, activity.
+Perhaps teams are rewarded for starting features but not maintaining them. Perhaps deadlines are fixed before anybody understands the work. Perhaps ownership changes every six months. Perhaps customer feedback never reaches the people making technical decisions.
 
-### Maintain a Technical Debt Register
+Cleaning the code without changing those conditions is like drying the floor while the tap is still running.
 
-Use tools like Jira or Asana to keep a record of debt items, prioritizing them based on business impact.
+This is why product managers, designers, support, and the relevant business owner should be part of the debt conversation. They see different parts of the cost and may know that an apparently important system is about to be retired—or that the awkward edge case is used by the company's largest customer every day.
 
-### Establish Coding Standards
+## Four decisions, not one
 
-Implement standards and practices like code reviews and continuous integration to prevent new debt accumulation.
+When debt is visible, there are at least four reasonable choices.
 
-### Invest in Continuous Learning
+### Repay it
 
-Stay updated with the latest tech to make informed decisions and minimize future debt.
+Change the design, code, infrastructure, or process so the recurring cost disappears. Do this when the area matters and the interest is high.
 
-### Balance Short and Long-Term Goals
+### Reduce it
 
-As a CTO, I emphasize the importance of the product's immediate delivery and long-term health.
+Remove the most expensive part without rebuilding everything. Better tests, a stable interface, or a small separation of responsibilities may create enough room.
 
-## Identifying and Prioritizing Technical Debt for Maximum Value
+### Accept it
 
-View your codebase as a crime scene to spot areas most affected by technical debt. 
+Keep the debt and make the decision explicit. This is perfectly valid when the cost is low, the component is stable, or other work matters more.
 
-### Identifying Hotspots
+### Remove the thing carrying it
 
-- **Code Metrics**: Use tools to measure complexity and identify problem areas.
-- **Code Churn and Bug Density**: Look at version history and bug reports to spot unstable areas.
-- **Team Feedback**: Leverage developer insights to pinpoint troublesome code.
+Sometimes the best refactoring is deleting the feature, integration, or service. Before rebuilding an old system, check whether the company still needs it.
 
-### Defining Value in Technical Debt
+The mistake is not choosing to live with debt. The mistake is living with it by accident.
 
-Focus on parts of the codebase impacting business functionality, customer experience, or revenue. Prioritize resilience-related debts to maintain system stability.
+## A register people can use
 
-## Conclusion
+I still like a technical-debt register, but I would keep it small and connect it to product planning.
 
-Technical debt in startups is like navigating a tricky maze. It's a journey of balance, prioritization, and strategic decision-making. By understanding its nuances and adopting robust management strategies, startups can maintain their agility, continuously innovate, and successfully adapt to market changes.
+Each item should answer:
 
-## Engage with me
+* What is the observed problem?
+* Who feels the cost?
+* How often does it happen?
+* Which outcome or risk does it affect?
+* What options do we have?
+* Who owns the next decision?
 
-Have you faced challenges with technical debt in your startup? Share your experiences or ask questions in the comments below. Let's navigate this maze together.
+Do not fill the register with every missing test and untidy class. Teams should fix small issues while working in the area. The shared register is for debt that needs prioritisation across people, teams, or budgets.
+
+Review it regularly and delete items that no longer matter. A hundred ageing tickets create the comforting appearance of control while telling you very little.
+
+## Put it beside product work
+
+Technical debt should compete for attention using the same language as other investments.
+
+Instead of asking for "20% for engineering", explain the change you expect. Faster onboarding. Fewer failed payments. Safer releases. Less time waiting for the one person who understands the old integration.
+
+There is no universal percentage that makes this healthy. Some teams can improve the system continuously as part of product work. Other problems require a concentrated investment. The right mix depends on the cost, risk, and direction of the product.
+
+What matters is that product and engineering make the choice together. If product owns all visible value and engineering owns all invisible cost, the roadmap will always be biased.
+
+## Make the decision reversible
+
+Startups learn. A technical decision that looks sensible now may be wrong in six months, so record the assumptions behind large compromises.
+
+For example:
+
+> We are keeping the manual reconciliation process while transaction volume is below X. If it takes more than Y hours a week or delays month-end reporting, we will automate it.
+
+That is much more useful than pretending the compromise does not exist. It also creates a trigger for revisiting the decision without relying on somebody remembering an old architecture conversation.
+
+## Shared responsibility, clear ownership
+
+Calling technical debt a product problem does not mean everybody owns every line of code. Engineering still owns technical judgement and implementation quality. Product still owns product discovery and prioritisation. Clear responsibilities matter.
+
+Shared responsibility means the trade-off is visible and the decision uses all the relevant information.
+
+The code may carry the debt, but the whole product pays the interest.
