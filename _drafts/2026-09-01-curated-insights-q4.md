@@ -17,11 +17,14 @@ keywords: ""
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [One dev approval plus an AI reviewer beat mandatory double human review — a pragmatic fix worth stealing before PR queues drown your team.](https://spin.atomicobject.com/pr-reviews-teams-focus/){:target="_blank"}
+- [Blender's going all-in on making small studios capable of full-length films — worth a read if you ever wonder how far open source tooling can stretch.](https://code.blender.org/2026/09/small-teams-ambitious-projects/){:target="_blank"}
+- [A CSS performance deep-dive turned meditation on frontend's shrinking audience — worth reading for the style-recalculation debugging tips alone.](https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Layer streaming trains an 8B model on a 4GB laptop GPU by paging frozen layers off VRAM — clever trick, though verify their bit-exactness claims before betting production on it.](https://github.com/MakazhanAlpamys/Soup){:target="_blank"}
 - [A hands-on walkthrough of building an on-device OCR receipt scanner with LiteRT.js and Gemma — no cloud API, your data never leaves the browser.](https://blog.logrocket.com/building-browser-based-receipt-scanner-litert-js/){:target="_blank"}
 - [An open-source stack that turns raw docs into RAG, a ReAct agent with tool/sandbox access, and a self-maintaining wiki with knowledge graphs — worth a look if you're tired of rebuilding retrieval pipelines from scratch.](https://github.com/Tencent/WeKnora){:target="_blank"}
+- [A practical breakdown of engineering reliable agent loops from scratch — worth watching if you're building anything beyond a simple prompt-response AI feature.](https://www.youtube.com/watch?v=xIt_mTQp6mY){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
