@@ -43,3 +43,4 @@ keywords: ""
 - [Record slick terminal demo GIFs from a simple text script — great for README docs or PR walkthroughs without wrestling with screen recorders.](https://github.com/charmbracelet/vhs){:target="_blank"}
 - [An AI-powered data exploration tool that branches your questions into visual threads instead of burying them in chat history — worth a look if you're tired of losing context mid-analysis.](https://github.com/microsoft/data-formulator){:target="_blank"}
 - [OpenAI's spec for turning tickets into autonomous coding runs with proof-of-work attached — worth a read even if you just steal the harness-engineering pattern.](https://github.com/openai/symphony){:target="_blank"}
+- [Nice writeup on squeezing a 27B Qwen model onto a single 24GB card with vLLM patches and speculative decoding — solid read if you're GPU-poor and tired of paying for API tokens.](https://github.com/syv-ai/HyperQwen){:target="_blank"}
