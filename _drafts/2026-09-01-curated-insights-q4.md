@@ -19,12 +19,15 @@ keywords: ""
 - [One dev approval plus an AI reviewer beat mandatory double human review — a pragmatic fix worth stealing before PR queues drown your team.](https://spin.atomicobject.com/pr-reviews-teams-focus/){:target="_blank"}
 - [Blender's going all-in on making small studios capable of full-length films — worth a read if you ever wonder how far open source tooling can stretch.](https://code.blender.org/2026/09/small-teams-ambitious-projects/){:target="_blank"}
 - [A CSS performance deep-dive turned meditation on frontend's shrinking audience — worth reading for the style-recalculation debugging tips alone.](https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/){:target="_blank"}
+- [Fun rabbit hole for anyone who forgets what a 'monad' or 'currying' means mid-conversation — an interactive glossary that turns FP jargon into a browsable graph.](https://hemanth.github.io/functional-programming-jargon/){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Layer streaming trains an 8B model on a 4GB laptop GPU by paging frozen layers off VRAM — clever trick, though verify their bit-exactness claims before betting production on it.](https://github.com/MakazhanAlpamys/Soup){:target="_blank"}
 - [A hands-on walkthrough of building an on-device OCR receipt scanner with LiteRT.js and Gemma — no cloud API, your data never leaves the browser.](https://blog.logrocket.com/building-browser-based-receipt-scanner-litert-js/){:target="_blank"}
 - [An open-source stack that turns raw docs into RAG, a ReAct agent with tool/sandbox access, and a self-maintaining wiki with knowledge graphs — worth a look if you're tired of rebuilding retrieval pipelines from scratch.](https://github.com/Tencent/WeKnora){:target="_blank"}
 - [A practical breakdown of engineering reliable agent loops from scratch — worth watching if you're building anything beyond a simple prompt-response AI feature.](https://www.youtube.com/watch?v=xIt_mTQp6mY){:target="_blank"}
+- [Honest retrospective on building an internal AI agent that went from ClickHouse queries to company-wide use — great read on what actually drives adoption.](https://oioannou.com/blog/internal-company-agent-lessons/){:target="_blank"}
+- [A grounded look at why 'move data to the cloud' never actually solved the data-readiness problem — and why AI is about to repeat that same mistake.](https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
@@ -39,3 +42,4 @@ keywords: ""
 - [Open-source guidelines that stop AI agents from writing outdated Go — teaches them max(), slices.Contains, cmp.Or, and other idioms your linter shouldn't have to flag.](https://github.com/JetBrains/go-modern-guidelines){:target="_blank"}
 - [Record slick terminal demo GIFs from a simple text script — great for README docs or PR walkthroughs without wrestling with screen recorders.](https://github.com/charmbracelet/vhs){:target="_blank"}
 - [An AI-powered data exploration tool that branches your questions into visual threads instead of burying them in chat history — worth a look if you're tired of losing context mid-analysis.](https://github.com/microsoft/data-formulator){:target="_blank"}
+- [OpenAI's spec for turning tickets into autonomous coding runs with proof-of-work attached — worth a read even if you just steal the harness-engineering pattern.](https://github.com/openai/symphony){:target="_blank"}
