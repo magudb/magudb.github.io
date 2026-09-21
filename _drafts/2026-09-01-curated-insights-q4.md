@@ -28,6 +28,7 @@ keywords: ""
 - [A practical breakdown of engineering reliable agent loops from scratch — worth watching if you're building anything beyond a simple prompt-response AI feature.](https://www.youtube.com/watch?v=xIt_mTQp6mY){:target="_blank"}
 - [Honest retrospective on building an internal AI agent that went from ClickHouse queries to company-wide use — great read on what actually drives adoption.](https://oioannou.com/blog/internal-company-agent-lessons/){:target="_blank"}
 - [A grounded look at why 'move data to the cloud' never actually solved the data-readiness problem — and why AI is about to repeat that same mistake.](https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1){:target="_blank"}
+- [A free, open-source AI chat interface that auto-picks the best open model for your prompt — handy for testing without vendor lock-in.](https://huggingface.co/chat/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
