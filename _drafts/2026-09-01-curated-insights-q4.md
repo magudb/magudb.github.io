@@ -50,3 +50,4 @@ keywords: ""
 - [Google's open-source runtime for running millions of agent sandboxes with 10x container density and sub-500ms resume — worth a look if you're scaling agentic workloads on k8s.](https://github.com/agent-substrate/substrate){:target="_blank"}
 - [Google's new agent orchestrator treats agents as first-class workloads — sandboxed, network-fenced, and resumable. Worth a look if you're tired of duct-taping agent infra yourself.](https://github.com/google/ax){:target="_blank"}
 - [Alibaba's battle-tested internal code reviewer, now open source — line-precise LLM review with a built-in ruleset for NPE, XSS, and SQL injection, 9x leaner on tokens than Claude Code.](https://github.com/alibaba/open-code-review){:target="_blank"}
+- [A native desktop app in ~6MB, no Electron bloat, no Rust build step. If you're sick of shipping 150MB wrappers for a webview, this is worth a look.](https://tinyjs.app/){:target="_blank"}
