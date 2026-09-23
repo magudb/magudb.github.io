@@ -29,6 +29,7 @@ keywords: ""
 - [Honest retrospective on building an internal AI agent that went from ClickHouse queries to company-wide use — great read on what actually drives adoption.](https://oioannou.com/blog/internal-company-agent-lessons/){:target="_blank"}
 - [A grounded look at why 'move data to the cloud' never actually solved the data-readiness problem — and why AI is about to repeat that same mistake.](https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1){:target="_blank"}
 - [A free, open-source AI chat interface that auto-picks the best open model for your prompt — handy for testing without vendor lock-in.](https://huggingface.co/chat/){:target="_blank"}
+- [Colibri streams MoE experts straight from disk, letting a 2.8T-parameter model like Kimi-K3 run on consumer hardware — no fine-tuning, no massive VRAM required.](https://justvugg.github.io/colibri/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
@@ -46,3 +47,6 @@ keywords: ""
 - [OpenAI's spec for turning tickets into autonomous coding runs with proof-of-work attached — worth a read even if you just steal the harness-engineering pattern.](https://github.com/openai/symphony){:target="_blank"}
 - [Nice writeup on squeezing a 27B Qwen model onto a single 24GB card with vLLM patches and speculative decoding — solid read if you're GPU-poor and tired of paying for API tokens.](https://github.com/syv-ai/HyperQwen){:target="_blank"}
 - [Turn a project into a polished launch video with one command — a fun way to close out a build and actually share it instead of letting it die in a repo.](https://github.com/latent-spaces/brag){:target="_blank"}
+- [Google's open-source runtime for running millions of agent sandboxes with 10x container density and sub-500ms resume — worth a look if you're scaling agentic workloads on k8s.](https://github.com/agent-substrate/substrate){:target="_blank"}
+- [Google's new agent orchestrator treats agents as first-class workloads — sandboxed, network-fenced, and resumable. Worth a look if you're tired of duct-taping agent infra yourself.](https://github.com/google/ax){:target="_blank"}
+- [Alibaba's battle-tested internal code reviewer, now open source — line-precise LLM review with a built-in ruleset for NPE, XSS, and SQL injection, 9x leaner on tokens than Claude Code.](https://github.com/alibaba/open-code-review){:target="_blank"}
