@@ -31,6 +31,7 @@ keywords: ""
 - [A free, open-source AI chat interface that auto-picks the best open model for your prompt — handy for testing without vendor lock-in.](https://huggingface.co/chat/){:target="_blank"}
 - [Colibri streams MoE experts straight from disk, letting a 2.8T-parameter model like Kimi-K3 run on consumer hardware — no fine-tuning, no massive VRAM required.](https://justvugg.github.io/colibri/){:target="_blank"}
 - [A 27B-class reasoning model squeezed to ~6GB via ternary weights, retaining 98% of FP16 quality — worth a look if you're serving LLMs on constrained hardware.](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf){:target="_blank"}
+- [A Danish-language Pong bot that reads one sentence about the ball's position and reacts up to 10x/second — a fun demo of LLMs doing real-time control, not just chat.](https://claes.syv.ai/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
