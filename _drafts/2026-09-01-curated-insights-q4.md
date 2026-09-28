@@ -56,3 +56,4 @@ keywords: ""
 - [Google's new agent orchestrator treats agents as first-class workloads — sandboxed, network-fenced, and resumable. Worth a look if you're tired of duct-taping agent infra yourself.](https://github.com/google/ax){:target="_blank"}
 - [Alibaba's battle-tested internal code reviewer, now open source — line-precise LLM review with a built-in ruleset for NPE, XSS, and SQL injection, 9x leaner on tokens than Claude Code.](https://github.com/alibaba/open-code-review){:target="_blank"}
 - [A native desktop app in ~6MB, no Electron bloat, no Rust build step. If you're sick of shipping 150MB wrappers for a webview, this is worth a look.](https://tinyjs.app/){:target="_blank"}
+- [A Docker-compatible REST API layer over Apple's native container framework — finally lets you point the regular Docker CLI at Apple's containerization on macOS.](https://github.com/socktainer/socktainer){:target="_blank"}
