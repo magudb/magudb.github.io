@@ -32,6 +32,8 @@ keywords: ""
 - [Colibri streams MoE experts straight from disk, letting a 2.8T-parameter model like Kimi-K3 run on consumer hardware — no fine-tuning, no massive VRAM required.](https://justvugg.github.io/colibri/){:target="_blank"}
 - [A 27B-class reasoning model squeezed to ~6GB via ternary weights, retaining 98% of FP16 quality — worth a look if you're serving LLMs on constrained hardware.](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf){:target="_blank"}
 - [A Danish-language Pong bot that reads one sentence about the ball's position and reacts up to 10x/second — a fun demo of LLMs doing real-time control, not just chat.](https://claes.syv.ai/){:target="_blank"}
+- [Thirteen multi-agent orchestration patterns, each rebuilt as a reactive reducer where agents only write context and a state machine owns control flow. Worth reading if agent token bills and non-reproducible runs hurt.](https://bradmurry.com/software/reactive-reducer-patterns/?utm_source=substack&utm_medium=email){:target="_blank"}
+- [Addy Osmani on letting agents loose in old codebases: mark green/yellow/red zones, limit blast radius, and lean on repeatable tests. Worth reading before pointing agents at your legacy code.](https://addyosmani.com/blog/brownfield-agentic-engineering/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
