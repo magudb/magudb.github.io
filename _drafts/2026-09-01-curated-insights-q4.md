@@ -35,6 +35,7 @@ keywords: ""
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
+- [Copy-on-write database branches give every PR, developer and AI agent an isolated, production-like database. The key point is that migrations stay the source of truth, not merges. Useful guardrails included.](https://www.databricks.com/blog/database-branching){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 - [An agent skill that turns a codebase description into self-contained, interactive architecture diagrams—useful for grounding PR reviews with real before/after topology diffs.](https://github.com/tt-a1i/archify){:target="_blank"}
