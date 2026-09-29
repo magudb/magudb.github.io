@@ -34,6 +34,8 @@ keywords: ""
 - [A Danish-language Pong bot that reads one sentence about the ball's position and reacts up to 10x/second — a fun demo of LLMs doing real-time control, not just chat.](https://claes.syv.ai/){:target="_blank"}
 - [Thirteen multi-agent orchestration patterns, each rebuilt as a reactive reducer where agents only write context and a state machine owns control flow. Worth reading if agent token bills and non-reproducible runs hurt.](https://bradmurry.com/software/reactive-reducer-patterns/?utm_source=substack&utm_medium=email){:target="_blank"}
 - [Addy Osmani on letting agents loose in old codebases: mark green/yellow/red zones, limit blast radius, and lean on repeatable tests. Worth reading before pointing agents at your legacy code.](https://addyosmani.com/blog/brownfield-agentic-engineering/){:target="_blank"}
+- [A self-hosted, multi-user, multi-agent assistant with JWT isolation, tool approval, and pluggable workspace backends. Worth a look if you're weighing how to run agents for a whole team without shipping data out.](https://github.com/TencentCloud/Octop){:target="_blank"}
+- [Open source engine that profiles your hardware, estimates tok/s before you download, and tunes local models for it. Worth a look if you want private, free agent inference without guessing quants.](https://github.com/magnitudedev/magnitude){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
@@ -57,3 +59,4 @@ keywords: ""
 - [Alibaba's battle-tested internal code reviewer, now open source — line-precise LLM review with a built-in ruleset for NPE, XSS, and SQL injection, 9x leaner on tokens than Claude Code.](https://github.com/alibaba/open-code-review){:target="_blank"}
 - [A native desktop app in ~6MB, no Electron bloat, no Rust build step. If you're sick of shipping 150MB wrappers for a webview, this is worth a look.](https://tinyjs.app/){:target="_blank"}
 - [A Docker-compatible REST API layer over Apple's native container framework — finally lets you point the regular Docker CLI at Apple's containerization on macOS.](https://github.com/socktainer/socktainer){:target="_blank"}
+- [One local CLI that combines ripgrep, BM25 and vector search, built for you and your coding agent. Fewer tool calls and tokens, and the index stays on your machine. Worth a try.](https://github.com/zvec-ai/zvec-grep){:target="_blank"}
