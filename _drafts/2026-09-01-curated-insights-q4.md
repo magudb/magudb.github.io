@@ -36,6 +36,8 @@ keywords: ""
 - [Addy Osmani on letting agents loose in old codebases: mark green/yellow/red zones, limit blast radius, and lean on repeatable tests. Worth reading before pointing agents at your legacy code.](https://addyosmani.com/blog/brownfield-agentic-engineering/){:target="_blank"}
 - [A self-hosted, multi-user, multi-agent assistant with JWT isolation, tool approval, and pluggable workspace backends. Worth a look if you're weighing how to run agents for a whole team without shipping data out.](https://github.com/TencentCloud/Octop){:target="_blank"}
 - [Open source engine that profiles your hardware, estimates tok/s before you download, and tunes local models for it. Worth a look if you want private, free agent inference without guessing quants.](https://github.com/magnitudedev/magnitude){:target="_blank"}
+- [Open-source orchestration for teams of AI agents, with org charts, budgets and audit trails. Worth a look if you're juggling a dozen Claude Code terminals and losing track of who's doing what.](https://github.com/paperclipai/paperclip){:target="_blank"}
+- [Agent memory that learns instead of just replaying chat history, with a retain/recall/reflect model and strong LongMemEval results. Worth a look if RAG-based memory is starting to feel thin in your agents.](https://github.com/vectorize-io/hindsight){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
