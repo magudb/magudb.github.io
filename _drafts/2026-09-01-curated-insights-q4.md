@@ -60,3 +60,4 @@ keywords: ""
 - [A native desktop app in ~6MB, no Electron bloat, no Rust build step. If you're sick of shipping 150MB wrappers for a webview, this is worth a look.](https://tinyjs.app/){:target="_blank"}
 - [A Docker-compatible REST API layer over Apple's native container framework — finally lets you point the regular Docker CLI at Apple's containerization on macOS.](https://github.com/socktainer/socktainer){:target="_blank"}
 - [One local CLI that combines ripgrep, BM25 and vector search, built for you and your coding agent. Fewer tool calls and tokens, and the index stays on your machine. Worth a try.](https://github.com/zvec-ai/zvec-grep){:target="_blank"}
+- [A free library of UI sound effects built for modern web apps, shadcn-style. Handy when you want clicks and notifications that add polish without hunting through licensing pages or sourcing audio yourself.](https://www.soundcn.xyz/?category=Feedback){:target="_blank"}
