@@ -62,3 +62,4 @@ keywords: ""
 - [A Docker-compatible REST API layer over Apple's native container framework — finally lets you point the regular Docker CLI at Apple's containerization on macOS.](https://github.com/socktainer/socktainer){:target="_blank"}
 - [One local CLI that combines ripgrep, BM25 and vector search, built for you and your coding agent. Fewer tool calls and tokens, and the index stays on your machine. Worth a try.](https://github.com/zvec-ai/zvec-grep){:target="_blank"}
 - [A free library of UI sound effects built for modern web apps, shadcn-style. Handy when you want clicks and notifications that add polish without hunting through licensing pages or sourcing audio yourself.](https://www.soundcn.xyz/?category=Feedback){:target="_blank"}
+- [Devframe lets you define a devtool once and mount it as a Web Standard handler in Hono, Next.js, Vite and more, or ship it as a CLI or MCP server for coding agents.](https://devfra.me/){:target="_blank"}
