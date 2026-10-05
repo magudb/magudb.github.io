@@ -1,31 +1,36 @@
 ---
 layout: post
-title: "Curated insights Q4"
-description: ""
+title: "Q4 2026 Tech Links: AI Agents & Engineering Leadership"
+description: "Explore Q4 2026 tech links on AI agents, local LLMs, engineering leadership, code reviews, DevOps, and open-source developer tools, curated by Magnus Udbjørg."
+date: 2026-10-05
+permalink: /2026/10/q4-2026-tech-links
 comments: false
 category: "Curated Insights"
-keywords: ""
+keywords: "AI agents, local LLMs, engineering leadership, code reviews, DevOps, open-source developer tools"
 ---
-<!-- markdownlint-disable MD033 MD020 MD025-->
-# My favorites<a name="favorites"></a>
+
+## My favorites {#favorites}
+
 - [Bold take on why code review is the wrong place for knowledge-sharing and quality checks — shift pairing and design discussion left instead.](https://martinfowler.com/rachels-ramblings/code-review.html){:target="_blank"}
 - [An open-source CLI agent that autonomously reads papers, writes ML code, and ships models via the Hugging Face ecosystem — worth a spin if you're prototyping ML pipelines.](https://github.com/huggingface/ml-intern){:target="_blank"}
 - [A reminder that psychological safety and trust beat any AI tool—if leadership treats AI as a headcount excuse, you'll tank the culture that actually drives output.](https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity){:target="_blank"}
 - [Homebrew's creator tackles the credential problem agents inherit from your CLI tools — worth a look if you're letting AI agents run commands with your access.](https://github.com/automic-vault/automic-vault?utm_source=substack&utm_medium=email){:target="_blank"}
 
-## Agile, Leadership and Product<a name="agile"></a>
+## Agile, Leadership and Product {#agile}
+
 - [A sharp take on why decision-making, not coding, is now the bottleneck — and why decision-empowerment beats endless alignment meetings.](https://dpereira.substack.com/p/the-art-of-simplifying-decisions){:target="_blank"}
 
-## Architecture, Development & Software development practices <a name="development"></a>
+## Architecture & Software Development Practices {#development}
+
 - [One dev approval plus an AI reviewer beat mandatory double human review — a pragmatic fix worth stealing before PR queues drown your team.](https://spin.atomicobject.com/pr-reviews-teams-focus/){:target="_blank"}
 - [Blender's going all-in on making small studios capable of full-length films — worth a read if you ever wonder how far open source tooling can stretch.](https://code.blender.org/2026/09/small-teams-ambitious-projects/){:target="_blank"}
 - [A CSS performance deep-dive turned meditation on frontend's shrinking audience — worth reading for the style-recalculation debugging tips alone.](https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/){:target="_blank"}
 - [Fun rabbit hole for anyone who forgets what a 'monad' or 'currying' means mid-conversation — an interactive glossary that turns FP jargon into a browsable graph.](https://hemanth.github.io/functional-programming-jargon/){:target="_blank"}
 
-## AI, LLM & Machine Learning<a name="ai"></a>
+## AI, LLMs & Machine Learning {#ai}
+
 - [Layer streaming trains an 8B model on a 4GB laptop GPU by paging frozen layers off VRAM — clever trick, though verify their bit-exactness claims before betting production on it.](https://github.com/MakazhanAlpamys/Soup){:target="_blank"}
 - [A hands-on walkthrough of building an on-device OCR receipt scanner with LiteRT.js and Gemma — no cloud API, your data never leaves the browser.](https://blog.logrocket.com/building-browser-based-receipt-scanner-litert-js/){:target="_blank"}
-- [An open-source stack that turns raw docs into RAG, a ReAct agent with tool/sandbox access, and a self-maintaining wiki with knowledge graphs — worth a look if you're tired of rebuilding retrieval pipelines from scratch.](https://github.com/Tencent/WeKnora){:target="_blank"}
 - [A practical breakdown of engineering reliable agent loops from scratch — worth watching if you're building anything beyond a simple prompt-response AI feature.](https://www.youtube.com/watch?v=xIt_mTQp6mY){:target="_blank"}
 - [Honest retrospective on building an internal AI agent that went from ClickHouse queries to company-wide use — great read on what actually drives adoption.](https://oioannou.com/blog/internal-company-agent-lessons/){:target="_blank"}
 - [A grounded look at why 'move data to the cloud' never actually solved the data-readiness problem — and why AI is about to repeat that same mistake.](https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1){:target="_blank"}
@@ -33,19 +38,19 @@ keywords: ""
 - [Colibri streams MoE experts straight from disk, letting a 2.8T-parameter model like Kimi-K3 run on consumer hardware — no fine-tuning, no massive VRAM required.](https://justvugg.github.io/colibri/){:target="_blank"}
 - [A 27B-class reasoning model squeezed to ~6GB via ternary weights, retaining 98% of FP16 quality — worth a look if you're serving LLMs on constrained hardware.](https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf){:target="_blank"}
 - [A Danish-language Pong bot that reads one sentence about the ball's position and reacts up to 10x/second — a fun demo of LLMs doing real-time control, not just chat.](https://claes.syv.ai/){:target="_blank"}
-- [Thirteen multi-agent orchestration patterns, each rebuilt as a reactive reducer where agents only write context and a state machine owns control flow. Worth reading if agent token bills and non-reproducible runs hurt.](https://bradmurry.com/software/reactive-reducer-patterns/?utm_source=substack&utm_medium=email){:target="_blank"}
+- [Thirteen multi-agent orchestration patterns, each rebuilt as a reactive reducer where agents only write context and a state machine owns control flow. Worth reading if agent token bills and non-reproducible runs hurt.](https://bradmurry.com/software/reactive-reducer-patterns/){:target="_blank"}
 - [Addy Osmani on letting agents loose in old codebases: mark green/yellow/red zones, limit blast radius, and lean on repeatable tests. Worth reading before pointing agents at your legacy code.](https://addyosmani.com/blog/brownfield-agentic-engineering/){:target="_blank"}
 - [A self-hosted, multi-user, multi-agent assistant with JWT isolation, tool approval, and pluggable workspace backends. Worth a look if you're weighing how to run agents for a whole team without shipping data out.](https://github.com/TencentCloud/Octop){:target="_blank"}
-- [Open source engine that profiles your hardware, estimates tok/s before you download, and tunes local models for it. Worth a look if you want private, free agent inference without guessing quants.](https://github.com/magnitudedev/magnitude){:target="_blank"}
-- [Open-source orchestration for teams of AI agents, with org charts, budgets and audit trails. Worth a look if you're juggling a dozen Claude Code terminals and losing track of who's doing what.](https://github.com/paperclipai/paperclip){:target="_blank"}
 - [Agent memory that learns instead of just replaying chat history, with a retain/recall/reflect model and strong LongMemEval results. Worth a look if RAG-based memory is starting to feel thin in your agents.](https://github.com/vectorize-io/hindsight){:target="_blank"}
 
-## DevOps, Observability & Security<a name="devops"></a>
+## DevOps, Observability & Security {#devops}
+
 - [Great read on why user-level A/B tests break in two-sided marketplaces — budget cannibalization skews results, and splitting budgets per variant fixes it cleanly.](https://engineering.zalando.com/posts/2026/09/scaling-reliable-experimentation-in-two-sided-adtech-marketplace.html){:target="_blank"}
 - [Copy-on-write database branches give every PR, developer and AI agent an isolated, production-like database. The key point is that migrations stay the source of truth, not merges. Useful guardrails included.](https://www.databricks.com/blog/database-branching){:target="_blank"}
 - [Microsoft's new WSLC runs each container session in its own less-privileged process, with virtiofs volumes about twice as fast as plan9. Worth reading if you run Linux containers on Windows.](https://devblogs.microsoft.com/commandline/wslc-architecture-deep-dive/){:target="_blank"}
 
-## Tools and things from Github <a name="tools"></a>
+## Developer Tools & Open Source {#tools}
+
 - [An agent skill that turns a codebase description into self-contained, interactive architecture diagrams—useful for grounding PR reviews with real before/after topology diffs.](https://github.com/tt-a1i/archify){:target="_blank"}
 - [A local-first agent workspace that logs every model message, tool call, and permission decision as an append-only record — worth a look if you care about auditable AI workflows.](https://github.com/apache/maka){:target="_blank"}
 - [Swap port numbers for stable .localhost URLs in local dev — small DX win, especially handy for keeping agent and human workflows sane across multiple running apps.](https://github.com/vercel-labs/portless){:target="_blank"}
@@ -53,7 +58,6 @@ keywords: ""
 - [A dbt package that unifies ad spend, clicks, and impressions across a dozen platforms into one reporting model—handy if you're tired of stitching marketing dashboards by hand.](https://github.com/fivetran/dbt_ad_reporting){:target="_blank"}
 - [A free, no-watermark alternative to Screen Studio for polished demo videos — auto-zoom, on-device captions, and full commercial use. Now archived, but a community fork carries it forward.](https://github.com/siddharthvaddem/openscreen){:target="_blank"}
 - [Open-source guidelines that stop AI agents from writing outdated Go — teaches them max(), slices.Contains, cmp.Or, and other idioms your linter shouldn't have to flag.](https://github.com/JetBrains/go-modern-guidelines){:target="_blank"}
-- [Record slick terminal demo GIFs from a simple text script — great for README docs or PR walkthroughs without wrestling with screen recorders.](https://github.com/charmbracelet/vhs){:target="_blank"}
 - [An AI-powered data exploration tool that branches your questions into visual threads instead of burying them in chat history — worth a look if you're tired of losing context mid-analysis.](https://github.com/microsoft/data-formulator){:target="_blank"}
 - [OpenAI's spec for turning tickets into autonomous coding runs with proof-of-work attached — worth a read even if you just steal the harness-engineering pattern.](https://github.com/openai/symphony){:target="_blank"}
 - [Nice writeup on squeezing a 27B Qwen model onto a single 24GB card with vLLM patches and speculative decoding — solid read if you're GPU-poor and tired of paying for API tokens.](https://github.com/syv-ai/HyperQwen){:target="_blank"}
