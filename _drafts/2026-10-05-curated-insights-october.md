@@ -9,6 +9,7 @@ keywords: ""
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
 - [Etienne argues the real 2027 risk isn't your team's AI adoption but customers quietly delegating to agents and vanishing from your dashboards. Worth reading before your next planning cycle.](https://ctosub.com/p/the-ctos-2027-reckoning?utm_source=post-email-title&publication_id=1951306&post_id=218812432&utm_campaign=email-post-title&isFreemail=true&r=6hw23p&triedRedirect=true&utm_medium=email){:target="_blank"}
+- [Zalando open-sources an identity broker that lets AI agents act for users without ever holding their provider tokens. Worth reading for the delegation-chain design and the user-agent permission intersection model.](https://engineering.zalando.com/posts/2026/09/agentic-platform-open-sourcing-agentic-identity-broker.html){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 - [Practical walkthrough of syncing a React design system (shadcn/ui, Tailwind v4, Storybook) into Claude Design with /design-sync, so it uses your real components instead of inventing lookalikes.](https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/){:target="_blank"}
@@ -24,7 +25,10 @@ keywords: ""
 - [StrongDM's team ditched hand-written and human-reviewed code, using holdout-style scenarios instead of tests to keep agents honest. Provocative, but the scenario-vs-test distinction is worth stealing.](https://factory.strongdm.ai/){:target="_blank"}
 - [Pi 1.0 is a deliberately minimal, extensible coding-agent harness that only adds features once they've proven themselves. Worth a read for the Codemode and deferred tool loading ideas, and Pi Durable for long-running agents.](https://earendil.com/posts/pi-1-0/){:target="_blank"}
 - [Define your agent team in YAML and boot Claude Code and Codex as one persistent, role-based system. Worth a look if you're tired of juggling loose terminal sessions.](https://github.com/mvschwarz/openrig?utm_source=substack&utm_medium=email){:target="_blank"}
+- [A Microsoft hackathon built with Copilot coding agents, where non-developers shipped real features. The takeaway is that tests, repo instructions and PR reviews keep prompt-driven development from becoming vibe coding.](https://deanhume.com/prompt-driven-development-building-with-github-copilot-coding-agents/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
 ## Tools and things from Github <a name="tools"></a>
+- [Agents acting on a user's behalf need more than a shared API key. This broker covers consent, an encrypted token vault, and RFC 8693 token exchange. Worth reading if you're building agent auth.](https://agenticidentitybroker.dev/){:target="_blank"}
+- [Self-hosted, AGPLv3 search engine that indexes the pages and files you actually read, with no telemetry. The MCP integration lets your AI assistant search your own knowledge, which is the part I'm keen to try.](https://hister.org/){:target="_blank"}
