@@ -22,6 +22,7 @@ keywords: ""
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
 - [GitHub moved Primer off CSS-in-JS to CSS Modules without breaking the site, using feature flags and visual regression tests. A solid playbook for incremental migrations, and a reminder that native CSS often wins.](https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/){:target="_blank"}
+- [Martin Fowler and Eric Evans sit down at DDD Europe 2026. I couldn't pull a transcript, but if you care about domain modeling, an hour with these two is worth it.](https://www.youtube.com/watch?v=fndU_B5rmPE){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Imprint's year of AI adoption, ending in a Linear-driven agent loop that audits goals, metrics and issues, then ships PRs. A practical blueprint if you're figuring out the software factory pattern.](https://lethain.com/software-factory-experiment/?utm_source=substack&utm_medium=email){:target="_blank"}
