@@ -19,6 +19,7 @@ keywords: ""
 - [Figma makes the case for students building real products instead of slide decks. The takeaways translate to teams: shared workspaces, structured critique, and iterating on feedback beat describing ideas.](https://www.figma.com/blog/the-power-of-product-based-learning/){:target="_blank"}
 - [A team skipped code reviews to move faster, then watched agents copy one "passable" implementation everywhere. Worth reading before you decide what review means when agents write the code.](https://www.manager.dev/newsletter/the-broken-windows-theory-of-coding-agents){:target="_blank"}
 - [A talk on why software factories fail. I couldn't pull the transcript, so I'm going by the title: worth a watch if you're building process-heavy delivery pipelines and want to avoid the usual traps.](https://www.youtube.com/watch?v=Ib5GBkD555M){:target="_blank"}
+- [Camille Fournier, author of The Manager's Path, on what AI changes for managers in 2026: technical skills, signal processing, and people skills. A grounded take, not sci-fi hype.](https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
