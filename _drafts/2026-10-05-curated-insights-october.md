@@ -15,6 +15,8 @@ keywords: ""
 ## Agile, Leadership and Product<a name="agile"></a>
 - [Practical walkthrough of syncing a React design system (shadcn/ui, Tailwind v4, Storybook) into Claude Design with /design-sync, so it uses your real components instead of inventing lookalikes.](https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/){:target="_blank"}
 - [Agents can fill in domain gaps, but they can't replace seeing the work. A practical case for getting your whole dev team hands-on with users' real workflows early, especially in high-stakes domains.](https://spin.atomicobject.com/walk-the-halls-better-product/){:target="_blank"}
+- [Most of us won't become AI-native, and that's fine. This frames AI-first as a deliberate redesign of workflows and autonomy boundaries, with a useful shift from execution to judgment.](https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization){:target="_blank"}
+- [Figma makes the case for students building real products instead of slide decks. The takeaways translate to teams: shared workspaces, structured critique, and iterating on feedback beat describing ideas.](https://www.figma.com/blog/the-power-of-product-based-learning/){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
