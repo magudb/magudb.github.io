@@ -10,6 +10,7 @@ keywords: ""
 # My favorites<a name="favorites"></a>
 - [Etienne argues the real 2027 risk isn't your team's AI adoption but customers quietly delegating to agents and vanishing from your dashboards. Worth reading before your next planning cycle.](https://ctosub.com/p/the-ctos-2027-reckoning?utm_source=post-email-title&publication_id=1951306&post_id=218812432&utm_campaign=email-post-title&isFreemail=true&r=6hw23p&triedRedirect=true&utm_medium=email){:target="_blank"}
 - [Zalando open-sources an identity broker that lets AI agents act for users without ever holding their provider tokens. Worth reading for the delegation-chain design and the user-agent permission intersection model.](https://engineering.zalando.com/posts/2026/09/agentic-platform-open-sourcing-agentic-identity-broker.html){:target="_blank"}
+- [A jury just held Meta and Google liable for addictive design, and this MIT research shows good-faith design thinking can walk teams into the same trap. Useful ideas for guardrails: values-first KPIs and pausing before you scale.](https://sloanreview.mit.edu/article/why-design-thinking-needs-a-responsibility-reboot/){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 - [Practical walkthrough of syncing a React design system (shadcn/ui, Tailwind v4, Storybook) into Claude Design with /design-sync, so it uses your real components instead of inventing lookalikes.](https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/){:target="_blank"}
