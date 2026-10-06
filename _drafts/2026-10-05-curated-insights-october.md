@@ -40,3 +40,5 @@ keywords: ""
 ## Tools and things from Github <a name="tools"></a>
 - [Agents acting on a user's behalf need more than a shared API key. This broker covers consent, an encrypted token vault, and RFC 8693 token exchange. Worth reading if you're building agent auth.](https://agenticidentitybroker.dev/){:target="_blank"}
 - [Self-hosted, AGPLv3 search engine that indexes the pages and files you actually read, with no telemetry. The MCP integration lets your AI assistant search your own knowledge, which is the part I'm keen to try.](https://hister.org/){:target="_blank"}
+- [A skill pack that gives your coding agent real design vocabulary (/polish, /distill, /clarify) so it stops shipping beige, card-in-card AI slop. Works across Claude Code, Cursor, Copilot and more. Free, worth trying.](https://impeccable.style/){:target="_blank"}
+- [A GPU-accelerated, native (no Electron) IDE and terminal multiplexer written in Go, with e2e-encrypted peer networking and a headless Docker mode. Worth a look if you hop between machines.](https://github.com/unstablebuild/rune){:target="_blank"}
