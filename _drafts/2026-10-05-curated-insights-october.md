@@ -17,6 +17,7 @@ keywords: ""
 - [Agents can fill in domain gaps, but they can't replace seeing the work. A practical case for getting your whole dev team hands-on with users' real workflows early, especially in high-stakes domains.](https://spin.atomicobject.com/walk-the-halls-better-product/){:target="_blank"}
 - [Most of us won't become AI-native, and that's fine. This frames AI-first as a deliberate redesign of workflows and autonomy boundaries, with a useful shift from execution to judgment.](https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization){:target="_blank"}
 - [Figma makes the case for students building real products instead of slide decks. The takeaways translate to teams: shared workspaces, structured critique, and iterating on feedback beat describing ideas.](https://www.figma.com/blog/the-power-of-product-based-learning/){:target="_blank"}
+- [A team skipped code reviews to move faster, then watched agents copy one "passable" implementation everywhere. Worth reading before you decide what review means when agents write the code.](https://www.manager.dev/newsletter/the-broken-windows-theory-of-coding-agents){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
@@ -29,6 +30,7 @@ keywords: ""
 - [Pi 1.0 is a deliberately minimal, extensible coding-agent harness that only adds features once they've proven themselves. Worth a read for the Codemode and deferred tool loading ideas, and Pi Durable for long-running agents.](https://earendil.com/posts/pi-1-0/){:target="_blank"}
 - [Define your agent team in YAML and boot Claude Code and Codex as one persistent, role-based system. Worth a look if you're tired of juggling loose terminal sessions.](https://github.com/mvschwarz/openrig?utm_source=substack&utm_medium=email){:target="_blank"}
 - [A Microsoft hackathon built with Copilot coding agents, where non-developers shipped real features. The takeaway is that tests, repo instructions and PR reviews keep prompt-driven development from becoming vibe coding.](https://deanhume.com/prompt-driven-development-building-with-github-copilot-coding-agents/){:target="_blank"}
+- [A practical framework for judging the quality of context you feed AI agents, tying bad context to real costs: tokens, liability, and security. Worth reading before your next agent rollout.](https://www.atlassian.com/blog/ai-at-work/cafes-framework){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
