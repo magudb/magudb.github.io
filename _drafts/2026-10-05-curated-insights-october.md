@@ -18,6 +18,7 @@ keywords: ""
 - [Most of us won't become AI-native, and that's fine. This frames AI-first as a deliberate redesign of workflows and autonomy boundaries, with a useful shift from execution to judgment.](https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization){:target="_blank"}
 - [Figma makes the case for students building real products instead of slide decks. The takeaways translate to teams: shared workspaces, structured critique, and iterating on feedback beat describing ideas.](https://www.figma.com/blog/the-power-of-product-based-learning/){:target="_blank"}
 - [A team skipped code reviews to move faster, then watched agents copy one "passable" implementation everywhere. Worth reading before you decide what review means when agents write the code.](https://www.manager.dev/newsletter/the-broken-windows-theory-of-coding-agents){:target="_blank"}
+- [A talk on why software factories fail. I couldn't pull the transcript, so I'm going by the title: worth a watch if you're building process-heavy delivery pipelines and want to avoid the usual traps.](https://www.youtube.com/watch?v=Ib5GBkD555M){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
