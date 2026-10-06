@@ -20,11 +20,13 @@ keywords: ""
 - [A team skipped code reviews to move faster, then watched agents copy one "passable" implementation everywhere. Worth reading before you decide what review means when agents write the code.](https://www.manager.dev/newsletter/the-broken-windows-theory-of-coding-agents){:target="_blank"}
 - [A talk on why software factories fail. I couldn't pull the transcript, so I'm going by the title: worth a watch if you're building process-heavy delivery pipelines and want to avoid the usual traps.](https://www.youtube.com/watch?v=Ib5GBkD555M){:target="_blank"}
 - [Camille Fournier, author of The Manager's Path, on what AI changes for managers in 2026: technical skills, signal processing, and people skills. A grounded take, not sci-fi hype.](https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66){:target="_blank"}
+- [AI lets us do far more than we can do well, so the real skill is judging output. Useful framing for PMs, devs and leads on competence versus judgement.](https://itamargilad.com/artificial-competence/){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
 - [GitHub moved Primer off CSS-in-JS to CSS Modules without breaking the site, using feature flags and visual regression tests. A solid playbook for incremental migrations, and a reminder that native CSS often wins.](https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/){:target="_blank"}
 - [Martin Fowler and Eric Evans sit down at DDD Europe 2026. I couldn't pull a transcript, but if you care about domain modeling, an hour with these two is worth it.](https://www.youtube.com/watch?v=fndU_B5rmPE){:target="_blank"}
+- [Circuit breakers are easy in-process, but twenty replicas each learning separately means your struggling dependency eats 20x the damage. This walks through Redis-backed shared state and the race conditions it introduces.](https://blog.gaborkoos.com/posts/2026-09-14-How-to-Implement-a-Distributed-Circuit-Breaker/){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Imprint's year of AI adoption, ending in a Linear-driven agent loop that audits goals, metrics and issues, then ships PRs. A practical blueprint if you're figuring out the software factory pattern.](https://lethain.com/software-factory-experiment/?utm_source=substack&utm_medium=email){:target="_blank"}
@@ -34,6 +36,7 @@ keywords: ""
 - [Define your agent team in YAML and boot Claude Code and Codex as one persistent, role-based system. Worth a look if you're tired of juggling loose terminal sessions.](https://github.com/mvschwarz/openrig?utm_source=substack&utm_medium=email){:target="_blank"}
 - [A Microsoft hackathon built with Copilot coding agents, where non-developers shipped real features. The takeaway is that tests, repo instructions and PR reviews keep prompt-driven development from becoming vibe coding.](https://deanhume.com/prompt-driven-development-building-with-github-copilot-coding-agents/){:target="_blank"}
 - [A practical framework for judging the quality of context you feed AI agents, tying bad context to real costs: tokens, liability, and security. Worth reading before your next agent rollout.](https://www.atlassian.com/blog/ai-at-work/cafes-framework){:target="_blank"}
+- [Same score, opposite causes: one change does the work better, another just learned what the eval rewards. Worth reading before you let an automated loop optimize against your benchmark.](https://highperformanceailab.com/articles/evals-as-theory-building/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
