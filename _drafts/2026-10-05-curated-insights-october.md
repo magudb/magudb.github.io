@@ -22,6 +22,8 @@ keywords: ""
 - [A talk on why software factories fail. I couldn't pull the transcript, so I'm going by the title: worth a watch if you're building process-heavy delivery pipelines and want to avoid the usual traps.](https://www.youtube.com/watch?v=Ib5GBkD555M){:target="_blank"}
 - [Camille Fournier, author of The Manager's Path, on what AI changes for managers in 2026: technical skills, signal processing, and people skills. A grounded take, not sci-fi hype.](https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66){:target="_blank"}
 - [AI lets us do far more than we can do well, so the real skill is judging output. Useful framing for PMs, devs and leads on competence versus judgement.](https://itamargilad.com/artificial-competence/){:target="_blank"}
+- [A walk through five eras of UX and which lessons still hold up now that AI is reshaping products. Useful if you're a tech lead or PM deciding what to keep.](https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9){:target="_blank"}
+- [A fresh take on product thinking: stop over-planning like a villain and build teams that read signals and adapt fast. Worth a read if your roadmap keeps colliding with reality.](https://uxdesign.cc/villains-plan-heroes-react-ee012a510ecb?sk=95ef3e3c2ccf32b9d0f6ede88815053f){:target="_blank"}
 
 ## Architecture, Development & Software development practices <a name="development"></a>
 - [Offline support and real-time sync turn out to be the same problem: client IDs, optimistic mutations, conflict resolution. Hands-on notes from building with Verdant and TanStack DB. Read before adopting local-first.](https://marmelab.com/blog/2026/09/09/real-time-and-offline-are-the-same-problem.html){:target="_blank"}
@@ -39,6 +41,7 @@ keywords: ""
 - [A Microsoft hackathon built with Copilot coding agents, where non-developers shipped real features. The takeaway is that tests, repo instructions and PR reviews keep prompt-driven development from becoming vibe coding.](https://deanhume.com/prompt-driven-development-building-with-github-copilot-coding-agents/){:target="_blank"}
 - [A practical framework for judging the quality of context you feed AI agents, tying bad context to real costs: tokens, liability, and security. Worth reading before your next agent rollout.](https://www.atlassian.com/blog/ai-at-work/cafes-framework){:target="_blank"}
 - [Same score, opposite causes: one change does the work better, another just learned what the eval rewards. Worth reading before you let an automated loop optimize against your benchmark.](https://highperformanceailab.com/articles/evals-as-theory-building/){:target="_blank"}
+- [Mistral's 1T-parameter, open-weight multimodal model, with weights due this month. Worth a look if sovereignty or refusal-free security work matters to you. The benchmark claims are still the vendor's own, so test them.](https://mistral.ai/news/mistral-large-4/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
