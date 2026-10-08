@@ -43,6 +43,8 @@ keywords: ""
 - [A practical framework for judging the quality of context you feed AI agents, tying bad context to real costs: tokens, liability, and security. Worth reading before your next agent rollout.](https://www.atlassian.com/blog/ai-at-work/cafes-framework){:target="_blank"}
 - [Same score, opposite causes: one change does the work better, another just learned what the eval rewards. Worth reading before you let an automated loop optimize against your benchmark.](https://highperformanceailab.com/articles/evals-as-theory-building/){:target="_blank"}
 - [Mistral's 1T-parameter, open-weight multimodal model, with weights due this month. Worth a look if sovereignty or refusal-free security work matters to you. The benchmark claims are still the vendor's own, so test them.](https://mistral.ai/news/mistral-large-4/){:target="_blank"}
+- [A rulebook for your AI coding agent that filters out the generic UI, filler copy, and AI-shaped code. It's a filter, not a style guide, so direction stays yours. Worth a look.](https://github.com/miqdadbadjuber/anti-slop){:target="_blank"}
+- [Praxist runs an autonomous R&D loop: parallel research peers, task-owned evaluators, durable evidence, and synthesis across generations. Worth a look if you have a measurable objective and no clear path to it.](https://github.com/sapientinc/praxist){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
