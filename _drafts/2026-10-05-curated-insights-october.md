@@ -45,6 +45,7 @@ keywords: ""
 - [Mistral's 1T-parameter, open-weight multimodal model, with weights due this month. Worth a look if sovereignty or refusal-free security work matters to you. The benchmark claims are still the vendor's own, so test them.](https://mistral.ai/news/mistral-large-4/){:target="_blank"}
 - [A rulebook for your AI coding agent that filters out the generic UI, filler copy, and AI-shaped code. It's a filter, not a style guide, so direction stays yours. Worth a look.](https://github.com/miqdadbadjuber/anti-slop){:target="_blank"}
 - [Praxist runs an autonomous R&D loop: parallel research peers, task-owned evaluators, durable evidence, and synthesis across generations. Worth a look if you have a measurable objective and no clear path to it.](https://github.com/sapientinc/praxist){:target="_blank"}
+- [Treats your AGENTS.md and CLAUDE.md like weights: it mines real agent sessions for evidence, then proposes small, quote-backed edits you approve. Local-first, human-gated. Worth trying on a messy repo.](https://github.com/kunchenguid/backpass){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
@@ -55,3 +56,4 @@ keywords: ""
 - [A GPU-accelerated, native (no Electron) IDE and terminal multiplexer written in Go, with e2e-encrypted peer networking and a headless Docker mode. Worth a look if you hop between machines.](https://github.com/unstablebuild/rune){:target="_blank"}
 - [Pull a face at your webcam and a matching meme lands on your head, piped into Zoom via virtual camera. Silly, but the MediaPipe pinning notes alone are worth a read.](https://github.com/gazijarin/itsgiving){:target="_blank"}
 - [Free, MIT-licensed copy-paste React/Next.js components with live previews. The device mockups (iPhone, Apple Watch, iPod) and browser frames are handy for polished demos and landing pages without design work.](https://opensourceui.in/){:target="_blank"}
+- [Google's open-source blueprint for a fully offline voice translator: Gemma 4 on LiteRT-LM running on a Raspberry Pi 5. Worth cloning to see what on-device inference looks like in practice.](https://github.com/google-gemma/gemma-translator){:target="_blank"}
