@@ -46,6 +46,7 @@ keywords: ""
 - [A rulebook for your AI coding agent that filters out the generic UI, filler copy, and AI-shaped code. It's a filter, not a style guide, so direction stays yours. Worth a look.](https://github.com/miqdadbadjuber/anti-slop){:target="_blank"}
 - [Praxist runs an autonomous R&D loop: parallel research peers, task-owned evaluators, durable evidence, and synthesis across generations. Worth a look if you have a measurable objective and no clear path to it.](https://github.com/sapientinc/praxist){:target="_blank"}
 - [Treats your AGENTS.md and CLAUDE.md like weights: it mines real agent sessions for evidence, then proposes small, quote-backed edits you approve. Local-first, human-gated. Worth trying on a messy repo.](https://github.com/kunchenguid/backpass){:target="_blank"}
+- [AI just made rewriting Photoshop a side project, so what's your moat now? A sober take on which defensibility dies, which gets more valuable, and why it matters for your roadmap.](https://www.techfounderstack.com/p/your-moat-is-dead-anyone-can-rebuild?utm_source=www.founderweekly.com&utm_medium=newsletter&utm_campaign=founder-weekly-issue-752-october-14-2026&_bhlid=cb6fb3c80ff61cc5b6c58aebd0f45d21b46d4f0c){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
