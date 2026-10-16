@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "mark.js": "^8.11.1",
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^15.0.2",
     "query-string": "^9.5.1",
     "webpack": "^5.101.0",
     "workbox-webpack-plugin": "^7.4.0"
   },
   "devDependencies": {
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^7.2.3"
   }
 }
