@@ -33,6 +33,7 @@ keywords: ""
 - [Martin Fowler and Eric Evans sit down at DDD Europe 2026. I couldn't pull a transcript, but if you care about domain modeling, an hour with these two is worth it.](https://www.youtube.com/watch?v=fndU_B5rmPE){:target="_blank"}
 - [Circuit breakers are easy in-process, but twenty replicas each learning separately means your struggling dependency eats 20x the damage. This walks through Redis-backed shared state and the race conditions it introduces.](https://blog.gaborkoos.com/posts/2026-09-14-How-to-Implement-a-Distributed-Circuit-Breaker/){:target="_blank"}
 - [The BFF pattern for SPAs is now formally IETF Best Current Practice (BCP 212). Keep tokens out of JavaScript and let a server-side confidential client handle OAuth. Handy citation for security audits.](https://duendesoftware.com/blog/the-backend-for-frontend-pattern-is-now-official-ietf-guidance-rfc-10017-published){:target="_blank"}
+- [Guy Steele's classic 1998 keynote, a masterclass in why languages, APIs and libraries must be designed to grow. Watch it for the clever format, stay for the design lessons.](https://www.youtube.com/watch?v=lw6TaiXzHAE){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Imprint's year of AI adoption, ending in a Linear-driven agent loop that audits goals, metrics and issues, then ships PRs. A practical blueprint if you're figuring out the software factory pattern.](https://lethain.com/software-factory-experiment/?utm_source=substack&utm_medium=email){:target="_blank"}
