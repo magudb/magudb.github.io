@@ -52,6 +52,7 @@ keywords: ""
 - [AI just made rewriting Photoshop a side project, so what's your moat now? A sober take on which defensibility dies, which gets more valuable, and why it matters for your roadmap.](https://www.techfounderstack.com/p/your-moat-is-dead-anyone-can-rebuild?utm_source=www.founderweekly.com&utm_medium=newsletter&utm_campaign=founder-weekly-issue-752-october-14-2026&_bhlid=cb6fb3c80ff61cc5b6c58aebd0f45d21b46d4f0c){:target="_blank"}
 - [Doop is an MCP server that gives Claude Code, Codex and other agents a shared design canvas. You can watch their work stream in live and turn comments into tasks. Worth a look for multi-agent design workflows.](https://doop.design/){:target="_blank"}
 - [Prompt stuffing and routed graphs both crack in production. Parlant takes a different route: rules, knowledge and tools are narrowed to the relevant context each turn. Worth a look if you ship customer-facing agents.](https://github.com/emcie-co/parlant){:target="_blank"}
+- [Dan McAteer argues the agent harness is flipping to face the human, and Claude Mods let you script when Claude interrupts you and what it shows. Worth a read if you live in Claude Code.](https://www.latent.space/p/claude-mods?utm_source=post-email-title&publication_id=1084089&post_id=221460073&utm_campaign=email-post-title&isFreemail=true&r=2sso7n&triedRedirect=true&utm_medium=email){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 
