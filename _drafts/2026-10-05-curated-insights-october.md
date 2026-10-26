@@ -37,6 +37,7 @@ keywords: ""
 - [The BFF pattern for SPAs is now formally IETF Best Current Practice (BCP 212). Keep tokens out of JavaScript and let a server-side confidential client handle OAuth. Handy citation for security audits.](https://duendesoftware.com/blog/the-backend-for-frontend-pattern-is-now-official-ietf-guidance-rfc-10017-published){:target="_blank"}
 - [Guy Steele's classic 1998 keynote, a masterclass in why languages, APIs and libraries must be designed to grow. Watch it for the clever format, stay for the design lessons.](https://www.youtube.com/watch?v=lw6TaiXzHAE){:target="_blank"}
 - [Shows how a graph model turns tangled corporate ownership into traceable effective stakes (80% × 60% × 60% = 28.8%) and flags changes. Useful if you build KYC or compliance systems.](https://neo4j.com/blog/financial-services/corporate-kyc-can-you-see-when-the-owners-change/){:target="_blank"}
+- [Cloudflare and VoidZero are building tsrs, a faithful Rust port of TypeScript, alongside the TypeScript team. Early numbers show up to 8x faster checks than 7.0, plus an honest take on why AI makes ports like this feasible.](https://blog.cloudflare.com/typescript-rust-port/){:target="_blank"}
 
 ## AI, LLM & Machine Learning<a name="ai"></a>
 - [Imprint's year of AI adoption, ending in a Linear-driven agent loop that audits goals, metrics and issues, then ships PRs. A practical blueprint if you're figuring out the software factory pattern.](https://lethain.com/software-factory-experiment/?utm_source=substack&utm_medium=email){:target="_blank"}
