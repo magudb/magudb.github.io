@@ -63,6 +63,7 @@ keywords: ""
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Microsoft Research's micro-VM sandbox runs untrusted agent workloads in a Linux guest with hardware-enforced isolation, built on OpenVMM. Worth a look if you're figuring out how to safely run agent-generated code.](https://github.com/microsoft/nvx){:target="_blank"}
+- [Anthropic merges 30,000+ changes a day and outgrew git, so they built their own version control system in five months. Worth reading if AI coding agents are about to flood your CI and monorepo.](https://www.anthropic.com/research/redesigning-source-control?utm_source=brevo&utm_medium=email&utm_campaign=Level+Up+-+Issue+376){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 - [Agents acting on a user's behalf need more than a shared API key. This broker covers consent, an encrypted token vault, and RFC 8693 token exchange. Worth reading if you're building agent auth.](https://agenticidentitybroker.dev/){:target="_blank"}
