@@ -60,6 +60,7 @@ keywords: ""
 - [Squad drops a team of AI agents into your repo as .squad/ files. Specialists work in parallel, remember decisions, and governance is enforced in code. Worth a look if you want agent speed with human review.](https://bradygaster.github.io/squad/){:target="_blank"}
 - [Google Research's open framework for improving an agent's harness (prompts, tools, memory, skills) at runtime with fixed model weights. Worth a look if you tune agent scaffolding by hand.](https://github.com/google-research/harness2?ck_subscriber_id=1747563971){:target="_blank"}
 - [Open-source spreadsheet where you drop in documents, audio, video and emails, then run AI extraction and transcription over them. Runs fully local with private models, or plugs into OpenAI and Anthropic. Worth a look.](https://frisket.dev/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_594&_bhlid=16a4b416af382db782a9e2b308cf08f05e2b7086){:target="_blank"}
+- [A Danish team shares what it really took to build a software factory where agents handle everything between human kickoff and sign-off. The takeaway: context and measurable standards matter far more than code generation.](https://syv.ai/viden/softwarefabrik){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Microsoft Research's micro-VM sandbox runs untrusted agent workloads in a Linux guest with hardware-enforced isolation, built on OpenVMM. Worth a look if you're figuring out how to safely run agent-generated code.](https://github.com/microsoft/nvx){:target="_blank"}
