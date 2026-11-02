@@ -69,6 +69,7 @@ keywords: ""
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Microsoft Research's micro-VM sandbox runs untrusted agent workloads in a Linux guest with hardware-enforced isolation, built on OpenVMM. Worth a look if you're figuring out how to safely run agent-generated code.](https://github.com/microsoft/nvx){:target="_blank"}
 - [Anthropic merges 30,000+ changes a day and outgrew git, so they built their own version control system in five months. Worth reading if AI coding agents are about to flood your CI and monorepo.](https://www.anthropic.com/research/redesigning-source-control?utm_source=brevo&utm_medium=email&utm_campaign=Level+Up+-+Issue+376){:target="_blank"}
+- [Cloudflare open-sourced the skill that seeded their vuln-hunting harness. It runs isolated agents through recon, hunting, and independent verification, so you get findings with source traces, not noise. Worth stealing for your own audits.](https://github.com/cloudflare/security-audit-skill){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 - [Agents acting on a user's behalf need more than a shared API key. This broker covers consent, an encrypted token vault, and RFC 8693 token exchange. Worth reading if you're building agent auth.](https://agenticidentitybroker.dev/){:target="_blank"}
@@ -86,3 +87,4 @@ keywords: ""
 - [Microsoft Research's micro-VM sandbox for running untrusted agent workloads with hardware-enforced isolation, built on OpenVMM and booting Linux guests. Worth a look if you're wondering how to safely contain agents.](https://github.com/microsoft/nvx/tree/dev){:target="_blank"}
 - [NVIDIA's PAIR pools your RTX, DGX Spark, and Mac machines into one local inference cluster behind a single endpoint, proxying Ollama, llama.cpp, and LM Studio. Worth a look for private, idle-GPU-friendly agent workloads.](https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/){:target="_blank"}
 - [A Windows debloater that shows you what's running, lets you pick what goes, and reports what changed. The author's return-to-basics story is a good lesson in resisting feature creep.](https://github.com/builtbybel/Bloatynosy){:target="_blank"}
+- [A design skill for Claude Code, Cursor and Codex that lints its own output against the tells of machine-made UI: eyebrow labels, empty frames, fake form success. Worth trying if AI-built pages all look the same.](https://github.com/Nutlope/hallmark){:target="_blank"}
