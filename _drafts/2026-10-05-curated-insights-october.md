@@ -66,11 +66,13 @@ keywords: ""
 - [Google Research's open framework for improving an agent's harness (prompts, tools, memory, skills) at runtime with fixed model weights. Worth a look if you tune agent scaffolding by hand.](https://github.com/google-research/harness2?ck_subscriber_id=1747563971){:target="_blank"}
 - [Open-source spreadsheet where you drop in documents, audio, video and emails, then run AI extraction and transcription over them. Runs fully local with private models, or plugs into OpenAI and Anthropic. Worth a look.](https://frisket.dev/?utm_campaign=Data_Elixir&utm_source=Data_Elixir_594&_bhlid=16a4b416af382db782a9e2b308cf08f05e2b7086){:target="_blank"}
 - [A Danish team shares what it really took to build a software factory where agents handle everything between human kickoff and sign-off. The takeaway: context and measurable standards matter far more than code generation.](https://syv.ai/viden/softwarefabrik){:target="_blank"}
+- [NVIDIA's open-source context layer that gives agents certified business definitions, lineage and provenance before they write SQL. Worth a look if wrong numbers are blocking your agentic analytics.](https://github.com/NVIDIA/auto-ontology){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Microsoft Research's micro-VM sandbox runs untrusted agent workloads in a Linux guest with hardware-enforced isolation, built on OpenVMM. Worth a look if you're figuring out how to safely run agent-generated code.](https://github.com/microsoft/nvx){:target="_blank"}
 - [Anthropic merges 30,000+ changes a day and outgrew git, so they built their own version control system in five months. Worth reading if AI coding agents are about to flood your CI and monorepo.](https://www.anthropic.com/research/redesigning-source-control?utm_source=brevo&utm_medium=email&utm_campaign=Level+Up+-+Issue+376){:target="_blank"}
 - [Cloudflare open-sourced the skill that seeded their vuln-hunting harness. It runs isolated agents through recon, hunting, and independent verification, so you get findings with source traces, not noise. Worth stealing for your own audits.](https://github.com/cloudflare/security-audit-skill){:target="_blank"}
+- [Floci is a free, open-source AWS emulator on localhost:4566. Swap the LocalStack image for it, point your SDK, CLI or Terraform at it, and run integration tests in CI with no account or token.](https://github.com/floci-io/floci){:target="_blank"}
 
 ## Tools and things from Github <a name="tools"></a>
 - [Agents acting on a user's behalf need more than a shared API key. This broker covers consent, an encrypted token vault, and RFC 8693 token exchange. Worth reading if you're building agent auth.](https://agenticidentitybroker.dev/){:target="_blank"}
