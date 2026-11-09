@@ -72,6 +72,7 @@ keywords: ""
 - [NVIDIA's open-source context layer that gives agents certified business definitions, lineage and provenance before they write SQL. Worth a look if wrong numbers are blocking your agentic analytics.](https://github.com/NVIDIA/auto-ontology){:target="_blank"}
 - [Spec-driven development for AI coding assistants: agree on the spec first, then let the agent build against it. A lightweight way to cut the vibe-coding drift when you work with Claude Code or Cursor.](https://github.com/Fission-AI/openspec){:target="_blank"}
 - [Thoughtworks argues the agent harness (instructions, tools, permissions, context, evals) deserves product ownership, not scattered half-owned artifacts. Worth reading if your org has a model strategy but no accountable owner for the layer around it.](https://www.thoughtworks.com/insights/blog/generative-ai/harness-is-a-product){:target="_blank"}
+- [Lilian Weng breaks down harness design patterns (workflow loops, file-system memory, sub-agents) and how they enable self-improving agents. Essential reading if you're building anything like Claude Code or Codex.](https://lilianweng.github.io/posts/2026-07-04-harness/){:target="_blank"}
 
 ## DevOps, Observability & Security<a name="devops"></a>
 - [Microsoft Research's micro-VM sandbox runs untrusted agent workloads in a Linux guest with hardware-enforced isolation, built on OpenVMM. Worth a look if you're figuring out how to safely run agent-generated code.](https://github.com/microsoft/nvx){:target="_blank"}
