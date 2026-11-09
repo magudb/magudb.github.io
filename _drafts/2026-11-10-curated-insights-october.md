@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Curated insights -October"
-description: ""
+title: "November 2026 Tech Links: Agent Harnesses, Software Factories, and Engineering Judgment"
+description: "A curated October batch on agent harnesses and software factories, AI's effect on teams and leadership, distributed systems and architecture, agent security and sandboxing, plus open-source developer tools worth a look."
 comments: false
 category: "Curated Insights"
-keywords: ""
+keywords: "AI agents, agent harness, software factory, coding agents, engineering leadership, product management, software architecture, distributed systems, agent security, sandboxing, MCP, DevOps, open-source developer tools"
 ---
 <!-- markdownlint-disable MD033 MD020 MD025-->
 # My favorites<a name="favorites"></a>
