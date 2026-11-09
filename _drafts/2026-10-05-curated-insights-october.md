@@ -14,6 +14,7 @@ keywords: ""
 - [Martin Fowler admits he finds LLMs useful but doesn't like them: the grating voice, confident bluffing, and the creators' values baked in. A refreshingly honest take that's worth a read.](https://martinfowler.com/articles/2026-dont-like-llms.html){:target="_blank"}
 - [Margaret Hamilton led the 400-person team that wrote Apollo's flight software and helped define software engineering itself. A worthwhile read on where error handling and priority scheduling come from.](https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007){:target="_blank"}
 - [A new HBR study on how AI replaces "go ask Sarah" with "go ask the chatbot," quietly eroding the transactive memory that makes teams work. Worth reading before your next AI rollout.](https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues){:target="_blank"}
+- [Bramus rebuilt the 1997 GTA engine in JavaScript and WebGL, mostly by directing Gemini at open-source reimplementations and community docs. It's playable now, and a fun look at what AI-assisted side projects can do.](https://www.bram.us/2026/10/22/gta-js/){:target="_blank"}
 
 ## Agile, Leadership and Product<a name="agile"></a>
 - [Practical walkthrough of syncing a React design system (shadcn/ui, Tailwind v4, Storybook) into Claude Design with /design-sync, so it uses your real components instead of inventing lookalikes.](https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/){:target="_blank"}
